@@ -48,9 +48,9 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 
 | System | Accuracy | Correct | Write Tokens | DB Size |
 |--------|:--------:|:-------:|:------------:|:-------:|
-| **Baseline (FTS5)** | **90.50%** | 324/358 | 1.07M | 0.4 MB |
+| Baseline (FTS5) | 90.50% | 324/358 | 1.07M | 0.4 MB |
 | CogMem (bge-small-en) | 89.11% | 319/358 | 2.88M | 83.5 MB |
-| CogMem (bge-small-zh) | **92.18%** | 330/358 | — | — |
+| **CogMem (bge-small-zh)** | **92.18%** | 330/358 | — | — |
 | Mem0 (official SDK) | 85.47% | 306/358 | 4.85M | 9.1 MB |
 | A-Mem (official) | 87.43% | 313/358 | — | — |
 
@@ -61,7 +61,7 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 | System | Accuracy | Correct |
 |--------|:--------:|:-------:|
 | Baseline (FTS5) | 64.85% | 999/1540 |
-| CogMem | **75.16%** | 1159/1540 |
+| CogMem | 75.16% | 1159/1540 |
 | Mem0 (official SDK) | **81.91%** | 1254/1540 |
 | A-Mem (official) | 75.94% | — |
 
@@ -76,14 +76,14 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 
 ### Key Findings
 
-1. **No single system wins on both languages.** Baseline (FTS5) leads Chinese at 90.50%, while Mem0 leads English at 81.91%.
+1. **No single system wins on both languages.** CogMem (bge-small-zh) leads Chinese at 92.18%, while Mem0 leads English at 81.91%.
 2. **CogMem excels at multi-hop reasoning** (82.2% on LoCoMo), validating the entity-relation spreading activation approach.
 3. **Embedding language matters.** CogMem with English embeddings drops to 89.11% on Chinese, but switching to `bge-small-zh-v1.5` raises it to **92.18%**, surpassing Baseline.
 4. **A-Mem trades cost for stability.** Its 3-step LLM process (note → link → evolve) produces 30× write time vs Baseline but achieves stable cross-language performance (87.4% ZH / 75.9% EN).
 
 ## Multi-LLM Backend Comparison
 
-Same CogMem system evaluated with 5 LLM backends on CLongEval (Chinese):
+Same CogMem system evaluated with 6 configurations (5 LLM backends + 1 Chinese embedding variant) on CLongEval (Chinese):
 
 | LLM Backend | Provider | Tier | Accuracy | Correct/Total |
 |-------------|----------|:----:|:--------:|:-------------:|
@@ -216,7 +216,7 @@ python eval_scripts/compare_results.py --results-dir results/
 - **LLM backend**: DeepSeek-V3 for all systems (main comparison) to ensure fair comparison
 - **Parallel testing**: Up to 10 processes for CLongEval, sequential for LoCoMo
 - **Metrics**: Accuracy (%), correct count, write time, write tokens, DB size, error breakdown
-- **Multi-LLM**: Same CogMem system tested with 5 LLM backends (DeepSeek, GPT, ARK, Qwen Flash, Qwen Max)
+- **Multi-LLM**: Same CogMem system tested with 6 configurations: 5 LLM backends (DeepSeek, GPT, ARK, Qwen Flash, Qwen Max) + 1 Chinese embedding variant (bge-small-zh)
 
 ## Systems Overview
 

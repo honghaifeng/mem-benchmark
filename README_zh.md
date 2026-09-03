@@ -48,9 +48,9 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 
 | 系统 | 准确率 | 正确数 | 写入 Token | 数据库大小 |
 |------|:------:|:------:|:----------:|:----------:|
-| **Baseline (FTS5)** | **90.50%** | 324/358 | 1.07M | 0.4 MB |
+| Baseline (FTS5) | 90.50% | 324/358 | 1.07M | 0.4 MB |
 | CogMem (bge-small-en) | 89.11% | 319/358 | 2.88M | 83.5 MB |
-| CogMem (bge-small-zh) | **92.18%** | 330/358 | — | — |
+| **CogMem (bge-small-zh)** | **92.18%** | 330/358 | — | — |
 | Mem0（官方 SDK） | 85.47% | 306/358 | 4.85M | 9.1 MB |
 | A-Mem（官方） | 87.43% | 313/358 | — | — |
 
@@ -61,7 +61,7 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 | 系统 | 准确率 | 正确数 |
 |------|:------:|:------:|
 | Baseline (FTS5) | 64.85% | 999/1540 |
-| CogMem | **75.16%** | 1159/1540 |
+| CogMem | 75.16% | 1159/1540 |
 | Mem0（官方 SDK） | **81.91%** | 1254/1540 |
 | A-Mem（官方） | 75.94% | — |
 
@@ -76,14 +76,14 @@ git clone https://github.com/honghaifeng/mem-benchmark.git
 
 ### 关键发现
 
-1. **没有单一系统在两种语言上同时领先。** Baseline（FTS5）中文最高 90.50%，Mem0 英文最高 81.91%。
+1. **没有单一系统在两种语言上同时领先。** CogMem (bge-small-zh) 中文最高 92.18%，Mem0 英文最高 81.91%。
 2. **CogMem 在多跳推理上最强**（LoCoMo 82.2%），验证了实体-关系扩散激活架构的价值。
 3. **嵌入语言很重要。** CogMem 使用英文嵌入在中文上降至 89.11%，但切换 `bge-small-zh-v1.5` 后升至 **92.18%**，超过 Baseline。
 4. **A-Mem 以成本换稳定。** 三步 LLM 流程（笔记→链接→进化）的写入时间为 Baseline 的 30 倍，但跨语言表现稳定（中文 87.4% / 英文 75.9%）。
 
 ## 多 LLM 后端对比
 
-同一 CogMem 系统使用 5 个 LLM 后端在 CLongEval（中文）上评测：
+同一 CogMem 系统使用 6 种配置（5 个 LLM 后端 + 1 个中文嵌入变体）在 CLongEval（中文）上评测：
 
 | LLM 后端 | 提供商 | 类型 | 准确率 | 正确/总数 |
 |----------|--------|:----:|:------:|:---------:|
@@ -216,7 +216,7 @@ python eval_scripts/compare_results.py --results-dir results/
 - **LLM 后端**：DeepSeek-V3（主对比使用相同 LLM 确保公平）
 - **并行测试**：CLongEval 最多 10 进程并行，LoCoMo 顺序执行
 - **指标**：准确率（%）、正确数、写入时间、写入 Token、数据库大小、错误分类
-- **多 LLM**：同一 CogMem 系统使用 5 个 LLM 后端测试（DeepSeek、GPT、ARK、Qwen Flash、Qwen Max）
+- **多 LLM**：同一 CogMem 系统使用 6 种配置测试：5 个 LLM 后端（DeepSeek、GPT、ARK、Qwen Flash、Qwen Max）+ 1 个中文嵌入变体（bge-small-zh）
 
 ## 系统概述
 
