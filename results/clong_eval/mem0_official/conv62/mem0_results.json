@@ -1,0 +1,49 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 1,
+  "accuracy": 50.0,
+  "conversation_idx": 62,
+  "conversation_hash": "44b6bae6",
+  "details": [
+    {
+      "conversation_idx": 62,
+      "conversation_hash": "44b6bae6",
+      "user_name": "用户",
+      "question": "2023年4月27日，我们聊到了艺术，我最喜欢梵高的什么作品？",
+      "gold_answer": "《星夜》",
+      "generated_answer": "根据记忆内容，2023年4月27日晚上，你（李瑶）梦到自己在梵高的金色麦田画中行走，并计划尝试画出这个梦境场景。因此，你最喜欢的梵高作品很可能是《麦田》（或《麦田与柏树》等麦田系列作品）。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案推断为《麦田》系列，而标准答案为《星夜》，两者为不同作品，核心事实错误。",
+      "top_memories": [
+        "User admires Vincent van Gogh for the emotional expression in his paintings, feeling his heartbeat through his art.",
+        "User 李瑶 (Li Yao) plans to visit a bookstore on April 28, 2023 to find inspiration, looking for books on painting techniques and poetry collections.",
+        "User 李瑶 (Li Yao) dreamed on the night of April 27, 2023 of walking in a painting, specifically a golden wheat field with light clouds, feeling the wheat and wind, and plans to try painting this dream scene.",
+        "User 李瑶 (Li Yao) finds music healing to their soul and was touched by the song 'Vincent', which evokes Vincent van Gogh's paintings for them.",
+        "User 李瑶 (Li Yao) recently watched the documentary 'The Blue Planet' (《蓝色星球》) and was amazed by the wonders of deep-sea creatures, which deepened their awe for nature."
+      ]
+    },
+    {
+      "conversation_idx": 62,
+      "conversation_hash": "44b6bae6",
+      "user_name": "用户",
+      "question": "4月28日，我看了一部什么电影，它给了我很多关于爱情的思考",
+      "gold_answer": "《爱在黎明破晓前》",
+      "generated_answer": "根据记忆内容，李瑶（Li Yao）最近观看的电影是《爱在黎明破晓前》（Before Sunrise），这部电影因其现实而富有哲理的对话深深吸引了她，并引发了她对爱情的诸多思考。因此，4月28日她观看的这部电影是《爱在黎明破晓前》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了电影是《爱在黎明破晓前》，与标准答案完全一致，且日期4月28日也正确，因此答案正确。",
+      "top_memories": [
+        "User 李瑶 (Li Yao) recently watched the movie 'Before Sunrise' (《爱在黎明破晓前》) and was deeply attracted by its realistic and philosophical dialogues, which gave them much to think about regarding love.",
+        "User 李瑶 (Li Yao) enjoys watching movies as they allow them to experience different lives, and they were deeply moved by 'The Legend of 1900' (《海上钢琴师》), which tells a story about dreams and freedom that brings them to tears.",
+        "User 李瑶 (Li Yao) finds comfort in the movie 'The Legend of 1900' during times of confusion, reminding themselves to follow their inner voice.",
+        "User 李瑶 (Li Yao) dreams of writing a book but feels their story isn't exciting enough and doesn't know where to start; they were encouraged to draw from their own experiences and feelings.",
+        "User 李瑶 (Li Yao) shared a line from their recent poem: '孤独的灵魂在夜色中徘徊，寻找着那一丝温暖的光亮' (A lonely soul wanders in the night, searching for a glimmer of warm light), reflecting their emotional depth."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 25,
+  "write_time_seconds": 27.557114124298096,
+  "answer_time_seconds": 4.897623062133789
+}

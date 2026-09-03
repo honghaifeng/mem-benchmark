@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f1aef3b4",
+      "user_name": "用户",
+      "question": "4月27日，我今天读了宫崎骏《风之谷》中的哪一段话？",
+      "gold_answer": "“生命之所以美丽，是因为它有终结。”",
+      "generated_answer": "根据记忆内容，4月27日（对话日期）用户读了宫崎骏的《风之谷》，被其中“生命之所以美丽，是因为它有终结”这句话触动。因此，4月27日读到的这段话是：\n\n**“生命之所以美丽，是因为它有终结。”**",
+      "judgment": "CORRECT",
+      "judge_reason": "生成的答案准确包含了标准答案中的核心内容“生命之所以美丽，是因为它有终结”，且日期和作品信息一致，符合评判规则。",
+      "top_memories": [
+        "对话日期为2023年04月27日",
+        "用户读了宫崎骏的《风之谷》",
+        "用户感到自己像宇宙中的一粒尘埃",
+        "用户名叫贾星辰",
+        "用户喜欢文艺电影《海上钢琴师》"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 13.29173469543457,
+    "answer_time_seconds": 1.8949260711669922,
+    "total_time_seconds": 15.187180042266846,
+    "write_tokens": {
+      "prompt_tokens": 4014,
+      "completion_tokens": 750,
+      "total_tokens": 4764,
+      "call_count": 11
+    },
+    "answer_tokens": {
+      "prompt_tokens": 945,
+      "completion_tokens": 101,
+      "total_tokens": 1046,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 41,
+    "avg_answer_time_ms": 1894.9100971221924
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 9,
+  "correct": 7,
+  "accuracy": 77.77777777777779,
+  "conversation_idx": 42,
+  "conversation_hash": "91edc60c",
+  "details": [
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年4月27日，我分享一部喜剧片电影，电影的名字是？",
+      "gold_answer": "《疯狂的石头》",
+      "generated_answer": "根据记忆内容，没有找到与2023年4月27日相关的喜剧片电影分享记录。记忆中最接近的喜剧片相关条目是第9条（用户喜欢国产喜剧片）和第5条（计划5月3日看《疯狂原始人2》），但均未提及4月27日分享的具体电影名称。因此，无法从现有记忆中确定该电影的名字。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案未包含标准答案《疯狂的石头》的任何内容，且明确表示无法确定电影名称，因此完全没有正确内容。",
+      "top_memories": [
+        "User went singing karaoke with friends on April 29, 2023, and enjoyed singing many songs, feeling very happy and free.",
+        "User attended a music festival on April 30, 2023, and was very excited by the energetic atmosphere.",
+        "After the music festival on April 30, 2023, user made several new friends with whom they discussed music and dance topics and exchanged contact information.",
+        "When singing, User tries to feel the story behind the lyrics and sometimes gets into character, as if performing a story.",
+        "User plans to watch the animated comedy film '疯狂原始人2' (The Croods: A New Age) with friends on the evening of May 3, 2023, to relax after rock climbing."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年4月28日，今天我尝试了一首新歌，感觉挺有挑战的，歌曲的名字是？",
+      "gold_answer": "《勇气》",
+      "generated_answer": "根据记忆内容，2023年4月28日，你尝试的新歌是《勇气》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成的答案明确指出了歌曲名称是《勇气》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User practiced the song '勇气' (Courage) on April 28, 2023, finding the high notes challenging but feeling they handled it well and made progress.",
+        "User learned a new dance move called '波比' (Burpee) at a street dance workshop on April 28, 2023, and finds it challenging but feels it gives them a sense of rhythm.",
+        "User has tried writing simple lyrics but finds music creation difficult, and hopes to learn composition techniques in the future.",
+        "User's practice method for challenging songs like '勇气' is to start from the low notes, sing line by line slowly, and only attempt the high notes after becoming familiar with the melody and lyrics.",
+        "User tried outdoor rock climbing for the first time on May 3, 2023, found it thrilling and felt an unparalleled sense of achievement at the top, which made them feel braver."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年4月30日，今天我去音乐节除了参与音乐大合唱，我还参加了些什么？",
+      "gold_answer": "舞蹈活动",
+      "generated_answer": "根据记忆内容，2023年4月30日音乐节当天，你除了参与音乐大合唱，还参加了**即兴舞蹈活动**——在人群围成的圆圈中心轮流跳舞，你使用了爵士舞步，并获得了热烈掌声。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了'即兴舞蹈活动'，这与标准答案'舞蹈活动'语义一致，且包含在标准答案的正确内容中。额外细节（如爵士舞步、掌声）不扣分。",
+      "top_memories": [
+        "User attended a music festival on April 30, 2023, and was very excited by the energetic atmosphere.",
+        "User used jazz dance moves during an impromptu dance at the music festival on April 30, 2023, and received enthusiastic applause, making them very happy.",
+        "User and their new friends from the music festival have planned to attend a rock concert together next time, and user is eagerly looking forward to it.",
+        "After the music festival on April 30, 2023, user made several new friends with whom they discussed music and dance topics and exchanged contact information.",
+        "At the music festival, an indie band's live performance was so energetic that it made the user want to dance, and they participated in a full-audience sing-along, feeling like part of the band."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年5月1日，我们谈论到了我希望有一天能开一家小而温馨的甜品店，甜品店的名字是？",
+      "gold_answer": "“甜心记忆”",
+      "generated_answer": "根据记忆内容，您梦想中的甜品店名为“甜心记忆”（Sweet Memory）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案准确包含了标准答案中的甜品店名称“甜心记忆”，核心事实正确。",
+      "top_memories": [
+        "User's business philosophy for their future dessert shop is '用心制作每一份甜点，传递幸福和爱' (making every dessert with heart, conveying happiness and love), aiming to convey positive emotions through desserts.",
+        "User dreams of opening a dessert shop named '甜心记忆' (Sweet Memory) that will have a homey feel, offering handmade traditional and innovative desserts, each with its own story.",
+        "User dreams of opening a small, cozy dessert shop in the future to share their desserts with more people.",
+        "User made strawberry-flavored macarons using fresh strawberry jam, loving the sweet and sour taste of strawberries.",
+        "User wants to try authentic sushi, ramen, and wagashi (traditional Japanese sweets) during their trip to Japan."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "5月3日，今天我去参加了一个户外攀岩的活动，这是我第一次尝试攀岩吗？",
+      "gold_answer": "是",
+      "generated_answer": "根据记忆内容，5月3日确实是用户第一次尝试户外攀岩。记忆第19条明确提到：“User tried outdoor rock climbing for the first time on May 3, 2023”，并且描述了这次经历带来的成就感和勇气。因此，答案是肯定的。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确表示5月3日是用户第一次尝试户外攀岩，与标准答案一致，且提供了记忆依据，核心事实正确。",
+      "top_memories": [
+        "User wants to experience wearing a kimono and walking on the ancient streets of Kyoto to immerse in the local culture during their trip to Japan.",
+        "User prefers free and independent travel (自由行) so they can explore at their own pace and discover unique scenery and stories.",
+        "User prefers hiking routes with beautiful natural scenery to get close to nature, and also enjoys water activities like kayaking and snorkeling.",
+        "User recently traveled to Yunnan, found the scenery incredibly beautiful, and enjoyed the local specialty, Yunnan cross-bridge rice noodles (过桥米线), calling it a perfect trip.",
+        "User likes to collect local handicrafts as travel souvenirs because they are beautiful and represent the culture of the place."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "5月4日，今天下午我去了图书馆借了几本什么类型的书？",
+      "gold_answer": "一本关于旅行的书，一本烘焙食谱，一本心理学书籍",
+      "generated_answer": "根据记忆内容，5月4日用户去图书馆借了旅行、烘焙和心理学方面的书。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案准确概括了标准答案中的三类书籍（旅行、烘焙、心理学），核心事实一致，符合部分正确即算对的标准。",
+      "top_memories": [
+        "User went to the library on May 4, 2023 and borrowed books on travel, baking, and psychology, showing interest in learning about multiple topics.",
+        "User's reading method for mystery novels involves taking notes on suspicious details and attempting to deduce the ending themselves.",
+        "User enjoys the works of Agatha Christie, particularly 'And Then There Were None' and 'Murder on the Orient Express', which are among their favorite mystery novels.",
+        "User's inspiration for art comes from small things in daily life, such as a trip, a conversation with a friend, or the beauty of nature.",
+        "User enjoys walking along the beach, listening to the sound of waves, and sometimes brings a book or music to sit quietly, occasionally playing beach games with friends."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "5月6日，今天下午我去了健身房，做了一些力量训练和有氧运动。通常我在健身房有什么特别的运动计划？",
+      "gold_answer": "会先跑个20分钟的热身慢跑，然后做一些力量训练，比如深蹲和哑铃",
+      "generated_answer": "根据记忆内容，你的健身房运动计划包括：**20分钟热身慢跑、力量训练（如深蹲和哑铃）、以及拉伸放松肌肉**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容：20分钟热身慢跑、力量训练（深蹲和哑铃），并额外补充了拉伸放松肌肉，属于部分正确且额外细节不扣分，因此判定为正确。",
+      "top_memories": [
+        "User's favorite yoga pose is tree pose (Vrksasana) because it helps with concentration and balance, making them feel more stable.",
+        "User believes yoga is not just physical exercise but a practice of self-awareness and inner peace, feeling calm after each session.",
+        "User finds the biggest challenge in fitness is persistence, but motivates themselves by reminding themselves of the goal of maintaining a healthy body.",
+        "User attended an outdoor yoga class on May 1, 2023, with a group of yoga-loving friends, and felt both physically and mentally relaxed.",
+        "User recently started learning jazz dance, finding its rhythm and freedom very appealing, and feels great after each session."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年5月7日，今天我去了海边，在海边看到了什么特别的海洋生物？",
+      "gold_answer": "小螃蟹",
+      "generated_answer": "根据记忆内容，2023年5月7日你去了海边，但记忆中没有明确提到当天看到的具体海洋生物。不过，你提到在海边收集了美丽的贝壳，并计划用它们制作手工艺品。因此，最相关的信息是：你在海边收集了贝壳。至于其他海洋生物，记忆中没有提及。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案未提及标准答案中的“小螃蟹”，且明确表示记忆中没有提到具体海洋生物，因此未包含任何正确内容，属于完全偏题。",
+      "top_memories": [
+        "User observed small crabs crawling on the beach and seagulls flying in the sky, feeling that life is everywhere.",
+        "User wants to try grilled whole fish and sea urchin in Sanya, as they heard they are delicious and can't wait to taste them.",
+        "User is planning a trip to Sanya, a seaside town, to relax on the beach and listen to the sound of waves, expecting it to be comfortable.",
+        "User took many photos at the beach on May 7, 2023, including beautiful sunset and waves crashing against rocks, and plans to print them into a small photo album as a keepsake and share some on social media.",
+        "User went on an outdoor hiking trip on May 9, 2023 to a nearby national park with a river and small waterfalls, saw wild deer, various birds, and unfamiliar wildflowers, and took photos including a river sparkling in sunlight and a group photo in front of a waterfall."
+      ]
+    },
+    {
+      "conversation_idx": 42,
+      "conversation_hash": "91edc60c",
+      "user_name": "用户",
+      "question": "2023年5月9日，今天我去参加了一个国家公园户外徒步活动，我用相机拍下了哪些我很喜欢的照片？",
+      "gold_answer": "一张河流在阳光下闪闪发光的照片、一张是我们小组在瀑布前的合影",
+      "generated_answer": "根据记忆内容，2023年5月9日您参加了国家公园户外徒步活动，拍下了两张特别喜欢的照片：一张是**阳光下波光粼粼的河流**，另一张是**在瀑布前的合影**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案准确包含了标准答案中的两个核心内容：阳光下波光粼粼的河流（对应标准答案中的河流在阳光下闪闪发光）和瀑布前的合影（对应标准答案中的小组在瀑布前的合影），语义一致，因此正确。",
+      "top_memories": [
+        "User took many photos at the beach on May 7, 2023, including beautiful sunset and waves crashing against rocks, and plans to print them into a small photo album as a keepsake and share some on social media.",
+        "User went on an outdoor hiking trip on May 9, 2023 to a nearby national park with a river and small waterfalls, saw wild deer, various birds, and unfamiliar wildflowers, and took photos including a river sparkling in sunlight and a group photo in front of a waterfall.",
+        "User dreams of visiting Iceland to see the northern lights and experience its stunning natural scenery.",
+        "User's inspiration for art comes from small things in daily life, such as a trip, a conversation with a friend, or the beauty of nature.",
+        "User likes to collect local handicrafts as travel souvenirs because they are beautiful and represent the culture of the place."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 142,
+  "write_time_seconds": 106.92563700675964,
+  "answer_time_seconds": 21.943765878677368
+}

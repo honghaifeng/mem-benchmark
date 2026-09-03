@@ -1,0 +1,2138 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 123,
+  "correct": 85,
+  "accuracy": 69.10569105691057,
+  "category_stats": {
+    "2": {
+      "total": 24,
+      "correct": 17
+    },
+    "1": {
+      "total": 30,
+      "correct": 16
+    },
+    "3": {
+      "total": 7,
+      "correct": 2
+    },
+    "4": {
+      "total": 62,
+      "correct": 50
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 5,
+      "qa_idx": 0,
+      "question": "Which year did Audrey adopt the first three of her dogs?",
+      "gold_answer": "2020",
+      "generated_answer": "2020",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer '2020'.",
+      "category": 2,
+      "top_memories": [
+        "On 16 August 2023, Audrey took all four of her dogs to the vet for a check-up.",
+        "Audrey has a strong bond with her dogs as of 24 August 2023.",
+        "Audrey takes care of her dogs and finds it rewarding as of 24 August 2023.",
+        "On 3 May 2023, Audrey mentioned that she got her dogs something special for safety, which looks funny but works.",
+        "Audrey's dogs age: 3 years old"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 1,
+      "question": "When did Andrew start his new job as a financial analyst?",
+      "gold_answer": "The week before March 27, 2023",
+      "generated_answer": "20 March 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The week before March 27, 2023', which is the week of March 20-24, 2023. The generated answer '20 March 2023' falls within that week and is within 14 days of the gold answer, so it is semantically consistent.",
+      "category": 2,
+      "top_memories": [
+        "Andrew: Andrew recently started a new job as a Financial Analyst.",
+        "Andrew started a new job as a Financial Analyst on 20 March 2023.",
+        "Andrew occupation: Financial Analyst",
+        "Andrew job_start_date: 20 March 2023",
+        "Andrew visited the new cafe"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 2,
+      "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+      "gold_answer": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+      "generated_answer": "Based on the memory content, there is no information about indoor activities Andrew has pursued with his girlfriend. The memories only mention outdoor activities (hikes, bike rides, picnics) and events like wine tasting and visiting a cafe, but none are specified as indoor. Therefore, the answer is: No information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about indoor activities, but the gold answer lists specific indoor activities (boardgames, volunteering at pet shelter, wine tasting, growing flowers). The generated answer does not include any of these correct options and is therefore incorrect.",
+      "category": 1,
+      "top_memories": [
+        "Andrew is now interested in doing more outdoor activities weekly.",
+        "the city: The city is where Andrew and his girlfriend tried a new cafe.",
+        "Sunday: The day Andrew has a picnic date with his girlfriend.",
+        "Andrew has_girlfriend: true",
+        "Andrew has girlfriend Toby"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 3,
+      "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+      "gold_answer": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+      "generated_answer": "Andrew and his girlfriend have checked out a new cafe in the city, a cool park outside of town, and a hiking spot.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes a cafe, a park, and a hiking spot, which are all mentioned in the gold answer (cafes, park, open space for hikes). Therefore, it contains at least one correct option and is semantically consistent.",
+      "category": 1,
+      "top_memories": [
+        "the city: The city is where Andrew and his girlfriend tried a new cafe.",
+        "Andrew lives_in the city",
+        "Andrew searching in the city",
+        "Andrew and his girlfriend visited a new cafe in the city on 8 April 2023.",
+        "the new cafe: A new cafe in the city that Andrew and his girlfriend visited last weekend."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 4,
+      "question": "When did Audrey make muffins for herself?",
+      "gold_answer": "The week of April 3rd to 9th",
+      "generated_answer": "No exact date is provided for when Audrey made muffins. The available memory only states that Audrey made pastries on 9 April 2023, and muffins are a type of pastry, so the most likely answer is 9 April 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer identifies 9 April 2023 as the date Audrey made muffins, which is within the gold answer's range of April 3rd to 9th. The date tolerance rule allows dates within 14 days, and the core fact (making muffins) is correct.",
+      "category": 2,
+      "top_memories": [
+        "muffins: A type of pastry.",
+        "Audrey likes_to_make Roasted Chicken",
+        "Audrey made pastries",
+        "Audrey hobby: cooking",
+        "Audrey made pastries on 9 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 5,
+      "question": "When did Audrey see a hummingbird?",
+      "gold_answer": "first week of May 2023",
+      "generated_answer": "26 April 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'first week of May 2023' (May 1-7, 2023). The generated answer is '26 April 2023', which is within 14 days of the gold answer (difference is 5-11 days). Therefore, it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Audrey observed hummingbird",
+        "hummingbird: A hummingbird that Audrey saw during a hike last week.",
+        "Audrey went on a hike on 26 April 2023 and saw a hummingbird.",
+        "As of 27 March 2023, Audrey thinks birds are amazing and imagines it feels incredible to soar and see the world from up high.",
+        "Audrey adopted Pixie"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 6,
+      "question": "When did Audrey adopt Pixie?",
+      "gold_answer": "around April 2, 2023",
+      "generated_answer": "2 April 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2 April 2023' is within 14 days of the gold answer 'around April 2, 2023', so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Audrey adopted Pixie",
+        "Audrey owns Pixie",
+        "Audrey adopted a new puppy named Pixie on 2 April 2023.",
+        "Pixie: Pixie is a small white puppy recently adopted by Audrey, who is cute and playful.",
+        "the other dogs: The other dogs in Audrey's household that Pixie has become friends with."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 7,
+      "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+      "gold_answer": "three years",
+      "generated_answer": "0 years.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 0 years, which contradicts the gold answer of three years. There is no overlap or semantic equivalence.",
+      "category": 2,
+      "top_memories": [
+        "Audrey's dogs age: 3 years old",
+        "Audrey's dogs are all 3 years old.",
+        "Audrey adopted Pixie",
+        "Precious: One of Audrey's dogs, owned for 3 years.",
+        "the other dogs: The other dogs in Audrey's household that Pixie has become friends with."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 8,
+      "question": "Did Andrew have a pet dog during March 2023?",
+      "gold_answer": "No",
+      "generated_answer": "No.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No.' matches the gold answer 'No' semantically, indicating the same negative response.",
+      "category": 2,
+      "top_memories": [
+        "On 2 April 2023, Andrew expressed a desire to have a dog to cuddle with.",
+        "As of 27 March 2023, Andrew loves animals.",
+        "Pet shelter: A pet shelter where Andrew and his girlfriend volunteered on 24 July 2023.",
+        "As of 27 March 2023, Andrew has no pets.",
+        "Andrew adopted a dog named Scout on 21 November 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 9,
+      "question": "What kind of classes or groups has Audrey joined to take better care of her dogs?",
+      "gold_answer": "positive reinforcement training workshop to bond with pets, dog training course, agility training course, grooming course, dog-owners group",
+      "generated_answer": "Audrey joined a dog owners group, agility classes, a dog training course, a dog training workshop, and a dog grooming course.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes several correct items from the gold answer: dog owners group, agility classes, dog training course, and dog grooming course. The 'dog training workshop' is a synonym for 'positive reinforcement training workshop'. Thus, it is partially correct and semantically consistent.",
+      "category": 1,
+      "top_memories": [
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs.",
+        "Audrey takes care of Dogs",
+        "dog owners group: A group of dog owners that Audrey joined to learn about dog care and socialize dogs.",
+        "Audrey started agility classes with her dogs at a dog park.",
+        "Audrey's dogs care: easy to take care of, need water and sun"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 10,
+      "question": "When did Audrey's positive reinforcement training course for dogs take place?",
+      "gold_answer": "June, 2023",
+      "generated_answer": "June 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'June 2023.' matches the gold answer 'June, 2023' semantically and within date tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Audrey's dogs training_method: positive reinforcement",
+        "positive reinforcement training workshop: A workshop Audrey signed up for to learn positive reinforcement training for her dogs.",
+        "Audrey is using positive reinforcement techniques to help with her dogs' behavior problems as of 28 October 2023.",
+        "On 11 May 2023, Andrew and Audrey discussed pet training classes, with Audrey advocating for positive reinforcement methods.",
+        "dog training course: A dog training course that Audrey is taking, which is challenging but rewarding."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 11,
+      "question": "When did Andrew go rock climbing?",
+      "gold_answer": "June 11, 2023",
+      "generated_answer": "11 June 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '11 June 2023' is the same date as 'June 11, 2023' in a different format, so it is semantically correct.",
+      "category": 2,
+      "top_memories": [
+        "Andrew attended rock climbing class",
+        "Andrew found the rock climbing experience challenging but satisfying.",
+        "Andrew took a rock climbing class with friends on 11 June 2023.",
+        "rock climbing class: A rock climbing class that Andrew attended with friends on 11 June 2023.",
+        "Andrew reached the top of the rock"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 12,
+      "question": "What outdoor activities has Andrew done other than hiking in nature?",
+      "gold_answer": "rock climbing, fishing, camping",
+      "generated_answer": "Based on the memory content, Andrew has participated in a camping trip (memory 19) and visited a national park (memory 20).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions camping, which is one of the correct activities from the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Andrew went hiking recently.",
+        "Andrew is now interested in doing more outdoor activities weekly.",
+        "Andrew preference: hiking",
+        "Andrew previously went hiking with his dog, as shown in a photo he shared.",
+        "Andrew misses the peacefulness of hiking."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 13,
+      "question": "When did Audrey move to a new place?",
+      "gold_answer": "June 2023",
+      "generated_answer": "26 June 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '26 June 2023' is within 14 days of the gold answer 'June 2023', so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Audrey got a new place with a bigger backyard for her dogs on 26 June 2023.",
+        "Audrey's new place hasBiggerBackyard: True",
+        "Audrey residence: city",
+        "Audrey was at park",
+        "Audrey wants to get away from the city"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 14,
+      "question": "What is something that Andrew really misses while working in the city?",
+      "gold_answer": "being in nature",
+      "generated_answer": "Andrew misses being outdoors and surrounded by nature, and specifically the peacefulness of hiking.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'being outdoors and surrounded by nature', which matches the gold answer 'being in nature'.",
+      "category": 1,
+      "top_memories": [
+        "Andrew lives in a city and misses nature.",
+        "On 16 April 2023, Andrew said that city living makes it hard to go outside and sometimes feels like he is missing out.",
+        "Andrew searching in the city",
+        "Andrew lives in city",
+        "Andrew wants to get away from the city"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 15,
+      "question": "What is a shared frustration regarding dog ownership for Audrey and Andrew?",
+      "gold_answer": "Not being able to find pet friendly spots.",
+      "generated_answer": "The memory content does not mention any shared frustration regarding dog ownership for Audrey and Andrew.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention any shared frustration, which contradicts the gold answer that specifies 'Not being able to find pet friendly spots.' The generated answer provides no correct content and is off-topic relative to the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Audrey: Audrey is Andrew's acquaintance who recently got new collars and tags for her dogs.",
+        "Andrew wants to have a strong relationship with his dog Toby and asked Audrey for advice.",
+        "Audrey owns or cares for the dogs",
+        "Audrey owns the dogs",
+        "Audrey owns dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 16,
+      "question": "When is Andrew going to go hiking with Audrey?",
+      "gold_answer": "August",
+      "generated_answer": "Saturday, 4 November 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies 'August' as the time for hiking, but the generated answer gives a specific date 'Saturday, 4 November 2023', which is not in August and is more than 14 days away. The generated answer does not contain the correct month or any equivalent information, so it is entirely incorrect.",
+      "category": 2,
+      "top_memories": [
+        "Andrew discussed with Audrey the hiking spot",
+        "On 8 July 2023, Audrey and Andrew agreed to go hiking together next month (August 2023).",
+        "On 27 March 2023, Andrew told Audrey to have fun hiking.",
+        "Andrew suggested_hiking_to Audrey",
+        "Andrew and Audrey plan to go on a hike on Saturday, 4 November 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 17,
+      "question": "How many times did Audrey and Andew plan to hike together?",
+      "gold_answer": "three times",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states 'three times', but the generated answer says '2'. The numbers are different and there is no partial correctness or synonymy. The generated answer is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "On 8 July 2023, Audrey and Andrew agreed to go hiking together next month (August 2023).",
+        "Audrey plans to attend the hike",
+        "On 4 August 2023, Audrey expressed that the hike was tough at times but overall great, and that they are all growing together.",
+        "Audrey plans to hike with Andrew",
+        "Audrey plans to find spot for the hike"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 18,
+      "question": "Where did Audrey get Pixie from?",
+      "gold_answer": "breeder",
+      "generated_answer": "Audrey got Pixie from a breeder.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Audrey got Pixie from a breeder, which matches the gold answer exactly.",
+      "category": 1,
+      "top_memories": [
+        "Audrey adopted Pixie",
+        "Audrey owns Pixie",
+        "Pixie: Pixie is a small white puppy recently adopted by Audrey, who is cute and playful.",
+        "the other dogs: The other dogs in Audrey's household that Pixie has become friends with.",
+        "Audrey adopted a new puppy named Pixie on 2 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 19,
+      "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+      "gold_answer": "cook dog treats",
+      "generated_answer": "Playing fetch indoors at the doggy daycare with a large indoor space.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer suggests playing fetch indoors at a doggy daycare, which is not the same as cooking dog treats. The core activity is different and does not match the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Andrew is now interested in doing more outdoor activities weekly.",
+        "Andrew enjoys_activity_with Buddy",
+        "On 2 April 2023, Andrew said he would keep looking for a dog-friendly spot and is excited for what's next.",
+        "On 4 November 2023, Andrew said he has managed to make it work with dogs while living in the city.",
+        "Andrew is excited about the nature day with the dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 20,
+      "question": "Which meat does Audrey prefer eating more than others?",
+      "gold_answer": "chicken",
+      "generated_answer": "Roasted Chicken",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Roasted Chicken' contains the core fact 'chicken', which matches the gold answer. Extra detail 'Roasted' does not penalize.",
+      "category": 3,
+      "top_memories": [
+        "Audrey finds cooking and eating the food rewarding and therapeutic, often listening to music and drinking wine while cooking.",
+        "Audrey likes_to_make Roasted Chicken",
+        "Audrey likes Garlic",
+        "Roasted Chicken: A dish that Audrey likes to make with garlic and is based on Mediterranean flavors.",
+        "Audrey hobby: cooking"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 21,
+      "question": "What are the classes that Audrey took for her dogs to?",
+      "gold_answer": "Positive reinforcement training class for bonding, dog training course, agility class",
+      "generated_answer": "agility classes and a dog training course/workshop.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'agility classes' and 'a dog training course/workshop', which are both correct options from the gold answer. Although it omits the 'positive reinforcement training class for bonding', partial correctness is sufficient for a correct judgment.",
+      "category": 1,
+      "top_memories": [
+        "Audrey started agility classes with her dogs at a dog park.",
+        "Audrey's pups participant agility classes",
+        "agility classes: Audrey's dogs attend agility classes at a dog park.",
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 22,
+      "question": "Where did Andrew go during the first weekend of August 2023?",
+      "gold_answer": "camping with girlfriend",
+      "generated_answer": "The memory content does not specify where Andrew went during the first weekend of August 2023. The only August reference is his last hike before 19 August 2023, but no exact location or date is given. Therefore, the answer is unknown based on available information.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states the information is unknown, but the gold answer specifies Andrew went camping with his girlfriend. The generated answer does not contain any correct content from the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Andrew plans to go hiking in August 2023.",
+        "On 23 June 2023, Andrew went on a hike with friends.",
+        "On 28 October 2023, Andrew said the trip would be a memorable day.",
+        "Andrew shared a photo from his last hike, which was before 19 August 2023.",
+        "Andrew went on a hike with friends and his girlfriend on 6 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 23,
+      "question": "What are some problems that Andrew faces before he adopted Toby?",
+      "gold_answer": "Finding the right dog and pet-friendly apartments close to open spaces",
+      "generated_answer": "Based on the memory content, there is no information about problems Andrew faced before he adopted Toby. The memories only mention events after Toby was adopted on 11 July 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about problems Andrew faced before adopting Toby, but the gold answer specifies 'Finding the right dog and pet-friendly apartments close to open spaces.' The generated answer does not contain any correct content from the gold answer and is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Andrew girlfriend Toby",
+        "Andrew owns Toby",
+        "On 24 August 2023, Andrew said he would try to figure out taking care of Toby on his own first.",
+        "On 4 August 2023, Andrew acknowledged the advice and said he wants to make sure he is not limiting Toby's growth by not taking him out enough.",
+        "Andrew and his girlfriend are going to the beach with Toby in November 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 24,
+      "question": "Did Audrey and Andrew grow up with a pet dog?",
+      "gold_answer": "Yes",
+      "generated_answer": "No.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer directly contradicts the gold answer, which states 'Yes'. Since the core fact is opposite, it is entirely incorrect.",
+      "category": 1,
+      "top_memories": [
+        "Audrey shared a photo of her groomed dog with Andrew on 22 November 2023.",
+        "Andrew wants to have a strong relationship with his dog Toby and asked Audrey for advice.",
+        "Audrey's dogs were groomed at pet salon",
+        "Andrew excited to meet Audrey's dogs",
+        "Audrey's dogs role: family and companions"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 25,
+      "question": "When did Andrew and his girlfriend go fishing?",
+      "gold_answer": "weekend before August 24, 2023",
+      "generated_answer": "19 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'weekend before August 24, 2023', which likely refers to the weekend of August 19-20, 2023. The generated answer '19 August 2023' is within that weekend and within 14 days of the gold answer, so it is semantically consistent.",
+      "category": 2,
+      "top_memories": [
+        "Andrew went fishing with his girlfriend at a nearby lake on 19 August 2023.",
+        "Andrew went fishing at nearby lake",
+        "nearby lake: A lake near Andrew where he went fishing.",
+        "Andrew went on a hike with friends and his girlfriend on 6 May 2023.",
+        "Sunday: The day Andrew has a picnic date with his girlfriend."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 26,
+      "question": "What is the biggest stressor in Andrew's life besides not being able to hike frequently?",
+      "gold_answer": "work",
+      "generated_answer": "Work.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Work.' matches the gold answer 'work' exactly, and it correctly identifies the biggest stressor.",
+      "category": 1,
+      "top_memories": [
+        "Andrew used to hike a lot but finds it more challenging now due to work-life balance.",
+        "Andrew participated in the hike",
+        "Andrew is excited about the hike",
+        "Andrew participating_in hike",
+        "Andrew plans to attend the hike"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 27,
+      "question": "How does Andrew feel about his current work?",
+      "gold_answer": "Stressful",
+      "generated_answer": "Andrew feels stressed about his current work.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly states that Andrew feels stressed, which matches the gold answer 'Stressful'.",
+      "category": 1,
+      "top_memories": [
+        "As of 6 September 2023, Andrew's work has been tough and stressful, causing his outdoor activities to take a backseat.",
+        "Andrew concerned about future generations",
+        "Andrew is stressed from work as of 11 July 2023.",
+        "Andrew is excited about the hike",
+        "Andrew excited about hike"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 28,
+      "question": "What is something that Audrey often dresses up her dogs with?",
+      "gold_answer": "Hats",
+      "generated_answer": "Audrey often dresses up her dogs with new collars and tags.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions 'new collars and tags', which is not the same as 'Hats'. The gold answer specifically states 'Hats', and the generated answer does not include any correct content or synonym for hats.",
+      "category": 1,
+      "top_memories": [
+        "Audrey has a strong bond with her dogs and they make her happy.",
+        "On 3 May 2023, Audrey mentioned that she got her dogs something special for safety, which looks funny but works.",
+        "Audrey is looking forward to the day her dogs are back to normal.",
+        "Audrey's dogs role: family and companions",
+        "Audrey's pets description: a group of dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 29,
+      "question": "What are the names of Audrey's dogs?",
+      "gold_answer": "Pepper, Precious, Panda, and Pixie",
+      "generated_answer": "The memory content does not include the names of Audrey's dogs.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not include the names, which provides no correct names from the gold answer (Pepper, Precious, Panda, Pixie). It is entirely off-topic and lacks any correct content.",
+      "category": 1,
+      "top_memories": [
+        "Audrey takes care of Dogs",
+        "Audrey's dogs are all 3 years old.",
+        "Audrey's dogs are city dogs and they explore new parks and trails together often.",
+        "Audrey's dogs species: dog",
+        "Audrey family: dogs (four mentioned)"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 30,
+      "question": "When is Andrew planning to go to the beach with his girlfriend?",
+      "gold_answer": "November 2023",
+      "generated_answer": "November 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'November 2023'.",
+      "category": 2,
+      "top_memories": [
+        "Andrew and his girlfriend are going to the beach with Toby in November 2023.",
+        "Andrew is participating in the beach trip",
+        "the beach: The beach is the destination of Andrew's trip next month.",
+        "Andrew visited the beach",
+        "Andrew is going on a beach trip with Toby"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 31,
+      "question": "What has Andrew done with his dogs?",
+      "gold_answer": "Taking walks and hiking",
+      "generated_answer": "Andrew previously went hiking with his dog, as shown in a photo he shared.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions hiking with his dog, which matches the gold answer's 'hiking' activity. Although it doesn't mention walking, partial correctness is sufficient.",
+      "category": 1,
+      "top_memories": [
+        "nearby park: A nearby park where Andrew plans to take his dogs.",
+        "Andrew previously went hiking with his dog, as shown in a photo he shared.",
+        "Andrew has_two_dogs: True",
+        "Andrew has_dog: yes",
+        "On 4 November 2023, Andrew said he has managed to make it work with dogs while living in the city."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 32,
+      "question": "What kind of tattoo does Audrey have on her arm?",
+      "gold_answer": "Tattoos of her four dogs.",
+      "generated_answer": "Audrey has a tattoo of her four dogs, with sunflowers, on her arm. Later, she added more drawings, including a flower and a dog with sunflowers.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Audrey has a tattoo of her four dogs, which matches the gold answer. Extra details about sunflowers and additional drawings do not contradict the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Audrey's tattoo location: arm",
+        "Audrey tattoo_location: arm",
+        "Audrey has a tattoo of a dog and sunflowers on her arm.",
+        "Audrey has_tattoo: true",
+        "Audrey's tattoo original_design: four dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 33,
+      "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+      "gold_answer": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+      "generated_answer": "Andrew can take his dogs to the nearby park or the trails together, which he plans to do, to reduce stress and enjoy nature; for his living situation, he is looking for a dog-friendly place to live.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer suggests taking dogs to a park and finding a dog-friendly place, but the gold answer specifically recommends changing to a hybrid/remote job and moving to the suburbs for more space and nature. The generated answer does not include any of the core correct options from the gold answer, so it is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "nearby park: A nearby park where Andrew plans to take his dogs.",
+        "Andrew and his group had a blast volunteering at the pet shelter.",
+        "On 4 November 2023, Andrew agreed to take good care of his dogs first.",
+        "Andrew and his girlfriend volunteered at a pet shelter on 24 July 2023.",
+        "Andrew previously went hiking with his dog, as shown in a photo he shared."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 34,
+      "question": "How many months passed between Andrew adopting Toby and Buddy?",
+      "gold_answer": "three months",
+      "generated_answer": "0 months.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states '0 months' while the gold answer is 'three months'. These are semantically different and the generated answer does not contain any correct content.",
+      "category": 2,
+      "top_memories": [
+        "On 19 October 2023, Andrew named his dog Buddy because he is his buddy and he hopes Buddy and Toby become buddies.",
+        "On 4 November 2023, Audrey advised Andrew to take care of his dogs Toby and Buddy before getting more dogs.",
+        "Andrew owns Toby",
+        "Andrew has girlfriend Toby",
+        "Andrew girlfriend Toby"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 35,
+      "question": "What are the names of Andrew's dogs?",
+      "gold_answer": "Toby, Scout, Buddy",
+      "generated_answer": "The memory content does not specify the names of Andrew's dogs.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the names, which contradicts the gold answer that provides the names. It contains no correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Andrew plans to take both of his dogs to the trails together soon.",
+        "Andrew found a few parks where dogs are allowed on a leash.",
+        "Andrew appreciates the simple joys of life and finds dogs' perspective refreshing.",
+        "Andrew's family dog species: dog",
+        "Andrew owns the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 36,
+      "question": "What are some foods that Audrey likes eating?",
+      "gold_answer": "chicken pot pie, chicken roast, blueberry muffins, sushi",
+      "generated_answer": "Audrey likes eating garlic and roasted chicken, and her favorite recipe is Chicken Pot Pie.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'roasted chicken' and 'Chicken Pot Pie', which are both foods from the gold answer (chicken roast and chicken pot pie). Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "Audrey likes Garlic",
+        "Audrey likes_to_make Roasted Chicken",
+        "Audrey finds cooking and eating the food rewarding and therapeutic, often listening to music and drinking wine while cooking.",
+        "Roasted Chicken: A dish that Audrey likes to make with garlic and is based on Mediterranean flavors.",
+        "Audrey's dish image: a photo of a plate of food with a lot of vegetables"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 37,
+      "question": "When did Audrey get into an accident in the park?",
+      "gold_answer": "between October 19 and 24, 2023",
+      "generated_answer": "17 October 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer (17 October 2023) is within 14 days of the gold answer (between October 19 and 24, 2023), so it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "Audrey participated_in the park visit",
+        "Audrey had an accident at the park on 17 October 2023 while playing with her pups, resulting in a cast on her arm.",
+        "the park: A park where Audrey walks her dogs.",
+        "Audrey visits the dog park",
+        "Audrey walks dogs in the park"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 38,
+      "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
+      "gold_answer": "the weekend before October 24, 2023",
+      "generated_answer": "21 October 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'the weekend before October 24, 2023', which is the weekend of October 21-22, 2023. The generated answer '21 October 2023' is within that weekend and within 14 days of the gold answer, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "wine tasting: A wine tasting event attended by Andrew and his girlfriend last weekend.",
+        "Andrew and his girlfriend attended a wine tasting on 21 October 2023.",
+        "Andrew attended wine tasting",
+        "Sunday: The day Andrew has a picnic date with his girlfriend.",
+        "Andrew had a picnic with his girlfriend on 7 July 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 39,
+      "question": "What did Audrey get wtih having so many dogs?",
+      "gold_answer": "Companionship",
+      "generated_answer": "Based on the memory content, there is no information about what Audrey got from having so many dogs. The memories only mention that she has four dogs, they get along well, and she walks them, but nothing about benefits or outcomes. Therefore, the most likely answer is that the information is not available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the information is not available, but the gold answer is 'Companionship'. The generated answer does not contain the correct content and is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Audrey has four dogs.",
+        "Audrey owns the dogs",
+        "the dogs owner: Audrey",
+        "Audrey owns dogs",
+        "Audrey has_dogs: true"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 40,
+      "question": "What is a good place for dogs to run around freely and meet new friends?",
+      "gold_answer": "The dog park",
+      "generated_answer": "The dog park.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "the dog park: A location where dogs can run and mingle with other dogs, used for playdates.",
+        "The spot is a good place to watch dogs play.",
+        "Andrew is looking for a dog-friendly place to live.",
+        "On 3 May 2023, Audrey mentioned that the dog park is a great place to start for playdates, where dogs can run and mingle with other pooches.",
+        "Doggy play area location: Audrey's new place backyard"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 41,
+      "question": "What are the breeds of Audrey's dogs?",
+      "gold_answer": "Mongrel mixed with Lab for Pepper and Panda. Mongrel mixed with Chihuahua for Precious and Pixie.",
+      "generated_answer": "Audrey's dogs are all mutts, with two being Jack Russell mixes and two being Chihuahua mixes.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that two dogs are Jack Russell mixes, but the gold answer specifies that Pepper and Panda are mongrel mixed with Lab, and Precious and Pixie are mongrel mixed with Chihuahua. The generated answer incorrectly identifies the breeds for two dogs and does not mention the Lab mix at all, so it contains no correct breed information.",
+      "category": 1,
+      "top_memories": [
+        "Audrey's pets description: a group of dogs",
+        "Audrey takes care of Dogs",
+        "Audrey's dogs are all 3 years old.",
+        "Audrey's dogs are city dogs and they explore new parks and trails together often.",
+        "Audrey's dogs are all mutts, with two being Jack Russell mixes and two being Chihuahua mixes."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 42,
+      "question": "What technique is Audrey using to discipline her dogs?",
+      "gold_answer": "Positive reinforcement",
+      "generated_answer": "Positive reinforcement.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Audrey is using positive reinforcement techniques to help with her dogs' behavior problems as of 28 October 2023.",
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs.",
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "Audrey's dogs training: obedience and tricks like sit, stay, shake, roll over",
+        "The animal behaviorist gave Audrey tips on how to handle her dogs' problems and suggested changes in their routine."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 43,
+      "question": "Which US state do Audrey and Andrew potentially live in?",
+      "gold_answer": "Minnesota",
+      "generated_answer": "No exact answer can be determined from the provided memories.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no exact answer can be determined, which contradicts the gold answer 'Minnesota'. It does not provide the correct state or any partial correct content.",
+      "category": 3,
+      "top_memories": [
+        "Andrew and Audrey are looking forward to being in nature together.",
+        "Audrey friends Andrew",
+        "Audrey acknowledges Andrew",
+        "Audrey conversing with Andrew",
+        "Audrey friend Andrew"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 44,
+      "question": "Which national park could Audrey and Andrew be referring to in their conversations?",
+      "gold_answer": "Voyageurs National Park",
+      "generated_answer": "The memories do not specify the name of the national park.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the park name is not specified, which directly contradicts the gold answer 'Voyageurs National Park'. It does not contain any correct content and is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "Audrey visited a beautiful national park",
+        "Audrey participated_in the park visit",
+        "a beautiful national park: A national park visited by Audrey and her dogs on a road trip.",
+        "Andrew visited a national park",
+        "a national park: A national park visited by Audrey and her dogs last week (around 26 May 2023)."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 45,
+      "question": "How many pets will Andrew have, as of December 2023?",
+      "gold_answer": "three",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'three', but the generated answer is '2'. The generated answer does not contain the correct number, so it is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "As of 27 March 2023, Andrew loves animals.",
+        "As of 27 March 2023, Andrew has no pets.",
+        "Andrew will bring the dogs",
+        "Andrew will bring the fur babies",
+        "On 13 June 2023, Andrew said that letting pets explore and have fun is important."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 46,
+      "question": "How many pets did Andrew have, as of September 2023?",
+      "gold_answer": "one",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states Andrew had one pet, but the generated answer says 2. The numbers are different and there is no partial correctness or synonym that makes 2 equivalent to 1.",
+      "category": 2,
+      "top_memories": [
+        "As of 27 March 2023, Andrew loves animals.",
+        "As of 27 March 2023, Andrew has no pets.",
+        "Andrew has not yet found a dog-friendly place to live as of 6 September 2023.",
+        "On 13 June 2023, Andrew said that letting pets explore and have fun is important.",
+        "Andrew's two dogs count: 2"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 47,
+      "question": "How many months passed between Andrew adopting Buddy and Scout",
+      "gold_answer": "one month",
+      "generated_answer": "1 month",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '1 month' is semantically identical to the gold answer 'one month'.",
+      "category": 2,
+      "top_memories": [
+        "Andrew adopted a dog named Scout on 21 November 2023.",
+        "Scout: Scout is Andrew's newly adopted dog, named for its adventurous spirit.",
+        "Scout to be introduced to Buddy",
+        "Andrew owns Scout",
+        "On 22 November 2023, Andrew and his girlfriend are keeping Scout on a leash while Scout gets used to being outside."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 48,
+      "question": "What does Andrew view his pets as?",
+      "gold_answer": "Family",
+      "generated_answer": "Andrew views his pets as a source of happiness and simple joys, appreciating their refreshing perspective on life.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer describes pets as a source of happiness and simple joys, but the gold answer is 'Family'. These are semantically different concepts; the generated answer does not mention family or any equivalent concept.",
+      "category": 1,
+      "top_memories": [
+        "Andrew previously went hiking with his dog, as shown in a photo he shared.",
+        "As of 27 March 2023, Andrew loves animals.",
+        "Andrew never imagined having pets would bring so much happiness.",
+        "Andrew admires the dogs",
+        "Andrew concerned about the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 49,
+      "question": "What does Audrey view her pets as?",
+      "gold_answer": "Family",
+      "generated_answer": "Audrey views her pets as family and companions.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'family', which matches the gold answer 'Family'. The additional word 'companions' does not contradict the core fact.",
+      "category": 1,
+      "top_memories": [
+        "Audrey pets: has pets",
+        "Audrey's pets description: a group of dogs",
+        "Audrey's pets type: furry friends",
+        "Audrey has_pets: dogs",
+        "On 26 June 2023, Audrey stated that pets are like family to people."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 50,
+      "question": "What is a skill that Audrey learned to take care of her dogs?",
+      "gold_answer": "Grooming",
+      "generated_answer": "Dog grooming.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Dog grooming' is semantically equivalent to the gold answer 'Grooming', as it refers to the same skill.",
+      "category": 1,
+      "top_memories": [
+        "Audrey takes care of Dogs",
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs.",
+        "Audrey took a dog grooming course and learned techniques.",
+        "Audrey learned dog grooming",
+        "Audrey's dogs care: easy to take care of, need water and sun"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 51,
+      "question": "What items has Audrey bought or made for her dogs?",
+      "gold_answer": "dog tags, toys, dog beds, collars",
+      "generated_answer": "The memory content does not specify any items Audrey has bought or made for her dogs.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify any items, which contradicts the gold answer that lists specific items (dog tags, toys, dog beds, collars). It provides no correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Audrey owns or cares for the dogs",
+        "the pups: Dogs owned or cared for by Audrey.",
+        "Audrey has_pets: dogs",
+        "Audrey has affection for dogs",
+        "Audrey has a strong bond with her dogs and they make her happy."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 52,
+      "question": "What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",
+      "gold_answer": "Install a bird feeder outside where he can see the birds without going outdoors.",
+      "generated_answer": "Andrew could get plants for his place or take trips to the park on weekends to appreciate nature in the city.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer suggests getting plants or taking weekend trips, which does not match the gold answer's specific solution of installing a bird feeder to observe birds without leaving home. The generated answer does not contain any correct option from the gold answer and is off-topic regarding making birdwatching fit into a city schedule.",
+      "category": 3,
+      "top_memories": [
+        "birdwatching: An activity that Audrey wants to do and Andrew offers advice on.",
+        "On 1 October 2023, Andrew offered birdwatching advice to Audrey and suggested they might go birdwatching together sometime.",
+        "Audrey plans to go birdwatching with Andrew",
+        "Audrey wants to do birdwatching",
+        "On 1 October 2023, Andrew offered to plan a birdwatching trip with Audrey."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 53,
+      "question": "What is a career that Andrew could potentially pursue with his love for animals and nature?",
+      "gold_answer": "Park ranger or a similar position working for the National Park Services.",
+      "generated_answer": "A career as a wildlife conservationist, environmental scientist, or veterinarian—given Andrew's love for animals, nature, and volunteering with animals.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes wildlife conservationist, which is semantically similar to a park ranger or working for the National Park Services, as both involve protecting and managing natural areas and wildlife. Thus, it contains at least one correct option.",
+      "category": 3,
+      "top_memories": [
+        "Andrew is excited about the nature day with the dogs.",
+        "As of 27 March 2023, Andrew loves animals.",
+        "Andrew and his group volunteered with animals, which he found rewarding.",
+        "On 2 April 2023, Andrew said he misses moments of exploring nature with his dog and wants to find a dog-friendly spot soon.",
+        "On 3 May 2023, Andrew expressed that nature is therapeutic for him and that he feels peaceful and invigorated when surrounded by greenery or standing on a mountain top."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 54,
+      "question": "What activity do Audrey's dogs like to do in the dog park?",
+      "gold_answer": "Play fetch with ball and frisbee, run around and meet other dogs",
+      "generated_answer": "Audrey's dogs enjoy playing fetch, wearing party hats, and socializing at the dog park.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'playing fetch' and 'socializing', which match the gold answer's 'play fetch with ball and frisbee' and 'meet other dogs'. Extra detail about party hats does not invalidate the correct core facts.",
+      "category": 1,
+      "top_memories": [
+        "Audrey's dogs enjoy visiting dog park",
+        "the park: A park where Audrey walks her dogs.",
+        "the dogs: Audrey's dogs that enjoy playing fetch, wearing party hats, and socializing at the dog park.",
+        "Audrey visited dog park",
+        "Audrey takes her dogs to the dog park twice a week for practice."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 55,
+      "question": "When did Andrew make his dogs a fun indoor area?",
+      "gold_answer": "few days before November 22, 2023",
+      "generated_answer": "26 June 2023",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'few days before November 22, 2023', which is approximately November 18-21, 2023. The generated answer is '26 June 2023', which is more than 14 days earlier, so it is not within the allowed tolerance. The generated answer does not contain any correct content.",
+      "category": 2,
+      "top_memories": [
+        "nearby park: A nearby park where Andrew plans to take his dogs.",
+        "doggy daycare: A doggy daycare near Andrew with a large indoor space for dogs to play.",
+        "On 4 November 2023, Andrew said he has managed to make it work with dogs while living in the city.",
+        "On 26 June 2023, Andrew shared a photo of a doggy daycare with a large indoor space for dogs to play.",
+        "On 4 November 2023, Andrew agreed to take good care of his dogs first."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 56,
+      "question": "Has Andrew moved into a new apartment for his dogs?",
+      "gold_answer": "No",
+      "generated_answer": "No exact answer; most likely yes, as of 4 November 2023 he said he has managed to make it work with dogs in the city.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'No', but the generated answer says 'most likely yes', which directly contradicts the gold answer. The generated answer does not contain any correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Andrew lives in an apartment.",
+        "On 2 April 2023, Andrew is looking for an apartment and a furry friend (pet).",
+        "Andrew has been looking for a dog to adopt since before 6 May 2023.",
+        "apartment: A living space Andrew is searching for.",
+        "Andrew searching_for apartment"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 57,
+      "question": "When did Andrew adopt Scout?",
+      "gold_answer": "few days before November 2023",
+      "generated_answer": "21 November 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '21 November 2023' is within 14 days of the gold answer 'few days before November 2023' (which implies late November 2023), so it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Andrew owns Scout",
+        "Andrew adopted a dog named Scout on 21 November 2023.",
+        "Scout: Scout is Andrew's newly adopted dog, named for its adventurous spirit.",
+        "Andrew purchased Scout's bed",
+        "On 22 November 2023, Andrew and his girlfriend are keeping Scout on a leash while Scout gets used to being outside."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 58,
+      "question": "What did Audrey eat for dinner on October 24, 2023?",
+      "gold_answer": "sushi",
+      "generated_answer": "Sushi",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Sushi' matches the gold answer 'sushi' exactly, differing only in capitalization.",
+      "category": 2,
+      "top_memories": [
+        "On 24 October 2023, Audrey said she was going to order sushi for that night.",
+        "Audrey expressed interest in getting sushi for dinner on 24 October 2023.",
+        "On 24 October 2023, Audrey expressed her love for sushi and encouraged Andrew to try different types.",
+        "On 28 October 2023, Audrey agreed to the trip, noting that the autumn colors would look great for pictures.",
+        "On 28 October 2023, Andrew encouraged Audrey in her dog training efforts."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 59,
+      "question": "How long has it been since Andrew adopted his first pet, as of November 2023?",
+      "gold_answer": "4 months",
+      "generated_answer": "4 months and 10 days.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '4 months and 10 days' includes the core fact of '4 months' from the gold answer, and the extra detail of 10 days does not contradict the gold answer. According to the rules, partial correctness and extra details are acceptable.",
+      "category": 2,
+      "top_memories": [
+        "Andrew has been looking for a dog to adopt since before 6 May 2023.",
+        "Andrew adopted a dog named Scout on 21 November 2023.",
+        "Andrew and his girlfriend volunteered at a pet shelter on 24 July 2023.",
+        "Andrew adopted the new puppy",
+        "On 4 November 2023, Andrew agreed to take good care of his dogs first."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 60,
+      "question": "How many dogs does Andrew have?",
+      "gold_answer": "3",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 2 dogs, but the gold answer is 3. The numbers are different and there is no partial correctness or semantic equivalence.",
+      "category": 1,
+      "top_memories": [
+        "Andrew's two dogs count: 2",
+        "Andrew has_two_dogs: True",
+        "Andrew owns the dogs",
+        "Andrew admires the dogs",
+        "Andrew concerned about the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 61,
+      "question": "Which specific type of bird mesmerizes Andrew?",
+      "gold_answer": "Eagles",
+      "generated_answer": "Eagles",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Eagles'.",
+      "category": 4,
+      "top_memories": [
+        "On 27 March 2023, Andrew said he has not specifically gone out for bird-watching but spots eagles when hiking.",
+        "Andrew and his group volunteered with animals, which he found rewarding.",
+        "Andrew admires birds",
+        "Eagles: Birds that Andrew finds strong and graceful.",
+        "As of 27 March 2023, Andrew is awed by birds and their ability to soar and explore new spots."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 62,
+      "question": "What did Andrew express missing about exploring nature trails with his family's dog?",
+      "gold_answer": "The peaceful moments",
+      "generated_answer": "Andrew missed moments of exploring nature with his dog and the connection and companionship of walking dogs in nature, as he lives in the city and cannot do so in a park.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions missing moments of exploring nature with his dog, which aligns with the gold answer 'The peaceful moments' as a similar concept of enjoying nature with the dog. Although it adds extra details, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Andrew previously went hiking with his dog, as shown in a photo he shared.",
+        "On 2 April 2023, Andrew said he misses moments of exploring nature with his dog and wants to find a dog-friendly spot soon.",
+        "Andrew is excited about the nature day with the dogs.",
+        "On 2 April 2023, Andrew mentioned that he misses hiking with his family's dog.",
+        "Andrew concerned about the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 63,
+      "question": "What kind of pastries did Andrew and his girlfriend have at the cafe?",
+      "gold_answer": "croissants, muffins, and tarts",
+      "generated_answer": "The memory does not specify what kind of pastries Andrew and his girlfriend had at the cafe.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the pastries, which contradicts the gold answer that specifies croissants, muffins, and tarts. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "the cafe: A cafe that Andrew and his girlfriend visited, known for its amazing pastries.",
+        "On 16 April 2023, Andrew and his girlfriend discovered a new cafe with amazing pastries.",
+        "Andrew visited the cafe",
+        "Andrew ate pastries",
+        "Andrew took a photo of the pastries at the cafe on 16 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 64,
+      "question": "What kind of flowers does Audrey have a tattoo of?",
+      "gold_answer": "sunflowers",
+      "generated_answer": "Sunflowers.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Sunflowers.' matches the gold answer 'sunflowers' semantically, with only a capitalization difference.",
+      "category": 4,
+      "top_memories": [
+        "Audrey has a tattoo of a dog and sunflowers on her arm.",
+        "Audrey's tattoo subject: dog and sunflowers",
+        "Audrey's tattoo location: arm",
+        "Audrey tattoo_description: tattoo of four dogs, later added more drawings including a flower and a dog with sunflowers",
+        "Audrey tattoo_subject: dog and sunflowers"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 65,
+      "question": "What does Audrey do during dog playdates in the park?",
+      "gold_answer": "chat with people while dogs make new friends",
+      "generated_answer": "Audrey meets other dog owners in the park and has doggie playdates, where her dogs can run and mingle with other pooches.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions Audrey meeting other dog owners and having doggie playdates where dogs run and mingle, which aligns with the gold answer's core fact that Audrey chats with people while dogs make friends. The extra detail about meeting owners is consistent and not contradictory.",
+      "category": 4,
+      "top_memories": [
+        "On 3 May 2023, Audrey mentioned that she meets other dog owners in the park and has doggie playdates.",
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "Audrey visits the dog park",
+        "Audrey visited dog park",
+        "Audrey's dogs enjoy visiting dog park"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 66,
+      "question": "What type of dog was Andrew looking to adopt based on his living space?",
+      "gold_answer": "smaller dog",
+      "generated_answer": "The memory content does not specify the type of dog Andrew was looking to adopt based on his living space. It only mentions he was looking for a dog-friendly place and adopted a puppy, but no breed or type is stated.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the type of dog is not specified, but the gold answer is 'smaller dog'. The generated answer does not contain the correct information and is off-topic, so it is wrong.",
+      "category": 4,
+      "top_memories": [
+        "Andrew is looking for a dog-friendly place to live.",
+        "Andrew has been looking for a dog to adopt since before 6 May 2023.",
+        "Andrew looking forward to meeting the dogs",
+        "furry friend: A pet (likely a dog or cat) that Andrew wants to adopt.",
+        "On 2 April 2023, Andrew said he misses moments of exploring nature with his dog and wants to find a dog-friendly spot soon."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 67,
+      "question": "Where does Andrew want to live to give their dog a large, open space to run around?",
+      "gold_answer": "near a park or woods",
+      "generated_answer": "Andrew wants to live near a park or woods.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer, stating Andrew wants to live near a park or woods.",
+      "category": 4,
+      "top_memories": [
+        "Andrew is looking for a dog-friendly place to live.",
+        "nearby park: A nearby park where Andrew plans to take his dogs.",
+        "Andrew wishes he could get a dog but finds it tough to find a place and the right dog.",
+        "Andrew has not yet found a dog-friendly place to live as of 6 September 2023.",
+        "Andrew is looking for a place near a park or woods to live."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 68,
+      "question": "Why did Audrey sign up for a workshop about bonding with pets?",
+      "gold_answer": "Strengthen the bond with her pets",
+      "generated_answer": "Audrey signed up for the workshop because she has a strong bond with her dogs and wants to better care for them, as she recently joined a dog owners group to learn how to improve their care.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Audrey signed up to better care for her dogs, which aligns with the gold answer of strengthening the bond with her pets. The extra details about joining a dog owners group do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "local pet store: The pet store where Audrey saw the workshop flyer.",
+        "Audrey saw a flyer for the workshop at her local pet store.",
+        "Audrey attends dog training workshop",
+        "Audrey pets: has pets",
+        "Audrey's pets type: furry friends"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 69,
+      "question": "How did Audrey hear about the workshop on bonding with pets?",
+      "gold_answer": "Saw a workshop flyer at the local pet store",
+      "generated_answer": "Audrey saw a flyer for the workshop at her local pet store.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, stating that Audrey saw a flyer at the local pet store.",
+      "category": 4,
+      "top_memories": [
+        "local pet store: The pet store where Audrey saw the workshop flyer.",
+        "Audrey pets: has pets",
+        "Audrey attends dog training workshop",
+        "Audrey saw a flyer for the workshop at her local pet store.",
+        "Audrey concerned about the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 70,
+      "question": "What type of training was the workshop Audrey signed up for in May 2023?",
+      "gold_answer": "Positive reinforcement training",
+      "generated_answer": "Positive reinforcement training.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating 'Positive reinforcement training'.",
+      "category": 4,
+      "top_memories": [
+        "Audrey signed up for a positive reinforcement training workshop in June 2023.",
+        "Audrey is attending a dog training workshop on 11 May 2023.",
+        "Audrey signed up for positive reinforcement training workshop",
+        "Audrey attends dog training workshop",
+        "Audrey participating_in dog training course"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 71,
+      "question": "How did Audrey describe she dog he met at the pet store?",
+      "gold_answer": "Friendly and playful",
+      "generated_answer": "friendly and playful",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'friendly and playful' matches the gold answer 'Friendly and playful' exactly, ignoring capitalization.",
+      "category": 4,
+      "top_memories": [
+        "Audrey met a friendly and playful dog at the pet store.",
+        "volunteer's dog: A friendly and playful dog that Audrey met at the pet store.",
+        "Audrey visited local pet store",
+        "Audrey met volunteer's dog",
+        "Audrey's dogs were groomed at pet salon"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 72,
+      "question": "Why did Audrey think positive reinforcement training is important for pets?",
+      "gold_answer": "To have pets learn how to behave in a positive way",
+      "generated_answer": "Audrey thinks positive reinforcement training is important for pets because it helps address behavior problems and improve their behavior, as her dogs are responding well and showing progress with this method.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that positive reinforcement training is important for improving behavior and addressing behavior problems, which aligns with the gold answer's core idea of learning to behave in a positive way. The extra details about her dogs' progress do not contradict the correct content.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs training_method: positive reinforcement",
+        "Audrey is using positive reinforcement techniques to help with her dogs' behavior problems as of 28 October 2023.",
+        "positive reinforcement training workshop: A workshop Audrey signed up for to learn positive reinforcement training for her dogs.",
+        "On 11 May 2023, Andrew and Audrey discussed pet training classes, with Audrey advocating for positive reinforcement methods.",
+        "On 28 October 2023, Audrey reported that her dogs are responding well to positive reinforcement training and showing progress."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 73,
+      "question": "What challenge is Andrew facing in their search for a pet?",
+      "gold_answer": "Finding a pet-friendly spot in the city",
+      "generated_answer": "Andrew is facing the challenge of finding a pet-friendly place to live, as he has not yet found one and is still searching for a dog-friendly spot in the city.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the challenge as finding a pet-friendly place to live in the city, which matches the gold answer's core fact.",
+      "category": 4,
+      "top_memories": [
+        "Andrew volunteered at Pet shelter",
+        "On 2 June 2023, Andrew is still searching for a pet-friendly spot in the city and has not found one yet.",
+        "On 2 April 2023, Andrew said he would keep looking for a dog-friendly spot and is excited for what's next.",
+        "Andrew is looking for a dog-friendly place to live.",
+        "Pet shelter: A pet shelter where Andrew and his girlfriend volunteered on 24 July 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 74,
+      "question": "How does Andrew feel about their search for a pet-friendly place?",
+      "gold_answer": "Discouraged but determined",
+      "generated_answer": "Andrew feels frustrated and persistent, as he has been searching for a dog-friendly place since at least April 2023 and still hasn't found one as of September 2023, but he remains excited and determined to keep looking.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer captures the core sentiment of being discouraged (frustrated) but determined (persistent), which matches the gold answer. Extra details about the timeline do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Andrew is looking for a dog-friendly place to live.",
+        "Andrew volunteered at Pet shelter",
+        "Andrew is contacting landlords and checking neighborhoods to find a pet-friendly place to live as of 6 May 2023.",
+        "On 2 June 2023, Andrew is still searching for a pet-friendly spot in the city and has not found one yet.",
+        "On 2 April 2023, Andrew said he would keep looking for a dog-friendly spot and is excited for what's next."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 75,
+      "question": "What outdoor activities does Andrew plan on trying after the rock climbing class?",
+      "gold_answer": "kayaking and bungee jumping",
+      "generated_answer": "Kayaking and bungee jumping.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, listing both kayaking and bungee jumping.",
+      "category": 4,
+      "top_memories": [
+        "Andrew attended rock climbing class",
+        "Andrew is now interested in doing more outdoor activities weekly.",
+        "Andrew found the rock climbing experience challenging but satisfying.",
+        "rock climbing class: A rock climbing class that Andrew attended with friends on 11 June 2023.",
+        "Andrew took a rock climbing class with friends on 11 June 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 76,
+      "question": "How long does Audrey typically walk her dogs for?",
+      "gold_answer": "about an hour",
+      "generated_answer": "About an hour.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'About an hour.' matches the gold answer 'about an hour' semantically and is within the duration tolerance.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs walk frequency: multiple times a day",
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "On 24 September 2023, Audrey stated that she walks her dogs multiple times a day for exercise and bonding.",
+        "Audrey had a walk with her dogs on 7 July 2023.",
+        "the walk: A walk Audrey had with her dogs on 7 July 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 77,
+      "question": "What did Audrey set up in the backyard for their dogs on June 26, 2023?",
+      "gold_answer": "a doggy play area with agility stuff and toys",
+      "generated_answer": "A doggy play area in the backyard with agility stuff and toys.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, including the key elements of a doggy play area with agility stuff and toys in the backyard.",
+      "category": 4,
+      "top_memories": [
+        "Audrey got a new place with a bigger backyard for her dogs on 26 June 2023.",
+        "On 8 July 2023, Audrey mentioned that her dogs are set for their next outdoor adventure.",
+        "On 28 October 2023, Audrey expressed interest in taking the dogs to the trail shown in the photo.",
+        "Audrey set up a doggy play area in the backyard with agility stuff and toys on 26 June 2023.",
+        "On 11 July 2023, Audrey confirmed she is in for the hike and that her dogs can come too."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 78,
+      "question": "What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",
+      "gold_answer": "a stunning lake in the mountains",
+      "generated_answer": "A stunning lake in the mountains.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating they stumbled across a stunning lake in the mountains.",
+      "category": 4,
+      "top_memories": [
+        "Audrey and her friends went on a hike and discovered a stunning lake in the mountains a few years before 26 June 2023.",
+        "Audrey and Andrew have a hike planned for November 2023 with their furry friends.",
+        "As of 11 July 2023, Audrey and Andrew are looking forward to an upcoming hike.",
+        "On 13 October 2023, Audrey expressed a need to go on a hike with her dogs, describing it as great therapy.",
+        "On 4 August 2023, Audrey expressed that the hike was tough at times but overall great, and that they are all growing together."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 79,
+      "question": "What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?",
+      "gold_answer": "Chicken Pot Pie",
+      "generated_answer": "Chicken Pot Pie",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Chicken Pot Pie'.",
+      "category": 4,
+      "top_memories": [
+        "Audrey shares_recipe_with Andrew",
+        "On 3 July 2023, Audrey offered to share her Chicken Pot Pie recipe with Andrew.",
+        "On 3 July 2023, Audrey said that she would send the recipe for Roasted Chicken to Andrew.",
+        "As of 3 July 2023, Audrey loves cooking and her favorite recipe is Chicken Pot Pie.",
+        "On 6 October 2023, Andrew told Audrey that life is about rolling with the punches and making a difference, and that her hard work is amazing."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 80,
+      "question": "What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?",
+      "gold_answer": "Roasted Chicken",
+      "generated_answer": "Roasted Chicken",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Roasted Chicken'.",
+      "category": 4,
+      "top_memories": [
+        "On 3 July 2023, Audrey said that cooking is calming and that garlic is her go-to ingredient.",
+        "On 3 July 2023, Audrey said that she loves the smell and taste that garlic adds to dishes.",
+        "Garlic: An ingredient that Audrey loves for its smell and taste.",
+        "On 3 July 2023, Audrey said that Roasted Chicken is one of her favorite dishes to make with garlic.",
+        "Roasted Chicken: A dish that Audrey likes to make with garlic and is based on Mediterranean flavors."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 81,
+      "question": "What did Andrew and his GF do on the Monday before July 24, 2023?",
+      "gold_answer": "volunteered at a pet shelter",
+      "generated_answer": "Andrew and his girlfriend volunteered at a pet shelter on 24 July 2023. The Monday before that was 17 July 2023. There is no memory about that specific date, so the most likely answer is that they did not have a recorded activity on that day. Based on available info, no exact answer exists.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Andrew and his girlfriend volunteered at a pet shelter, which matches the gold answer. Although it incorrectly mentions the date as 24 July 2023 and then discusses uncertainty, the core fact is correct, and extra details or date confusion do not invalidate the correct action.",
+      "category": 4,
+      "top_memories": [
+        "Andrew had a picnic with his girlfriend on 7 July 2023.",
+        "Andrew went on a hike with friends and his girlfriend on 6 May 2023.",
+        "the picnic: A picnic Andrew had with his girlfriend on 7 July 2023.",
+        "Andrew and his girlfriend volunteered at a pet shelter on 24 July 2023.",
+        "Andrew and his girlfriend attended a wine tasting on 21 October 2023."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 82,
+      "question": "What is the name of Audrey's childhood dog?",
+      "gold_answer": "Max",
+      "generated_answer": "The memory content does not mention Audrey's childhood dog.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention Audrey's childhood dog, which does not provide the correct name 'Max' and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Audrey member of dog owners group",
+        "Audrey's dogs role: family and companions",
+        "Audrey's dogs species: dog",
+        "Audrey family: dogs (four mentioned)",
+        "Audrey's pets description: a group of dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 83,
+      "question": "What special memories does Audrey have with her childhood dog, Max?",
+      "gold_answer": "Long walks in the neighborhood, exploring new paths, sharing worries and hopes",
+      "generated_answer": "Audrey remembers that Max, her childhood dog, had lots of energy and loved playing fetch.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions playing fetch and Max's energy, which are not part of the gold answer's special memories (long walks, exploring new paths, sharing worries and hopes). It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 27 July 2023, Audrey identified the dog in the photo as Max, her childhood dog, who had lots of energy and loved fetch.",
+        "Audrey has a strong bond with her dogs and they make her happy.",
+        "Max: Max is Audrey's childhood dog, known for his energy and love of fetch.",
+        "On 22 November 2023, Audrey stated that her dogs are awesome, bring joy and friendship, and she is grateful to have them as part of her family.",
+        "Audrey's dogs role: family and companions"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 84,
+      "question": "What are some of the personalities of Audrey's four fur babies?",
+      "gold_answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+      "generated_answer": "The oldest is relaxed, the second is playful, the third is naughty but cuddly, and the youngest is adventurous.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the personalities of the first three fur babies (relaxed, playful, naughty but cuddly) and uses a synonym for the youngest ('adventurous' instead of 'full of life'), which is semantically consistent.",
+      "category": 4,
+      "top_memories": [
+        "Audrey family: dogs (four mentioned)",
+        "Audrey will bring the fur babies",
+        "On 27 July 2023, Audrey described her four dogs' personalities: the oldest is relaxed, the second is playful, the third is naughty but cuddly, and the youngest is adventurous.",
+        "Audrey has_four_dogs: true",
+        "Audrey has four dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 85,
+      "question": "What type of classes did Audrey start with her pups recently on 4 August, 2023?",
+      "gold_answer": "Agility classes",
+      "generated_answer": "agility classes",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'agility classes' is a case-insensitive match for the gold answer 'Agility classes', and it conveys the same core fact.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's pups participant agility classes",
+        "Audrey has a strong bond with her dogs as of 24 August 2023.",
+        "Audrey takes care of her dogs and finds it rewarding as of 24 August 2023.",
+        "On 11 May 2023, Andrew and Audrey discussed pet training classes, with Audrey advocating for positive reinforcement methods.",
+        "On 16 August 2023, Audrey took all four of her dogs to the vet for a check-up."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 86,
+      "question": "How often does Audrey take her pups to the park for practice?",
+      "gold_answer": "Twice a week",
+      "generated_answer": "Twice a week.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "Audrey took her four dogs to a park last weekend (around 28-29 October 2023) for exercise and fresh air.",
+        "On 16 April 2023, Audrey said that taking her dogs for a walk in the park helps her find her center and recharges her.",
+        "Audrey has a park near her home that is great for her dog's walks.",
+        "the park: A park where Audrey walks her dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 87,
+      "question": "How long did the trail hike that Audrey went on with her pups take?",
+      "gold_answer": "Two hours",
+      "generated_answer": "Two hours.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Two hours'.",
+      "category": 4,
+      "top_memories": [
+        "trail hike: A two-hour trail hike that Audrey and her dogs went on, featuring stunning views.",
+        "On 4 August 2023, Audrey went on a two-hour trail hike with her dogs, which featured stunning views and allowed them to explore nature.",
+        "Audrey participated_in trail hike",
+        "On 11 July 2023, Audrey confirmed she is in for the hike and that her dogs can come too.",
+        "On 2 April 2023, Audrey expressed that she wants to hike with her dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 88,
+      "question": "What advice did Audrey give to Andrew regarding grooming Toby?",
+      "gold_answer": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+      "generated_answer": "Audrey advised grooming Toby slowly and gently, paying attention to sensitive areas like ears and paws, and staying patient and positive.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer accurately captures the core advice from the gold answer: grooming slowly and gently, paying attention to sensitive areas, and staying patient and positive. It is semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "Audrey gives advice about Toby",
+        "Andrew wants to have a strong relationship with his dog Toby and asked Audrey for advice.",
+        "Toby is compared to Audrey's two dogs",
+        "Andrew offers advice to Audrey",
+        "Andrew seeks advice from Audrey"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 89,
+      "question": "What is essential to keep the dogs looking good according to Audrey?",
+      "gold_answer": "Daily brushing, regular baths, nail trims, and lots of love",
+      "generated_answer": "According to Audrey, the dogs need water and sun to keep them looking good.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions water and sun, which are not part of the gold answer's essential elements (daily brushing, regular baths, nail trims, and lots of love). It contains no correct content from the gold answer and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Audrey is looking forward to the day her dogs are back to normal.",
+        "Audrey's dogs care: easy to take care of, need water and sun",
+        "Audrey concerned about the dogs",
+        "Audrey takes care of Dogs",
+        "Audrey owns or cares for the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 90,
+      "question": "What did Audrey organize with the neighbors' dogs?",
+      "gold_answer": "a doggy playdate",
+      "generated_answer": "Audrey organized a playdate with the neighbors' dogs.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Audrey organized a playdate with the neighbors' dogs, which matches the gold answer 'a doggy playdate'. The core fact is the same, and the wording is synonymous.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs played with Neighbors' dogs",
+        "Neighbors' dogs: Dogs belonging to neighbors that participated in a playdate with Audrey's dogs.",
+        "Audrey visited with dogs Park",
+        "Doggy playdate participants: Audrey's dogs, neighbors' dogs",
+        "Audrey made cookies to thank her neighbors for their pup-friendly homes."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 91,
+      "question": "What did Audrey do to give her dogs extra comfort as the weather cooled down?",
+      "gold_answer": "Got new beds for them",
+      "generated_answer": "Audrey bought new dog beds for her dogs for extra comfort as the weather cooled down.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Audrey bought new dog beds for her dogs, which matches the gold answer 'Got new beds for them'. The core fact is correct, and extra details like 'for extra comfort' are consistent.",
+      "category": 4,
+      "top_memories": [
+        "Audrey is looking forward to the day her dogs are back to normal.",
+        "Audrey's dogs get along well as a pack.",
+        "As of 3 July 2023, Audrey finds nature calming and restorative with her dogs.",
+        "New dog beds: Beds purchased by Audrey for her dogs for extra comfort as weather cools.",
+        "Audrey's dogs prefers: sunny days in the grass"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 92,
+      "question": "How does Audrey describe the new beds for her dogs?",
+      "gold_answer": "Super cozy and comfy",
+      "generated_answer": "Audrey describes the new beds as cozy and comfy dog beds.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the key phrase 'cozy and comfy', which matches the gold answer's 'Super cozy and comfy' in meaning.",
+      "category": 4,
+      "top_memories": [
+        "new beds: New beds for Audrey's pets, which they love.",
+        "New dog beds for Audrey's dogs",
+        "Audrey's pets enjoy using new beds",
+        "Audrey purchased New dog beds",
+        "New dog beds: Beds purchased by Audrey for her dogs for extra comfort as weather cools."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 93,
+      "question": "How did Audrey calm down her dog after the leash incident?",
+      "gold_answer": "Petted, hugged, spoke calmly and slowly walked the dog",
+      "generated_answer": "Audrey calmed Precious down by petting, hugging, speaking calmly, and walking slowly, which strengthened their bond.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all key actions from the gold answer: petting, hugging, speaking calmly, and walking slowly. The added detail about strengthening their bond does not contradict the core facts.",
+      "category": 4,
+      "top_memories": [
+        "On 22 September 2023, Audrey's dog Precious pulled so hard at the park that the leash broke, but Audrey caught her before she ran off.",
+        "The animal behaviorist gave Audrey tips on how to handle her dogs' problems and suggested changes in their routine.",
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs.",
+        "After the incident, Audrey calmed Precious down by petting, hugging, speaking calmly, and walking slowly, which strengthened their bond.",
+        "On 1 June 2023, Audrey took her dogs to a park and enjoyed watching them run and play off-leash."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 94,
+      "question": "How often does Audrey take her dogs for walks?",
+      "gold_answer": "Multiple times a day",
+      "generated_answer": "multiple times a day",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'multiple times a day' exactly matches the gold answer 'Multiple times a day' in meaning, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "On 13 June 2023, Audrey stated that she usually walks the dogs for about an hour, letting them explore at their own pace.",
+        "On 24 September 2023, Audrey stated that she walks her dogs multiple times a day for exercise and bonding.",
+        "Audrey walks the dogs",
+        "On 16 April 2023, Audrey said that taking her dogs for a walk in the park helps her find her center and recharges her."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 95,
+      "question": "What kind of flowers does Audrey take care of?",
+      "gold_answer": "Peruvian Lilies",
+      "generated_answer": "The memory content does not specify what kind of flowers Audrey takes care of; it only mentions that her garden has flowers and that they are looking great.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the memory content does not specify the type of flowers, which contradicts the gold answer 'Peruvian Lilies'. It fails to provide the correct information and is therefore incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's garden contents: flowers, vegetable patch",
+        "Audrey takes care of Dogs",
+        "Audrey's dogs care: easy to take care of, need water and sun",
+        "Audrey's recycled jewelry style: one-of-a-kind pieces",
+        "Audrey's jewelry pieces are one-of-a-kind and each holds a special story."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 96,
+      "question": "What did Andrew learn from reading books about ecological systems?",
+      "gold_answer": "about animals, plants, and ecosystems and how they work together",
+      "generated_answer": "Andrew learned about animals, plants, and ecosystems from reading those books.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core facts from the gold answer: animals, plants, and ecosystems. It omits 'how they work together' but partial correctness is sufficient.",
+      "category": 4,
+      "top_memories": [
+        "Andrew has_read books about ecological systems",
+        "books about ecological systems: Books Andrew has read about ecological systems.",
+        "On 1 October 2023, Andrew said he has read books about ecological systems.",
+        "On 1 October 2023, Andrew said he learned about animals, plants, and ecosystems from reading those books.",
+        "Andrew cares about nature"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 97,
+      "question": "What did Andrew suggest as a way to reduce carbon footprint?",
+      "gold_answer": "biking or using public transport",
+      "generated_answer": "Andrew suggested reducing carbon footprint by biking or using public transport.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies both options from the gold answer: biking and using public transport.",
+      "category": 4,
+      "top_memories": [
+        "On 1 October 2023, Andrew suggested reducing carbon footprint by biking or using public transport.",
+        "As of 6 September 2023, Andrew's work has been tough and stressful, causing his outdoor activities to take a backseat.",
+        "On 1 October 2023, Audrey stated that she usually takes public transport and agreed to try biking to reduce carbon footprint.",
+        "Andrew was at a trail in the woods, as shown in a photo.",
+        "Andrew cares about nature"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 98,
+      "question": "How does Andrew suggest helping the planet while also training the body?",
+      "gold_answer": "by biking",
+      "generated_answer": "Based on the memory content, there is no information about Andrew suggesting how to help the planet while also training the body. The closest related facts are his love for nature and volunteering with animals, but no specific suggestion is mentioned. Therefore, the most likely answer is that no exact answer is available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no information is available, but the gold answer is 'by biking'. The generated answer does not contain the correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Andrew expressed interest in looking into the pet training classes mentioned by Audrey.",
+        "Andrew cares about nature",
+        "Andrew and his group volunteered with animals, which he found rewarding.",
+        "Andrew believes nature makes happy Nature",
+        "Andrew participated in the hike"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 99,
+      "question": "What did Audrey do with her pups over the weekend before 4th October, 2023?",
+      "gold_answer": "Took them to the beach",
+      "generated_answer": "Audrey took her four dogs to a park last weekend (around 28-29 October 2023) for exercise and fresh air.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Audrey took her dogs to a park, while the gold answer says she took them to the beach. The location is different and not synonymous. Also, the date mentioned in the generated answer (28-29 October 2023) is more than 14 days after the specified weekend before 4th October 2023, so it is outside the tolerance. The core fact is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Audrey took the pups to a nearby dog park on 23 September 2023.",
+        "On 13 October 2023, Audrey mentioned that her dogs go crazy for Fetch and Frisbee and love to run around and meet other pups at the park.",
+        "Audrey noticed her dogs were not acting normally and made an appointment with an animal behaviorist on 25 October 2023.",
+        "Audrey took her four dogs to a park last weekend (around 28-29 October 2023) for exercise and fresh air.",
+        "Audrey owns/cares for the pups"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 100,
+      "question": "What was the reason Audrey couldn't walk her dogs for a period of time?",
+      "gold_answer": "Knee injury",
+      "generated_answer": "Audrey had a knee injury that prevented her from walking her dogs, but she recovered and resumed walking them.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the reason as a knee injury, which matches the gold answer. Extra details about recovery do not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs walk frequency: multiple times a day",
+        "Audrey had a walk with her dogs on 7 July 2023.",
+        "the walk: A walk Audrey had with her dogs on 7 July 2023.",
+        "Audrey takes her dogs to the dog park twice a week for practice.",
+        "Audrey walks the dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 101,
+      "question": "What type of jewelry does Audrey make?",
+      "gold_answer": "Jewelry made from recycled objects",
+      "generated_answer": "Audrey makes recycled jewelry, specifically one-of-a-kind pieces made from recycled objects such as bottle caps, buttons, and broken jewelry.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Audrey makes recycled jewelry, which matches the gold answer 'Jewelry made from recycled objects'. The additional details about specific materials are consistent and do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Audrey occupation: jewelry maker",
+        "Audrey's recycled jewelry style: one-of-a-kind pieces",
+        "Audrey started making jewelry as a hobby and then started selling it.",
+        "Audrey's jewelry is made from recycled objects.",
+        "Audrey makes jewelry from recycled objects such as bottle caps, buttons, and broken jewelry."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 102,
+      "question": "Why does Audrey make jewelry out of recycled objects?",
+      "gold_answer": "To show love for creativity and sustainability",
+      "generated_answer": "The memory does not state why Audrey makes jewelry out of recycled objects.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not state the reason, which contradicts the gold answer that provides a specific reason (love for creativity and sustainability). It does not contain any correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's jewelry is made from recycled objects.",
+        "Audrey makes jewelry from recycled objects such as bottle caps, buttons, and broken jewelry.",
+        "Audrey's recycled jewelry style: one-of-a-kind pieces",
+        "Audrey's recycled jewelry example: favorite necklace",
+        "Audrey's recycled jewelry materials: bottle caps, buttons, broken jewelry"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 103,
+      "question": "What organization does Audrey donate a portion of his profits to?",
+      "gold_answer": "Animal shelter",
+      "generated_answer": "animal shelter",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'animal shelter' matches the gold answer 'Animal shelter' exactly (case-insensitive), so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Audrey donates a portion of her jewelry profits to an animal shelter.",
+        "animal shelter: An animal shelter that Audrey donates a portion of her jewelry profits to.",
+        "Audrey donates to animal shelter",
+        "Audrey member of dog owners group",
+        "Audrey owns Buddy"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 104,
+      "question": "How does Audrey help out the animal shelter?",
+      "gold_answer": "By donating a portion of his profits frmo selling jwelery",
+      "generated_answer": "Audrey donates a portion of her jewelry profits to the animal shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Audrey donates a portion of her jewelry profits to the animal shelter, which matches the gold answer's core fact (donating a portion of profits from selling jewelry).",
+      "category": 4,
+      "top_memories": [
+        "Audrey donates to animal shelter",
+        "animal shelter: An animal shelter that Audrey donates a portion of her jewelry profits to.",
+        "Audrey donates a portion of her jewelry profits to an animal shelter.",
+        "Audrey consulted animal behaviorist",
+        "animal behaviorist evaluated Audrey's dogs"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 105,
+      "question": "What type of games do Audrey's dogs like to play at the park?",
+      "gold_answer": "Fetch and Frisbee",
+      "generated_answer": "Audrey's dogs like to play fetch and run around at the park.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'fetch', which is one of the correct games from the gold answer. Although it omits 'Frisbee', partial correctness is sufficient for a correct label.",
+      "category": 4,
+      "top_memories": [
+        "local park: A park where Audrey's dogs play.",
+        "Audrey's dogs play at local park",
+        "the dogs: Audrey's dogs that enjoy playing fetch, wearing party hats, and socializing at the dog park.",
+        "the park: A park where Audrey walks her dogs.",
+        "Doggy play area: A play area set up by Audrey in her backyard for her dogs."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 106,
+      "question": "What did Audrey make to thank her neighbors?",
+      "gold_answer": "Goodies",
+      "generated_answer": "Cookies",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Cookies' is a specific type of goodies, which is semantically consistent with the gold answer 'Goodies'. It contains a correct concept, so it is judged as correct.",
+      "category": 4,
+      "top_memories": [
+        "cookies: Cookies Audrey made to thank her neighbors.",
+        "Audrey made cookies to thank her neighbors for their pup-friendly homes.",
+        "Audrey has a strong bond with her dogs and they make her happy.",
+        "Audrey's dogs played with Neighbors' dogs",
+        "Audrey found the nature and the lake calming and exactly what she needed."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 107,
+      "question": "How do Audrey's dogs react to snow?",
+      "gold_answer": "Confused",
+      "generated_answer": "Audrey's dogs hate snow and were confused when taken to a snowy park last winter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'confused', which matches the gold answer's core fact, despite adding extra detail about hating snow.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs dislikes: snow",
+        "On 13 October 2023, Audrey mentioned that her dogs hate snow and were confused when taken to a snowy park last winter (around December 2022 or January 2023).",
+        "Audrey's dogs care: easy to take care of, need water and sun",
+        "Audrey is looking forward to the day her dogs are back to normal.",
+        "The animal behaviorist gave Audrey tips on how to handle her dogs' problems and suggested changes in their routine."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 108,
+      "question": "How does Audrey describe her dogs' response to snow?",
+      "gold_answer": "They definitely prefer nice, sunny days in the grass.",
+      "generated_answer": "Audrey described her dogs' response to snow as hating it; they were confused when taken to a snowy park last winter.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says the dogs hate snow and were confused, but the gold answer says they prefer sunny days in the grass, implying they dislike snow. However, the generated answer adds 'confused' and 'hate' which are not in the gold answer, but the core fact is that they don't like snow. Yet, the gold answer specifically says they prefer sunny days, which is not mentioned. The generated answer is semantically opposite? Actually, 'hate snow' and 'prefer sunny days' are consistent. But the gold answer does not say they hate it, just that they prefer sunny days. The generated answer says they hate it, which is a stronger claim but still consistent. However, the gold answer is about preference, not about response to snow. The generated answer says they were confused, which is not in gold. But the core fact is that they don't like snow, which is implied. But the judging rule says partial correctness counts if at least one correct option. The gold answer has one fact: they prefer sunny days. The generated answer does not mention that. It says they hate snow, which is not the same as preferring sunny days. It could be considered a different aspect. The question asks 'how does Audrey describe her dogs' response to snow?' The gold answer is 'They definitely prefer nice, sunny days in the grass.' That is a response to snow? It implies they don't like snow. The generated answer says they hate it and were confused. That is a different description. It is not correct because it doesn't match the gold answer. The gold answer is about preference, not about hating or confusion. So it's wrong.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs dislikes: snow",
+        "On 13 October 2023, Audrey mentioned that her dogs hate snow and were confused when taken to a snowy park last winter (around December 2022 or January 2023).",
+        "Audrey has a strong bond with her dogs and they make her happy.",
+        "Audrey is looking forward to the day her dogs are back to normal.",
+        "The animal behaviorist gave Audrey tips on how to handle her dogs' problems and suggested changes in their routine."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 109,
+      "question": "What kind of experiences are Audrey's dogs the best companions for?",
+      "gold_answer": "Exploring the great outdoors",
+      "generated_answer": "Audrey's dogs are the best companions for appreciating life's little pleasures, playing in the garden, running around, exploring, and playing fetch.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'exploring' which is semantically equivalent to 'Exploring the great outdoors', so it contains at least one correct option.",
+      "category": 4,
+      "top_memories": [
+        "Audrey's dogs role: family and companions",
+        "the pups: Dogs owned or cared for by Audrey.",
+        "Audrey owns or cares for the dogs",
+        "Audrey's dogs species: dog",
+        "Audrey's dogs get along well as a pack."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 110,
+      "question": "What activity do Andrew and Buddy enjoy doing together?",
+      "gold_answer": "Walking",
+      "generated_answer": "Andrew and Buddy enjoy doing walks together.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Andrew and Buddy enjoy doing walks together, which is semantically equivalent to the gold answer 'Walking'.",
+      "category": 4,
+      "top_memories": [
+        "Andrew enjoys_activity_with Buddy",
+        "Andrew owns Buddy",
+        "On 19 October 2023, Andrew and Buddy enjoy doing walks together.",
+        "Buddy: Andrew's dog, named Buddy, who enjoys walks and hiking trails.",
+        "Buddy name_origin: named by Andrew because he is his buddy"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 111,
+      "question": "What do Andrew and Buddy like doing on walks?",
+      "gold_answer": "Checking out new hiking trails",
+      "generated_answer": "Andrew and Buddy enjoy doing walks together, and Buddy loves checking out new hiking trails with Andrew.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Buddy loves checking out new hiking trails, which matches the gold answer. Extra details about Andrew and Buddy enjoying walks together do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "On 19 October 2023, Andrew and Buddy enjoy doing walks together.",
+        "Buddy: Andrew's dog, named Buddy, who enjoys walks and hiking trails.",
+        "Andrew enjoys_activity_with Buddy",
+        "Andrew owns Buddy",
+        "Andrew is now interested in doing more outdoor activities weekly."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 112,
+      "question": "What cuisine did Andrew recently try at a new spot in town?",
+      "gold_answer": "sushi",
+      "generated_answer": "Sushi",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Sushi' matches the gold answer 'sushi' (case-insensitive), so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Andrew visited new spot in town",
+        "Andrew recently tried sushi for the first time at a new spot in town and enjoyed it.",
+        "Andrew visited the spot we found recently",
+        "the new cafe: A new cafe in the city that Andrew and his girlfriend visited last weekend.",
+        "Andrew plans to check out the spot."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 113,
+      "question": "Which type of sushi did Audrey suggest trying first to someone new to sushi?",
+      "gold_answer": "California or salmon roll",
+      "generated_answer": "California roll or salmon roll.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, listing both California roll and salmon roll as suggestions.",
+      "category": 4,
+      "top_memories": [
+        "Audrey planning_to_order sushi",
+        "On 24 October 2023, Audrey expressed her love for sushi and encouraged Andrew to try different types.",
+        "On 24 October 2023, Audrey said she was going to order sushi for that night.",
+        "Audrey expressed interest in getting sushi for dinner on 24 October 2023.",
+        "On 24 October 2023, Audrey encouraged Andrew to try sushi and asked him to take pictures."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 114,
+      "question": "What type of date is Andrew going on Sunday?",
+      "gold_answer": "picnic date",
+      "generated_answer": "Picnic date.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Picnic date.' matches the gold answer 'picnic date' semantically, with only a capitalization difference.",
+      "category": 4,
+      "top_memories": [
+        "Sunday: The day Andrew has a picnic date with his girlfriend.",
+        "Andrew is going on a picnic date with his girlfriend on Sunday, 5 November 2023.",
+        "Andrew and his girlfriend Toby are going camping on the weekend of 5-6 August 2023.",
+        "Andrew is going on a beach trip with Toby",
+        "Andrew goes hiking at least once a weekend."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 115,
+      "question": "What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?",
+      "gold_answer": "Go hiking",
+      "generated_answer": "They planned to go on a hike.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states they planned to go on a hike, which is semantically equivalent to the gold answer 'Go hiking'.",
+      "category": 4,
+      "top_memories": [
+        "On 1 October 2023, Andrew offered to plan a birdwatching trip with Audrey.",
+        "On 28 October 2023, Audrey and Andrew planned a hiking day on Saturday, which is 4 November 2023.",
+        "Andrew and Audrey plan to go on a hike on Saturday, 4 November 2023.",
+        "Andrew and Audrey are excited about an upcoming party on or after 16 April 2023.",
+        "On 28 October 2023, Andrew said he was going to head out soon and said 'ttyl' to Audrey."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 116,
+      "question": "What aspect of autumn does Andrew find beautiful?",
+      "gold_answer": "The autumn colors",
+      "generated_answer": "Andrew finds the autumn colors beautiful.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer, stating that Andrew finds the autumn colors beautiful.",
+      "category": 4,
+      "top_memories": [
+        "On 28 October 2023, Andrew suggested going on a trip to see autumn colors, which he finds beautiful.",
+        "the trip: A planned trip to see autumn colors, likely in the near future.",
+        "On 2 September 2023, Andrew went on a hike and witnessed a beautiful sunset.",
+        "the trip features autumn colors",
+        "the trail is_favorite_of Andrew"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 117,
+      "question": "What did Audrey do in November 2023 to better take care of her dogs?",
+      "gold_answer": "Joined a dog owners group",
+      "generated_answer": "On 17 November 2023, Audrey took her dogs to a pet salon for grooming.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions taking dogs to a pet salon for grooming, which is not the same as joining a dog owners group. The core action is different and off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Audrey takes care of her dogs and finds it rewarding as of 24 August 2023.",
+        "Audrey takes care of Dogs",
+        "On 26 June 2023, Audrey expressed interest in taking her dogs to the doggy daycare.",
+        "On 17 November 2023, Audrey took her dogs to a pet salon for grooming.",
+        "As of 3 July 2023, Audrey's dogs are doing better due to the training course."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 118,
+      "question": "How often does Audrey meet up with other dog owners for tips and playdates?",
+      "gold_answer": "Once a week",
+      "generated_answer": "Once a week.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Once a week'.",
+      "category": 4,
+      "top_memories": [
+        "Audrey meets with the dog owners group once a week for tips and for the dogs to play together.",
+        "On 3 May 2023, Audrey mentioned that she meets other dog owners in the park and has doggie playdates.",
+        "Audrey plans to share dog training tips with Andrew.",
+        "Audrey recently joined a dog owners group to learn how to better care for her dogs.",
+        "Audrey set up Doggy play area"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 119,
+      "question": "What did Audrey share to show ways to keep dogs active in the city?",
+      "gold_answer": "photography of a basket full of stuffed animals",
+      "generated_answer": "Audrey shared that her dogs are city dogs and they explore new parks and trails together often, and she takes them to the dog park twice a week for practice.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer describes Audrey's personal dog activities (exploring parks, dog park visits) but does not mention the gold answer's content: sharing a photography of a basket full of stuffed animals. The core fact is entirely different and off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Audrey takes care of Dogs",
+        "Audrey owns or cares for the dogs",
+        "Audrey concerned about the dogs",
+        "Audrey visited with dogs Park",
+        "Audrey's dogs role: family and companions"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 120,
+      "question": "What type of activities does Audrey suggest for mental stimulation of the dogs?",
+      "gold_answer": "puzzles, training, hide-and-seek",
+      "generated_answer": "puzzles, training, and hide-and-seek.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all three activities from the gold answer: puzzles, training, and hide-and-seek. The addition of 'and' is a minor stylistic difference and does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "On 4 November 2023, Audrey mentioned that she provides her dogs with activities such as puzzles, training, and hide-and-seek for mental stimulation.",
+        "Audrey takes care of Dogs",
+        "Audrey's pets description: a group of dogs",
+        "Audrey's dogs behavior: enjoy playing in the garden, running around, exploring",
+        "Audrey's dogs training_method: positive reinforcement"
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 121,
+      "question": "What is Andrew planning to do with Scout, Toby, and Buddy?",
+      "gold_answer": "Take them to a nearby park",
+      "generated_answer": "Andrew plans to take Scout, Toby, and Buddy to a nearby park on 22 November 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Andrew plans to take Scout, Toby, and Buddy to a nearby park, matching the gold answer. The additional date is extra detail and does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Andrew plans to take Scout, Toby, and Buddy to a nearby park on 22 November 2023.",
+        "Andrew wants to hike with Toby someday.",
+        "Andrew will explore outdoors with Toby",
+        "Andrew is going on a beach trip with Toby",
+        "On 22 November 2023, Audrey advised Andrew to slowly introduce Scout to Toby and Buddy."
+      ]
+    },
+    {
+      "conversation_idx": 5,
+      "qa_idx": 122,
+      "question": "What did Andrew get for Scout to create a safe and fun space for them?",
+      "gold_answer": "essentials like a bed, toys, and puppy pads",
+      "generated_answer": "Andrew purchased a bed, toys, and puppy pads for Scout's comfort and entertainment.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all the items from the gold answer: bed, toys, and puppy pads, and correctly states they were for Scout's comfort and entertainment, which matches the intent of creating a safe and fun space.",
+      "category": 4,
+      "top_memories": [
+        "Andrew owns Scout",
+        "Andrew purchased Scout's bed",
+        "Scout: Scout is Andrew's newly adopted dog, named for its adventurous spirit.",
+        "On 22 November 2023, Andrew and his girlfriend are keeping Scout on a leash while Scout gets used to being outside.",
+        "new open space: A new open space for hiking that Andrew found nearby."
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 468.16033005714417,
+    "answer_time_seconds": 223.75465512275696,
+    "total_time_seconds": 691.9161400794983,
+    "write_tokens": {
+      "prompt_tokens": 86779,
+      "completion_tokens": 60717,
+      "total_tokens": 147496,
+      "call_count": 148
+    },
+    "answer_tokens": {
+      "prompt_tokens": 89269,
+      "completion_tokens": 8652,
+      "total_tokens": 97921,
+      "call_count": 246
+    },
+    "db_size_bytes": 2433024,
+    "memory_entries": 1098,
+    "avg_answer_time_ms": 1819.0559836907116
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "conversation_idx": 2,
+  "conversation_hash": "73018b57",
+  "details": [
+    {
+      "conversation_idx": 2,
+      "conversation_hash": "73018b57",
+      "user_name": "用户",
+      "question": "4月27日，我和你分享过我看的一部电影，名字是什么？",
+      "gold_answer": "《时间旅行者的妻子》",
+      "generated_answer": "根据记忆内容，4月27日你分享的电影是《时间旅行者的妻子》（The Time Traveler's Wife）。记忆第1条提到你最近观看了这部电影，并被其跨越时间的爱情故事深深打动，尤其是结尾场景。结合参考日期（4月29日）和“最近”的时间范围，这部电影最符合4月27日的分享。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了电影名称《时间旅行者的妻子》，与标准答案完全一致，且提供了相关记忆细节，核心事实正确。",
+      "top_memories": [
+        "User recently watched the movie 'The Time Traveler's Wife' and was deeply moved by its portrayal of love transcending time, especially the ending scene.",
+        "User's favorite sci-fi movies include 'Blade Runner' and the 'Star Wars' series, which have deeply influenced them, even leading them to write short stories imitating scenes from 'Star Wars'.",
+        "User's name is 李雪 (Li Xue), who describes herself as a smiling traveler, movie enthusiast, frequent concert-goer, and lover of books and pens.",
+        "User bought posters of the classic films 'Roman Holiday' and 'Casablanca' to decorate their study, as they love these movies and find new meaning each time they watch them.",
+        "User hopes their time travel story conveys that every choice is meaningful, even seemingly wrong ones, as part of personal growth."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "conversation_hash": "73018b57",
+      "user_name": "用户",
+      "question": "4月28日，我和你聊到了一个独立歌手，她的名字是？",
+      "gold_answer": "Eva Cassidy",
+      "generated_answer": "根据记忆内容，4月28日前后（4月29日之前）你聊到的独立歌手是 **Eva Cassidy**。记忆中提到你计划参加音乐节，希望看到独立歌手Eva Cassidy的现场表演，并称赞她的声音穿透力强、令人感动。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了独立歌手Eva Cassidy，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User has listened to some songs by The Lumineers and likes them, and loves Imagine Dragons' song 'Believer'.",
+        "User was recommended The Lumineers and Imagine Dragons as music to listen to, with The Lumineers noted for their infectious melodies suitable for travel and Imagine Dragons for more energetic music.",
+        "User's name is 李雪 (Li Xue), who describes herself as a smiling traveler, movie enthusiast, frequent concert-goer, and lover of books and pens.",
+        "User attended a Coldplay concert and was deeply immersed in the atmosphere, lights, and music, describing it as another world and feeling completely absorbed when closing eyes.",
+        "User plans to attend a music festival featuring many independent musicians, and hopes to see independent singer Eva Cassidy perform live, whose voice they find penetrating and moving."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 32,
+  "write_time_seconds": 27.5755398273468,
+  "answer_time_seconds": 5.454789161682129
+}

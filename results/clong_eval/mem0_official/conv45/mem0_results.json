@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 45,
+  "conversation_hash": "62bea515",
+  "details": [
+    {
+      "conversation_idx": 45,
+      "conversation_hash": "62bea515",
+      "user_name": "用户",
+      "question": "4月27日我听了一些新的吉他曲，我特别喜欢一首名叫什么的曲子？",
+      "gold_answer": "《海边的卡夫卡》",
+      "generated_answer": "根据记忆内容，4月27日您听了一些新的吉他曲，特别喜欢一首名为《海边的卡夫卡》的曲子。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案准确包含了标准答案中的曲名《海边的卡夫卡》，核心事实正确。",
+      "top_memories": [
+        "User listened to new guitar music on April 27, 2023, and particularly enjoyed a piece titled '海边的卡夫卡' (Kafka on the Shore), finding its melody beautiful and relaxing.",
+        "User sometimes listens to music while practicing calligraphy, finding it helps them get into a creative state, but also enjoys sitting quietly and just listening to music without doing anything else.",
+        "User created a calligraphy piece while listening to the violin concerto '梁祝' (Butterfly Lovers), attempting to incorporate the music's mixed emotions of joy and sorrow into each stroke, and feels that piece has a lot of soul.",
+        "User was suggested combining origami with calligraphy, such as placing origami flowers next to calligraphy works to make them more vivid and interesting.",
+        "User's houseplants are growing well, especially a previously yellowing plant that recovered after adjusting its light and watering."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 15,
+  "write_time_seconds": 12.464107990264893,
+  "answer_time_seconds": 1.9791522026062012
+}

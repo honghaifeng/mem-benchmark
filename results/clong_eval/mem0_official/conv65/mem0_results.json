@@ -1,0 +1,83 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 4,
+  "correct": 4,
+  "accuracy": 100.0,
+  "conversation_idx": 65,
+  "conversation_hash": "ad911244",
+  "details": [
+    {
+      "conversation_idx": 65,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "我在4月27日这天写日记了吗？",
+      "gold_answer": "写了",
+      "generated_answer": "是的，你在2023年4月27日写了日记。根据记忆内容，当天你记录了工作上的烦恼，并画了植物素描，还阅读了关于园艺的书。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确回答'写了日记'，与标准答案'写了'一致，并提供了额外细节，核心事实正确。",
+      "top_memories": [
+        "User wrote in her diary on May 2, 2023, recording her planting experiences and feelings about painting.",
+        "User wrote in her diary on April 27, 2023 about work-related troubles and felt her efforts were not being recognized, leaving her feeling frustrated and down.",
+        "User wrote in her diary on April 28, 2023, recording her findings from the library and her thoughts on watercolor techniques.",
+        "User wrote in her diary on May 1, 2023, recording her cooking attempts and gardening ideas.",
+        "User often records her observations and feelings in her diary, which serves as a way to preserve memories."
+      ]
+    },
+    {
+      "conversation_idx": 65,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "2023年4月28日,我晚上有什么计划吗？",
+      "gold_answer": "继续读借的那些书，然后休息",
+      "generated_answer": "根据记忆内容，2023年4月28日晚上，你去了图书馆借了几本植物学书籍，并听了自然声音（如鸟鸣和溪流声）来放松。因此，你当晚的计划可能是阅读借来的书籍并享受这些自然声音。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容“阅读借来的书籍”，并额外提到了自然声音放松，这属于额外细节，不扣分。因此答案正确。",
+      "top_memories": [
+        "User felt tired on April 30, 2023, and planned to rest early with no special evening plans.",
+        "User planned to go to bed early on May 2, 2023, because she was feeling tired.",
+        "User planned to have a simple vegetable salad for dinner on April 30, 2023, preferring something light and healthy.",
+        "User wrote in her diary on May 2, 2023, recording her planting experiences and feelings about painting.",
+        "User planned to visit a botanical garden on April 29, 2023 to observe plants in person, particularly interested in orchids for their diverse shapes and colors."
+      ]
+    },
+    {
+      "conversation_idx": 65,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "4月30日,我今天在植物园发现了什么新奇的植物？",
+      "gold_answer": "“猫爪兰”",
+      "generated_answer": "根据记忆内容，4月30日你在植物园发现了一种叫“猫爪兰”的植物，它的叶片边缘有绒毛，摸起来像猫爪，你觉得很有趣。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了标准答案中的核心内容“猫爪兰”，并补充了细节，核心事实正确，符合评判规则。",
+      "top_memories": [
+        "User plans to use her botanical garden sketches as references to create a large watercolor painting.",
+        "User has a favorite spot in the botanical garden: a small pond with water lilies and small stone bridges, which she finds very picturesque and peaceful.",
+        "User particularly likes succulent plants (多肉植物) and keeps some on her windowsill at home, finding joy in watching them grow.",
+        "User's lavender plants in her balcony garden started sprouting new growth around May 1, 2023, which made her happy.",
+        "User visited the botanical garden on April 30, 2023, observed many orchids, and drew several sketches there."
+      ]
+    },
+    {
+      "conversation_idx": 65,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "2023年5月1日,今天我尝试了一些新的烹饪方法，做了什么食物？",
+      "gold_answer": "蒸南瓜",
+      "generated_answer": "根据记忆内容，2023年5月1日，你尝试了新的烹饪方法，做了**蒸南瓜**，只用了一点盐和橄榄油调味，以保留其天然风味，结果味道出奇地好。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了蒸南瓜，与标准答案完全一致，且额外细节不影响正确性。",
+      "top_memories": [
+        "User tried a new cooking method on May 1, 2023, making steamed pumpkin seasoned with a little salt and olive oil to preserve its natural flavor, and found the result surprisingly good.",
+        "User tried cooking steamed pumpkin on May 1, 2023, seasoning it with just a little salt and olive oil to keep its natural flavor, and found the taste surprisingly good.",
+        "User tried cooking steamed pumpkin on May 1, 2023, seasoning it with just a little salt and olive oil to preserve its natural flavor, and found the result surprisingly good.",
+        "User enjoys trying low-temperature slow cooking techniques, which she finds makes food flavors richer, and has used it to cook chicken breast, resulting in very tender meat.",
+        "User enjoys trying cooking techniques like low-temperature slow cooking, which she used to cook chicken breast, making the meat very tender."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 85,
+  "write_time_seconds": 56.65296387672424,
+  "answer_time_seconds": 8.492468118667603
+}

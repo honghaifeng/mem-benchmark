@@ -1,0 +1,11 @@
+{
+    "user_id": "e1eb272d-94b4-4f1c-971c-d1e9ffb2aa9d",
+    "notice_state": {
+        "first_run": {
+            "consumed": true,
+            "consumed_at": "2026-09-01T03:13:23.011712+00:00",
+            "trigger_function": "add",
+            "variant": null
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "397ddace",
+      "user_name": "用户",
+      "question": "2023年4月27日，我分享了最近在学习机器学习，我想用机器学习解决什么问题？",
+      "gold_answer": "优化交通流量预测模型",
+      "generated_answer": "根据记忆内容，2023年4月27日你正在优化交通流量预测模型，并且遇到了数据清洗和异常值处理问题。你学习机器学习，正是想用机器学习来解决交通流量预测中的这些问题。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到'优化交通流量预测模型'，与标准答案完全一致，且额外补充了数据清洗和异常值处理细节，不影响核心事实的正确性。",
+      "top_memories": [
+        "用户在2023年4月27日正在优化交通流量预测模型",
+        "用户最近在学习机器学习，认为其有前景",
+        "用户最近在看科幻小说《三体》",
+        "用户于2023年4月28日与围棋软件对弈，使用新策略获胜",
+        "对话日期是2023年04月28日"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 10.538572072982788,
+    "answer_time_seconds": 2.2995200157165527,
+    "total_time_seconds": 12.8385591506958,
+    "write_tokens": {
+      "prompt_tokens": 3263,
+      "completion_tokens": 613,
+      "total_tokens": 3876,
+      "call_count": 11
+    },
+    "answer_tokens": {
+      "prompt_tokens": 812,
+      "completion_tokens": 97,
+      "total_tokens": 909,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 41,
+    "avg_answer_time_ms": 2299.5049953460693
+  }
+}

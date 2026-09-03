@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 46,
+  "conversation_hash": "59b1daaf",
+  "details": [
+    {
+      "conversation_idx": 46,
+      "conversation_hash": "59b1daaf",
+      "user_name": "用户",
+      "question": "2023年4月27日，我今天尝试了一款新的电子游戏，是个解谜游戏，游戏名字是？",
+      "gold_answer": "《密室逃脱》",
+      "generated_answer": "根据记忆内容，2023年4月27日用户烹饪了炖牛肉，但关于解谜游戏的信息是“用户开始玩一款名为‘密室逃脱’的新解谜视频游戏”，并未明确提及具体日期。结合参考日期（2023年4月28日）和问题中的“今天”，最可能指的是4月27日或近期开始玩的游戏。因此，游戏名字是《密室逃脱》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的游戏名称《密室逃脱》，符合规则1（部分正确也算对），且日期容错范围内，因此判断为正确。",
+      "top_memories": [
+        "User has signed up for a marathon next month (around October 2026) and needs to start systematic training.",
+        "User was recommended the suspense film '解谜者' (The Puzzle Solver) by the assistant, which combines suspense and crime elements with a tense plot and many twists.",
+        "User started playing a new puzzle video game called '密室逃脱' (Escape Room) and finds the puzzles clever but some are challenging.",
+        "User plays the new video game '荒野求生' (Wilderness Survival) and is struggling to defeat a boss, having looked up guides but still finding it difficult.",
+        "User was recommended to listen to high-energy music like electronic dance music or rock while exercising to boost motivation."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 23,
+  "write_time_seconds": 18.535938262939453,
+  "answer_time_seconds": 2.5292091369628906
+}

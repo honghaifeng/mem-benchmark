@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f261ad12",
+      "user_name": "焦彦",
+      "question": "4月27日这天，我做了一道什么菜？",
+      "gold_answer": "糖醋鱼",
+      "generated_answer": "根据记忆内容，您在2023年4月27日做了一道**糖醋鱼**，这是您第一次尝试做这道菜。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了'糖醋鱼'，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "用户于2023年04月27日尝试做了糖醋鱼，这是第一次做这道菜",
+        "用户于2023年4月27日尝试做糖醋鱼，味道尚可但外观不理想",
+        "用户名叫焦彦",
+        "用户喜欢听轻音乐，特别是钢琴曲",
+        "用户不会弹钢琴"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 4.754370927810669,
+    "answer_time_seconds": 1.6236228942871094,
+    "total_time_seconds": 6.378341913223267,
+    "write_tokens": {
+      "prompt_tokens": 1590,
+      "completion_tokens": 200,
+      "total_tokens": 1790,
+      "call_count": 5
+    },
+    "answer_tokens": {
+      "prompt_tokens": 625,
+      "completion_tokens": 60,
+      "total_tokens": 685,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 12,
+    "avg_answer_time_ms": 1623.6159801483154
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 3,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "2023年4月27日，我和你分享了一部喜剧，喜剧的名字是什么？",
+      "gold_answer": "《笑翻天》",
+      "generated_answer": "根据记忆内容，2023年4月27日没有直接提到分享喜剧的信息。但记忆中提到用户最近在追喜剧剧集《笑翻天》，且该剧集是用户喜欢的喜剧类型。结合日期（4月27日）和用户对喜剧的喜爱，最可能分享的喜剧是《笑翻天》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了《笑翻天》，与标准答案一致，符合部分正确即算正确的规则。",
+      "top_memories": [
+        "用户于2023年04月27日去KTV和朋友们唱歌，唱了很多经典老歌",
+        "对话日期为2023年04月27日",
+        "李晓燕在2023年04月27日提到需要准备第二天的工作",
+        "用户于2023年4月27日参加了舞蹈工作坊，学习拉丁舞基本步伐",
+        "用户于2023年3月左右去过一个海边小镇旅游"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "4月28日，我参加了一个主题派对，你还记得我在里面扮演什么角色吗？",
+      "gold_answer": "侦探",
+      "generated_answer": "根据记忆内容，您在2023年4月28日参加的主题派对上扮演的是**侦探**角色。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含标准答案中的核心内容“侦探”，符合部分正确即算对的原则。",
+      "top_memories": [
+        "李晓燕于2023年4月28日参加了一个主题派对",
+        "对话日期为2023年04月28日",
+        "李晓燕在主题派对上赢得了最佳着装奖",
+        "李晓燕在派对上穿了一件复古风波点裙，戴超大花环，化复古妆",
+        "李晓燕在派对上扮演侦探角色，参与角色扮演游戏"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "2023年4月30日，我去观看了一个街舞比赛，我最喜欢哪个团队还记得吗？",
+      "gold_answer": "一个叫做“Beat Breakers”的团队",
+      "generated_answer": "根据记忆内容，你在2023年4月30日观看了街舞比赛，并且你最喜欢的街舞团队是“Beat Breakers”，你赞赏他们的动作同步和音乐感。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了标准答案中的核心内容“Beat Breakers”团队，并附加了细节，符合部分正确和额外细节不扣分的规则。",
+      "top_memories": [
+        "用户于2023年4月30日参加了街舞比赛，是作为观众。",
+        "用户于2023年4月30日尝试制作芒果慕斯，味道不错但不够完美",
+        "用户于2023年4月30日与AI聊天，并约定次日继续",
+        "李晓燕于2023年5月1日观看了即兴喜剧表演",
+        "用户喜欢一个名为“Beat Breakers”的街舞团队，赞赏他们的动作同步和音乐感。"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 29.83131694793701,
+    "answer_time_seconds": 5.555332183837891,
+    "total_time_seconds": 35.38747429847717,
+    "write_tokens": {
+      "prompt_tokens": 9707,
+      "completion_tokens": 1653,
+      "total_tokens": 11360,
+      "call_count": 29
+    },
+    "answer_tokens": {
+      "prompt_tokens": 2993,
+      "completion_tokens": 244,
+      "total_tokens": 3237,
+      "call_count": 6
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 94,
+    "avg_answer_time_ms": 1851.7367045084636
+  }
+}

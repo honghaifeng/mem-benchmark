@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "4c89c0bf",
+      "user_name": "张曼婷",
+      "question": "4月27日，我和你推荐过一本书，书名是什么？",
+      "gold_answer": "《小王子》",
+      "generated_answer": "根据记忆内容，4月27日（即对话日期）你提到正在阅读《小王子》，因此推荐的书名是《小王子》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了《小王子》，与标准答案一致，且日期和推荐行为描述正确。",
+      "top_memories": [
+        "对话日期是2023年04月27日",
+        "用户名叫张曼婷",
+        "用户喜欢绘画、弹钢琴、读书、散步和品茶",
+        "用户性格害羞，不太擅长聊天",
+        "用户最近在尝试水彩画，画花朵，但色彩搭配有待提升"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 4.25256085395813,
+    "answer_time_seconds": 2.196836233139038,
+    "total_time_seconds": 6.449812889099121,
+    "write_tokens": {
+      "prompt_tokens": 1386,
+      "completion_tokens": 277,
+      "total_tokens": 1663,
+      "call_count": 4
+    },
+    "answer_tokens": {
+      "prompt_tokens": 713,
+      "completion_tokens": 64,
+      "total_tokens": 777,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 18,
+    "avg_answer_time_ms": 2196.8131065368652
+  }
+}

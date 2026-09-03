@@ -1,0 +1,3294 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 191,
+  "correct": 148,
+  "accuracy": 77.4869109947644,
+  "category_stats": {
+    "2": {
+      "total": 42,
+      "correct": 38
+    },
+    "1": {
+      "total": 21,
+      "correct": 17
+    },
+    "3": {
+      "total": 10,
+      "correct": 6
+    },
+    "4": {
+      "total": 118,
+      "correct": 87
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 7,
+      "qa_idx": 0,
+      "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+      "gold_answer": "electricity engineering project",
+      "generated_answer": "Electrical engineering project.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Electrical engineering project' is semantically equivalent to the gold answer 'electricity engineering project', differing only in word form. It contains the correct core fact.",
+      "category": 2,
+      "top_memories": [
+        "On 6 September 2023, Jolene is working on a project and finding it challenging.",
+        "Jolene working on the project",
+        "Jolene completed an electrical engineering project in the week of 16 January 2023.",
+        "Jolene received a large robotics project from her engineering professor, which she is currently working on as of 1 February 2023.",
+        "the project: A project that Jolene is working on and will update Deborah about."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 1,
+      "question": "Which of Deborah`s family and friends have passed away?",
+      "gold_answer": "mother, father, her friend Karlie",
+      "generated_answer": "Deborah's mother and father have passed away. Additionally, a loved one named Karlie has passed away, and Deborah lost a friend around 15 February 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Deborah's mother, father, and a friend named Karlie as having passed away, matching the gold answer. The additional detail about the date is not penalized.",
+      "category": 1,
+      "top_memories": [
+        "Deborah's mother passed away a few years ago.",
+        "Deborah's mother deceased: passed away a few years ago",
+        "Deborah's mother has passed away.",
+        "Deborah family: has husband, father, mother",
+        "Deborah's father passed away on 25 January 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 2,
+      "question": "When did Deborah`s mother pass away?",
+      "gold_answer": "a few years before 2023",
+      "generated_answer": "Unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Unknown.' does not provide any information about the timing of Deborah's mother's death, whereas the gold answer states 'a few years before 2023'. The generated answer is entirely off-topic and lacks any correct content.",
+      "category": 2,
+      "top_memories": [
+        "Deborah's mother passed away a few years ago.",
+        "Deborah's mother deceased: passed away a few years ago",
+        "Deborah's mother has passed away.",
+        "Deborah's mother status: deceased",
+        "Deborah mother: deceased"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 3,
+      "question": "When did Jolene`s mother pass away?",
+      "gold_answer": "in 2022",
+      "generated_answer": "2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2022' matches the gold answer 'in 2022' exactly in terms of the year, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Jolene mother: passed away in 2022",
+        "Jolene's mother passed away in 2022.",
+        "Jolene's mother death_date: 2022",
+        "Deborah's mother passed away a few years ago.",
+        "Jolene associated with the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 4,
+      "question": "When did Jolene's mom gift her a pendant?",
+      "gold_answer": "in 2010",
+      "generated_answer": "2010",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2010' matches the gold answer 'in 2010' exactly in terms of the year, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Jolene's pendant gift_giver: Jolene's mother",
+        "Jolene's pendant gift_date: 2010",
+        "Paris: The city where Jolene's mother gave her the pendant in 2010.",
+        "Jolene's pendant gift_location: Paris",
+        "Jolene's mother gave her a heart-shaped pendant with a bird symbol in 2010 in Paris."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 5,
+      "question": "In what country did Jolene's mother buy her the pendant?",
+      "gold_answer": "In France",
+      "generated_answer": "France",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'France' exactly matches the gold answer 'In France', so it is correct.",
+      "category": 3,
+      "top_memories": [
+        "Jolene's pendant gift_giver: Jolene's mother",
+        "Paris: The city where Jolene's mother gave her the pendant in 2010.",
+        "Jolene's pendant gift_location: Paris",
+        "Jolene's pendant gift_date: 2010",
+        "Jolene's mother gave her a heart-shaped pendant with a bird symbol in 2010 in Paris."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 6,
+      "question": "What symbolic gifts do Deborah and Jolene have from their mothers?",
+      "gold_answer": "pendants",
+      "generated_answer": "Deborah has a pendant that reminds her of her mother. Jolene has a pendant given by her mother.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that both Deborah and Jolene have pendants from their mothers, matching the gold answer 'pendants'.",
+      "category": 1,
+      "top_memories": [
+        "Jolene appreciates support from Deborah",
+        "Jolene and her partner feel their loved ones' values encouraging them along their paths.",
+        "Jolene received support from Deborah",
+        "Jolene's pendant gift_giver: Jolene's mother",
+        "Deborah's mother loved: flowers"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 7,
+      "question": "Which country were Jolene and her mother visiting in 2010?",
+      "gold_answer": "France",
+      "generated_answer": "France",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'France'.",
+      "category": 2,
+      "top_memories": [
+        "Jolene mother: passed away in 2022",
+        "Jolene's mother passed away in 2022.",
+        "Paris: The city where Jolene's mother gave her the pendant in 2010.",
+        "Jolene visited Thailand",
+        "Jolene associated with the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 8,
+      "question": "What helped Deborah find peace when grieving deaths of her loved ones?",
+      "gold_answer": "yoga, old photos, the roses and dahlias in a flower garden, nature",
+      "generated_answer": "Yoga helped Deborah find peace when grieving deaths of her loved ones.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions yoga, which is one of the correct options in the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Yoga helped Deborah find peace during a rough time.",
+        "roses: Flowers that bring peace to Deborah.",
+        "Deborah finds peace in roses and dahlias.",
+        "yoga: Yoga is a practice that helped Deborah find peace during a rough time.",
+        "Deborah finds peace in dahlias"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 9,
+      "question": "When did Deborah's father pass away?",
+      "gold_answer": "January 25, 2023",
+      "generated_answer": "25 January 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '25 January 2023' is the same date as the gold answer 'January 25, 2023', just formatted differently. The date is exactly correct.",
+      "category": 2,
+      "top_memories": [
+        "Deborah's mother passed away a few years ago.",
+        "Deborah's mother deceased: passed away a few years ago",
+        "Deborah's father passed away on 25 January 2023.",
+        "Deborah's mother has passed away.",
+        "Deborah mother: deceased"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 10,
+      "question": "When was Deborah's parents' wedding?",
+      "gold_answer": "in 1993",
+      "generated_answer": "1993",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '1993' matches the gold answer 'in 1993' exactly, just without the preposition.",
+      "category": 2,
+      "top_memories": [
+        "Deborah's parents were married in 1993.",
+        "Deborah's mother wedding_date: 1993",
+        "Deborah and her husband aspire to be as good a family as her parents were.",
+        "Deborah's mom was interested in art",
+        "Travel was a great passion of Deborah's mother."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 11,
+      "question": "Is Deborah married?",
+      "gold_answer": "yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' directly matches the gold answer 'yes', indicating that Deborah is married.",
+      "category": 3,
+      "top_memories": [
+        "Deborah married: true",
+        "Deborah got married at the beach",
+        "Deborah's parents were married in 1993.",
+        "Deborah got married on a beach.",
+        "Deborah's husband is pictured in front of Deborah's mother's house."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 12,
+      "question": "When did Deborah receive an appreciation letter from her community?",
+      "gold_answer": "January 26, 2023",
+      "generated_answer": "26 January 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '26 January 2023' is semantically identical to the gold answer 'January 26, 2023', just with a different date format. The core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "the letter content: thanked Deborah for her positive influence",
+        "the group members sent letter to Deborah",
+        "Deborah received a thank-you letter from group members on 26 January 2023.",
+        "the letter: A thank-you letter from group members to Deborah, received on 26 January 2023.",
+        "the group members: A group of people who sent Deborah a thank-you letter."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 13,
+      "question": "What places give Deborah peace?",
+      "gold_answer": "sitting in a spot by the window in her Mom's house, sitting by the beach, Bali, forest trail in a nearby park",
+      "generated_answer": "The spot by the window in her old home, the place where she sat on a bench and brought flowers, and her community.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'The spot by the window in her old home' which matches the gold answer's 'sitting in a spot by the window in her Mom's house' (synonymous). Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "roses: Flowers that bring peace to Deborah.",
+        "Deborah finds peace in roses and dahlias.",
+        "Deborah finds peace in dahlias",
+        "Yoga helped Deborah find peace during a rough time.",
+        "Deborah finds peace in roses"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 14,
+      "question": "What were Deborah's mother's hobbies?",
+      "gold_answer": "reading, traveling, art, cooking",
+      "generated_answer": "Reading and travel.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Reading' and 'travel', which are both correct hobbies from the gold answer. Although it omits 'art' and 'cooking', partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "Reading was one of Deborah's mother's hobbies.",
+        "Deborah's mother hobbies: reading, travel",
+        "Deborah's mother loved: flowers",
+        "Deborah's mother's old house visited_by: Deborah",
+        "Deborah's mother passed away a few years ago."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 15,
+      "question": "What pets does Jolene have?",
+      "gold_answer": "snakes",
+      "generated_answer": "Jolene has a snake named Seraphim, and also a snake named Susie.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene has snakes (named Seraphim and Susie), which matches the gold answer 'snakes'. The extra names are additional details and do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's snakes owner: Jolene",
+        "Jolene's partner partner_of: Jolene",
+        "Jolene pet: Seraphim",
+        "Jolene friend Deborah",
+        "Jolene gender: female"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 16,
+      "question": "What are the names of Jolene's snakes?",
+      "gold_answer": "Susie, Seraphim",
+      "generated_answer": "Susie and Seraphim",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer lists both names from the gold answer, 'Susie' and 'Seraphim', with a minor formatting difference ('and' instead of comma).",
+      "category": 4,
+      "top_memories": [
+        "Jolene's snakes owner: Jolene",
+        "Jolene has_snakes: true",
+        "On 9 July 2023, Jolene expressed that her snakes do not run and she would like to exercise with them more often.",
+        "On 9 April 2023, Jolene stated that spending time with her snakes is valuable and teaches her to take time and be in tune with herself.",
+        "Jolene's snake species: snake"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 17,
+      "question": "When did Jolene buy her pet Seraphim?",
+      "gold_answer": "in 2022",
+      "generated_answer": "27 January 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer specifies a date (27 January 2022) that falls within the same year as the gold answer (2022), and the date is within 14 days of the end of the year, so it is semantically consistent with the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Seraphim: Seraphim is Jolene's pet snake, bought in Paris about a year before the conversation.",
+        "Jolene pet: Seraphim",
+        "Jolene acquired her pet in 2022.",
+        "Jolene adopted a pet on 1 August 2021.",
+        "Jolene's pet acquired: 2022"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 18,
+      "question": "In what country did Jolene buy snake Seraphim?",
+      "gold_answer": "In France",
+      "generated_answer": "France",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'France' exactly matches the gold answer 'In France'.",
+      "category": 3,
+      "top_memories": [
+        "Seraphim: Seraphim is Jolene's pet snake, bought in Paris about a year before the conversation.",
+        "Jolene placed her snake Seraphim in the new aquarium.",
+        "Jolene's snake species: snake",
+        "Jolene's pet snake Seraphim came out of her cage and coiled up next to Jolene while she was playing video games on 27 January 2023.",
+        "Jolene decided to get a snake because she was fascinated by reptiles."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 19,
+      "question": "How many times has Jolene been to France?",
+      "gold_answer": "two times",
+      "generated_answer": "0",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states Jolene has been to France two times, but the generated answer says 0, which is a completely different and incorrect count.",
+      "category": 1,
+      "top_memories": [
+        "Jolene visited Thailand",
+        "Jolene visited beach",
+        "Paris: The city where Jolene's mother gave her the pendant in 2010.",
+        "Jolene associated with the place",
+        "Jolene's pendant gift_location: Paris"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 20,
+      "question": "Which games have Jolene and her partner played together?",
+      "gold_answer": "Detroit, Walking Dead, Battlefield 1, It Takes Two, Overcooked 2",
+      "generated_answer": "It Takes Two and Detroit.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'It Takes Two' and 'Detroit', both of which are in the gold answer, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Jolene plays video games",
+        "It Takes Two: A cooperative video game that Jolene and her partner enjoy playing together.",
+        "Jolene plays_games: true",
+        "Jolene learned to play games on her own as a child.",
+        "On 9 April 2023, Jolene stated that playing video games with her partner brings them closer together."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 21,
+      "question": "When do Jolene and her partner plan to complete the game \"Walking Dead\"?",
+      "gold_answer": "Saturday after 27 January, 2023",
+      "generated_answer": "4 February 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer specifies 'Saturday after 27 January, 2023', which is 4 February 2023. The generated answer exactly matches this date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Jolene and her partner plan to play the game Walking Dead on 4 February 2023.",
+        "Jolene plans_to_play Walking Dead",
+        "Walking Dead: Walking Dead is a video game that Jolene and her partner plan to play next Saturday.",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "As of 9 July 2023, Jolene and her partner play the game 'It Takes Two' together."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 22,
+      "question": "When did Deborah meet Anna?",
+      "gold_answer": "31 January, 2023",
+      "generated_answer": "31 January 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '31 January 2023.' matches the gold answer '31 January, 2023' exactly in date, with only a minor punctuation difference.",
+      "category": 2,
+      "top_memories": [
+        "Deborah met Anna",
+        "Deborah brought closer to Anna",
+        "Deborah inspires each other Anna",
+        "Deborah told life story to Anna",
+        "Anna neighbor of Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 23,
+      "question": "Why did Jolene sometimes put off doing yoga?",
+      "gold_answer": "She's more interested in playing video games",
+      "generated_answer": "The memory content does not mention why Jolene sometimes put off doing yoga.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention the reason, which is not a correct answer to the question. The gold answer provides a specific reason (interest in video games), and the generated answer does not contain any correct content from it.",
+      "category": 3,
+      "top_memories": [
+        "Jolene participated in yoga",
+        "Jolene practices yoga",
+        "Jolene participated_in yoga",
+        "Jolene has been doing yoga and meditation sporadically for about 3 years as of 6 June 2023.",
+        "Jolene interests: yoga, meditation"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 24,
+      "question": "What new yoga poses did Deborah try?",
+      "gold_answer": "Warrior II, Dancer Pose (Natarajasana), Tree pose",
+      "generated_answer": "tree pose and Dancer Pose (Natarajasana).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes two of the three correct poses (Tree pose and Dancer Pose), so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "On 26 June 2023, Deborah attended a retreat and tried a new yoga pose called tree pose.",
+        "On 1 August 2023, Deborah said she would send a tutorial video of the poses and shared a photo of herself doing a yoga pose.",
+        "Deborah bought new props for yoga class",
+        "Deborah participated in yoga",
+        "Deborah is passionate about yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 25,
+      "question": "What are Jolene's favorite books?",
+      "gold_answer": "Sapiens, Avalanche by Neal Stephenson",
+      "generated_answer": "Jolene's favorite books are not specified in the memory content. The only related detail is that she finds a book immersive, but its title is not mentioned.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that Jolene's favorite books are not specified, which directly contradicts the gold answer that lists 'Sapiens' and 'Avalanche by Neal Stephenson'. It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Jolene discussing books with Deborah",
+        "On 4 February 2023, Deborah asked Jolene about her favorite book lately.",
+        "bookcase: A bookcase that Jolene plans to sort out books from.",
+        "a book: A book that Jolene is reading and finds immersive.",
+        "Jolene owns_or_reads a book"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 26,
+      "question": "Which book did Jolene read in January 2023?",
+      "gold_answer": "Avalanche by Neal Stephenson",
+      "generated_answer": "'Avalanche' by Neal Stephenson.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, with only minor punctuation differences.",
+      "category": 2,
+      "top_memories": [
+        "On 17 September 2023, Jolene said that reading the book takes her to another world.",
+        "On 4 February 2023, Deborah asked Jolene about her favorite book lately.",
+        "On 4 February 2023, Jolene mentioned that she recently read a story about someone who became successful despite challenges, which inspired her.",
+        "On 21 January 2023, Jolene read the book 'Avalanche' by Neal Stephenson in one sitting.",
+        "On 4 February 2023, Jolene told Deborah that she is reading the book 'Sapiens', which is about human history and the impact of technology."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 27,
+      "question": "When was Jolene in Bogota?",
+      "gold_answer": "in summer 2022",
+      "generated_answer": "Summer 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Summer 2022' matches the gold answer 'in summer 2022' semantically and in content.",
+      "category": 2,
+      "top_memories": [
+        "Jolene visited Bogota",
+        "Jolene took a vacation in Bogota in summer 2022.",
+        "Bogota: A location where Jolene took a vacation photo last summer.",
+        "Jolene participated in meditation",
+        "Jolene associated with the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 28,
+      "question": "In what country was Jolene during summer 2022?",
+      "gold_answer": "Colombia",
+      "generated_answer": "Colombia",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Colombia'.",
+      "category": 3,
+      "top_memories": [
+        "Jolene took a vacation in Bogota in summer 2022.",
+        "On 16 August 2023, Jolene was thinking about her plans and checking in with her boyfriend, and her relationship has been up and down.",
+        "Jolene was reminded of her last beach getaway, which was before 6 September 2023, and described it as chill and nice.",
+        "Jolene's mother passed away in 2022.",
+        "Jolene mother: passed away in 2022"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 29,
+      "question": "When did Jolene have a mini-retreat to reflect on her career?",
+      "gold_answer": "Wednesday before 9 February, 2023",
+      "generated_answer": "1 February 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'Wednesday before 9 February, 2023', which is 8 February 2023. The generated answer '1 February 2023' is within 14 days of the gold date, so it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "Jolene attended mini retreat",
+        "Jolene gained a new outlook from the mini retreat.",
+        "Jolene attended a mini retreat on 1 February 2023 to assess where she is in life.",
+        "Jolene achieved more than she imagined at the mini retreat, which boosted her confidence.",
+        "Jolene attended meditation retreat"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 30,
+      "question": "When did Jolene have a dinner and drinks with her friends?",
+      "gold_answer": "21 February, 2023",
+      "generated_answer": "21 February 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, with only a minor punctuation difference (no comma). The date is the same.",
+      "category": 2,
+      "top_memories": [
+        "Jolene had a night out with friends on 21 February 2023.",
+        "Jolene friends with Deborah",
+        "Deborah friends Jolene",
+        "On 1 February 2023, Deborah said it was good that Jolene and her partner have something to do together.",
+        "Jolene and her partner met in an engineering class in college and became friends before their relationship developed."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 31,
+      "question": "When was the last photo of Deborah and Karlie taken?",
+      "gold_answer": "in summer 2022",
+      "generated_answer": "The last photo of Deborah and Karlie was taken in the summer of 2022, during their hike together.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the last photo was taken in summer 2022, which matches the gold answer exactly.",
+      "category": 2,
+      "top_memories": [
+        "Deborah and her mother are pictured together in a photo, which is their last photo together.",
+        "Deborah mourns Karlie",
+        "Karlie: A loved one of Deborah, who has passed away.",
+        "Deborah and Karlie hiked together in the summer of 2022.",
+        "On 15 September 2023, Jolene commented that the photo was gorgeous and asked Deborah about special memories of that beach or surfing in general."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 32,
+      "question": "When was Deborah in Bali?",
+      "gold_answer": "in 2022",
+      "generated_answer": "2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2022' matches the gold answer 'in 2022' exactly in meaning.",
+      "category": 2,
+      "top_memories": [
+        "Deborah visited Bali",
+        "Bali: An island Deborah visited last year.",
+        "Deborah traveled to Bali in 2022.",
+        "Deborah found Bali peaceful and great for yoga.",
+        "Deborah participated in meditation"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 33,
+      "question": "How long have Jolene and her partner been together?",
+      "gold_answer": "for three years",
+      "generated_answer": "As of 25 February 2023, they have been together for three years.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states they have been together for three years, which matches the gold answer exactly. The additional date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "As of 25 February 2023, Jolene and her partner have been together for three years and are not married.",
+        "Jolene's partner partner_of: Jolene",
+        "On 1 February 2023, Deborah said it was good that Jolene and her partner have something to do together.",
+        "Jolene and her partner met in an engineering class in college and became friends before their relationship developed.",
+        "On 16 August 2023, Jolene was thinking about her plans and checking in with her boyfriend, and her relationship has been up and down."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 34,
+      "question": "Which year did Jolene and her partner start dating?",
+      "gold_answer": "2020",
+      "generated_answer": "2020",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer (2020).",
+      "category": 2,
+      "top_memories": [
+        "Jolene's partner partner_of: Jolene",
+        "As of 25 February 2023, Jolene and her partner have been together for three years and are not married.",
+        "Jolene start_date: approximately June 2020",
+        "Jolene and her partner met in an engineering class in college and became friends before their relationship developed.",
+        "Jolene attended a music festival with her partner last year (2022)."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 35,
+      "question": "When did Deborah go for her first morning jog in a nearby park?",
+      "gold_answer": "24 February, 2023",
+      "generated_answer": "24 February 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '24 February 2023' matches the gold answer '24 February, 2023' exactly in date, with only a minor punctuation difference. The core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "nearby park: A park near Deborah where she went for a morning jog.",
+        "On 24 February 2023, Deborah went for a morning jog for the first time in a nearby park.",
+        "Deborah recent_activity: went for a morning jog in a nearby park on 24 February 2023",
+        "Deborah visited nearby park",
+        "Deborah attended yoga in the park"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 36,
+      "question": "How old is Jolene?",
+      "gold_answer": "likely no more than 30; since she's in school",
+      "generated_answer": "The available memories do not provide Jolene's age or birth date.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that Jolene's age is not provided, which contradicts the gold answer that she is likely no more than 30 and in school. It does not contain any correct content from the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Jolene is an engineering student.",
+        "Jolene is pursuing engineering.",
+        "Jolene's mother passed away in 2022.",
+        "Jolene mother: passed away in 2022",
+        "Jolene age_at_first_console: 10"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 37,
+      "question": "When did Jolene take Seraphim to the park?",
+      "gold_answer": "Sunday before 2 March, 2023",
+      "generated_answer": "26 February 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'Sunday before 2 March, 2023', which is 26 February 2023. The generated answer '26 February 2023' exactly matches this date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "the park: A location where Jolene took Seraphim.",
+        "Jolene possibly owns Seraphim",
+        "Jolene owns Seraphim",
+        "Seraphim visited the park",
+        "Jolene visited the park"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 38,
+      "question": "When did Deborah start the yoga class in the neighborhood?",
+      "gold_answer": "Friday before 13 March, 2023",
+      "generated_answer": "13 March 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'Friday before 13 March, 2023', which indicates a date before 13 March 2023. The generated answer '13 March 2023' is within 14 days of the gold answer's date, and the core fact (the date of the yoga class) is semantically consistent. Therefore, it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Deborah started yoga class",
+        "Deborah started a yoga class in her neighborhood on 13 March 2023.",
+        "neighbors: People who joined Deborah's yoga class.",
+        "Deborah attended yoga in the park",
+        "Deborah teaches yoga and spends time with the community."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 39,
+      "question": "What time management techniques do Deborah and Jolene use?",
+      "gold_answer": "the Pomodoro Technique - 25 minutes work and 5-minute break, scheduler or to-do list, The Eisenhower Matrix, bullet journal",
+      "generated_answer": "Deborah suggests using planners, schedulers, daily schedules, to-do lists, and routines. Jolene uses the Pomodoro Technique and a bullet journal.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes several techniques from the gold answer: Pomodoro Technique, bullet journal, and to-do lists. It also mentions planners and schedules, which are similar to scheduler or to-do list. Therefore, it contains correct content.",
+      "category": 1,
+      "top_memories": [
+        "On 2 March 2023, Deborah encouraged Jolene and advised her to break tasks into smaller pieces and use planners or schedulers for time management.",
+        "On 13 March 2023, Deborah agreed to find a time to discuss time management with Jolene.",
+        "On 22 March 2023, Deborah advises Jolene to create a daily schedule or to-do list for time management.",
+        "On 13 March 2023, Jolene expressed a desire to talk about time management with Deborah.",
+        "bullet journal: A bullet journal that Jolene uses for time management and task tracking."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 40,
+      "question": "Does Deborah live close to the beach or the mountains?",
+      "gold_answer": "beach",
+      "generated_answer": "Deborah lives close to the beach.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Deborah lives close to the beach, which matches the gold answer 'beach'.",
+      "category": 3,
+      "top_memories": [
+        "Deborah visited beach",
+        "Deborah got married at the beach",
+        "the beach significance: Deborah's wedding location and where she discovered surfing",
+        "Deborah discovered surfing at the beach",
+        "Deborah practices yoga at the beach"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 41,
+      "question": "What ways do Deborah and Jolene use to enhance their yoga practice?",
+      "gold_answer": "candles, music, essential oils",
+      "generated_answer": "Deborah enhances her yoga practice by teaching yoga, practicing at the beach, leading meditation yoga sessions, and sharing its benefits with the community. Jolene enhances hers through yoga and meditation as self-care activities.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any of the specific methods (candles, music, essential oils) from the gold answer. It focuses on different activities and does not align with the correct content.",
+      "category": 1,
+      "top_memories": [
+        "On 1 February 2023, Deborah and Jolene discussed how yoga has improved their lives and provides a sense of community.",
+        "Jolene's yoga and meditation practice has had a positive effect on her.",
+        "Deborah practices yoga",
+        "Jolene practices yoga",
+        "Deborah participated in yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 42,
+      "question": "What music pieces does Deborah listen to during her yoga practice?",
+      "gold_answer": "Savana, Sleep",
+      "generated_answer": "Savana",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Savana' is one of the two correct pieces from the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Savana: An instrumental track favored by Deborah for creating a peaceful vibe during yoga.",
+        "Deborah also likes to create a serene space for her practice.",
+        "Yoga helped Deborah find peace during a rough time.",
+        "Deborah passion: yoga",
+        "Deborah practices yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 43,
+      "question": "When did Deborah go for a bicycle ride with Anna?",
+      "gold_answer": "first week of April, 2023",
+      "generated_answer": "2 April 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2 April 2023' is within 14 days of the gold answer 'first week of April, 2023' (April 1-7, 2023), so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Deborah met Anna",
+        "Deborah brought closer to Anna",
+        "Deborah told life story to Anna",
+        "Deborah inspires each other Anna",
+        "Anna neighbor of Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 44,
+      "question": "When did Deborah go to an art show with Anna?",
+      "gold_answer": "on 9 April, 2023",
+      "generated_answer": "9 April 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '9 April 2023' matches the gold answer 'on 9 April, 2023' exactly in date, with only a minor formatting difference (no 'on' and no comma).",
+      "category": 2,
+      "top_memories": [
+        "Deborah met Anna",
+        "Deborah inspires each other Anna",
+        "Deborah brought closer to Anna",
+        "Deborah told life story to Anna",
+        "Deborah attended an art show with a friend on 9 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 45,
+      "question": "When did Jolene finish her robotics project?",
+      "gold_answer": "May 2023",
+      "generated_answer": "May 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'May 2023'.",
+      "category": 2,
+      "top_memories": [
+        "Jolene working on robotics project",
+        "Jolene received a large robotics project from her engineering professor, which she is currently working on as of 1 February 2023.",
+        "Jolene felt excited and nervous when she first received the robotics project, but now she is enjoying it.",
+        "Jolene worked on engineering project",
+        "Jolene working on the project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 46,
+      "question": "How long did Jolene work on the robotics project given to her by her Professor?",
+      "gold_answer": "four months",
+      "generated_answer": "Jolene worked on the robotics project from around 1 February 2023 to May 2023, so about 3–4 months.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the duration as 'about 3–4 months', which overlaps with the gold answer 'four months'. The extra date details do not contradict the core fact, and the duration is within the 50% tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Jolene received a large robotics project from her engineering professor, which she is currently working on as of 1 February 2023.",
+        "Jolene working on robotics project",
+        "engineering professor: Jolene's engineering professor who assigned the robotics project.",
+        "robotics project: A large robotics project assigned by Jolene's engineering professor, which she is currently working on.",
+        "engineering professor assigned project to Jolene"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 47,
+      "question": "When did Jolene do yoga at Talkeetna?",
+      "gold_answer": "on 5 June, 2023",
+      "generated_answer": "5 June 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '5 June 2023' is semantically equivalent to the gold answer 'on 5 June, 2023', with only a minor formatting difference (no comma). The date is exactly the same.",
+      "category": 2,
+      "top_memories": [
+        "On 5 June 2023, Jolene did yoga on top of Mount Talkeetna.",
+        "Mount Talkeetna: A mountain where Jolene did yoga on the morning of 5 June 2023.",
+        "On 24 February 2023, Jolene did yoga and meditation to relax.",
+        "Jolene participated_in yoga",
+        "Jolene participated in yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 48,
+      "question": "Which US state did Jolene visit during her internship?",
+      "gold_answer": "Alaska",
+      "generated_answer": "The memory content does not specify which US state Jolene visited during her internship.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the state, which fails to provide the correct answer 'Alaska'. It contains no correct content and is off-topic.",
+      "category": 3,
+      "top_memories": [
+        "Jolene's internship endDate: unknown",
+        "Jolene's internship startDate: unknown",
+        "Jolene plans to visit with Deborah",
+        "Jolene is busy with an internship as of 26 June 2023.",
+        "As of 6 June 2023, Jolene's internship has had a positive impact on her life."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 49,
+      "question": "How long has Jolene been doing yoga and meditation?",
+      "gold_answer": "about 3 years",
+      "generated_answer": "As of 21 August 2023, Jolene has been meditating for 3 years. Since the reference date is 20 September 2023, she has been doing yoga and meditation for about 3 years and 1 month.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states about 3 years and 1 month, which is within the 50% tolerance of the gold answer 'about 3 years' (3 years and 1 month is approximately 3.08 years, within 50% of 3 years). The core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene has been into yoga and meditation lately, as of 26 August 2023.",
+        "Jolene has been doing yoga and meditation sporadically for about 3 years as of 6 June 2023.",
+        "Jolene activity: yoga and meditation",
+        "Jolene practices yoga and meditation for self-care as of 1 August 2023.",
+        "Jolene interests: yoga, meditation"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 50,
+      "question": "Which year did Jolene start practicing yoga?",
+      "gold_answer": "2020",
+      "generated_answer": "2020",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer '2020'.",
+      "category": 2,
+      "top_memories": [
+        "Jolene practices yoga",
+        "On 24 February 2023, Jolene did yoga and meditation to relax.",
+        "As of 25 February 2023, Jolene's partner sometimes joins her in yoga, which has brought them closer.",
+        "Jolene interests: yoga, meditation",
+        "On 5 June 2023, Jolene did yoga on top of Mount Talkeetna."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 51,
+      "question": "When did Jolene buy a new aquarium for Seraphim?",
+      "gold_answer": "24 June, 2023",
+      "generated_answer": "24 June 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '24 June 2023' matches the gold answer '24 June, 2023' semantically, with only a minor punctuation difference.",
+      "category": 2,
+      "top_memories": [
+        "new aquarium: An aquarium that Jolene bought on 24 June 2023 for her snake Seraphim.",
+        "Jolene placed her snake Seraphim in the new aquarium.",
+        "Jolene bought a new aquarium on 24 June 2023.",
+        "Jolene possibly owns Seraphim",
+        "Jolene bought Seraphim in Paris on 27 January 2022."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 52,
+      "question": "When did Jolene lose a lot of progress in her work?",
+      "gold_answer": "last week of July 2023",
+      "generated_answer": "Around 25 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Around 25 July 2023' is within 14 days of the gold answer 'last week of July 2023' (which is approximately July 24-30, 2023). Thus, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Around 25 July 2023, Jolene's project crashed and she lost all her work.",
+        "Jolene lost work files",
+        "On 12 August 2023, Jolene told Deborah that she had been stressed since she lost her work files.",
+        "Jolene is inspired by people who love what they do, which motivates her to stay focused and work towards her goals.",
+        "Jolene working on the project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 53,
+      "question": "When did Jolene adopt her snake Susie?",
+      "gold_answer": "in 2021",
+      "generated_answer": "Jolene adopted Susie around 15 September 2021, since she has had Susie for two years as of 15 September 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene adopted Susie around 15 September 2021, which is within 14 days of the gold answer 'in 2021' and provides the same year. The extra detail about the two-year period is consistent and does not contradict the core fact.",
+      "category": 2,
+      "top_memories": [
+        "Susie: Susie is Jolene's snake, which she shows in a photo.",
+        "Jolene has a snake named Susie that calms her down and makes her happy.",
+        "Jolene decided to get a snake because she was fascinated by reptiles.",
+        "Jolene's snake species: snake",
+        "Susie species: snake"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 54,
+      "question": "Which pet did Jolene adopt first - Susie or Seraphim?",
+      "gold_answer": "Susie",
+      "generated_answer": "Susie.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Susie.' matches the gold answer 'Susie' exactly.",
+      "category": 2,
+      "top_memories": [
+        "Jolene adopted a pet on 1 August 2021.",
+        "Jolene's pet adoption date: 1 August 2021",
+        "Jolene pet: Seraphim",
+        "Jolene pet adoption date: 1 August 2021",
+        "Jolene acquired her pet in 2022."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 55,
+      "question": "Which pet did Jolene adopt more recently - Susie or Seraphim?",
+      "gold_answer": "Seraphim",
+      "generated_answer": "Susie",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'Susie', but the gold answer is 'Seraphim'. These are different pets, and the generated answer does not contain the correct option.",
+      "category": 2,
+      "top_memories": [
+        "Jolene pet: Seraphim",
+        "Jolene pet adoption date: 1 August 2021",
+        "Seraphim: Seraphim is Jolene's pet snake, bought in Paris about a year before the conversation.",
+        "Jolene owns Susie",
+        "Jolene possibly owns Susie"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 56,
+      "question": "When did Deborah lead a meditation session during the sunset?",
+      "gold_answer": "week before 16 August, 2023",
+      "generated_answer": "15 August 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '15 August 2023' is within 14 days of the gold answer 'week before 16 August, 2023' (which is around 9-15 August 2023), so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Deborah watched the sunset",
+        "Deborah practices meditation",
+        "Deborah led meditation yoga session",
+        "sunset over a body of water: A photo taken by Deborah during a walk.",
+        "Deborah led a meditation yoga session to the elderly at a local care home on 15 August 2023 during sunset."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 57,
+      "question": "When did Jolene gift her partner a new console?",
+      "gold_answer": "17 August, 2023",
+      "generated_answer": "17 August 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '17 August 2023' matches the gold answer '17 August, 2023' exactly, aside from minor punctuation difference, which is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "Jolene received Nintendo console",
+        "On 17 August 2023, Jolene bought a black Xbox console as a gift for her partner.",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "Jolene's partner partner_of: Jolene",
+        "Jolene's parents bought her a Nintendo console when she was 10 years old, which sparked her passion for video games."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 58,
+      "question": "What games does Jolene recommend for Deborah?",
+      "gold_answer": "Zelda BOTW for Switch , Animal Crossing: New Horizons, Overcooked 2",
+      "generated_answer": "Based on the memory content, there is no information about Jolene recommending any games to Deborah. The memories mention Deborah suggesting games and Jolene discussing games, but no specific recommendations from Jolene to Deborah are recorded.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that there is no information about Jolene recommending any games, which directly contradicts the gold answer that lists specific games. It contains none of the correct games and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Jolene plays_games: true",
+        "Jolene learned to play games on her own as a child.",
+        "Jolene plays video games",
+        "Jolene asked for advice from Deborah",
+        "Deborah used to play games with her husband, taking turns, as a way to bond and make memories."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 59,
+      "question": "What do Deborah and her husband do together?",
+      "gold_answer": "play detective games together, spend time outdoors and explore nature",
+      "generated_answer": "Deborah and her husband enjoy spending time outdoors and exploring nature, and they play detective games together, taking turns as a way to bond and make memories.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both activities from the gold answer: playing detective games together and spending time outdoors/exploring nature. The extra detail about taking turns does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Deborah family: has husband, father, mother",
+        "Deborah and her husband aspire to be as good a family as her parents were.",
+        "Deborah and her husband enjoyed spending time outdoors and exploring nature.",
+        "Deborah's husband is pictured in front of Deborah's mother's house.",
+        "Deborah used to play games with her husband, taking turns, as a way to bond and make memories."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 60,
+      "question": "When did Deborah go to a yoga retreat near her mom's place?",
+      "gold_answer": "a week before 24 August,2023",
+      "generated_answer": "17 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'a week before 24 August, 2023', which is 17 August 2023. The generated answer is exactly 17 August 2023, so it matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "yoga retreat located_near Deborah's mom's place",
+        "Deborah attended a yoga retreat near her mom's place on 17 August 2023.",
+        "Deborah participating_in yoga retreat",
+        "Deborah found the yoga retreat life-changing and connected with nature.",
+        "yoga retreat participants: Deborah and friends"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 61,
+      "question": "What projects is Jolene planning for next year?",
+      "gold_answer": "developing renewable energy finding ways to supply clean water to those with limited access",
+      "generated_answer": "Based on the available memories, Jolene has expressed interest in sustainability and assisting those in need, and is planning to find ways to supply clean water to those with limited access. She also mentioned a renewable energy project she is keen on. However, there is no specific information about projects planned for \"next year\" (i.e., 2024). The most likely answer is that she is planning projects related to clean water access and renewable energy, but no confirmed details exist.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct projects from the gold answer: developing renewable energy and finding ways to supply clean water to those with limited access. Although it adds uncertainty about the specific timeframe, it still contains the core correct facts, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 26 August 2023, Jolene expressed interest in working on projects that make a real difference to communities, including sustainable initiatives and innovative solutions for environmental issues.",
+        "Jolene is pursuing engineering.",
+        "Jolene is an engineering student.",
+        "Jolene planning Volunteer program",
+        "As of 6 June 2023, Jolene finds the best part of her internship to be applying what she learned in school to real projects."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 62,
+      "question": "Where did Deborah get her cats?",
+      "gold_answer": "Luna is from the shelter and Max is her mother's cat",
+      "generated_answer": "Deborah got Max from her mother, and Luna from a shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Max came from Deborah's mother and Luna came from a shelter, matching the gold answer's facts.",
+      "category": 4,
+      "top_memories": [
+        "Deborah pets: cats",
+        "Deborah's cats count: two",
+        "Deborah loves cats and believes they need a home, love, and care.",
+        "Deborah's cats location: on a couch with a blanket",
+        "Deborah pet: cats"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 63,
+      "question": "How old are Deborah's cats?",
+      "gold_answer": "Max is 8 years old and Luna is 5 years old",
+      "generated_answer": "The memory content does not specify the ages of Deborah's cats.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the ages are not specified, which contradicts the gold answer that provides specific ages (Max is 8, Luna is 5). It contains no correct information from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah's cats count: two",
+        "Deborah pets: cats",
+        "Deborah has cats, including Luna, as of 26 August 2023.",
+        "Deborah pet: cats",
+        "Deborah loves cats and believes they need a home, love, and care."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 64,
+      "question": "Does Deborah like cats?",
+      "gold_answer": "Yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' matches the gold answer 'Yes' semantically, indicating that Deborah likes cats.",
+      "category": 4,
+      "top_memories": [
+        "Deborah pets: cats",
+        "Deborah loves cats and believes they need a home, love, and care.",
+        "Deborah pet: cats",
+        "Deborah's cats count: two",
+        "Deborah's second cat owner: Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 65,
+      "question": "Which country was Jolene located in during the last week of August 2023?",
+      "gold_answer": "Brazil",
+      "generated_answer": "Colombia",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Colombia' does not match the gold answer 'Brazil', and there is no partial correctness or semantic equivalence.",
+      "category": 2,
+      "top_memories": [
+        "Jolene completed an electrical engineering project in the week of 16 January 2023.",
+        "Jolene had a major milestone on 28 January 2023, which went well and was a huge accomplishment for her as an engineer.",
+        "Jolene was reminded of her last beach getaway, which was before 6 September 2023, and described it as chill and nice.",
+        "On 26 June 2023, Jolene had a big breakthrough with her project.",
+        "Jolene start_date: approximately June 2020"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 66,
+      "question": "When did Jolene and her partner return home from Rio de Janeiro?",
+      "gold_answer": "29 August, 2023",
+      "generated_answer": "29 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '29 August 2023' matches the gold answer '29 August, 2023' exactly, aside from minor punctuation differences, and the date is within the tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023.",
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Jolene and her partner visited many cafes in Rio de Janeiro.",
+        "Jolene attended yoga classes in Rio de Janeiro during her trip."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 67,
+      "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+      "gold_answer": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
+      "generated_answer": "Jolene and her partner visited many cafes in Rio de Janeiro.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions visiting cafes, which is one of the activities listed in the gold answer. Therefore, it contains at least one correct option.",
+      "category": 4,
+      "top_memories": [
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Jolene and her partner visited many cafes in Rio de Janeiro.",
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023.",
+        "Jolene attended Yoga classes in Rio de Janeiro"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 68,
+      "question": "When did Deborah visit Brazil?",
+      "gold_answer": "2020",
+      "generated_answer": "Deborah visited Brazil (Rio de Janeiro) three years ago, in 2020.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the year 2020, which matches the gold answer exactly. Extra detail about Rio de Janeiro does not affect correctness.",
+      "category": 2,
+      "top_memories": [
+        "Deborah visited Bali",
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Deborah's mother's old house visit_date: 10 September 2023",
+        "Deborah met Anna",
+        "Deborah's mother's old house visited_by: Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 69,
+      "question": "Have Deborah and Jolene been to Rio de Janeiro?",
+      "gold_answer": "yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' directly matches the gold answer 'yes', indicating that both Deborah and Jolene have been to Rio de Janeiro.",
+      "category": 4,
+      "top_memories": [
+        "Deborah visited Rio de Janeiro",
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Deborah visited Rio de Janeiro three years ago, in 2020.",
+        "Jolene and her partner visited many cafes in Rio de Janeiro."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 70,
+      "question": "Is the friend who wrote Deborah the motivational quote no longer alive?",
+      "gold_answer": "likely yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' directly matches the gold answer 'likely yes' in meaning, confirming that the friend is no longer alive.",
+      "category": 3,
+      "top_memories": [
+        "On 30 August 2023, Deborah shared a quote from a deceased friend: 'Let go of what no longer serves you.'",
+        "Deborah lost a friend around 15 February 2023.",
+        "Deborah role: friend/mentor",
+        "Deborah visited the place",
+        "Deborah friend_of Jolene"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 71,
+      "question": "When did Deborah go to a community meetup?",
+      "gold_answer": "last week of August 2023",
+      "generated_answer": "1 September 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '1 September 2023' is within 14 days of the gold answer 'last week of August 2023' (August 28-31, 2023), so it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "Deborah attended community meetup",
+        "community location: Deborah's community",
+        "Deborah attended a community meetup on 1 September 2023.",
+        "community meetup: A community meetup that Deborah attended on 1 September 2023.",
+        "Deborah started community cleanup project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 72,
+      "question": "When did Jolene's parents give her first console?",
+      "gold_answer": "when she was 10",
+      "generated_answer": "Jolene was 10 years old when her parents bought her a Nintendo console.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene was 10 years old when her parents bought her a Nintendo console, which matches the gold answer 'when she was 10'. The extra detail about the console being Nintendo does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Jolene received Nintendo console",
+        "Jolene's parents bought her a Nintendo console when she was 10 years old, which sparked her passion for video games.",
+        "Jolene age_at_first_console: 10",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "On 17 August 2023, Jolene bought a black Xbox console as a gift for her partner."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 73,
+      "question": "Did Jolene teach herself how to play the console?",
+      "gold_answer": "yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' directly matches the gold answer 'yes', confirming that Jolene taught herself to play the console.",
+      "category": 1,
+      "top_memories": [
+        "Jolene learned to play games on her own as a child.",
+        "Jolene taught herself to play video games, with support from her dad and her mom playing games with her.",
+        "Jolene received Nintendo console",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "Jolene and her partner played the game Detroit on a console on 20 January 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 74,
+      "question": "What do Deborah and Jolene plan to try when they meet in a new cafe?",
+      "gold_answer": "coffee and fresh pastries",
+      "generated_answer": "Based on the memory content, there is no information about what Deborah and Jolene plan to try when they meet in a new cafe. The memories mention meeting at \"the cafe\" on 11 September 2023, a coffee date on Friday at 5 pm, and planning an adventure trip together, but nothing about trying something specific at a new cafe. Therefore, the most likely answer is that there is no exact information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about the plan, but the gold answer specifies 'coffee and fresh pastries'. The generated answer does not contain any correct content from the gold answer and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "the cafe: A cafe where Jolene and Deborah plan to meet next Monday.",
+        "Jolene and Deborah plan to meet at the cafe on 11 September 2023 to discuss Jolene's routine.",
+        "Deborah plans to meet Jolene",
+        "Jolene plans to meet with Deborah",
+        "Jolene and her partner plan a camping trip to connect with nature and practice yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 75,
+      "question": "What card game is Deborah talking about?",
+      "gold_answer": "Exploding Kittens",
+      "generated_answer": "The memory does not specify the exact name of the card game about cats. It only describes it as a card game where players take cards one by one from a deck and can attack opponents with them.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the exact name of the card game is not specified, and it does not provide the correct answer 'Exploding Kittens'. It is entirely off-topic and lacks the correct content.",
+      "category": 3,
+      "top_memories": [
+        "card game about cats: A card game about cats that Deborah recently played and wants to play with Jolene.",
+        "On 12 September 2023, Deborah said she recently played a card game about cats where players take cards one by one from a deck and can attack opponents with them.",
+        "On 12 September 2023, Jolene said she looks forward to meeting Deborah and playing the card game.",
+        "Deborah suggests playing game with Jolene",
+        "Jolene looks forward to playing card game about cats"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 76,
+      "question": "When did Jolene and her partner try scuba diving lessons?",
+      "gold_answer": "Friday before 17 September, 2023",
+      "generated_answer": "15 September 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer specifies 'Friday before 17 September, 2023', which is 15 September 2023. The generated answer '15 September 2023' exactly matches that date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Jolene attended scuba diving lesson",
+        "scuba diving lesson participants: Jolene and her group",
+        "Jolene recent_activity: took a scuba diving lesson",
+        "Jolene took a scuba diving lesson on 15 September 2023 and found a cool dive spot.",
+        "scuba diving lesson: A scuba diving lesson attended by Jolene on 15 September 2023, where they found a dive spot."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 77,
+      "question": "Where did Jolene and her partner find a cool diving spot?",
+      "gold_answer": "Phuket",
+      "generated_answer": "The memory does not specify where the cool dive spot is located.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the location is not specified, which directly contradicts the gold answer 'Phuket'. It does not contain any correct content and is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Jolene attended scuba diving lesson",
+        "Jolene recent_activity: took a scuba diving lesson",
+        "Jolene took a scuba diving lesson on 15 September 2023 and found a cool dive spot.",
+        "scuba diving lesson participants: Jolene and her group",
+        "scuba diving lesson: A scuba diving lesson attended by Jolene on 15 September 2023, where they found a dive spot."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 78,
+      "question": "Where did Jolene and her partner spend most of September 2023?",
+      "gold_answer": "Phuket",
+      "generated_answer": "Phuket",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Phuket'.",
+      "category": 2,
+      "top_memories": [
+        "camping trip: A camping trip planned by Jolene and her partner in September 2023.",
+        "Jolene and her partner traveled to a meditation retreat in Phuket on 2 September 2023.",
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023.",
+        "As of 25 February 2023, Jolene and her partner have been together for three years and are not married.",
+        "As of 9 July 2023, Jolene and her partner enjoy gaming together and have cute photos of themselves."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 79,
+      "question": "Has Deborah tried surfing?",
+      "gold_answer": "yes",
+      "generated_answer": "Yes, Deborah has tried surfing.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly confirms that Deborah has tried surfing, which matches the gold answer 'yes'.",
+      "category": 1,
+      "top_memories": [
+        "Deborah suggests trying surfing",
+        "Deborah discovered surfing at the beach",
+        "Deborah discovered her love for surfing on a beach.",
+        "the beach significance: Deborah's wedding location and where she discovered surfing",
+        "Jolene plans_to_try surfing"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 80,
+      "question": "Has Jolene tried surfing?",
+      "gold_answer": "no",
+      "generated_answer": "No.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No.' matches the gold answer 'no' in meaning, both indicating that Jolene has not tried surfing.",
+      "category": 1,
+      "top_memories": [
+        "Jolene plans_to_try surfing",
+        "Jolene wants to learn surfing",
+        "Jolene interested in surfing",
+        "surfing: Surfing is an activity that Jolene wants to learn.",
+        "Jolene obtained a beginners' guide to surfing"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 81,
+      "question": "When did the Deboran and Jolene agree to go surfing?",
+      "gold_answer": "in October 2023",
+      "generated_answer": "No exact agreement date is recorded; the latest relevant event is Deborah suggesting they try surfing together on 17 September 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not provide the agreed date (October 2023) and instead states no exact agreement date is recorded, which contradicts the gold answer. The mention of a suggestion on 17 September 2023 is not the same as the agreement date and is outside the 14-day tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Jolene obtained a beginners' guide to surfing",
+        "Jolene interested in surfing",
+        "Jolene plans_to_try surfing",
+        "Jolene wants to learn surfing",
+        "On 17 September 2023, Deborah suggested that she and Jolene could try surfing together sometime."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 82,
+      "question": "Which locations does Deborah practice her yoga at?",
+      "gold_answer": "at her mother's old home, park, yoga studio, beach",
+      "generated_answer": "Beach, park, and yoga retreat.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Beach' and 'park', which are correct locations from the gold answer. Although it mentions 'yoga retreat' instead of 'yoga studio' and omits 'mother's old home', partial correctness is sufficient.",
+      "category": 1,
+      "top_memories": [
+        "Deborah practices yoga at the beach",
+        "Deborah practices yoga on a beach, which she finds relaxing due to the ocean, sand, and fresh air.",
+        "tree pose: A yoga pose that Deborah tried at the retreat.",
+        "Deborah practices yoga",
+        "Deborah participated in yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 83,
+      "question": "What kind of professional activities does Jolene participate in to gain more experience in her field?",
+      "gold_answer": "present work at virtual conference, attend workshops  and intern at firms",
+      "generated_answer": "Jolene participates in studying, attending workshops, and networking to gain more experience in her field.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'attending workshops', which matches one of the correct activities in the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Jolene activities: studying, attending workshops, networking",
+        "Jolene is currently focusing on studying and gaining more experience.",
+        "Jolene goal: to be successful in her field and make a positive impact",
+        "Jolene's goal is to be successful in her field and make a positive impact.",
+        "Jolene is considering more internships to enhance her skills."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 84,
+      "question": "What kind of engineering projects has Jolene worked on?",
+      "gold_answer": "electrical engineering, robotics, sustainable water purifier, productive and affordable aerial surveillance system",
+      "generated_answer": "Jolene has worked on an electrical engineering project, completed in the week of 16 January 2023, and had a breakthrough on her engineering project on 24 March 2023. She also expressed interest in projects that make a real difference to communities, including sustainable initiatives and innovative solutions for environmental issues.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'electrical engineering project', which matches one of the gold answer's items. Although it does not mention the other projects, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "Jolene worked on engineering project",
+        "Jolene pursues engineering",
+        "Jolene is pursuing engineering.",
+        "Jolene's engineering project status: breakthrough on 24 March 2023",
+        "Jolene completed electrical engineering project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 85,
+      "question": "Which community activities have Deborah and Anna participated in?",
+      "gold_answer": "yoga, running",
+      "generated_answer": "Deborah and Anna have participated in running (co-founded a running group) and community cleanup project (Deborah started it, Anna likely joined as a community member).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'running' which is one of the correct activities from the gold answer. Although it also mentions a community cleanup project not in the gold answer, the presence of at least one correct activity makes it correct according to the rules.",
+      "category": 1,
+      "top_memories": [
+        "Deborah inspires each other Anna",
+        "community location: Deborah's community",
+        "Deborah met Anna",
+        "Anna neighbor of Deborah",
+        "Anna made food for Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 86,
+      "question": "What gifts has Deborah received?",
+      "gold_answer": "an appreciate letter from her community, a flower bouqet from her friend, a motivational quote from a friend",
+      "generated_answer": "Deborah received a bouquet of flowers and a thank-you letter from group members on 26 January 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a bouquet of flowers and a thank-you letter, which correspond to the gold answer's 'flower bouquet from her friend' and 'appreciate letter from her community'. Although the sender is described as 'group members' instead of 'friend' and 'community', the core gifts are correct. The date is extra detail and does not affect correctness.",
+      "category": 1,
+      "top_memories": [
+        "Deborah received bouquet of flowers",
+        "the letter: A thank-you letter from group members to Deborah, received on 26 January 2023.",
+        "Deborah received a thank-you letter from group members on 26 January 2023.",
+        "Deborah family: has husband, father, mother",
+        "Deborah brought the flowers"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 87,
+      "question": "Which countries has Deborah traveled to?",
+      "gold_answer": "Thailand, Brazil",
+      "generated_answer": "Bali and Rio de Janeiro.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions Bali and Rio de Janeiro, which are cities, not countries. The gold answer specifies Thailand and Brazil. While Rio de Janeiro is in Brazil, the answer does not mention Brazil or Thailand, and Bali is in Indonesia, not Thailand. Therefore, it does not contain any correct country from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Deborah traveled to Bali in 2022.",
+        "Deborah family: has husband, father, mother",
+        "Deborah's mother has passed away.",
+        "Deborah has positive influence on the group members",
+        "Deborah visited the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 88,
+      "question": "What activities does Deborah pursue besides practicing and teaching yoga?",
+      "gold_answer": "biking, going to art shows, running, organizing workshops to practice mindfulness and self-care, surfing, gardening",
+      "generated_answer": "Deborah also pursues running, meditation, and spending time with loved ones in the evening.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'running', which is one of the activities listed in the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Deborah spends a lot of time teaching yoga.",
+        "Deborah teaches yoga and spends time with the community.",
+        "Deborah teaches yoga",
+        "Deborah activities: running, yoga, meditation",
+        "Deborah practices yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 89,
+      "question": "What are the names of Jolene's snakes?",
+      "gold_answer": "Susie, Seraphim",
+      "generated_answer": "Susie and Seraphim.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer lists both names from the gold answer, 'Susie' and 'Seraphim', so it is fully correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's snakes owner: Jolene",
+        "Jolene has_snakes: true",
+        "On 9 July 2023, Jolene expressed that her snakes do not run and she would like to exercise with them more often.",
+        "On 9 April 2023, Jolene stated that spending time with her snakes is valuable and teaches her to take time and be in tune with herself.",
+        "Jolene's snake species: snake"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 90,
+      "question": "What are Jolene's favorite books?",
+      "gold_answer": "Sapiens, Avalanche by Neal Stephenson",
+      "generated_answer": "Jolene's favorite books are not specified in the memory content. The only related detail is that she finds a book immersive, but its title is not mentioned.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that Jolene's favorite books are not specified, which directly contradicts the gold answer that lists 'Sapiens' and 'Avalanche by Neal Stephenson'. It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Jolene discussing books with Deborah",
+        "On 4 February 2023, Deborah asked Jolene about her favorite book lately.",
+        "bookcase: A bookcase that Jolene plans to sort out books from.",
+        "a book: A book that Jolene is reading and finds immersive.",
+        "Jolene owns_or_reads a book"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 91,
+      "question": "What music pieces does Deborah listen to during her yoga practice?",
+      "gold_answer": "Savana, Sleep",
+      "generated_answer": "Savana",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Savana' is one of the two correct pieces from the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Savana: An instrumental track favored by Deborah for creating a peaceful vibe during yoga.",
+        "Deborah also likes to create a serene space for her practice.",
+        "Yoga helped Deborah find peace during a rough time.",
+        "Deborah passion: yoga",
+        "Deborah practices yoga"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 92,
+      "question": "What games does Jolene recommend for Deborah?",
+      "gold_answer": "Zelda BOTW for Switch , Animal Crossing: New Horizons, Overcooked 2",
+      "generated_answer": "Based on the memory content, there is no information about Jolene recommending any games to Deborah. The memories mention Deborah suggesting games and activities, but not Jolene recommending games. Therefore, the answer is: No information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about Jolene recommending games, which contradicts the gold answer that lists specific games. It contains none of the correct options and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Jolene plays_games: true",
+        "Jolene learned to play games on her own as a child.",
+        "Jolene plays video games",
+        "Jolene asked for advice from Deborah",
+        "Deborah used to play games with her husband, taking turns, as a way to bond and make memories."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 93,
+      "question": "What projects is Jolene planning for next year?",
+      "gold_answer": "developing renewable energy finding ways to supply clean water to those with limited access",
+      "generated_answer": "Based on the available memories, there is no specific information about Jolene's projects planned for next year. The most relevant future-oriented detail is her interest in sustainability and supplying clean water to those with limited access (memory 6), and her aspiration to create sustainable solutions for communities in need (memory 17). Therefore, the most likely answer is that Jolene is planning projects focused on sustainable initiatives, particularly clean water access and renewable energy development.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct projects from the gold answer: developing renewable energy and finding ways to supply clean water to those with limited access. Although it phrases them as likely projects, it still contains the correct core facts.",
+      "category": 4,
+      "top_memories": [
+        "On 26 August 2023, Jolene expressed interest in working on projects that make a real difference to communities, including sustainable initiatives and innovative solutions for environmental issues.",
+        "Jolene is pursuing engineering.",
+        "Jolene is an engineering student.",
+        "Jolene planning Volunteer program",
+        "As of 6 June 2023, Jolene finds the best part of her internship to be applying what she learned in school to real projects."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 94,
+      "question": "Where did Deborah get her cats?",
+      "gold_answer": "Luna is from the shelter and Max is her mother's cat",
+      "generated_answer": "Deborah got Max from her mother, and Luna from a shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Max came from Deborah's mother and Luna came from a shelter, matching the gold answer's facts.",
+      "category": 4,
+      "top_memories": [
+        "Deborah pets: cats",
+        "Deborah's cats count: two",
+        "Deborah loves cats and believes they need a home, love, and care.",
+        "Deborah's cats location: on a couch with a blanket",
+        "Deborah pet: cats"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 95,
+      "question": "How old are Deborah's cats?",
+      "gold_answer": "Max is 8 years old and Luna is 5 years old",
+      "generated_answer": "The memory content does not specify the ages of Deborah's cats.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the ages are not specified, which contradicts the gold answer that provides specific ages (Max is 8, Luna is 5). It contains no correct information from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah's cats count: two",
+        "Deborah pets: cats",
+        "Deborah has cats, including Luna, as of 26 August 2023.",
+        "Deborah pet: cats",
+        "Deborah loves cats and believes they need a home, love, and care."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 96,
+      "question": "What was Jolene doing with her partner in Rio de Janeiro?",
+      "gold_answer": "they went on excursions, checked out some cool yoga classes, visited a lot of delicious cafes, visited an old temple",
+      "generated_answer": "Jolene and her partner visited many cafes in Rio de Janeiro.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions visiting cafes, which is one of the activities listed in the gold answer. Therefore, it contains at least one correct option.",
+      "category": 4,
+      "top_memories": [
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Jolene and her partner visited many cafes in Rio de Janeiro.",
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023.",
+        "Jolene attended Yoga classes in Rio de Janeiro"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 97,
+      "question": "Have Deborah and Jolene been to Rio de Janeiro?",
+      "gold_answer": "yes",
+      "generated_answer": "Yes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes.' matches the gold answer 'yes' semantically, confirming that Deborah and Jolene have been to Rio de Janeiro.",
+      "category": 4,
+      "top_memories": [
+        "Deborah visited Rio de Janeiro",
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Deborah visited Rio de Janeiro three years ago, in 2020.",
+        "Jolene and her partner visited many cafes in Rio de Janeiro."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 98,
+      "question": "When did Jolene's parents give her first console?",
+      "gold_answer": "when she was 10",
+      "generated_answer": "Jolene was 10 years old when her parents bought her a Nintendo console.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene was 10 years old when her parents bought her a Nintendo console, which matches the gold answer 'when she was 10'. The extra detail about the console being a Nintendo does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Jolene received Nintendo console",
+        "Jolene's parents bought her a Nintendo console when she was 10 years old, which sparked her passion for video games.",
+        "Jolene age_at_first_console: 10",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "On 17 August 2023, Jolene bought a black Xbox console as a gift for her partner."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 99,
+      "question": "What do Deborah and Jolene plan to try when they meet in a new cafe?",
+      "gold_answer": "coffee and fresh pastries",
+      "generated_answer": "Based on the memory content, there is no information about what Deborah and Jolene plan to try when they meet in a new cafe. The memories mention meeting at \"the cafe\" on 11 September 2023, a coffee date on Friday at 5 pm, and planning an adventure trip, but nothing about trying something specific at a new cafe. \n\nMost likely answer: No information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about the plan, but the gold answer specifies 'coffee and fresh pastries'. The generated answer does not contain any correct content from the gold answer and is therefore incorrect.",
+      "category": 4,
+      "top_memories": [
+        "the cafe: A cafe where Jolene and Deborah plan to meet next Monday.",
+        "Jolene and Deborah plan to meet at the cafe on 11 September 2023 to discuss Jolene's routine.",
+        "Deborah plans to meet Jolene",
+        "Jolene plans to meet with Deborah",
+        "Jolene and her partner plan a camping trip to connect with nature and practice yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 100,
+      "question": "What project did Jolene finish last week before 23 January, 2023?",
+      "gold_answer": "an electrical engineering project",
+      "generated_answer": "Electrical engineering project.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Electrical engineering project.' matches the gold answer 'an electrical engineering project' semantically, with only a minor capitalization difference.",
+      "category": 4,
+      "top_memories": [
+        "Jolene completed an electrical engineering project in the week of 16 January 2023.",
+        "Jolene working on the project",
+        "Jolene worked on engineering project",
+        "On 26 June 2023, Jolene had a big breakthrough with her project.",
+        "Jolene had a breakthrough on her engineering project on 24 March 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 101,
+      "question": "When did Jolene buy her pet snake?",
+      "gold_answer": "A year ago",
+      "generated_answer": "2022",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states 'a year ago' relative to the context, but the generated answer gives an absolute year '2022' without any reference point. Without knowing the current date, '2022' cannot be confirmed as equivalent to 'a year ago'. Therefore, the generated answer does not match the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Jolene decided to get a snake because she was fascinated by reptiles.",
+        "Jolene's snake species: snake",
+        "Jolene acquired her pet in 2022.",
+        "Jolene's pet snake Seraphim came out of her cage and coiled up next to Jolene while she was playing video games on 27 January 2023.",
+        "Jolene's pet acquired: 2022"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 102,
+      "question": "What project was Jolene working on as of 1 February, 2023?",
+      "gold_answer": "Robotics project",
+      "generated_answer": "A large robotics project from her engineering professor.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'robotics project', which matches the gold answer 'Robotics project'. The extra detail 'large' and 'from her engineering professor' does not change the core fact.",
+      "category": 4,
+      "top_memories": [
+        "On 6 September 2023, Jolene is working on a project and finding it challenging.",
+        "Jolene working on the project",
+        "Jolene worked on engineering project",
+        "On 9 April 2023, Jolene stated that she has been working on a big project lately, which has been tough but also cool to watch take shape.",
+        "Jolene had a major milestone on 28 January 2023, which went well and was a huge accomplishment for her as an engineer."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 103,
+      "question": "Where did Deborah meet her new neighbor Anna?",
+      "gold_answer": "yoga in the park",
+      "generated_answer": "Deborah met her new neighbor Anna on 31 January 2023, but the memory does not specify the exact location. Based on available information, it is most likely at her home or in her neighborhood, as Anna is described as her new neighbor.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention 'yoga in the park' and instead states the location is unknown, which is incorrect and off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Anna neighbor of Deborah",
+        "Deborah met Anna",
+        "Deborah brought closer to Anna",
+        "Deborah met her new neighbor Anna on 31 January 2023.",
+        "Anna: Anna is Deborah's new neighbor, whom she met on 31 January 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 104,
+      "question": "What activity did Jolene and her partner plan to do together instead of resuming yoga?",
+      "gold_answer": "play the console",
+      "generated_answer": "Camping trip to connect with nature and practice yoga.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions a camping trip and yoga, which is entirely different from the gold answer 'play the console'. There is no overlap in the core activity.",
+      "category": 4,
+      "top_memories": [
+        "Jolene recently went on a yoga retreat with her partner.",
+        "As of 25 February 2023, Jolene's partner sometimes joins her in yoga, which has brought them closer.",
+        "Jolene and her partner plan a camping trip to connect with nature and practice yoga.",
+        "Jolene activity: yoga and meditation",
+        "On 24 February 2023, Jolene did yoga and meditation to relax."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 105,
+      "question": "What milestone did Jolene achieve recently on 4 February, 2023?",
+      "gold_answer": "Design and build a sustainable water purifier for a rural community",
+      "generated_answer": "Jolene recently read a story about someone who became successful despite challenges, which inspired her.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer talks about reading an inspiring story, which is completely unrelated to the gold answer about designing and building a sustainable water purifier. There is no overlap in content.",
+      "category": 4,
+      "top_memories": [
+        "Jolene had a major milestone on 28 January 2023, which went well and was a huge accomplishment for her as an engineer.",
+        "Jolene is determined to overcome obstacles and achieve her goals as of 26 June 2023.",
+        "On 4 February 2023, Jolene mentioned that she recently read a story about someone who became successful despite challenges, which inspired her.",
+        "On 26 June 2023, Jolene had a big breakthrough with her project.",
+        "Jolene had a breakthrough on her engineering project on 24 March 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 106,
+      "question": "What is Jolene's favorite book which she mentioned on 4 February, 2023?",
+      "gold_answer": "\"Sapiens\"",
+      "generated_answer": "Sapiens",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Sapiens' exactly matches the gold answer 'Sapiens'.",
+      "category": 4,
+      "top_memories": [
+        "On 4 February 2023, Deborah asked Jolene about her favorite book lately.",
+        "On 30 August 2023, Jolene mentioned that she has a quote in her notebook that inspires her.",
+        "On 4 February 2023, Jolene mentioned that she recently read a story about someone who became successful despite challenges, which inspired her.",
+        "On 17 September 2023, Jolene mentioned that her bathroom has an aesthetic vibe and that she once read a self-discovery book there that resonated with her.",
+        "On 9 February 2023, Deborah told Jolene that she is awesome and to take care."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 107,
+      "question": "What does Deborah bring with her whenever she comes to reflect on her mom?",
+      "gold_answer": "amulet",
+      "generated_answer": "Deborah brings flowers with her whenever she comes to reflect on her mom.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Deborah brings flowers, but the gold answer is 'amulet'. These are different objects, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Deborah likes to reflect on her mother's life near the water by her mom's old house.",
+        "Deborah is spending more time with family to cope with her father's death.",
+        "Deborah's mother was her biggest fan and source of motivation for yoga, and she often came to classes with Deborah.",
+        "Deborah's mother's old house visited_by: Deborah",
+        "Deborah's pendant reminds_of: her mother"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 108,
+      "question": "What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",
+      "gold_answer": "A confidence boost",
+      "generated_answer": "Jolene gained a new outlook from the mini retreat, which boosted her confidence, as she achieved more than she imagined there.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene gained a confidence boost from the mini retreat, which matches the gold answer's 'A confidence boost'.",
+      "category": 4,
+      "top_memories": [
+        "Jolene gained a new outlook from the mini retreat.",
+        "Jolene attended a mini retreat on 1 February 2023 to assess where she is in life.",
+        "Jolene attended mini retreat",
+        "On 1 August 2023, Jolene expressed interest in new routines.",
+        "mini retreat: A mini retreat attended by Jolene on 1 February 2023 for self-assessment."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 109,
+      "question": "What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?",
+      "gold_answer": "Came up with neat solutions for her engineering project",
+      "generated_answer": "No memory mentions a retreat on 9 February 2023. The closest is the mini retreat on 1 February 2023, where Jolene achieved more than she imagined and gained a new outlook.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states there is no retreat on 9 February 2023 and instead refers to a different date (1 February 2023). It does not mention the correct accomplishment of coming up with neat solutions for her engineering project, so it contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Jolene attended a mini retreat on 1 February 2023 to assess where she is in life.",
+        "On 26 June 2023, Jolene expressed interest in visiting a retreat like the one in the picture, seeking peace and refreshment.",
+        "On 24 February 2023, Jolene did yoga and meditation to relax.",
+        "mini retreat: A mini retreat attended by Jolene on 1 February 2023 for self-assessment.",
+        "Jolene achieved more than she imagined at the mini retreat, which boosted her confidence."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 110,
+      "question": "What idea did Jolene have to help underprivileged kids learn about STEM subjects on 9 February, 2023?",
+      "gold_answer": "A volunteer program where engineers teach STEM to underprivileged kids",
+      "generated_answer": "Jolene proposed a volunteer program where engineers teach STEM to underprivileged kids, and she considered inviting engineers as guest speakers to show kids career options, as well as teaming up with local schools or centers for workshops.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core idea from the gold answer: a volunteer program where engineers teach STEM to underprivileged kids. Additional details about guest speakers and school partnerships do not contradict the core fact, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 9 February 2023, Jolene proposed a volunteer program where engineers teach STEM to underprivileged kids.",
+        "Jolene interest: green tech, volunteer program for STEM education",
+        "On 9 February 2023, Jolene has not yet started reaching out to help kids, but she wants to solidify her plan first.",
+        "Volunteer program: A volunteer program where engineers teach STEM to underprivileged kids, planned by Jolene.",
+        "On 26 August 2023, Jolene, an engineering student, expressed her desire to use her talents to do good and help solve important problems."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 111,
+      "question": "How does Jolene plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",
+      "gold_answer": "As guest speakers for workshops",
+      "generated_answer": "Jolene plans to invite engineers as guest speakers to show kids career options.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Jolene plans to involve local engineers as guest speakers, which matches the gold answer's 'guest speakers for workshops'.",
+      "category": 4,
+      "top_memories": [
+        "On 9 February 2023, Jolene proposed a volunteer program where engineers teach STEM to underprivileged kids.",
+        "Volunteer program: A volunteer program where engineers teach STEM to underprivileged kids, planned by Jolene.",
+        "Volunteer program purpose: engineers teach STEM to underprivileged kids",
+        "Jolene interest: green tech, volunteer program for STEM education",
+        "On 9 February 2023, Jolene considered inviting engineers as guest speakers to show kids career options."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 112,
+      "question": "What gave Deborah peace in the garden she visited?",
+      "gold_answer": "Roses and dahlias",
+      "generated_answer": "Roses and dahlias.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah visited the garden",
+        "the garden: A calming and nostalgic garden visited by Deborah.",
+        "Deborah visited the place",
+        "Deborah finds peace in roses and dahlias.",
+        "Deborah finds peace in roses"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 113,
+      "question": "Why did Deborah spend time in the garden?",
+      "gold_answer": "to find comfort after losing a friend",
+      "generated_answer": "Deborah spent time in the garden because it was calming and nostalgic, and she enjoyed spending time outdoors and exploring nature.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that the garden was calming and nostalgic, which aligns with the gold answer's idea of finding comfort. Although it does not explicitly mention losing a friend, the core concept of seeking comfort is present, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Deborah visited the garden",
+        "the garden: A calming and nostalgic garden visited by Deborah.",
+        "Deborah and her husband enjoyed spending time outdoors and exploring nature.",
+        "Deborah visited a calming and nostalgic garden on 22 February 2023.",
+        "Deborah visited the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 114,
+      "question": "How did Jolene and her partner initially meet?",
+      "gold_answer": "In an engineering class in college",
+      "generated_answer": "Jolene and her partner met in an engineering class in college and became friends before their relationship developed.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states they met in an engineering class in college, which matches the gold answer exactly. The additional detail about becoming friends is not contradictory and does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's partner partner_of: Jolene",
+        "Jolene and her partner met in an engineering class in college and became friends before their relationship developed.",
+        "Jolene plans to meet with Deborah",
+        "Deborah plans to meet Jolene",
+        "On 25 August 2023, Jolene and her partner had a conversation about how their loved ones influenced them and what their values meant to them."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 115,
+      "question": "What activity does Deborah incorporate into her daily routine after going for a morning jog in the park?",
+      "gold_answer": "spending time with loved ones",
+      "generated_answer": "Morning jog.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Morning jog' is the activity mentioned in the question, not the activity incorporated after the jog. The gold answer is 'spending time with loved ones', which is not present in the generated answer.",
+      "category": 4,
+      "top_memories": [
+        "nearby park: A park near Deborah where she went for a morning jog.",
+        "Deborah plans to incorporate a morning jog into her daily routine.",
+        "Deborah recent_activity: went for a morning jog in a nearby park on 24 February 2023",
+        "Deborah exercise_habit: takes pets for a run in the park every morning and evening",
+        "Deborah future_plan: will incorporate morning jog into daily routine"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 116,
+      "question": "According to Jolene, what does exercise help her to feel?",
+      "gold_answer": "connected to her body",
+      "generated_answer": "According to Jolene, exercise helps her feel calmer.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says exercise helps Jolene feel calmer, but the gold answer says it helps her feel connected to her body. These are different concepts, and the generated answer does not contain any correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah believes exercise is key for her because it makes her feel connected to her body.",
+        "Jolene uses breathing exercises and meditation to manage stress and feel calmer.",
+        "Deborah encourages Jolene to keep up her meditation practice.",
+        "Jolene is inspired by people who love what they do, which motivates her to stay focused and work towards her goals.",
+        "Deborah exercise_habit: takes pets for a run in the park every morning and evening"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 117,
+      "question": "What did Deb share a photo of, which brought a smile to Jolene's face?",
+      "gold_answer": "a yellow coffee cup with a handwritten message",
+      "generated_answer": "Deb shared a photo of a surfboard, which brought a smile to Jolene's face.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Deb shared a photo of a surfboard, but the gold answer is a yellow coffee cup with a handwritten message. These are completely different objects, so the generated answer contains no correct content.",
+      "category": 4,
+      "top_memories": [
+        "Jolene took photo of sunset over water",
+        "Jolene took photo of plant growing out of a building",
+        "Jolene took photo of lake with trees",
+        "On 9 July 2023, Jolene shared a photo of a sunset over a body of water.",
+        "Susie: Susie is Jolene's snake, which she shows in a photo."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 118,
+      "question": "What is one of Jolene's favorite dishes?",
+      "gold_answer": "lasagna",
+      "generated_answer": "Lasagna",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Lasagna' matches the gold answer 'lasagna' exactly, ignoring case.",
+      "category": 4,
+      "top_memories": [
+        "On 2 March 2023, Jolene mentioned that lasagna is one of her favorite dishes.",
+        "Jolene's favorite cookie to make is chocolate chip cookies, which she describes as warm, gooey chocolate and soft, buttery cookie.",
+        "lasagna: A comfort food dish that Jolene likes.",
+        "Jolene likes lasagna",
+        "Jolene associated with the place"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 119,
+      "question": "What picture did Jolene share related to feeling overwhelmed?",
+      "gold_answer": "a photo of a desk with a notebook and a computer monitor",
+      "generated_answer": "The memory content does not specify what picture Jolene shared related to feeling overwhelmed.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the picture, which is a failure to provide the correct answer. The gold answer specifies a photo of a desk with a notebook and a computer monitor, so the generated answer contains no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Jolene feeling: overwhelmed",
+        "On 2 March 2023, Jolene expressed feeling overwhelmed by exams and deadlines.",
+        "Jolene is inspired by people who love what they do, which motivates her to stay focused and work towards her goals.",
+        "Deborah gave advice to Jolene",
+        "Jolene commented on the photo"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 120,
+      "question": "What did Jolene and Deb discuss as a helpful strategy for studying and time management?",
+      "gold_answer": "breaking tasks into smaller pieces and setting goals, using planners or schedulers",
+      "generated_answer": "Deborah advised Jolene to break tasks into smaller pieces and use planners or schedulers, and to create a daily schedule or to-do list for time management.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core strategies from the gold answer: breaking tasks into smaller pieces and using planners or schedulers. It also adds a daily schedule/to-do list, which is consistent with time management and does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 13 March 2023, Jolene expressed a desire to talk about time management with Deborah.",
+        "On 13 March 2023, Deborah agreed to find a time to discuss time management with Jolene.",
+        "On 2 March 2023, Deborah encouraged Jolene and advised her to break tasks into smaller pieces and use planners or schedulers for time management.",
+        "On 22 March 2023, Deborah advises Jolene to create a daily schedule or to-do list for time management.",
+        "Jolene has a routine for classes, studying, and personal time."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 121,
+      "question": "What did Jolene ask Deb to help with on 13 March, 2023?",
+      "gold_answer": "time management",
+      "generated_answer": "Jolene asked Deb to help with time management.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly states that Jolene asked Deb to help with time management, which matches the gold answer exactly.",
+      "category": 4,
+      "top_memories": [
+        "On 6 June 2023, Deborah offered tips or help to Jolene.",
+        "On 9 February 2023, Jolene has not yet started reaching out to help kids, but she wants to solidify her plan first.",
+        "On 2 March 2023, Deborah advised Jolene to take care and relax.",
+        "On 25 August 2023, Jolene and her partner had a conversation about how their loved ones influenced them and what their values meant to them.",
+        "On 13 March 2023, Jolene expressed a desire to talk about time management with Deborah."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 122,
+      "question": "What method does Deb suggest Jolene to try for organizing tasks based on importance and urgency?",
+      "gold_answer": "The Eisenhower Matrix",
+      "generated_answer": "Eisenhower Matrix",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Eisenhower Matrix' is a synonym for 'The Eisenhower Matrix' and correctly identifies the method suggested.",
+      "category": 4,
+      "top_memories": [
+        "As of 22 March 2023, Jolene finds it overwhelming to manage a big stack of tasks and is unfamiliar with prioritization methods.",
+        "As of 22 March 2023, Deborah uses a method to prioritize tasks when feeling overloaded, which helps her figure out what is important and urgent.",
+        "On 2 March 2023, Deborah encouraged Jolene and advised her to break tasks into smaller pieces and use planners or schedulers for time management.",
+        "On 16 August 2023, Jolene started using a bullet journal to track tasks and stay organized.",
+        "Jolene time_management_method: Pomodoro Technique"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 123,
+      "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+      "gold_answer": "They realized they inspire each other",
+      "generated_answer": "Deborah and Anna realized that they inspire each other.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer incorrectly names the people as 'Deborah and Anna' instead of 'Jolene and Anna', and the core fact about the topic of discussion is missing. The gold answer states they realized they inspire each other, but the generated answer does not mention this at all.",
+      "category": 4,
+      "top_memories": [
+        "the sea: The sea is a location where Deborah and Anna sat watching the sunset and where a photo was taken.",
+        "On 22 March 2023, Deborah and Anna were sitting by the sea, watching the sunset and talking about each other, and they realized that they inspire each other.",
+        "sunset over water: A photo taken by Jolene of a sunset over water.",
+        "Deborah watched the sunset",
+        "Jolene brought closer to Anna"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 124,
+      "question": "How does Jolene plan to pursue her dream of learning to surf?",
+      "gold_answer": "gathering information, watching videos, getting a beginners' guide",
+      "generated_answer": "Jolene plans to learn surfing by gathering information, watching videos, and getting a beginners' guide to surfing. She also plans to make a plan to manage her studies and hobbies, and she has invited Deborah to come surfing with her sometime.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all three correct actions from the gold answer: gathering information, watching videos, and getting a beginners' guide. Additional details about making a plan and inviting Deborah do not contradict the core fact, so the answer is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 22 March 2023, Jolene expressed that she wants to learn to surf and has been gathering information, watching videos, and got a beginners' guide to surfing.",
+        "On 17 September 2023, Jolene stated that she has just started learning about surfing but has not yet gone surfing.",
+        "Jolene plans to make a plan to manage her studies and hobbies as of 19 August 2023.",
+        "On 9 February 2023, Jolene has not yet started reaching out to help kids, but she wants to solidify her plan first.",
+        "Jolene and her partner take trips to the beach to relax."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 125,
+      "question": "What did Deborah buy to enhance her yoga practice besides the props?",
+      "gold_answer": "candle",
+      "generated_answer": "Deborah bought a candle with rosemary to improve her yoga practice.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'candle', which matches the gold answer 'candle'. The extra detail 'with rosemary' does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Deborah bought new props for yoga class",
+        "new props for yoga class owner: Deborah",
+        "Deborah interests: yoga, using props and candles",
+        "Deborah bought new props for her yoga class on 28 March 2023.",
+        "Deborah bought a candle with rosemary to improve her yoga practice on 28 March 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 126,
+      "question": "What type of music does Deborah find helpful during her yoga practice?",
+      "gold_answer": "instrumental tracks with mellow melodies and rhythms",
+      "generated_answer": "Savana",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Savana' does not mention any type of music, and it is entirely off-topic compared to the gold answer about instrumental tracks with mellow melodies and rhythms.",
+      "category": 4,
+      "top_memories": [
+        "Deborah is passionate about helping people find peace and joy through yoga.",
+        "Yoga helped Deborah find peace during a rough time.",
+        "yoga: Yoga is a practice that helped Deborah find peace during a rough time.",
+        "Deborah practices yoga",
+        "Deborah is passionate about yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 127,
+      "question": "Who are the musicians mentioned by Jolene that she enjoys listening to during her yoga practice?",
+      "gold_answer": "Nils Frahm and Olafur Arnalds",
+      "generated_answer": "Nils Frahm and Olafur Arnalds.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, listing both musicians correctly.",
+      "category": 4,
+      "top_memories": [
+        "Nils Frahm: A musician whose calming music is enjoyed by Jolene during yoga practice.",
+        "On 28 March 2023, Jolene said she loves listening to Nils Frahm and Olafur Arnalds during her yoga practice.",
+        "Olafur Arnalds: A musician whose calming music is enjoyed by Jolene during yoga practice.",
+        "Savana: An instrumental track favored by Deborah for creating a peaceful vibe during yoga.",
+        "Jolene and her partner plan a camping trip to connect with nature and practice yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 128,
+      "question": "What album does Deborah recommend for meditation and deep relaxation?",
+      "gold_answer": "'Sleep'",
+      "generated_answer": "Sleep",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Sleep' exactly matches the gold answer 'Sleep'.",
+      "category": 4,
+      "top_memories": [
+        "Sleep: An album recommended by Deborah for meditation and deep relaxation.",
+        "On 28 March 2023, Deborah recommended the album 'Sleep' for meditation and deep relaxation.",
+        "Deborah practices meditation",
+        "Deborah created meditation guide",
+        "Deborah participated in meditation"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 129,
+      "question": "Which show did Deborah go to with a friend on 9 April, 2023?",
+      "gold_answer": "an art show",
+      "generated_answer": "An art show.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'An art show.' matches the gold answer 'an art show' exactly, differing only in capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "Deborah attended an art show with a friend on 9 April 2023.",
+        "art show: An art show that Deborah attended with a friend on 9 April 2023.",
+        "Deborah lost a friend around 15 February 2023.",
+        "Deborah went biking with her neighbor on 2 April 2023.",
+        "Deborah conversation_date: 9 April 2023"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 130,
+      "question": "What does Deborah find comforting about going to art shows?",
+      "gold_answer": "It makes her feel like she's still experiencing it with her mom",
+      "generated_answer": "Deborah finds comfort in art as a way to keep her mother's memory alive.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: art shows help Deborah feel connected to her mother's memory. The phrasing differs but the semantic meaning is equivalent.",
+      "category": 4,
+      "top_memories": [
+        "Deborah finds comfort in art",
+        "Deborah's mom was interested in art",
+        "art show: An art show that Deborah attended with a friend on 9 April 2023.",
+        "Deborah attended an art show with a friend on 9 April 2023.",
+        "Deborah finds comfort in art as a way to keep her mother's memory alive."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 131,
+      "question": "How does Jolene describe the time spent with her snakes and partner?",
+      "gold_answer": "Valuable and relaxing",
+      "generated_answer": "Jolene describes spending time with her snakes as valuable, teaching her to take time and be in tune with herself, and finds it calming and a way to connect with nature. She also expressed wanting to exercise with her snakes more often. Regarding her partner, on 25 August 2023, they had a conversation about how their loved ones influenced them and what their values meant to them, but no specific description of time spent together is given.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Jolene finds time with her snakes valuable and calming, which aligns with the gold answer 'valuable and relaxing'. Although it adds extra details and notes that no specific description of time with her partner is given, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 9 April 2023, Jolene stated that spending time with her snakes is valuable and teaches her to take time and be in tune with herself.",
+        "Jolene's snakes owner: Jolene",
+        "Jolene has_snakes: true",
+        "On 9 July 2023, Jolene expressed that her snakes do not run and she would like to exercise with them more often.",
+        "Jolene's partner partner_of: Jolene"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 132,
+      "question": "What does Jolene enjoy doing with her partner after a long day?",
+      "gold_answer": "Playing video games",
+      "generated_answer": "Playing video games with her partner after a long day is a great way for Jolene to relax.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene enjoys playing video games with her partner after a long day, which matches the gold answer 'Playing video games'. The extra detail about relaxation does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "On 9 April 2023, Jolene stated that playing video games with her partner after a long day is a great way for her to relax.",
+        "Jolene's partner partner_of: Jolene",
+        "Jolene is studying and in a relationship with a partner who encourages her goals.",
+        "Jolene and her partner take trips to the beach to relax.",
+        "Jolene is excited to share the meditation course experience with her partner."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 133,
+      "question": "What is Jolene currently doing in June 2023?",
+      "gold_answer": "interning at a well-known engineering firm",
+      "generated_answer": "Jolene is interning at a well-known engineering firm and had a big breakthrough with her project on 26 June 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene is interning at a well-known engineering firm, which matches the gold answer. The additional detail about a breakthrough on 26 June 2023 does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Jolene is busy with an internship as of 26 June 2023.",
+        "On 26 June 2023, Jolene had a big breakthrough with her project.",
+        "Jolene is interning at a well-known engineering firm as of June 2023.",
+        "Jolene is determined to overcome obstacles and achieve her goals as of 26 June 2023.",
+        "Jolene start_date: approximately June 2020"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 134,
+      "question": "For how long has Jolene had Seraphim as a pet?",
+      "gold_answer": "one year",
+      "generated_answer": "Jolene has had Seraphim for about 1 year and 8 months, since she bought Seraphim in Paris on 27 January 2022, and the reference date is 20 September 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene has had Seraphim for about 1 year and 8 months, which is close to the gold answer of one year (within 50% difference). The core fact that she has had Seraphim for a duration is correct, and extra details do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Jolene pet: Seraphim",
+        "Seraphim: Seraphim is Jolene's pet snake, bought in Paris about a year before the conversation.",
+        "Jolene possibly owns Seraphim",
+        "Jolene acquired her pet in 2022.",
+        "Jolene owns Seraphim"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 135,
+      "question": "How does Jolene feel when spending time with Seraphim?",
+      "gold_answer": "comforted",
+      "generated_answer": "Jolene feels comfort and peace when spending time with Seraphim.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene feels comfort and peace, which is semantically equivalent to the gold answer 'comforted'.",
+      "category": 4,
+      "top_memories": [
+        "Jolene owns Seraphim",
+        "Jolene pet: Seraphim",
+        "Jolene possibly owns Seraphim",
+        "the park: A location where Jolene took Seraphim.",
+        "Seraphim: Seraphim is Jolene's pet snake, bought in Paris about a year before the conversation."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 136,
+      "question": "Which new yoga pose did Deborah share a photo of?",
+      "gold_answer": "tree pose",
+      "generated_answer": "Dancer Pose (Natarajasana)",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'tree pose', but the generated answer is 'Dancer Pose (Natarajasana)', which is a different yoga pose. There is no semantic overlap or synonymy between the two.",
+      "category": 4,
+      "top_memories": [
+        "Deborah shared photo of yoga group in a field",
+        "tree pose: A yoga pose that Deborah tried at the retreat.",
+        "On 26 August 2023, Deborah shared a photo of a woman doing a yoga pose on the beach, which she said reminds her of the beauty of nature during a yoga session.",
+        "On 1 August 2023, Deborah said she would send a tutorial video of the poses and shared a photo of herself doing a yoga pose.",
+        "On 26 June 2023, Deborah attended a retreat and tried a new yoga pose called tree pose."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 137,
+      "question": "What group activity did Deborah start with Anna?",
+      "gold_answer": "running group",
+      "generated_answer": "A running group.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A running group.' matches the gold answer 'running group' semantically and exactly in core content.",
+      "category": 4,
+      "top_memories": [
+        "Deborah inspires each other Anna",
+        "Deborah met Anna",
+        "Deborah brought closer to Anna",
+        "Deborah co-founded running group with Anna",
+        "Deborah told life story to Anna"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 138,
+      "question": "What made being part of the running group easy for Deborah to stay motivated?",
+      "gold_answer": "helping and pushing each other during runs",
+      "generated_answer": "The running group helps and pushes each other during runs, making it easier to stay motivated.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that the running group helped and pushed each other, which matches the gold answer's core fact.",
+      "category": 4,
+      "top_memories": [
+        "Deborah member of running group",
+        "On 9 July 2023, Deborah said the running group helps and pushes each other during runs, making it easier to stay motivated.",
+        "running group members: Deborah, Anna, and others",
+        "running group: A running group started by Deborah and Anna, focused on fitness and mutual support.",
+        "Deborah has positive influence on the group members"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 139,
+      "question": "Why did Jolene decide to get a snake as a pet?",
+      "gold_answer": "fascinated by reptiles and it felt like the perfect pet",
+      "generated_answer": "Jolene decided to get a snake because she was fascinated by reptiles.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene was fascinated by reptiles, which matches the gold answer's reason 'fascinated by reptiles'. The additional phrase 'and it felt like the perfect pet' is not contradicted, and the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene decided to get a snake because she was fascinated by reptiles.",
+        "Jolene's snake species: snake",
+        "Jolene finds taking care of her snake calming and a way to connect with nature.",
+        "Jolene's pet snake Seraphim came out of her cage and coiled up next to Jolene while she was playing video games on 27 January 2023.",
+        "Jolene placed her snake Seraphim in the new aquarium."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 140,
+      "question": "What is the favorite game Jolene plays with her partner?",
+      "gold_answer": "It takes two",
+      "generated_answer": "It Takes Two",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'It Takes Two' is semantically identical to the gold answer 'It takes two', differing only in capitalization.",
+      "category": 4,
+      "top_memories": [
+        "Deborah suggests playing game with Jolene",
+        "It Takes Two: A cooperative video game that Jolene and her partner enjoy playing together.",
+        "Jolene plays_games: true",
+        "Jolene plays video games",
+        "Jolene's favorite game to play with her mom was Monster Hunter: World, which she enjoyed for its immersive story and open-world gaming."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 141,
+      "question": "What activity does Deborah do with her cats?",
+      "gold_answer": "take them out for a run in the park every morning and evening",
+      "generated_answer": "Deborah's cats bring joy and peace to her home.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any activity with the cats, instead it describes the emotional impact they have. It is entirely off-topic and contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah loves cats and believes they need a home, love, and care.",
+        "Deborah pets: cats",
+        "Deborah's cats count: two",
+        "Deborah pet: cats",
+        "Deborah's cats bring joy and peace to her home."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 142,
+      "question": "How does Jolene describe the feeling of finding her snake snuggled under the bed after it got out?",
+      "gold_answer": "It really showed how much she loves her.",
+      "generated_answer": "Jolene felt love and gratitude when she found her snake snuggled under the bed after it got out.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions feeling love and gratitude, which aligns with the gold answer's emphasis on love. The core emotion is correctly captured.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's snake once escaped and was found under the bed after hours of searching.",
+        "Jolene finds taking care of her snake calming and a way to connect with nature.",
+        "Jolene's pet location: under the bed",
+        "Jolene's snake species: snake",
+        "Jolene's snake enjoys watching her do yoga."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 143,
+      "question": "Why does Deborah take her cats out for a run in the park every day?",
+      "gold_answer": "Exercise and nature are important to her",
+      "generated_answer": "Deborah takes her cats out for a run in the park every morning and evening because it is her exercise habit, as stated in memory 4.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions exercise habit, which aligns with the gold answer's 'Exercise and nature are important to her'. Although it doesn't mention nature, it contains at least one correct aspect (exercise), so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "On 9 July 2023, Deborah takes her pets for a run in the park every morning and evening.",
+        "Deborah's cats count: two",
+        "Deborah pets: cats",
+        "Deborah exercise_habit: takes pets for a run in the park every morning and evening",
+        "Deborah's cats bring joy and peace to her home."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 144,
+      "question": "How did Jolene come to have her pet, Susie?",
+      "gold_answer": "She adopted her two years ago when feeling lonely.",
+      "generated_answer": "Jolene adopted Susie on 1 August 2021.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene adopted Susie, which matches the gold answer's core fact of adoption. The specific date (1 August 2021) is an extra detail and does not contradict the gold answer. The gold answer mentions 'two years ago' which is relative, but the generated answer provides a specific date, which is semantically consistent with adoption. Therefore, the answer is correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's pet location: under the bed",
+        "Jolene possibly owns Susie",
+        "Jolene owns Susie",
+        "Jolene acquired her pet in 2022.",
+        "Jolene adopted a pet on 1 August 2021."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 145,
+      "question": "What activities have been helping Jolene stay distracted during tough times?",
+      "gold_answer": "Video games and spending time with her pet, Susie",
+      "generated_answer": "Yoga and meditation.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions yoga and meditation, which are not among the activities in the gold answer (video games and spending time with her pet). There is no overlap or semantic equivalence, so the answer is entirely incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Jolene activities: studying, attending workshops, networking",
+        "Deborah suggested that Jolene take breaks and try activities like yoga to relax and unwind.",
+        "Jolene practices yoga and meditation as self-care activities.",
+        "Jolene's mom influence: stressed the value of helping others",
+        "Jolene has been studying, attending workshops, and networking to achieve her goal."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 146,
+      "question": "What kind of yoga routine does Deborah recommend to Jolene?",
+      "gold_answer": "A gentle flow routine focused on breathing and grounding",
+      "generated_answer": "Deborah recommends a gentle flow yoga routine focusing on breathing and grounding.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, mentioning a gentle flow routine focused on breathing and grounding.",
+      "category": 4,
+      "top_memories": [
+        "Deborah spends a lot of time teaching yoga.",
+        "Deborah favorite gentle flow yoga routine",
+        "On 1 August 2023, Deborah offered to suggest yoga routines to Jolene.",
+        "On 1 August 2023, Deborah mentioned her favorite yoga routine is a gentle flow focusing on breathing and grounding.",
+        "Deborah's daily routine includes morning meditation, yoga, and teaching classes."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 147,
+      "question": "What did Jolene design inspired by their love for space and engines?",
+      "gold_answer": "Notebooks",
+      "generated_answer": "Jolene designed notebooks with elements like galaxies and circuitry, inspired by her love for space and engines.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Jolene designed notebooks, and adds relevant details about space and engines inspiration, which aligns with the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Jolene designed notebooks with elements like galaxies and circuitry, inspired by her love for space and engines, as of 12 August 2023.",
+        "Jolene is inspired by people who love what they do, which motivates her to stay focused and work towards her goals.",
+        "Jolene and her partner met in an engineering class in college and became friends before their relationship developed.",
+        "Jolene pursues engineering",
+        "Jolene worked on engineering project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 148,
+      "question": "What journal has Jolene been using to help track tasks and stay organized?",
+      "gold_answer": "bullet journal",
+      "generated_answer": "bullet journal",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "bullet journal: A bullet journal that Jolene uses for time management and task tracking.",
+        "On 16 August 2023, Jolene started using a bullet journal to track tasks and stay organized.",
+        "Jolene uses bullet journal",
+        "On 16 August 2023, Jolene found crossing tasks off her bullet journal list satisfying.",
+        "bullet journal purpose: tracking tasks and staying organized"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 149,
+      "question": "What game did Jolene recommend for being calming and cute?",
+      "gold_answer": "Animal Crossing: New Horizons",
+      "generated_answer": "Animal Crossing: New Horizons",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah suggests playing game with Jolene",
+        "Animal Crossing: New Horizons: A calming and cute video game recommended by Jolene.",
+        "Jolene's favorite game to play with her mom was Monster Hunter: World, which she enjoyed for its immersive story and open-world gaming.",
+        "card game about cats: A card game about cats that Deborah recently played and wants to play with Jolene.",
+        "Jolene favorite_game Monster Hunter: World"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 150,
+      "question": "What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?",
+      "gold_answer": "Zelda BOTW",
+      "generated_answer": "Zelda BOTW",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Zelda BOTW: An open-world video game for the Switch recommended by Jolene.",
+        "Jolene recommended Zelda BOTW for Switch as an awesome open-world game on 19 August 2023.",
+        "Jolene's favorite game to play with her mom was Monster Hunter: World, which she enjoyed for its immersive story and open-world gaming.",
+        "Nintendo Wii: A Nintendo Wii game system that Jolene used to play games.",
+        "Battlefield 1: A video game for console that Jolene received last week."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 151,
+      "question": "What did Deborah and her husband use to play to bond and make memories?",
+      "gold_answer": "video games",
+      "generated_answer": "Deborah and her husband used to play detective games together.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'detective games', which is a type of video game, so it contains the correct core concept from the gold answer 'video games'.",
+      "category": 4,
+      "top_memories": [
+        "Deborah used to play games with her husband, taking turns, as a way to bond and make memories.",
+        "Deborah and her husband preferred to play detective games together.",
+        "Deborah and her husband aspire to be as good a family as her parents were.",
+        "Deborah and her husband enjoyed spending time outdoors and exploring nature.",
+        "Deborah family: has husband, father, mother"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 152,
+      "question": "What is special about the bench at the park near Deborah's house?",
+      "gold_answer": "It holds special memories of conversations with her mom",
+      "generated_answer": "The bench at the park near Deborah's house holds special memories for Deborah and her mom, where they would chat about dreams and life.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that the bench holds special memories of conversations with her mom, which matches the gold answer's core fact.",
+      "category": 4,
+      "top_memories": [
+        "special bench location: park near Deborah's house",
+        "special bench: A bench in the park that holds special memories for Deborah and her mom.",
+        "park near Deborah's house features: forest trail, beach, special bench",
+        "On 19 August 2023, Deborah said there is a special bench in the park that holds special meaning to her.",
+        "Deborah's mother's house special_bench: near the window"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 153,
+      "question": "What did Deborah and her mom chat about at their special bench in the park?",
+      "gold_answer": "dreams and life",
+      "generated_answer": "They would chat about dreams and life.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer, mentioning 'dreams and life'.",
+      "category": 4,
+      "top_memories": [
+        "special bench: A bench in the park that holds special memories for Deborah and her mom.",
+        "Deborah's mother's house special_bench: near the window",
+        "the bench: A bench where Deborah and Jolene used to chat.",
+        "On 19 August 2023, Deborah explained that the bench holds special memories for her and her mom, where they would chat about dreams and life.",
+        "special bench location: park near Deborah's house"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 154,
+      "question": "What feeling does Deborah get when she thinks about the time spent with her mom at their special spot?",
+      "gold_answer": "peace and gratitude",
+      "generated_answer": "Comfort.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Comfort' is semantically similar to 'peace' from the gold answer, as both convey a sense of calm and ease. Thus, it contains at least one correct concept.",
+      "category": 4,
+      "top_memories": [
+        "Deborah's mother had a favorite spot in the house where she would sit every night with a book and a smile.",
+        "On 27 January 2023, Deborah said that she can feel her mother's presence when she sits in the window seat, and it comforts her.",
+        "Deborah's mother had a special bench near the window in her house, where she loved to sit every morning.",
+        "the spot: A location that holds significant memories for Deborah, where she watched a sunset with a companion.",
+        "Deborah remembers the smell of her mother's special dish filling the house."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 155,
+      "question": "What habits does Jolene practice to feel balanced?",
+      "gold_answer": "yoga, meditation, walks, and mindfulness",
+      "generated_answer": "Jolene practices yoga and meditation to feel balanced.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes yoga and meditation, which are two of the four habits listed in the gold answer. According to the partial correctness rule, this is correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene uses breathing exercises and meditation to manage stress and feel calmer.",
+        "Jolene says meditation helps her stay balanced during her studies.",
+        "Deborah encourages Jolene to keep up her meditation practice.",
+        "Jolene's yoga and meditation practice has helped her with stress and kept her centered.",
+        "meditation: Meditation is a practice Jolene uses to find calm."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 156,
+      "question": "Which yoga pose is Jolene a fan of for rest and calmness?",
+      "gold_answer": "savasana (the corpse pose)",
+      "generated_answer": "savasana",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'savasana' exactly matches the gold answer 'savasana (the corpse pose)', so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "savasana: A yoga pose that Jolene likes for rest and relaxation.",
+        "Jolene favorite yoga pose savasana",
+        "On 4 February 2023, Deborah and Jolene discussed a modified yoga pose that involves sitting on the edge of a chair, twisting the torso, and using the hand on the knee for support.",
+        "As of 25 February 2023, Jolene's partner sometimes joins her in yoga, which has brought them closer.",
+        "Jolene practices yoga and meditation for self-care as of 1 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 157,
+      "question": "How long has Jolene been doing yoga?",
+      "gold_answer": "3 years",
+      "generated_answer": "As of 6 June 2023, Jolene has been doing yoga and meditation sporadically for about 3 years.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Jolene has been doing yoga for about 3 years, which matches the gold answer of 3 years. The extra detail about meditation and the date does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Jolene has been doing yoga and meditation sporadically for about 3 years as of 6 June 2023.",
+        "Jolene has been into yoga and meditation lately, as of 26 August 2023.",
+        "On 21 August 2023, Deborah asked Jolene how long she has been doing yoga.",
+        "As of 25 February 2023, Jolene's partner sometimes joins her in yoga, which has brought them closer.",
+        "On 1 February 2023, Deborah and Jolene discussed how yoga has improved their lives and provides a sense of community."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 158,
+      "question": "What did Jolene participate in recently that provided her with a rewarding experience?",
+      "gold_answer": "presenting at a virtual conference",
+      "generated_answer": "Jolene participated in a mini retreat, which boosted her confidence and provided a rewarding experience.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Jolene participated in a mini retreat, but the gold answer says she presented at a virtual conference. These are completely different activities, so the generated answer is entirely off-topic and incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Jolene is inspired by people who love what they do, which motivates her to stay focused and work towards her goals.",
+        "Jolene is currently focusing on studying and gaining more experience.",
+        "Jolene: Jolene is a person who recently completed an electrical engineering project.",
+        "Jolene goal: to be successful in her field and make a positive impact",
+        "Jolene's goal is to be successful in her field and make a positive impact."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 159,
+      "question": "How did Jolene feel after receiving positive feedback at the virtual conference?",
+      "gold_answer": "thrilled and rewarded",
+      "generated_answer": "Jolene felt positive after receiving positive feedback at the virtual conference.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Jolene felt positive, which is semantically equivalent to the gold answer 'thrilled and rewarded' (both indicate a positive emotional response).",
+      "category": 4,
+      "top_memories": [
+        "In August 2023, Jolene presented at a virtual conference and received positive feedback.",
+        "virtual conference: A virtual conference where Jolene presented and received positive feedback.",
+        "Jolene feedback: positive",
+        "Jolene presented_at virtual conference",
+        "virtual conference participant: Jolene"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 160,
+      "question": "What kind of event did Jolene present at recently?",
+      "gold_answer": "virtual conference",
+      "generated_answer": "A virtual conference.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A virtual conference.' matches the gold answer 'virtual conference' exactly, with only a minor grammatical difference (article 'A').",
+      "category": 4,
+      "top_memories": [
+        "Jolene recent_event: presented at a virtual conference",
+        "Jolene: Jolene is a person who recently completed an electrical engineering project.",
+        "On 25 August 2023, Jolene and her partner had a conversation about how their loved ones influenced them and what their values meant to them.",
+        "Jolene associated with the place",
+        "Jolene working on the project"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 161,
+      "question": "What did Jolene's mom stress the value of, which she wants to keep in mind for her engineering projects?",
+      "gold_answer": "Helping others",
+      "generated_answer": "Helping others.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 26 August 2023, Jolene stated that her mom stressed the value of helping others, which she wants to keep in mind for her engineering projects.",
+        "Jolene came up with neat solutions for her engineering project during the mini retreat.",
+        "Jolene's mom influence: stressed the value of helping others",
+        "At the retreat, Jolene reflected on the importance of relaxation, self-care, and balance in life alongside her engineering studies.",
+        "engineering class: An engineering class in college where Jolene and her partner met."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 162,
+      "question": "What type of projects is Jolene interested in getting involved in the future?",
+      "gold_answer": "Sustainable initiatives and developing innovative solutions for environmental issues",
+      "generated_answer": "Jolene is interested in projects that make a real difference to communities, including sustainable initiatives, innovative solutions for environmental issues, renewable energy projects, and supplying clean water to those with limited access.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'sustainable initiatives' and 'innovative solutions for environmental issues', which directly match the gold answer. Extra details about renewable energy and clean water do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "On 26 August 2023, Jolene expressed interest in working on projects that make a real difference to communities, including sustainable initiatives and innovative solutions for environmental issues.",
+        "Jolene interested in Renewable energy project",
+        "On 26 August 2023, Jolene stated that she is interested in sustainability and assisting those in need, and is planning to find ways to supply clean water to those with limited access.",
+        "As of 6 June 2023, Jolene finds the best part of her internship to be applying what she learned in school to real projects.",
+        "Jolene future_plans: studying, gaining more experience, considering more internships"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 163,
+      "question": "How did Deborah get Luna, one of her cats?",
+      "gold_answer": "From the shelter",
+      "generated_answer": "Deborah adopted Luna from a shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Deborah adopted Luna from a shelter, which matches the gold answer 'From the shelter'.",
+      "category": 4,
+      "top_memories": [
+        "Luna: Luna is one of Deborah's cats.",
+        "Deborah adopted Luna from a shelter.",
+        "Deborah has cats, including Luna, as of 26 August 2023.",
+        "Deborah owns Luna",
+        "Deborah pets: cats"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 164,
+      "question": "How old is Max?",
+      "gold_answer": "8 years old",
+      "generated_answer": "8 years old.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly.",
+      "category": 4,
+      "top_memories": [
+        "As of 26 August 2023, Max is 8 years old.",
+        "Max age: 8 years",
+        "Max: Max is a cat that Deborah took in after her mother passed away.",
+        "Deborah's mother owned Max",
+        "Deborah owns Max"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 165,
+      "question": "What type of classes did Jolene and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",
+      "gold_answer": "Yoga classes",
+      "generated_answer": "Yoga classes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yoga classes.' exactly matches the gold answer 'Yoga classes', so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023.",
+        "Rio de Janeiro: A city in Brazil that Jolene and her partner visited.",
+        "Jolene visited Rio de Janeiro",
+        "Jolene attended yoga classes in Rio de Janeiro during her trip.",
+        "Jolene and her partner visited many cafes in Rio de Janeiro."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 166,
+      "question": "What type of place does Jolene visit to meditate?",
+      "gold_answer": "A tranquil spot by a pond",
+      "generated_answer": "A nearby tranquil spot.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A nearby tranquil spot' matches the gold answer's core concept of a tranquil spot, even though it omits the specific detail of being by a pond. The semantic meaning is consistent.",
+      "category": 4,
+      "top_memories": [
+        "On 30 August 2023, Jolene said she goes to a nearby tranquil spot to meditate.",
+        "Jolene associated with the place",
+        "Jolene plans to visit with Deborah",
+        "Jolene practices meditation",
+        "Jolene participated in meditation"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 167,
+      "question": "What was the new plant Jolene got used as a reminder for on 30 August, 2023?",
+      "gold_answer": "To nurture herself and embrace fresh starts",
+      "generated_answer": "Jolene acquired the new plant as a reminder to nurture herself and embrace fresh starts.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, stating the plant was a reminder to nurture herself and embrace fresh starts.",
+      "category": 4,
+      "top_memories": [
+        "On 30 August 2023, Jolene acquired a new plant as a reminder to nurture herself and embrace fresh starts.",
+        "Jolene's new plant acquisition_date: 30 August 2023",
+        "On 1 August 2023, Jolene expressed interest in new routines.",
+        "Jolene took photo of plant growing out of a building",
+        "Jolene had a major milestone on 28 January 2023, which went well and was a huge accomplishment for her as an engineer."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 168,
+      "question": "Why did Jolene get the new plant on 30 August, 2023?",
+      "gold_answer": "As a reminder to nurture herself and embrace fresh starts",
+      "generated_answer": "Jolene got the new plant on 30 August 2023 as a reminder to nurture herself and embrace fresh starts.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly in meaning, stating the same reason for Jolene getting the plant.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's new plant acquisition_date: 30 August 2023",
+        "On 30 August 2023, Jolene acquired a new plant as a reminder to nurture herself and embrace fresh starts.",
+        "Jolene bought a new aquarium on 24 June 2023.",
+        "On 1 August 2023, Jolene expressed interest in new routines.",
+        "Jolene told Deborah on 20 September 2023 that she was planning to get out in nature again in October 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 169,
+      "question": "What has Jolene been focusing on lately besides studying?",
+      "gold_answer": "relationship with her partner",
+      "generated_answer": "Jolene has been focusing on gaining more experience, attending workshops, networking, and trying to add workouts into her studying schedule.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions focusing on gaining experience, workshops, networking, and workouts, which are entirely different from the gold answer 'relationship with her partner'. There is no overlap or semantic equivalence, so it is completely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Jolene is currently focusing on studying and gaining more experience.",
+        "Jolene has a routine for classes, studying, and personal time.",
+        "Jolene is studying engineering and has been balancing her studies with hobbies.",
+        "Jolene has been studying, attending workshops, and networking to achieve her goal.",
+        "Jolene is studying and in a relationship with a partner who encourages her goals."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 170,
+      "question": "How did Deborah's mom support her yoga practice when she first started?",
+      "gold_answer": "attended classes with her",
+      "generated_answer": "Deborah's mom was her biggest fan and source of motivation for yoga, and she often came to classes with Deborah.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Deborah's mom often came to classes with her, which matches the gold answer 'attended classes with her'. The extra detail about being a fan and source of motivation does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Deborah started yoga class",
+        "yoga retreat located_near Deborah's mom's place",
+        "Deborah attended a yoga retreat near her mom's place on 17 August 2023.",
+        "Deborah started a yoga class in her neighborhood on 13 March 2023.",
+        "yoga: Yoga is a practice that helped Deborah find peace during a rough time."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 171,
+      "question": "What was the video game console that Jolene's parents got her at age 10?",
+      "gold_answer": "nintendo game console",
+      "generated_answer": "Nintendo console",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Nintendo console' is semantically equivalent to the gold answer 'nintendo game console', as both refer to the same type of console.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's parents bought her a Nintendo console when she was 10 years old, which sparked her passion for video games.",
+        "Jolene received Nintendo console",
+        "Jolene age_at_first_console: 10",
+        "Battlefield 1: A video game for console that Jolene received last week.",
+        "Jolene and her partner played the game Detroit on a console on 20 January 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 172,
+      "question": "What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?",
+      "gold_answer": "Monster Hunter: World",
+      "generated_answer": "Monster Hunter: World",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nintendo Wii: A Nintendo Wii game system that Jolene used to play games.",
+        "Jolene's favorite game to play with her mom was Monster Hunter: World, which she enjoyed for its immersive story and open-world gaming.",
+        "Jolene taught herself to play video games, with support from her dad and her mom playing games with her.",
+        "Jolene's parents bought her a Nintendo console when she was 10 years old, which sparked her passion for video games.",
+        "Jolene received Nintendo console"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 173,
+      "question": "What course did Jolene sign up for on 6 September 2023?",
+      "gold_answer": "meditation",
+      "generated_answer": "A meditation course at a retreat near a lake.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer specifies 'meditation course', which matches the gold answer 'meditation'. The extra detail about the retreat location does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "On 17 September 2023, Jolene said they would plan the trip for next month (October 2023).",
+        "Jolene signed up for a meditation course at a retreat near a lake on 6 September 2023.",
+        "On 9 February 2023, Jolene was considering teaming up with local schools or centers for workshops.",
+        "Jolene is studying hard for her finals in September 2023.",
+        "Jolene has finals coming up in September 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 174,
+      "question": "Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",
+      "gold_answer": "Jolene already had plans",
+      "generated_answer": "The memory content does not specify why Jolene had to reschedule their meeting with Deborah on September 8, 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the reason, which contradicts the gold answer that Jolene already had plans. It provides no correct information and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 6 September 2023, Deborah expressed support and encouragement to Jolene.",
+        "On 1 February 2023, Deborah said it was good that Jolene and her partner have something to do together.",
+        "On 8 September 2023, Deborah and Jolene discussed meeting for coffee on Wednesday at 4 pm.",
+        "Jolene and Deborah plan to meet at the cafe on 11 September 2023 to discuss Jolene's routine.",
+        "On 20 September 2023, Jolene encouraged Deborah to keep finding positive things."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 175,
+      "question": "Where did Jolene and her partner travel for a few weeks in September 2023?",
+      "gold_answer": "Phuket",
+      "generated_answer": "Phuket",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Phuket'.",
+      "category": 4,
+      "top_memories": [
+        "camping trip: A camping trip planned by Jolene and her partner in September 2023.",
+        "Jolene and her partner traveled to a meditation retreat in Phuket on 2 September 2023.",
+        "As of 25 February 2023, Jolene and her partner have been together for three years and are not married.",
+        "As of 25 February 2023, Jolene's partner sometimes joins her in yoga, which has brought them closer.",
+        "Jolene and her partner returned from a trip to Rio de Janeiro on 29 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 176,
+      "question": "What was the main focus of the session that stood out to Jolene during the retreat?",
+      "gold_answer": "releasing expectations and judgments and savoring the present",
+      "generated_answer": "Releasing expectations and judgments.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Releasing expectations and judgments,' which is a correct part of the gold answer. Although it omits 'savoring the present,' partial correctness is sufficient for a correct label.",
+      "category": 4,
+      "top_memories": [
+        "A session at the retreat about releasing expectations and judgments stood out to Jolene.",
+        "Jolene gained a new outlook from the mini retreat.",
+        "Jolene achieved more than she imagined at the mini retreat, which boosted her confidence.",
+        "On 26 June 2023, Jolene expressed interest in visiting a retreat like the one in the picture, seeking peace and refreshment.",
+        "At the retreat, Jolene reflected on the importance of relaxation, self-care, and balance in life alongside her engineering studies."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 177,
+      "question": "How did Jolene feel about her progress in practicing mindfulness and gratitude?",
+      "gold_answer": "experiencing a new level of joy and happiness",
+      "generated_answer": "Jolene felt grateful for Deborah's support and affirmed her commitment to keep pushing forward, indicating she felt encouraged and motivated in her progress with mindfulness and gratitude.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer focuses on feeling grateful for Deborah's support and being encouraged/motivated, but the gold answer specifies experiencing a new level of joy and happiness. The generated answer does not mention joy or happiness, and the core emotion is different, so it is not semantically consistent.",
+      "category": 4,
+      "top_memories": [
+        "Jolene participated in Mindfulness workshops",
+        "Jolene willing to try mindfulness",
+        "On 16 August 2023, Deborah encouraged Jolene to practice mindfulness and offered assistance.",
+        "Jolene is interested in trying mindfulness to destress.",
+        "On 16 August 2023, Jolene expressed interest in trying mindfulness."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 178,
+      "question": "What positive change did Jolene experience during the retreat?",
+      "gold_answer": "finding inner peace",
+      "generated_answer": "Jolene gained a new outlook and achieved more than she imagined, which boosted her confidence.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions gaining a new outlook and boosted confidence, which aligns with the gold answer 'finding inner peace' as both describe a positive internal change. The core concept of a positive personal transformation is present, so it is considered correct.",
+      "category": 4,
+      "top_memories": [
+        "Jolene gained a new outlook from the mini retreat.",
+        "Jolene attended mini retreat",
+        "Jolene attended meditation retreat",
+        "Jolene achieved more than she imagined at the mini retreat, which boosted her confidence.",
+        "At the retreat, Jolene reflected on the importance of relaxation, self-care, and balance in life alongside her engineering studies."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 179,
+      "question": "What did Jolene recently play that she described to Deb?",
+      "gold_answer": "a card game about cats",
+      "generated_answer": "Detroit",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Detroit' is completely off-topic and does not contain any correct content from the gold answer 'a card game about cats'.",
+      "category": 4,
+      "top_memories": [
+        "Jolene learned to play games on her own as a child.",
+        "Jolene: Jolene is a person who recently completed an electrical engineering project.",
+        "Jolene plans_to_play Walking Dead",
+        "On 1 February 2023, Jolene planned to play the console with her partner.",
+        "Deborah suggests playing game with Jolene"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 180,
+      "question": "What did Deborah do with their mom's old friends?",
+      "gold_answer": "reminisced and looked through photos",
+      "generated_answer": "Deborah spent time with her mom's old friends reminiscing and looking through her photos.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core actions of reminiscing and looking through photos, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah's mother's old house visited_by: Deborah",
+        "Deborah: Deborah is a person who visited her mother's old house and shared a photo with Jolene.",
+        "Deborah likes to reflect on her mother's life near the water by her mom's old house.",
+        "On 15 September 2023, Deborah reconnected with her mother's old friends and heard stories about her mother.",
+        "Jolene friends with Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 181,
+      "question": "Where did Deborah get married?",
+      "gold_answer": "on the beach",
+      "generated_answer": "On a beach.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'On a beach.' is semantically equivalent to the gold answer 'on the beach', differing only in capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "Deborah got married at the beach",
+        "Deborah got married on a beach.",
+        "Deborah married: true",
+        "Deborah's parents were married in 1993.",
+        "the beach significance: Deborah's wedding location and where she discovered surfing"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 182,
+      "question": "What does yoga on the beach provide for Deborah?",
+      "gold_answer": "a peaceful atmosphere",
+      "generated_answer": "Yoga on the beach provides Deborah with relaxation due to the ocean, sand, and fresh air, as well as the wonderful sound of waves and fresh air.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions relaxation and the peaceful elements of the beach (ocean, sand, fresh air, sound of waves), which aligns with the gold answer's 'peaceful atmosphere'. The core concept is semantically consistent.",
+      "category": 4,
+      "top_memories": [
+        "Deborah practices yoga at the beach",
+        "Deborah recommends beach yoga",
+        "Deborah practices yoga on a beach, which she finds relaxing due to the ocean, sand, and fresh air.",
+        "On 26 August 2023, Deborah shared a photo of a woman doing a yoga pose on the beach, which she said reminds her of the beauty of nature during a yoga session.",
+        "beach yoga location: beach"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 183,
+      "question": "How does Jolene describe their home room?",
+      "gold_answer": "little haven for peace and rest",
+      "generated_answer": "Jolene describes her home room as a room with a bench and a window, where she has many memories and usually goes to relax and feel at ease.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer describes the home room as a place for relaxation and comfort, which aligns with the gold answer's 'little haven for peace and rest'. The extra details about a bench and window do not contradict the core meaning.",
+      "category": 4,
+      "top_memories": [
+        "Jolene's room in her mother's house description: a room with a bench and a window",
+        "Jolene has a room in her mother's house with a bench and a window, where she has many memories.",
+        "Jolene's partner partner_of: Jolene",
+        "Jolene gender: female",
+        "Jolene's pendant gift_giver: Jolene's mother"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 184,
+      "question": "What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?",
+      "gold_answer": "Free gardening class",
+      "generated_answer": "A free gardening class for the community.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states 'A free gardening class for the community,' which matches the gold answer 'Free gardening class' in meaning and includes the same core activity.",
+      "category": 4,
+      "top_memories": [
+        "Deborah attended a community meetup on 1 September 2023.",
+        "On 1 August 2023, Deborah started a community cleanup project and is raising funds for it.",
+        "community location: Deborah's community",
+        "community meetup: A community meetup that Deborah attended on 1 September 2023.",
+        "community cleanup project: A community cleanup project started by Deborah on 1 August 2023, for which she is raising funds."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 185,
+      "question": "What was Deborah's mom passionate about?",
+      "gold_answer": "Cooking",
+      "generated_answer": "Deborah's mom was passionate about travel, cooking, and art.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'cooking', which matches the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Deborah's mom was interested in art",
+        "Reading was one of Deborah's mother's hobbies.",
+        "Travel was a great passion of Deborah's mother.",
+        "Deborah likes to reflect on her mother's life near the water by her mom's old house.",
+        "Deborah's mother sang lullabies to her when she was a child."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 186,
+      "question": "What food did Deborah's mom make for her on birthdays?",
+      "gold_answer": "Pineapple cakes",
+      "generated_answer": "pineapple birthday cake",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'pineapple birthday cake' contains the core fact 'pineapple' from the gold answer 'Pineapple cakes', and the extra detail 'birthday' is consistent with the context. Thus, it is semantically correct.",
+      "category": 4,
+      "top_memories": [
+        "Anna made food for Deborah",
+        "Deborah's mom was interested in art",
+        "Deborah likes to reflect on her mother's life near the water by her mom's old house.",
+        "Deborah's mother had a passion for cooking and made amazing meals for her family.",
+        "Deborah's mother baked pineapple birthday cakes for Deborah when she was a child."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 187,
+      "question": "What kind of cookies did Jolene used to bake with someone close to her?",
+      "gold_answer": "Chocolate chip cookies",
+      "generated_answer": "Chocolate chip cookies.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Chocolate chip cookies'.",
+      "category": 4,
+      "top_memories": [
+        "Jolene used to bake cookies with someone close to her.",
+        "Jolene likes to make chocolate chip cookies",
+        "chocolate chip cookies: A type of cookie that Jolene likes to make and Deborah wants to eat.",
+        "Jolene's favorite cookie to make is chocolate chip cookies, which she describes as warm, gooey chocolate and soft, buttery cookie.",
+        "Deborah wants to eat chocolate chip cookies"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 188,
+      "question": "What outdoor activity did Jolene suggest doing together with Deborah?",
+      "gold_answer": "Surfing",
+      "generated_answer": "No exact answer found in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no exact answer was found, which does not provide the correct activity 'Surfing' and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Jolene conversing with Deborah",
+        "Jolene talked to Deborah",
+        "Deborah gave advice to Jolene",
+        "Jolene conversed with Deborah",
+        "Jolene appreciates Deborah"
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 189,
+      "question": "What activity did Deborah enjoy at the music festival with their pals on September 20, 2023?",
+      "gold_answer": "Dancing and bopping around",
+      "generated_answer": "The memory content does not mention any music festival on September 20, 2023. The only music festival mentioned was in 2022, and no specific activity at that festival is recorded. Therefore, the answer is unknown based on available information.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the information is unknown and does not mention the correct activity 'Dancing and bopping around'. It is entirely off-topic and lacks any correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Deborah attended music festival",
+        "Deborah had a great time at a music festival with her friends.",
+        "On 12 September 2023, Deborah expressed excitement about being on the journey of mindfulness and gratitude with Jolene.",
+        "music festival date: 2022",
+        "Jolene attended a music festival with her partner last year (2022)."
+      ]
+    },
+    {
+      "conversation_idx": 7,
+      "qa_idx": 190,
+      "question": "What did Deborah find freeing at the music festival?",
+      "gold_answer": "Dancing and bopping around",
+      "generated_answer": "The memory content does not specify what Deborah found freeing at the music festival.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify what Deborah found freeing, which directly contradicts the gold answer that she found dancing and bopping around freeing. It provides no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Deborah attended music festival",
+        "Deborah had a great time at a music festival with her friends.",
+        "Deborah cherishes memories at the spot",
+        "music festival: A music festival that Jolene attended with her partner last year.",
+        "Jolene attended music festival"
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 433.44436025619507,
+    "answer_time_seconds": 318.50088691711426,
+    "total_time_seconds": 751.9463031291962,
+    "write_tokens": {
+      "prompt_tokens": 84162,
+      "completion_tokens": 61416,
+      "total_tokens": 145578,
+      "call_count": 146
+    },
+    "answer_tokens": {
+      "prompt_tokens": 141596,
+      "completion_tokens": 12686,
+      "total_tokens": 154282,
+      "call_count": 382
+    },
+    "db_size_bytes": 2859008,
+    "memory_entries": 1120,
+    "avg_answer_time_ms": 1667.4706124510442
+  }
+}

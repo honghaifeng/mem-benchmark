@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "e4873051",
+      "user_name": "用户",
+      "question": "2023年4月27日的早上，我在院中弹奏了什么曲子？",
+      "gold_answer": "《平沙落雁》",
+      "generated_answer": "根据记忆内容，2023年4月27日早晨，您在院中弹奏了古琴曲《平沙落雁》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的核心内容《平沙落雁》，且日期和事件描述一致，符合评判规则。",
+      "top_memories": [
+        "对话日期为2023年04月27日",
+        "用户于2023年4月27日早晨弹奏了古琴曲《平沙落雁》",
+        "用户在弹奏古琴时，在节奏掌握和旋律转换方面存在困难",
+        "用户名为高山河",
+        "用户喜欢古典文化，对琴棋书画感兴趣"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 3.9699978828430176,
+    "answer_time_seconds": 2.2210099697113037,
+    "total_time_seconds": 6.191458225250244,
+    "write_tokens": {
+      "prompt_tokens": 1208,
+      "completion_tokens": 214,
+      "total_tokens": 1422,
+      "call_count": 3
+    },
+    "answer_tokens": {
+      "prompt_tokens": 643,
+      "completion_tokens": 71,
+      "total_tokens": 714,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 11,
+    "avg_answer_time_ms": 2221.0021018981934
+  }
+}

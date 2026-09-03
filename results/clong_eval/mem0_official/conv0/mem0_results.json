@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 0,
+  "conversation_hash": "4c89c0bf",
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "4c89c0bf",
+      "user_name": "张曼婷",
+      "question": "4月27日，我和你推荐过一本书，书名是什么？",
+      "gold_answer": "《小王子》",
+      "generated_answer": "根据记忆内容，4月27日（参考日期为2023年4月27日）你正在阅读《小王子》，并且被其中的狐狸语录深深打动。因此，我推荐给你的书是《小王子》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了《小王子》，与标准答案一致，且日期和推荐行为均匹配，因此正确。",
+      "top_memories": [
+        "User is currently reading 'The Little Prince' (《小王子》) and was deeply moved by the fox's quote: 'You only see clearly with your heart. What is essential is invisible to the eye.'",
+        "User particularly likes roses and lilies for their lines and colors.",
+        "User's name is 张曼婷 (Zhang Manting), and she enjoys painting, playing piano, reading, walking, and tea tasting. She describes herself as shy and not great at chatting but is happy to communicate.",
+        "User enjoys drinking Longjing tea (龙井茶) for its fresh and refreshing taste.",
+        "User is practicing Chopin's nocturnes on the piano and finds them challenging."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 8,
+  "write_time_seconds": 8.549183130264282,
+  "answer_time_seconds": 2.492614984512329
+}

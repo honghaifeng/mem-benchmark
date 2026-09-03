@@ -1,0 +1,116 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 5,
+  "correct": 5,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "539ba743",
+      "user_name": "用户",
+      "question": "2023年4月27日，我聊到最喜欢的摇滚乐队，名字是什么？",
+      "gold_answer": "Linkin Park",
+      "generated_answer": "根据记忆内容，用户最喜欢的乐队是Linkin Park。虽然记忆中没有明确提到“4月27日”当天聊到乐队，但这是唯一与“最喜欢的摇滚乐队”相关的信息，因此答案是Linkin Park。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出用户最喜欢的乐队是Linkin Park，与标准答案一致，符合部分正确规则。",
+      "top_memories": [
+        "用户与AI第一次聊天日期是2023年04月27日",
+        "用户最喜欢的乐队是Linkin Park",
+        "用户喜欢唱歌",
+        "用户喜欢看电影，特别是动作片和科幻片",
+        "用户喜欢街舞，通常和朋友一起跳并互相切磋"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "539ba743",
+      "user_name": "用户",
+      "question": "4月28日，我分享了喜欢的电影导演和作家，分别是谁？",
+      "gold_answer": "克里斯托弗·诺兰，村上春树",
+      "generated_answer": "根据记忆内容，4月28日（2023年）的射击训练记录中并未提及电影导演和作家。但结合其他记忆，用户欣赏的导演是克里斯托弗·诺兰，喜欢的作家是村上春树。因此，4月28日分享的导演和作家分别是**克里斯托弗·诺兰**和**村上春树**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了导演是克里斯托弗·诺兰，作家是村上春树，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "张志强在2023年4月28日的射击训练中打出了新的个人记录",
+        "用户喜欢作家村上春树的作品",
+        "诺兰的电影《盗梦空间》给用户带来很大震撼",
+        "张志强喜欢通过散步来放松和思考训练计划或工作策略",
+        "用户喜欢一首名为《战士》的新歌，认为歌词激励人前进"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "539ba743",
+      "user_name": "用户",
+      "question": "我们在2023年4月30日聊到自己想出版的书的两个标题，分别是什么？",
+      "gold_answer": "《不屈之路》，《极限挑战者》",
+      "generated_answer": "根据记忆内容，第20条明确提到：用户正在写一本书，考虑标题《不屈之路》或《极限挑战者》。因此，2023年4月30日聊到的两个书名是《不屈之路》和《极限挑战者》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了两个书名《不屈之路》和《极限挑战者》，与标准答案完全一致，且日期信息也正确，因此判断为正确。",
+      "top_memories": [
+        "对话日期为2023年04月30日",
+        "用户张志强在2023年4月30日与朋友进行了户外攀岩活动",
+        "用户有写书的计划，想将自己的经历和感悟写成书",
+        "用户计划利用社交网络和线上线下活动宣传自己的书",
+        "用户考虑通过出版社或自行出版的方式出版书"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "539ba743",
+      "user_name": "用户",
+      "question": "2023年5月1日，我提到自己喜欢的音乐类型，是什么？",
+      "gold_answer": "古典音乐",
+      "generated_answer": "根据记忆内容，用户喜欢听古典音乐，特别是贝多芬的《月光奏鸣曲》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到用户喜欢古典音乐，与标准答案一致，且额外细节不影响正确性。",
+      "top_memories": [
+        "张志强在2023年5月1日进行了直播，效果出乎意料的好，观众反馈积极。",
+        "用户喜欢听古典音乐，特别是贝多芬的《月光奏鸣曲》",
+        "用户喜欢忙碌的工作，感觉有成就感",
+        "用户有时会做短暂的冥想或听轻音乐来放松",
+        "用户在进行创造性工作时会播放背景音乐以激发灵感"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "539ba743",
+      "user_name": "用户",
+      "question": "在5月3日，我尝试了哪种新的锻炼方式？",
+      "gold_answer": "泰拳",
+      "generated_answer": "根据记忆内容，用户张志强于2023年5月3日开始尝试泰拳锻炼。因此，在5月3日，他尝试的新的锻炼方式是**泰拳**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出用户尝试了泰拳，与标准答案一致，核心事实正确。",
+      "top_memories": [
+        "用户张志强于2023年5月3日开始尝试泰拳锻炼",
+        "用户会定期更新课程内容，引入新的训练方法",
+        "用户张志强对泰拳产生兴趣是因为看过泰拳比赛，觉得酷且能锻炼身体和实战技巧",
+        "用户张志强在泰拳训练中面临的主要挑战是动作准确性和力量控制",
+        "用户张志强计划每周至少练习两次泰拳，并跟随教练学习组合动作"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 44.742887020111084,
+    "answer_time_seconds": 8.85092806816101,
+    "total_time_seconds": 53.59432506561279,
+    "write_tokens": {
+      "prompt_tokens": 13318,
+      "completion_tokens": 2559,
+      "total_tokens": 15877,
+      "call_count": 42
+    },
+    "answer_tokens": {
+      "prompt_tokens": 4708,
+      "completion_tokens": 434,
+      "total_tokens": 5142,
+      "call_count": 10
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 160,
+    "avg_answer_time_ms": 1770.1730728149414
+  }
+}

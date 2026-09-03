@@ -1,0 +1,83 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 4,
+  "correct": 3,
+  "accuracy": 75.0,
+  "conversation_idx": 18,
+  "conversation_hash": "234bf162",
+  "details": [
+    {
+      "conversation_idx": 18,
+      "conversation_hash": "234bf162",
+      "user_name": "张晨",
+      "question": "4月27日这天，我最擅长做什么菜？",
+      "gold_answer": "红烧肉",
+      "generated_answer": "根据记忆内容，4月27日这天，用户计划尝试制作**鸡丝凉粉**，并在当晚成功制作，得到了朋友的称赞。而用户最擅长的菜是**红烧肉**，朋友评价其非常入味。因此，4月27日用户最擅长的菜是**红烧肉**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出用户最擅长的菜是红烧肉，与标准答案一致，因此正确。",
+      "top_memories": [
+        "User's cooking philosophy is to keep trying and not fear failure, treating each unsuccessful attempt as a learning opportunity.",
+        "User plans to combine photography with their other hobbies by taking high-quality photos of dance moves and food they cook, to record their interests in different ways.",
+        "User's cooking philosophy is to try repeatedly without fearing failure, treating each unsuccessful attempt as a learning opportunity.",
+        "User is interested in participating in cooking competitions or events if the opportunity arises, finding it exciting.",
+        "User plans to share photos and videos of their cooking on social media to share their cooking joy with others."
+      ]
+    },
+    {
+      "conversation_idx": 18,
+      "conversation_hash": "234bf162",
+      "user_name": "张晨",
+      "question": "2023年4月28日，我最喜欢的桌游是什么？",
+      "gold_answer": "《狼人杀》",
+      "generated_answer": "根据记忆内容，你最喜欢的桌游是**狼人杀（Werewolf）**。记忆第14条明确提到“User's favorite party game is Werewolf (狼人杀)”，且第11条提到你擅长扮演狼人角色。虽然问题日期是2023年4月28日，但记忆中没有该日期与桌游相关的具体记录，因此以你整体的偏好为准。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出最喜欢的桌游是狼人杀，与标准答案一致，且提供了额外的记忆细节，核心事实正确。",
+      "top_memories": [
+        "User's parties also include games like Pictionary (你画我猜) and board games to ensure everyone participates.",
+        "User dreams of traveling to Italy for its food, art, and history, with a particular desire to visit Venice and Florence.",
+        "User enjoys playing the game 'Truth or Dare' (真心话大冒险) at parties, which is currently popular and always brings new fun.",
+        "User plans to go to the gym in the afternoon of April 28, 2023, and prepare snacks and drinks for an evening party.",
+        "User played a new party game called '谁是卧底' (Who is the Undercover) at a gathering on April 28, 2026, which they found exciting and stimulating."
+      ]
+    },
+    {
+      "conversation_idx": 18,
+      "conversation_hash": "234bf162",
+      "user_name": "张晨",
+      "question": "2023年4月30日，我想去海边拍摄，我会穿什么样的服装去？",
+      "gold_answer": "蓝色的舞蹈服",
+      "generated_answer": "根据记忆内容，2023年4月30日你计划去市中心练习街头摄影，并未提到去海边拍摄。而关于海边拍摄的服装信息（蓝色舞蹈服、帽子或太阳镜）是针对5月6-7日周末在木栈道拍摄舞蹈视频的计划。因此，4月30日去海边拍摄的服装没有直接记录，但结合你4月29日去过海滩，且4月30日实际计划是街头摄影，推测你当天可能穿适合街头摄影的休闲便装，而非特定舞蹈服装。最可能的答案是：**没有明确记录，但大概率是日常休闲服装**。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案未包含标准答案中的任何正确内容（蓝色舞蹈服），且明确否定了该服装，并给出了不同的推测（休闲便装），核心事实错误，完全偏题。",
+      "top_memories": [
+        "User plans to visit the beach on April 29, 2023, to relax and scout for suitable dance video filming locations, staying until sunset.",
+        "User captured photos of street performers dancing and a skateboarder at sunset on April 30, 2023, and felt they found a new interest in photography.",
+        "On April 30, 2023, User planned to go to the city center to practice street photography.",
+        "User's favorite themed party is a beach party, where everyone wears floral shirts and sunglasses to feel like they're at the beach.",
+        "User went for a beach walk on April 29, 2023, and found a long wooden boardwalk with an unobstructed sea view, which they consider an ideal spot for filming dance videos."
+      ]
+    },
+    {
+      "conversation_idx": 18,
+      "conversation_hash": "234bf162",
+      "user_name": "张晨",
+      "question": "5月1日，我想尝试摄影，你给我推荐了哪些摄影师？",
+      "gold_answer": "Ansel Adams、Henri Cartier-Bresson",
+      "generated_answer": "根据记忆内容，你被推荐学习两位摄影师的作品：**安塞尔·亚当斯（Ansel Adams）** 用于风景摄影，以及**亨利·卡蒂埃-布列松（Henri Cartier-Bresson）** 用于街头摄影。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了安塞尔·亚当斯（Ansel Adams）和亨利·卡蒂埃-布列松（Henri Cartier-Bresson），与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User recently developed an interest in photography and wants to learn how to take good photos to capture beautiful moments in life.",
+        "User plans to learn photography by buying an introductory book, practicing, and following photographers on social media for inspiration.",
+        "User was recommended to study the works of Ansel Adams for landscape photography and Henri Cartier-Bresson for street photography.",
+        "User plans to combine photography with their other hobbies by taking high-quality photos of dance moves and food they cook, to record their interests in different ways.",
+        "User plans to start with photographing the moon before attempting more complex astrophotography, and intends to visit a park to shoot natural scenery."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 114,
+  "write_time_seconds": 81.52617311477661,
+  "answer_time_seconds": 11.688669919967651
+}

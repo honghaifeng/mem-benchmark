@@ -1,0 +1,66 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 3,
+  "accuracy": 100.0,
+  "conversation_idx": 17,
+  "conversation_hash": "f2e865eb",
+  "details": [
+    {
+      "conversation_idx": 17,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "2023年4月27日，我和你分享了一部喜剧，喜剧的名字是什么？",
+      "gold_answer": "《笑翻天》",
+      "generated_answer": "根据记忆内容，你在2023年4月27日去KTV唱歌，但关于喜剧的分享并未明确标注日期。不过，记忆中提到你最近观看并推荐了一部喜剧《笑翻天》，且你的名字是李晓燕。结合参考日期（2023年5月1日），最可能的答案是：**《笑翻天》**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案中明确提到了喜剧《笑翻天》，与标准答案一致，因此正确。",
+      "top_memories": [
+        "On April 27, 2023, User went to KTV with friends and sang many classic old songs, finding it very fun and energetic.",
+        "User recently watched a new comedy series called '笑翻天' (Laughing Out Loud) and highly recommends it, finding it full of laughs and with funny characters each having their own traits.",
+        "User 李晓燕's favorite character in the comedy series '笑翻天' is 小明, who always accidentally causes funny situations but remains cute, making her laugh every time he appears.",
+        "On April 27, 2023, User attended a Latin dance workshop where she learned basic steps and felt like a star on stage, enjoying the challenge of turns and footwork coordination.",
+        "User 李晓燕 attended an improv comedy show on May 1, 2023, and found it hilarious, laughing until her stomach hurt, and was particularly amused by a performer who imitated a superhero in everyday awkward situations."
+      ]
+    },
+    {
+      "conversation_idx": 17,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "4月28日，我参加了一个主题派对，你还记得我在里面扮演什么角色吗？",
+      "gold_answer": "侦探",
+      "generated_answer": "根据记忆内容，4月28日你参加的主题派对中，你穿着复古波点裙、大花冠和复古妆容，并获得了最佳着装奖。但记忆中没有明确提到你在派对上扮演的具体角色（如侦探等）。不过，结合你平时喜欢参与角色扮演游戏，且派对主题为“复古”，最可能的推断是：你扮演了复古风格的“侦探”或类似角色。但记忆1和2中提到的侦探角色是在“角色扮演游戏”中，而非特指4月28日派对。因此，最准确的回答是：你在4月28日派对上获得了最佳着装奖，但具体扮演角色未明确记录，推测为复古风格角色（如侦探）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案中明确提到“推测为复古风格角色（如侦探）”，包含了标准答案“侦探”这一核心内容，符合部分正确即算对的原则。",
+      "top_memories": [
+        "At the themed party, User 李晓燕 played several rounds of role-playing games where everyone acted out characters and guessed each other's roles, which was full of laughter.",
+        "User 李晓燕 played the role of a detective in a role-playing game at the party, trying to identify the undercover among the group; she guessed wrong a few times but found the process thrilling and everyone had a great time.",
+        "User's name is 李晓燕 (Li Xiaoyan), who describes herself as an outgoing person who loves singing, dancing, traveling, watching comedies, and participating in social activities.",
+        "User recently watched a new comedy series called '笑翻天' (Laughing Out Loud) and highly recommends it, finding it full of laughs and with funny characters each having their own traits.",
+        "User 李晓燕 enjoys playing games like Truth or Dare and board games during social activities, as they help deepen mutual understanding and friendship."
+      ]
+    },
+    {
+      "conversation_idx": 17,
+      "conversation_hash": "f2e865eb",
+      "user_name": "用户",
+      "question": "2023年4月30日，我去观看了一个街舞比赛，我最喜欢哪个团队还记得吗？",
+      "gold_answer": "一个叫做“Beat Breakers”的团队",
+      "generated_answer": "根据记忆内容，您在2023年4月30日观看街舞比赛时，最印象深刻的团队是“Beat Breakers”，您特别欣赏他们的同步动作和强烈的音乐感，感到非常兴奋。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了标准答案中的核心内容“Beat Breakers”团队，符合部分正确即算正确的规则，且额外细节不扣分。",
+      "top_memories": [
+        "On April 27, 2023, User attended a Latin dance workshop where she learned basic steps and felt like a star on stage, enjoying the challenge of turns and footwork coordination.",
+        "User 李晓燕 attended a street dance competition as a spectator on April 30, 2023, and was very impressed by the energetic atmosphere, feeling tempted to dance herself.",
+        "During her trip to the seaside town in March 2023, User tried surfing for the first time, fell several times initially, but felt an indescribable sense of achievement when she finally stood on the surfboard.",
+        "User 李晓燕 is considering participating in a dance competition or performance in the future, but feels she needs more practice to gain confidence on stage.",
+        "At the themed party, User 李晓燕 played several rounds of role-playing games where everyone acted out characters and guessed each other's roles, which was full of laughter."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 64,
+  "write_time_seconds": 57.558757066726685,
+  "answer_time_seconds": 9.23783802986145
+}

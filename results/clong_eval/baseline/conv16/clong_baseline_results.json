@@ -1,0 +1,82 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 3,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "943ac0d0",
+      "user_name": "用户",
+      "question": "4月27日，我说我喜欢听钢琴曲，曲名是叫什么？",
+      "gold_answer": "《River Flows in You》",
+      "generated_answer": "根据记忆内容，您喜欢的钢琴曲是《River Flows in You》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的钢琴曲名《River Flows in You》，核心事实正确。",
+      "top_memories": [
+        "对话日期为2023年04月27日",
+        "2023年4月27日，左雨晴参加了新的志愿者活动",
+        "用户喜欢听钢琴曲，用于瑜伽和阅读时放松心情",
+        "用户喜欢《River Flows in You》这首钢琴曲",
+        "左雨晴喜欢烘焙"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "943ac0d0",
+      "user_name": "用户",
+      "question": "2023年4月28日，我们谈论到了今天新尝试的瑜伽体式，你还记得是哪种体式吗？",
+      "gold_answer": "“飞鸽式”",
+      "generated_answer": "根据记忆内容，2023年4月28日用户尝试的新瑜伽体式是“飞鸽式”。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了“飞鸽式”，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "用户于2023年4月28日尝试了新的瑜伽体式“飞鸽式”",
+        "用户计划于2023年4月28日尝试制作草莓奶油蛋糕",
+        "用户于2023年4月28日晚上参加为当地图书馆筹款的慈善晚宴",
+        "用户于2023年4月28日晚上要参加慈善晚宴",
+        "用户计划在2023年4月30日参加社区清洁活动，帮助清理附近公园"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "943ac0d0",
+      "user_name": "用户",
+      "question": "2023年4月30日，我们聊完园艺之后谈了我今天的计划，我今天有什么计划？",
+      "gold_answer": "去做义工，有一个社区清洁的活动，要帮助清理附近的公园。",
+      "generated_answer": "根据记忆内容，2023年4月30日你计划参加社区清洁活动，帮助清理附近公园。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案准确传达了标准答案的核心内容，即参加社区清洁活动帮助清理公园，语义一致。",
+      "top_memories": [
+        "用户计划在2023年4月30日参加社区清洁活动，帮助清理附近公园",
+        "用户于2023年4月30日参加社区清洁活动",
+        "用户借到了几本关于园艺和心理学的书",
+        "用户对一本关于城市园艺的书感兴趣",
+        "用户有园艺和烹饪的兴趣，并考虑记录过程"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 24.43099308013916,
+    "answer_time_seconds": 5.350898027420044,
+    "total_time_seconds": 29.782397031784058,
+    "write_tokens": {
+      "prompt_tokens": 7634,
+      "completion_tokens": 1592,
+      "total_tokens": 9226,
+      "call_count": 23
+    },
+    "answer_tokens": {
+      "prompt_tokens": 2834,
+      "completion_tokens": 169,
+      "total_tokens": 3003,
+      "call_count": 6
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 102,
+    "avg_answer_time_ms": 1783.6000124613445
+  }
+}

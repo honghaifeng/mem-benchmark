@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "62bea515",
+      "user_name": "用户",
+      "question": "4月27日我听了一些新的吉他曲，我特别喜欢一首名叫什么的曲子？",
+      "gold_answer": "《海边的卡夫卡》",
+      "generated_answer": "根据记忆内容，4月27日您尝试了瑜伽手倒立和手工折纸，但关于吉他曲的记忆中，您喜欢的一首名为《海边的卡夫卡》的吉他曲并未标注具体日期。结合参考日期（2023年04月27日）和问题中的“4月27日”，最可能指当天听到并喜欢的曲子是《海边的卡夫卡》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了《海边的卡夫卡》这首吉他曲，与标准答案一致，且日期信息相符，因此正确。",
+      "top_memories": [
+        "用户于2023年04月27日尝试了瑜伽手倒立体式，能坚持几秒钟",
+        "用户于2023年04月27日做了手工折纸，尝试折复杂花朵形状",
+        "用户喜欢一首名为《海边的卡夫卡》的吉他曲",
+        "用户喜欢听轻音乐",
+        "用户喜欢一边听音乐一边写书法"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 6.876740217208862,
+    "answer_time_seconds": 2.432831048965454,
+    "total_time_seconds": 9.31004810333252,
+    "write_tokens": {
+      "prompt_tokens": 1884,
+      "completion_tokens": 350,
+      "total_tokens": 2234,
+      "call_count": 5
+    },
+    "answer_tokens": {
+      "prompt_tokens": 844,
+      "completion_tokens": 129,
+      "total_tokens": 973,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 21,
+    "avg_answer_time_ms": 2432.774305343628
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 61,
+  "conversation_hash": "f1554ac9",
+  "details": [
+    {
+      "conversation_idx": 61,
+      "conversation_hash": "f1554ac9",
+      "user_name": "用户",
+      "question": "4月27日，我分享了一部新出的什么电视剧？",
+      "gold_answer": "《岁月静好》",
+      "generated_answer": "《岁月静好》",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案与标准答案完全一致，均为《岁月静好》，因此正确。",
+      "top_memories": [
+        "User 赵雨萌 is watching a new TV drama called 《岁月静好》 and finds the characters vivid, the story close to life, and feels warmth and emotional resonance from it.",
+        "User 赵雨萌 enjoys making small accessories and home decorations, as they add personality to her space.",
+        "User 赵雨萌 had a dream on the night of April 27, 2023, about her garden full of flowers, which made her feel happy, and she wonders if dreams have special meaning.",
+        "User 赵雨萌 plans to start a new handmade project on April 28, 2023, making dried flower decorations (干花装饰).",
+        "User 赵雨萌 has a hobby of writing poetry, often inspired by beautiful scenes or special emotions, but feels her poems are not well expressed."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 17,
+  "write_time_seconds": 15.571187973022461,
+  "answer_time_seconds": 1.481760025024414
+}

@@ -1,0 +1,116 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 5,
+  "correct": 5,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f396be0d",
+      "user_name": "用户",
+      "question": "我在4月27日跟你聊到了养花,有哪些细节知道吗？",
+      "gold_answer": "定时给它们浇水，注意不要积水，还要保证有足够的阳光。",
+      "generated_answer": "根据记忆内容，你在4月27日聊到养花的细节包括：\n\n- 你喜欢养花，当时最近养的一盆紫罗兰开花了。\n- 你会定时给紫罗兰浇水，注意不积水，保证足够阳光。\n- 你有时会和植物说话。\n\n这些是与你养花直接相关的记忆细节。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容：定时浇水、注意不积水、保证足够阳光，因此部分正确，符合评判规则。",
+      "top_memories": [
+        "用户于2023年04月27日心情沉重，在日记中写了关于时间流逝的感慨",
+        "对话日期是2023年04月27日",
+        "用户喜欢养花，最近养的一盆紫罗兰开花了",
+        "用户名叫王小雨",
+        "用户喜欢贝多芬的钢琴奏鸣曲"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f396be0d",
+      "user_name": "用户",
+      "question": "4月28日,我提到了一本诗集，诗集的名字是？",
+      "gold_answer": "《二十首情诗与绝望的歌》",
+      "generated_answer": "根据记忆内容，4月28日提到的是聂鲁达的《二十首情诗与绝望的歌》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了聂鲁达的《二十首情诗与绝望的歌》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "用户王小雨计划在2023年4月28日去书店寻找新的诗集",
+        "用户王小雨在2023年4月28日尝试了用深蓝和黑色画《月光奏鸣曲》的感觉，并加入白色点缀代表星星和灯火",
+        "用户的名字是王小雨",
+        "用户王小雨于2023年4月29日去了书店，购买了关于绘画和园艺的书。",
+        "用户计划于2023年4月29日之后的一周去植物园参观"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f396be0d",
+      "user_name": "用户",
+      "question": "2023年4月30日,我喜欢边听古典音乐边画，是哪首音乐？",
+      "gold_answer": "《月光》",
+      "generated_answer": "根据记忆内容，您喜欢边听古典音乐边画画，并且特别喜欢德彪西的《月光》。2023年4月30日时，您最可能听的正是这首《月光》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成的答案明确提到了德彪西的《月光》，与标准答案一致，且日期和情境描述相符，因此正确。",
+      "top_memories": [
+        "用户喜欢边听古典音乐边画画",
+        "古典音乐能帮助用户集中精神并激发创造力",
+        "用户对创作以喜欢的音乐为主题的画感兴趣",
+        "用户喜欢在天气好的时候外出散步寻找灵感",
+        "用户喜欢画树，认为每棵树都有自己的故事"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f396be0d",
+      "user_name": "用户",
+      "question": "2023年5月1日,我画了一些速写,用的什么工具？",
+      "gold_answer": "铅笔",
+      "generated_answer": "根据记忆内容，2023年5月1日您去公园散步并画了速写，其中明确提到“速写时使用铅笔”。因此，您当时使用的工具是**铅笔**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到使用铅笔，与标准答案一致，因此正确。",
+      "top_memories": [
+        "用户于2023年5月1日去公园散步，看到小孩放风筝，并画了速写",
+        "用户于2023年5月1日在公园感受到春天的气息",
+        "用户速写时使用铅笔",
+        "用户速写时先捕捉形状和姿态，再添加细节",
+        "用户喜欢速写时的即兴和自由感"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f396be0d",
+      "user_name": "用户",
+      "question": "5月3日,我去花店给我的紫罗兰买了一些什么花盆？",
+      "gold_answer": "陶瓷花盆",
+      "generated_answer": "根据记忆内容，5月3日您为紫罗兰购买了**简约风格的陶瓷花盆**，颜色柔和，与紫罗兰搭配。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容“陶瓷花盆”，并增加了“简约风格”等额外描述，不影响正确性。",
+      "top_memories": [
+        "用户王小雨在2023年5月3日去了花店，为紫罗兰购买了新花盆",
+        "用户王小雨在2023年5月3日尝试在画中加入自己写的诗句，诗句为“春风拂过，花开满枝头”",
+        "用户选择了简约风格的陶瓷花盆，颜色柔和，与紫罗兰搭配",
+        "用户担心天气温度波动会影响紫罗兰的生长",
+        "用户王小雨在画作的一角写下诗句“春风拂过，花开满枝头”"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 29.867383003234863,
+    "answer_time_seconds": 8.684484958648682,
+    "total_time_seconds": 38.552385091781616,
+    "write_tokens": {
+      "prompt_tokens": 9377,
+      "completion_tokens": 1513,
+      "total_tokens": 10890,
+      "call_count": 28
+    },
+    "answer_tokens": {
+      "prompt_tokens": 4271,
+      "completion_tokens": 408,
+      "total_tokens": 4679,
+      "call_count": 10
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 80,
+    "avg_answer_time_ms": 1736.8764877319336
+  }
+}

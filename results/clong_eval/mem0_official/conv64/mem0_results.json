@@ -1,0 +1,66 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 2,
+  "accuracy": 66.66666666666666,
+  "conversation_idx": 64,
+  "conversation_hash": "cef94a5c",
+  "details": [
+    {
+      "conversation_idx": 64,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "2023年4月27日，我在烹饪方面尝试过什么新的食谱？",
+      "gold_answer": "糖醋鱼",
+      "generated_answer": "根据记忆内容，2023年4月27日没有直接提到尝试新食谱的记录。但结合时间推理，4月28日尝试了泰式绿咖喱鸡和越南春卷，4月30日尝试了墨西哥塔可，5月1日尝试了糖醋鱼。4月27日最接近的烹饪相关活动是计划开始烹饪地中海菜肴（包括希腊沙拉），但这是计划而非实际尝试。因此，最可能的答案是：**计划开始尝试地中海菜肴，但尚未实际烹饪**。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案明确表示2023年4月27日没有尝试新食谱，而标准答案为糖醋鱼。虽然生成答案提到5月1日尝试了糖醋鱼，但日期相差4天，且生成答案否认了4月27日的尝试，因此核心事实错误，不符合部分正确或日期容错规则。",
+      "top_memories": [
+        "User 林瑶 plans to start cooking Mediterranean dishes with a Greek salad, then try seafood dishes like grilled fish and seafood pasta.",
+        "User 林瑶 tried a new Mexican restaurant on April 30, 2023, and loved the tacos, which featured handmade corn tortillas with grilled meat, avocado, and fresh salsa.",
+        "User recently tried making sweet and sour fish (糖醋鱼) for the first time; the first attempt had imbalanced sweet and sour flavors, but the second attempt succeeded.",
+        "User 林瑶 prefers simple cooking methods for seafood, such as grilling fish with olive oil and lemon juice to preserve the natural flavor.",
+        "User 林瑶 tried Thai green curry chicken and Vietnamese spring rolls at a newly opened restaurant on April 28, 2023, and found the green curry rich and spicy with just the right amount of heat."
+      ]
+    },
+    {
+      "conversation_idx": 64,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "4月28日，今天公司里举办了一个小型的歌唱比赛，我唱的是什么歌？",
+      "gold_answer": "《Can't Stop The Feeling》",
+      "generated_answer": "根据记忆内容，4月28日公司小型歌唱比赛中，你唱的是Justin Timberlake的《Can't Stop The Feeling》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了歌曲名《Can't Stop The Feeling》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User 林瑶 plans to perform a Latin dance with colleagues at the next company gathering, aiming to dance smoothly, and they are considering dancing to 'Despacito' because its rhythm suits Latin dance and it's popular.",
+        "User 林瑶 chose a bright blue fabric and sewed sequins on the edges for their dance costume, making it sparkle.",
+        "User 林瑶 is currently practicing a new song and wants to improve their high notes, seeking methods to enhance high-pitch performance.",
+        "User 林瑶 is considering opening a dance workshop to teach others, if she has enough time and resources, and was encouraged by the assistant to pursue this idea.",
+        "User 林瑶 enjoys taking evening walks in quiet nights, feeling the breeze, and prefers silence over music to clear their mind and let new ideas emerge."
+      ]
+    },
+    {
+      "conversation_idx": 64,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "2023年4月30日，我跟你分享了一部关于时间旅行的电视剧，名字是什么？",
+      "gold_answer": "《旅行者》",
+      "generated_answer": "根据记忆内容，你（林瑶）在2023年4月30日分享的关于时间旅行的电视剧是《旅行者》（Travelers）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了电视剧名称《旅行者》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User 林瑶 is currently watching a TV series called '旅行者' (Travelers) about time travel, which she finds very engaging.",
+        "User 林瑶 is watching the TV series '旅行者' (The Traveler) about time travel, and finds the plot where the protagonist tries to change history but each small change leads to unexpected large consequences particularly impressive.",
+        "User 林瑶 has a strong desire to travel to Japan, specifically to Kyoto, to experience traditional culture and beautiful shrines.",
+        "User 林瑶 plans to travel to a small island and was advised to plan the itinerary, bring sunscreen and a camera, and capture moments.",
+        "User 林瑶 tried rock climbing for the first time on April 30, 2023, initially feeling scared but quickly overcoming it and finding it thrilling. They learned that perseverance helps overcome difficult sections and enjoyed the beautiful view from above."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 61,
+  "write_time_seconds": 47.5436806678772,
+  "answer_time_seconds": 6.375308036804199
+}

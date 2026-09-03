@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "cd933873",
+      "user_name": "用户",
+      "question": "2023年4月27日，我去了孤儿院跟孩子们画画，我画了什么呢？",
+      "gold_answer": "卡通动物",
+      "generated_answer": "根据记忆内容，2023年4月27日您去了孤儿院帮忙，和孩子们一起画画，您画了卡通动物，孩子们很喜欢。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到'画了卡通动物'，与标准答案'卡通动物'完全一致，因此正确。",
+      "top_memories": [
+        "2023年04月27日用户去了孤儿院帮忙，和孩子们一起画画",
+        "用户于2023年4月27日尝试制作糖醋鱼，第一次做味道偏甜但成功",
+        "用户画了卡通动物，孩子们很喜欢",
+        "用户名叫郑晓燕",
+        "用户喜欢做义工"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 5.122741222381592,
+    "answer_time_seconds": 1.5635149478912354,
+    "total_time_seconds": 6.686697959899902,
+    "write_tokens": {
+      "prompt_tokens": 1555,
+      "completion_tokens": 258,
+      "total_tokens": 1813,
+      "call_count": 5
+    },
+    "answer_tokens": {
+      "prompt_tokens": 710,
+      "completion_tokens": 68,
+      "total_tokens": 778,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 19,
+    "avg_answer_time_ms": 1563.5089874267578
+  }
+}

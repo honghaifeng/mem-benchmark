@@ -1,0 +1,65 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "73018b57",
+      "user_name": "用户",
+      "question": "4月27日，我和你分享过我看的一部电影，名字是什么？",
+      "gold_answer": "《时间旅行者的妻子》",
+      "generated_answer": "根据记忆内容，4月27日你与AI对话时，AI祝你写作顺利，但并未提及你分享的电影。不过，记忆中提到你最近看了《时间旅行者的妻子》，且该电影在4月27日前后被提及（记忆3、4）。结合时间顺序，4月27日最可能分享的电影是《时间旅行者的妻子》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案《时间旅行者的妻子》，核心事实正确，符合部分正确即算对的原则。",
+      "top_memories": [
+        "李雪在2023年4月27日与AI对话，AI祝她写作顺利，并约定明天继续对话。",
+        "用户自称是爱笑的旅行家、电影迷、音乐会常客",
+        "用户最近看了电影《时间旅行者的妻子》",
+        "用户被电影《时间旅行者的妻子》中跨越时间的爱情打动",
+        "用户喜欢《罗马假日》和《卡萨布兰卡》这两部电影"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "73018b57",
+      "user_name": "用户",
+      "question": "4月28日，我和你聊到了一个独立歌手，她的名字是？",
+      "gold_answer": "Eva Cassidy",
+      "generated_answer": "根据记忆内容，4月28日提到的独立歌手是Eva Cassidy。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了Eva Cassidy，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "对话日期是2023年04月28日",
+        "李雪在2023年4月28日写作取得进展，写了关于海边散步的描写",
+        "用户喜欢独立歌手Eva Cassidy，她的声音很有穿透力",
+        "用户的名字是李雪",
+        "用户计划参加一个音乐节，听说有很多独立音乐人会去"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 14.767707109451294,
+    "answer_time_seconds": 3.4704477787017822,
+    "total_time_seconds": 18.238669872283936,
+    "write_tokens": {
+      "prompt_tokens": 5100,
+      "completion_tokens": 963,
+      "total_tokens": 6063,
+      "call_count": 14
+    },
+    "answer_tokens": {
+      "prompt_tokens": 1806,
+      "completion_tokens": 162,
+      "total_tokens": 1968,
+      "call_count": 4
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 52,
+    "avg_answer_time_ms": 1735.211968421936
+  }
+}

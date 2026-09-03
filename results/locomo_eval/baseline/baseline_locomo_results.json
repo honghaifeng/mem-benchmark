@@ -1,0 +1,32 @@
+{
+  "system": "baseline",
+  "dataset": "LoCoMo",
+  "language": "English",
+  "total_questions": 1540,
+  "correct": 999,
+  "accuracy": 64.85,
+  "data_source": "memory-arena (https://github.com/honghaifeng/memory-arena)",
+  "category_stats": {
+    "single_hop": {
+      "accuracy": 64.9,
+      "total": 282,
+      "correct": 183
+    },
+    "multi_hop": {
+      "accuracy": 63.2,
+      "total": 321,
+      "correct": 203
+    },
+    "temporal": {
+      "accuracy": 54.2,
+      "total": 96,
+      "correct": 52
+    },
+    "conversation_understanding": {
+      "accuracy": 66.6,
+      "total": 841,
+      "correct": 560
+    }
+  },
+  "note": "Results extracted from memory-arena charts.js. Original result files were not preserved separately."
+}

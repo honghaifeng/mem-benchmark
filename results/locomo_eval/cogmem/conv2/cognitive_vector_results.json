@@ -1,0 +1,2631 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 152,
+  "correct": 122,
+  "accuracy": 80.26315789473685,
+  "category_stats": {
+    "2": {
+      "total": 27,
+      "correct": 23
+    },
+    "1": {
+      "total": 31,
+      "correct": 27
+    },
+    "3": {
+      "total": 8,
+      "correct": 6
+    },
+    "4": {
+      "total": 86,
+      "correct": 66
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 2,
+      "qa_idx": 0,
+      "question": "Who did Maria have dinner with on May 3, 2023?",
+      "gold_answer": "her mother",
+      "generated_answer": "Maria and her mom.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Maria and her mom' correctly identifies that Maria had dinner with her mother, which matches the gold answer 'her mother'.",
+      "category": 2,
+      "top_memories": [
+        "dinner: A dinner prepared and shared by Maria and her mom on May 3, 2023.",
+        "Maria and her mom made dinner together on 3 May 2023.",
+        "On 7 July 2023, Maria said she was going to have dinner with friends from the gym.",
+        "dinner participants: Maria, Maria's mom",
+        "nearby church: A nearby church that Maria joined on 5 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 1,
+      "question": "When did Maria donate her car?",
+      "gold_answer": "21 December 2022",
+      "generated_answer": "21 December 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Maria's old car donation_date: 21 December 2022",
+        "Maria's old car donated_to: homeless shelter",
+        "Maria donated her old car to a homeless shelter on 21 December 2022.",
+        "Maria's car condition: damaged",
+        "On 2 July 2023, Maria was involved in a car accident where another car ran a red light and hit her car, but everyone was okay."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 2,
+      "question": "What martial arts has John done?",
+      "gold_answer": "Kickboxing, Taekwondo",
+      "generated_answer": "John has done taekwondo and kickboxing.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct martial arts from the gold answer: taekwondo and kickboxing.",
+      "category": 1,
+      "top_memories": [
+        "taekwondo: A martial art that John is about to practice.",
+        "weight training: John has done weight training classes.",
+        "John has done weight training classes before 22 July 2023.",
+        "John has great respect for the military.",
+        "John found his passion and it has made a big impact on his life."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 3,
+      "question": "What type of volunteering have John and Maria both done?",
+      "gold_answer": "Volunteering at a homeless shelter",
+      "generated_answer": "Both John and Maria have volunteered at the shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that both John and Maria volunteered at the shelter, which matches the gold answer of volunteering at a homeless shelter. The term 'shelter' is synonymous with 'homeless shelter' in this context.",
+      "category": 1,
+      "top_memories": [
+        "Maria enjoys volunteering and feels it makes a difference.",
+        "John and Maria believe that kindness can have a big impact on someone's life.",
+        "John agrees to help find volunteers Maria",
+        "John volunteered_with Maria",
+        "John and Maria volunteered together in 2022."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 4,
+      "question": "When did John join the online support group?",
+      "gold_answer": "The week before 1 January 2023",
+      "generated_answer": "25 December 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '25 December 2022' is within 14 days of the gold answer 'the week before 1 January 2023' (which is approximately 25-31 December 2022). Therefore, it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "John member of service-focused online group",
+        "John joined a service-focused online group on 25 December 2022.",
+        "John member of virtual support group",
+        "service-focused online group: An online group focused on service that John joined and finds supportive.",
+        "virtual support group: A virtual support group that John is a part of and invited others to join."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 5,
+      "question": "When did Maria go to the beach?",
+      "gold_answer": "December 2022",
+      "generated_answer": "December 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Maria took photo of a beach with footprints in the sand and a blue sky",
+        "Maria took_photo_at_beach: December 2022",
+        "photo of a beach with footprints in the sand and a blue sky: A photo taken by Maria during her solo trip in Spain.",
+        "Maria shared photo of a person walking on the beach with a surfboard",
+        "Maria took a photo of a beach with footprints in the sand and a blue sky in Spain in 2022."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 6,
+      "question": "Where has Maria made friends?",
+      "gold_answer": "homeless shelter, gym, church",
+      "generated_answer": "Maria has made friends at church, with a fellow volunteer, and at a shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'church' and 'shelter', which are correct locations from the gold answer. Although it mentions 'with a fellow volunteer' instead of 'gym', the presence of two correct locations makes it partially correct, which is sufficient for a correct judgment.",
+      "category": 1,
+      "top_memories": [
+        "Maria friends with John",
+        "John friends with Maria",
+        "Maria friends John",
+        "John friends Maria",
+        "Maria became friends with a fellow volunteer on 9 January 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 7,
+      "question": "What items des John mention having as a child?",
+      "gold_answer": "A doll, a film camera",
+      "generated_answer": "A little doll.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'a little doll', which is one of the correct items from the gold answer ('a doll'). Partial correctness counts, so the answer is correct.",
+      "category": 1,
+      "top_memories": [
+        "John admires Maria's child",
+        "John's children gender: one girl and one boy",
+        "John's family members: family members",
+        "John's children count: at least two",
+        "John has_kids: true"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 8,
+      "question": "What might John's financial status be?",
+      "gold_answer": "Middle-class or wealthy",
+      "generated_answer": "John is experiencing financial strain due to car repair costs as of 10 April 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states John is experiencing financial strain due to car repair costs, which does not match the gold answer 'Middle-class or wealthy'. It provides no correct option and is off-topic.",
+      "category": 3,
+      "top_memories": [
+        "John's car status: broken down",
+        "John is experiencing financial strain due to car repair costs as of 10 April 2023.",
+        "John's family relation_to_John: family",
+        "John made pizza",
+        "John role: politician"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 9,
+      "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+      "gold_answer": "Her aunt",
+      "generated_answer": "Her auntie.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Her auntie' is a synonym for 'Her aunt', so it conveys the same correct information.",
+      "category": 1,
+      "top_memories": [
+        "When Maria was younger, her family had money problems and had to rely on outside help from their auntie.",
+        "Maria has a small family that she relies on for strength during tough times.",
+        "Maria went on a family road trip to Oregon when she was younger.",
+        "Maria started volunteering to help make a difference, inspired by her aunt who believed in volunteering and helped her family when they were struggling.",
+        "Maria was reminded of the importance of letting go and trusting life during her trip."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 10,
+      "question": "When did Maria meet Jean?",
+      "gold_answer": "February 24, 2023",
+      "generated_answer": "24 February 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '24 February 2023' is the same date as 'February 24, 2023', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "Maria met Jean",
+        "Jean: Jean is a woman Maria met while volunteering, known for her optimism and resilience.",
+        "Maria met Jean while volunteering at a homeless shelter on 24 February 2023.",
+        "Jean met_by: Maria",
+        "Maria visited London"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 11,
+      "question": "What people has Maria met and helped while volunteering?",
+      "gold_answer": "David, Jean, Cindy, Laura",
+      "generated_answer": "John helped Maria, and Maria has a close relationship with the people at the shelter.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any of the people from the gold answer (David, Jean, Cindy, Laura). It talks about John helping Maria and her relationship with shelter people, which is off-topic and does not provide the correct names of people she met and helped.",
+      "category": 1,
+      "top_memories": [
+        "Maria enjoys volunteering and feels it makes a difference.",
+        "Maria started volunteering to help make a difference, inspired by her aunt who believed in volunteering and helped her family when they were struggling.",
+        "Maria's aunt belief: volunteering",
+        "Maria has been doing charity work and finds it rewarding and fulfilling.",
+        "Maria helped organize meal for shelter residents"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 12,
+      "question": "What test has John taken multiple times?",
+      "gold_answer": "The military aptitude test",
+      "generated_answer": "military aptitude test",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'military aptitude test' is semantically identical to the gold answer 'The military aptitude test', differing only in the absence of the article 'The'.",
+      "category": 1,
+      "top_memories": [
+        "John failed military aptitude test",
+        "John failed_military_aptitude_test: recently",
+        "military aptitude test: John failed a military aptitude test in December 2022.",
+        "John failed a military aptitude test in December 2022.",
+        "John retook an aptitude test last week (around 27 February 2023) and got great results."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 13,
+      "question": "When did Maria's grandmother pass away?",
+      "gold_answer": "The week before 6 March 2023",
+      "generated_answer": "27 February 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states the grandmother passed away the week before 6 March 2023, which includes 27 February 2023. The generated answer gives a specific date within that week, so it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Maria's grandmother passed away on 27 February 2023.",
+        "When Maria was younger, her family had money problems and had to rely on outside help from their auntie.",
+        "dinner participants: Maria, Maria's mom",
+        "Maria went on a family road trip to Oregon when she was younger.",
+        "Maria visited Spain"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 14,
+      "question": "Would John be considered a patriotic person?",
+      "gold_answer": "Yes",
+      "generated_answer": "Yes, John would be considered a patriotic person.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly agrees with the gold answer, stating that John would be considered patriotic.",
+      "category": 3,
+      "top_memories": [
+        "John role: politician",
+        "John supports veterans",
+        "veterans support John",
+        "John believes it is important to stand up for what we believe in.",
+        "John has great respect for the military."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 15,
+      "question": "What writing classes has Maria taken?",
+      "gold_answer": "Poetry, creative writing",
+      "generated_answer": "Maria took a creative writing class and is enrolled in a poetry class.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions both 'creative writing' and 'poetry', which are the two classes in the gold answer. Although it says 'is enrolled in' instead of 'has taken', the core facts are correct and extra detail about enrollment does not penalize.",
+      "category": 1,
+      "top_memories": [
+        "Maria took a creative writing class recently.",
+        "Maria recent_activity: took a creative writing class",
+        "Maria considers trying new classes as of 22 July 2023.",
+        "On 9 January 2023, Maria has been taking notes about local politics in her notebook.",
+        "Maria has been doing charity work and finds it rewarding and fulfilling."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 16,
+      "question": "When did John get his degree?",
+      "gold_answer": "The week before 2 April 2023",
+      "generated_answer": "26 March 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states 'The week before 2 April 2023', which corresponds to the week of 26 March 2023 (Sunday to Saturday). The generated answer '26 March 2023' falls within that week and is within 14 days of the gold answer's date, so it is semantically consistent.",
+      "category": 2,
+      "top_memories": [
+        "John education: university degree completed",
+        "John degree: mentioned",
+        "John's university degree completion_date: 26 March 2023",
+        "John found his passion and it has made a big impact on his life.",
+        "John graduated from university on 26 March 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 17,
+      "question": "What might John's degree be in?",
+      "gold_answer": "Political science, Public administration, Public affairs",
+      "generated_answer": "John's degree might be in education, given his passion for improving education and his campaign to improve education in the area.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer suggests John's degree is in education, which is not among the gold answer options (political science, public administration, public affairs). The answer is off-topic and contains no correct content.",
+      "category": 3,
+      "top_memories": [
+        "John degree: mentioned",
+        "John education: university degree completed",
+        "John's university degree completion_date: 26 March 2023",
+        "John interested_in education",
+        "John works in community"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 18,
+      "question": "Who did John go to yoga with?",
+      "gold_answer": "Rob",
+      "generated_answer": "Rob.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Rob.' matches the gold answer 'Rob' exactly, so it is correct.",
+      "category": 1,
+      "top_memories": [
+        "John participated_in yoga",
+        "Rob: John's colleague who invited him to a beginner's yoga class.",
+        "beginner's yoga class: An event that John was invited to by Rob.",
+        "John goes to a yoga studio often as of 22 July 2023.",
+        "John finds weight training challenging but peaceful, similar to yoga."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 19,
+      "question": "What damages have happened to John's car?",
+      "gold_answer": "Broken windshield, Car broke down",
+      "generated_answer": "John's car has a broken windshield and broke down.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both damages from the gold answer: broken windshield and car broke down, so it is correct.",
+      "category": 1,
+      "top_memories": [
+        "John's car status: broken down",
+        "John's car broke down on 7 April 2023 while he was on his way to work.",
+        "John's car condition: broken windshield",
+        "John had an unexpected incident on his way home during the week of 2 January 2023, which resulted in a broken windshield on his car.",
+        "John is experiencing financial strain due to car repair costs as of 10 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 20,
+      "question": "When did John take a road trip to the Pacific Northwest?",
+      "gold_answer": "2022",
+      "generated_answer": "2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Pacific Northwest: A region in the United States that John and Maria explored on a road trip in 2022.",
+        "John and Maria took a road trip to the Pacific Northwest in 2022.",
+        "Road trip destination Pacific Northwest",
+        "Road trip: A road trip taken by John and Maria in 2022 to the Pacific Northwest.",
+        "Road trip destination: Pacific Northwest"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 21,
+      "question": "What areas of the U.S. has John been to or is planning to go to?",
+      "gold_answer": "Pacific northwest, east coast",
+      "generated_answer": "East Coast (planning to visit) and California (visited).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'East Coast', which matches one of the gold answer's areas. Although it mentions California instead of Pacific northwest, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "East Coast: The East Coast is a destination John is planning to visit.",
+        "As of 18 April 2023, John is planning a trip to the East Coast.",
+        "John planning trip to East Coast",
+        "John is hoping to get into local politics as of 17 December 2022.",
+        "John is running a campaign to improve education in the area."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 22,
+      "question": "When did John go to a convention with colleagues?",
+      "gold_answer": "March 2023",
+      "generated_answer": "March 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, stating the same date 'March 2023'.",
+      "category": 2,
+      "top_memories": [
+        "John attended a convention",
+        "a convention: A convention attended by John and his colleagues in March 2023.",
+        "John and his colleagues attended a convention together in March 2023.",
+        "At the convention, John connected with like-minded people and swapped ideas.",
+        "John plans to meet with local organizations"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 23,
+      "question": "What desserts has Maria made?",
+      "gold_answer": "Banana split sundae, Peach cobbler",
+      "generated_answer": "peach cobbler",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'peach cobbler' is one of the two desserts in the gold answer, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "peach cobbler: A dessert made by Maria recently.",
+        "Maria made peach cobbler",
+        "Maria and her mom made dinner together on 3 May 2023.",
+        "Maria went on a trip and it helped her grow and made her appreciate life more.",
+        "Maria made a painting of a castle on a hill."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 24,
+      "question": "When did John start boot camp with his family?",
+      "gold_answer": "April.2023",
+      "generated_answer": "April 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'April 2023.' matches the gold answer 'April.2023' semantically, with only a minor punctuation difference.",
+      "category": 2,
+      "top_memories": [
+        "John's family participating_in boot camp",
+        "John started attending boot camps with his family in April 2023.",
+        "John attends boot camps",
+        "boot camps: Boot camps that John and his family started attending in April 2023.",
+        "John and his family have been helping and supporting each other during boot camp, cheering each other on during workouts and providing emotional support outside them."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 25,
+      "question": "What European countries has Maria been to?",
+      "gold_answer": "Spain, England",
+      "generated_answer": "Spain and England.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct countries from the gold answer (Spain and England), so it is correct.",
+      "category": 1,
+      "top_memories": [
+        "Maria has been doing charity work and finds it rewarding and fulfilling.",
+        "Maria visited Spain",
+        "Maria's solo trip occurred_in Spain",
+        "Maria visited England",
+        "Maria's solo trip location: Spain"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 26,
+      "question": "What has Maria done to feel closer to her faith?",
+      "gold_answer": "Join a local church, buy a cross necklace",
+      "generated_answer": "Maria joined a nearby church on 5 May 2023 and bought a cross necklace to feel closer to her faith.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct actions from the gold answer: joining a local church and buying a cross necklace. The extra date detail does not affect correctness.",
+      "category": 1,
+      "top_memories": [
+        "Maria joined a nearby church on 5 May 2023 to feel closer to a community and her faith.",
+        "Maria bought a cross necklace to feel closer to her faith, which made her happy.",
+        "cross necklace: A cross necklace that Maria bought to feel closer to her faith.",
+        "On 27 June 2023, John encouraged Maria to continue with her efforts.",
+        "On 4 May 2023, John praised Maria for trying new things and encouraged her to keep up the courage."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 27,
+      "question": "When did John have a party with veterans?",
+      "gold_answer": "The Friday before 20 May 2023",
+      "generated_answer": "19 May 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '19 May 2023' is the Friday before 20 May 2023, which matches the gold answer's date. The date is within the 14-day tolerance and semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "John organized event for veterans",
+        "John supports veterans",
+        "veterans support John",
+        "On 19 May 2023, John threw a small party for veterans and invited them to share their stories.",
+        "John respects and appreciates veterans"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 28,
+      "question": "What causes does John feel passionate about supporting?",
+      "gold_answer": "Veterans, schools, infrastructure",
+      "generated_answer": "John feels passionate about making a positive impact, spreading positivity, making a difference, supporting and motivating kids, helping others (which gives him purpose), activism, and serving his country (volunteering).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'supporting and motivating kids' which aligns with 'schools' from the gold answer, and 'serving his country (volunteering)' aligns with 'veterans' (as serving the country often relates to veterans). Thus, it contains at least one correct option, so it is correct.",
+      "category": 1,
+      "top_memories": [
+        "John believes it is important to stand up for what we believe in.",
+        "On 22 December 2022, John stated that his family helps him stay centered and reminds him why he is passionate about making a positive impact.",
+        "John believes in himself and had support from loved ones.",
+        "John supports and motivates kids",
+        "John passion: making a positive impact"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 29,
+      "question": "What events is Maria planning for the homeless shelter funraiser?",
+      "gold_answer": "Chili cook-off, ring-toss tournament",
+      "generated_answer": "Maria is planning a ring-toss tournament for the homeless shelter's fundraiser.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'ring-toss tournament', which is one of the two events in the gold answer. Partial correctness counts as correct.",
+      "category": 1,
+      "top_memories": [
+        "As of 17 December 2022, Maria volunteers at a homeless shelter.",
+        "Maria volunteered_at: homeless shelter",
+        "homeless shelter: A place where Maria volunteers.",
+        "Maria volunteer: homeless shelter",
+        "As of 18 April 2023, Maria is volunteering at a homeless shelter."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 30,
+      "question": "What shelters does Maria volunteer at?",
+      "gold_answer": "The homeless shelter, the dog shelter",
+      "generated_answer": "Maria volunteers at a homeless shelter and a local dog shelter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both shelters from the gold answer: the homeless shelter and the dog shelter, expressed with slightly different wording but semantically identical.",
+      "category": 1,
+      "top_memories": [
+        "shelters: Places where Maria plans to volunteer next month.",
+        "Maria volunteered at shelter",
+        "Maria plans_to_volunteer_at shelters",
+        "Maria volunteer: homeless shelter",
+        "Maria volunteers at the shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 31,
+      "question": "When did John get his dog Max?",
+      "gold_answer": "In 2013",
+      "generated_answer": "The memory does not specify when John got Max.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states the memory does not specify when John got Max, which contradicts the gold answer that it was in 2013. It provides no correct information and is off-topic relative to the expected answer.",
+      "category": 2,
+      "top_memories": [
+        "John had a dog named Max.",
+        "Max: Max was John's family dog for 10 years and recently passed away.",
+        "John's dog Max passed away, and he was an important part of the family for 10 years.",
+        "John owned Max",
+        "John owns Max"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 32,
+      "question": "What outdoor activities has John done with his colleagues?",
+      "gold_answer": "Hiking, mountaineering",
+      "generated_answer": "John went on a hiking trip with his workmates.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions hiking, which is one of the correct activities from the gold answer. Although it omits mountaineering, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "On 13 August 2023, John mentioned that his family enjoys outdoor activities such as hiking, going to the park, and having picnics.",
+        "Hiking trip: A hiking trip John went on with his workmates.",
+        "John decided to try similar activities with his family and friends after attending the community event.",
+        "John enjoys coming up with activities for his family to enjoy.",
+        "John went on a hiking trip with his workmates and a dog."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 33,
+      "question": "What types of yoga has Maria practiced?",
+      "gold_answer": "Aerial, kundalini",
+      "generated_answer": "Maria has practiced aerial yoga and kundalini yoga.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct types of yoga (aerial and kundalini) from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "kundalini yoga: A type of yoga that Maria is trying.",
+        "Maria enjoys aerial yoga",
+        "Maria practices aerial yoga",
+        "Maria trying kundalini yoga",
+        "Maria trying: kundalini yoga"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 34,
+      "question": "When did Maria join a gym?",
+      "gold_answer": "The week before 16 June 2023",
+      "generated_answer": "9 June 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '9 June 2023' is within 14 days of the gold answer 'the week before 16 June 2023' (which is between 10-16 June 2023). The difference is at most 7 days, so it is within the allowed tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Maria joined gym",
+        "Maria joined a gym on 9 June 2023.",
+        "gym: A gym that Maria joined in June 2023, which she finds welcoming and positive.",
+        "Maria joined_gym_date: 9 June 2023",
+        "On 7 July 2023, Maria said she was going to have dinner with friends from the gym."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 35,
+      "question": "What states has Maria vacationed at?",
+      "gold_answer": "Oregon, Florida",
+      "generated_answer": "Florida, Oregon",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer contains both correct states (Florida and Oregon) from the gold answer, just in a different order, which is semantically equivalent.",
+      "category": 1,
+      "top_memories": [
+        "Maria works at The shelter",
+        "Maria has a small family and enjoys spending time with friends, watching movies, hiking, and having game nights at her place.",
+        "Maria volunteers at the shelter",
+        "Maria volunteered at shelter",
+        "Maria volunteered_at the shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 36,
+      "question": "What music events has John attended?",
+      "gold_answer": "Live music event, violin concert",
+      "generated_answer": "John attended a live music event with his family around 20 June 2023, and a violin concert on 27 February 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both events from the gold answer: a live music event and a violin concert. The extra details (dates, family) do not affect correctness.",
+      "category": 1,
+      "top_memories": [
+        "live music event: A live music event that John attended with his family last week, which had amazing energy.",
+        "John attended a live music event with his family on approximately 20 June 2023, and they had a great time dancing and having fun.",
+        "John attended community event",
+        "The live music event John attended had amazing energy in the air.",
+        "John attended a convention"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 37,
+      "question": "What events for veterans has John participated in?",
+      "gold_answer": "Petition, march, party, visiting veterans hospital, 5K charity run",
+      "generated_answer": "John participated in a marching event for veterans' rights on 3 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions John participated in a marching event, which matches the 'march' event from the gold answer. Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "John organized event for veterans",
+        "John supports veterans",
+        "John organized_event_for veterans",
+        "veterans support John",
+        "John coordinated with the city and obtained sponsors for the veterans event."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 38,
+      "question": "When did Maria get in a car accident?",
+      "gold_answer": "July 2, 2023",
+      "generated_answer": "On 2 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer (July 2, 2023), just formatted differently.",
+      "category": 2,
+      "top_memories": [
+        "On 2 July 2023, Maria was involved in a car accident where another car ran a red light and hit her car, but everyone was okay.",
+        "Maria's car condition: damaged",
+        "Maria participated in the event",
+        "Maria participated_in Road trip",
+        "Maria's old car donation_date: 21 December 2022"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 39,
+      "question": "Around which US holiday did Maria get into a car accident?",
+      "gold_answer": "Independence Day",
+      "generated_answer": "Independence Day (July 4th).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the holiday as Independence Day, matching the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "On 2 July 2023, Maria was involved in a car accident where another car ran a red light and hit her car, but everyone was okay.",
+        "Maria's car condition: damaged",
+        "Maria's old car donation_date: 21 December 2022",
+        "Maria donated her old car to a homeless shelter on 21 December 2022.",
+        "Maria's old car donated_to: homeless shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 40,
+      "question": "What are the names of John's children?",
+      "gold_answer": "Kyle, Sara",
+      "generated_answer": "Sara and Kyle",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer contains both correct names (Sara and Kyle) from the gold answer, just in a different order.",
+      "category": 1,
+      "top_memories": [
+        "John's children count: at least two",
+        "John's children gender: one girl and one boy",
+        "kids: Children who are supported and motivated by John.",
+        "John and Maria are part of an organization that they describe as a family.",
+        "John's children play at the park"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 41,
+      "question": "Does John live close to a beach or the mountains?",
+      "gold_answer": "beach",
+      "generated_answer": "John lives close to a beach.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states 'John lives close to a beach,' which matches the gold answer 'beach' exactly. It is semantically consistent and contains the correct option.",
+      "category": 3,
+      "top_memories": [
+        "John's family located_at the beach",
+        "John had a film camera as a kid and used it to take beach pictures.",
+        "On 25 May 2023, John shared a photo of his family at the beach with Maria.",
+        "film camera: John had a film camera as a kid and used it to take beach pictures.",
+        "California: A location where John had a special vacation with a gorgeous sunset and night stroll."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 42,
+      "question": "What area was hit by a flood?",
+      "gold_answer": "West County",
+      "generated_answer": "John's old area",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'John's old area' does not match the gold answer 'West County' and does not contain any correct or synonymous content.",
+      "category": 1,
+      "top_memories": [
+        "flood: A flood that occurred in John's old area, causing damage to homes.",
+        "flood location: John's old area",
+        "John's old area was hit by a flood on 30 June 2023.",
+        "flood affected John's old area",
+        "The flood in John's old area ruined many homes due to poor infrastructure."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 43,
+      "question": "When was John's old area hit with a flood?",
+      "gold_answer": "The week before 7 July 2023",
+      "generated_answer": "30 June 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '30 June 2023' is within 14 days of the gold answer 'the week before 7 July 2023' (which is approximately 30 June to 6 July 2023). Therefore, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "flood affected John's old area",
+        "flood location: John's old area",
+        "John's old area was hit by a flood on 30 June 2023.",
+        "John's old area flooded: true",
+        "flood: A flood that occurred in John's old area, causing damage to homes."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 44,
+      "question": "What activities has Maria done with her church friends?",
+      "gold_answer": "Hiking, picnic, volunteer work",
+      "generated_answer": "Maria has done community work, gone camping, gone hiking, and had a picnic with her church friends.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes hiking and picnic, which are correct activities from the gold answer. Although it also mentions community work and camping, extra details do not penalize as long as core facts are correct.",
+      "category": 1,
+      "top_memories": [
+        "Maria joined a church recently.",
+        "Maria joined the church",
+        "Maria joined nearby church",
+        "the church: The church that Maria recently joined.",
+        "Church friends: Friends from church who attended the picnic with Maria."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 45,
+      "question": "Would John be open to moving to another country?",
+      "gold_answer": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+      "generated_answer": "No exact answer available. Based on his community involvement and political aspirations, he likely prefers staying local, but no clear indication about moving abroad.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly indicates that John is not open to moving abroad, aligning with the gold answer's 'No'. It also mentions his political aspirations and local preferences, which are consistent with the gold answer's reasons (goals in the U.S.).",
+      "category": 3,
+      "top_memories": [
+        "John feels drawn to serving his country and wants to volunteer.",
+        "John works to improve community",
+        "John getting_to_know neighborhood",
+        "John is considering joining the military.",
+        "John plans to meet with local leaders"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 46,
+      "question": "When did Maria go hiking with her church friends?",
+      "gold_answer": "The weekend before 22 July 2023",
+      "generated_answer": "15 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'the weekend before 22 July 2023', which is 15-16 July 2023. The generated answer '15 July 2023' is within that weekend and within 14 days of the gold answer, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "the hike participants: Maria and her church friends",
+        "Maria went hiking with her church friends on 15 July 2023.",
+        "Maria joined a church recently.",
+        "the hike: A hike with Maria and her church friends on 15 July 2023.",
+        "Maria joined nearby church"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 47,
+      "question": "What exercises has John done?",
+      "gold_answer": "Weight training, Circuit training, Kickboxing, yoga",
+      "generated_answer": "John has done weight training, yoga, kickboxing, taekwondo, and meditation (as part of yoga/meditation practice). He is also considering trying rock climbing.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes weight training, yoga, and kickboxing, which are all correct options from the gold answer. Although it adds extra activities and omits circuit training, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "weight training: John has done weight training classes.",
+        "John has done weight training classes before 22 July 2023.",
+        "John has done yoga classes before 22 July 2023.",
+        "John found his passion and it has made a big impact on his life.",
+        "John has been feeling overwhelmed but is reminded to pause, reflect, and take care of himself."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 48,
+      "question": "When did John have his first firefighter call-out?",
+      "gold_answer": "The sunday before 3` July 2023",
+      "generated_answer": "30 July 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states the call-out was on the Sunday before 3 July 2023, which is 2 July 2023. The generated answer says 30 July 2023, which is 28 days later, exceeding the 14-day tolerance. Thus, the generated answer is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "John's first call-out with the fire-fighting brigade was on 30 July 2023.",
+        "John's first call-out was intense and his team worked together to help those in need.",
+        "John joined a fire-fighting brigade.",
+        "John joined fire-fighting brigade",
+        "John joined the fire-fighting brigade on 16 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 49,
+      "question": "What food item did Maria drop off at the homeless shelter?",
+      "gold_answer": "Cakes",
+      "generated_answer": "The memory content does not specify what food item Maria dropped off at the homeless shelter.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the food item, which contradicts the gold answer 'Cakes'. It provides no correct content and is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Maria dropped off baked goods at homeless shelter",
+        "Maria dropped off baked goods at a homeless shelter on 24 July 2023.",
+        "Maria volunteers at homeless shelter",
+        "Maria works at The shelter",
+        "Maria volunteered at shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 50,
+      "question": "What attributes describe John?",
+      "gold_answer": "Selfless, family-oriented, passionate, rational",
+      "generated_answer": "John is a politician, a member of the community, works to improve the community, supports and motivates kids, teaches younger generations, appreciates animals, finds inspiration in family/exercise/friends, believes in standing up for beliefs, is adaptable, recently got a job suited to his adaptability, has a family, supports Maria and is supported by her, and values unconditional love and loyalty.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'has a family' which aligns with 'family-oriented', and 'values unconditional love and loyalty' which aligns with 'passionate' in a broad sense. It also includes 'adaptable' which is not in the gold answer but does not contradict it. Therefore, it contains at least one correct attribute.",
+      "category": 3,
+      "top_memories": [
+        "John compliments Maria",
+        "John's family relation_to_John: family",
+        "John role: politician",
+        "John suggests Maria",
+        "John believes it is important to stand up for what we believe in."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 51,
+      "question": "When did Maria start volunteering at the homeless shelter?",
+      "gold_answer": "Around August 2022",
+      "generated_answer": "Maria started volunteering at the homeless shelter about a year before 3 August 2023, so around August 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same time period as the gold answer (around August 2022), with additional context that does not change the core fact.",
+      "category": 2,
+      "top_memories": [
+        "Maria volunteers at homeless shelter",
+        "Maria volunteers at a homeless shelter.",
+        "Maria started volunteering at the homeless shelter about a year before 3 August 2023, after witnessing a family struggling on the streets.",
+        "Maria volunteered at shelter",
+        "Maria volunteers at the shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 52,
+      "question": "Who have written notes of gratitude to Maria?",
+      "gold_answer": "Cindy, Laura",
+      "generated_answer": "Cindy and Laura.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Cindy and Laura' matches the gold answer 'Cindy, Laura' exactly in content, just with 'and' instead of a comma.",
+      "category": 1,
+      "top_memories": [
+        "Maria had a vacation in Florida with her family, feeling gratitude while sitting there.",
+        "Cindy: A resident at the shelter who wrote a heartfelt note of gratitude to Maria.",
+        "On 3 July 2023, John expressed gratitude to Maria for an amazing experience being around others who shared the same values and passion as him.",
+        "On 3 August 2023, Maria received a note from Cindy, a resident at the shelter, expressing gratitude for the support they receive.",
+        "John expressed gratitude for Maria's support on 5 February 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 53,
+      "question": "When did John help renovate his hometown community center?",
+      "gold_answer": "2022",
+      "generated_answer": "2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer '2022'.",
+      "category": 2,
+      "top_memories": [
+        "John helped renovate community center",
+        "community center located in John's hometown",
+        "John helped renovate a rundown community center in his hometown in 2022.",
+        "community center: A rundown community center that John helped renovate last year.",
+        "John works in community"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 54,
+      "question": "When did Maria take up community work with her church friends?",
+      "gold_answer": "August 4, 2023",
+      "generated_answer": "On 4 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer, just with a different format ('On 4 August 2023' vs 'August 4, 2023'). The date is identical, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "Maria joined a church recently.",
+        "Maria joined nearby church",
+        "Maria joined the church",
+        "the church: The church that Maria recently joined."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 55,
+      "question": "When did Maria receive a medal from the homeless shelter?",
+      "gold_answer": "The week before 9 August 2023",
+      "generated_answer": "2 August 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2 August 2023' is within 14 days of the gold answer 'the week before 9 August 2023' (which is approximately 2-8 August 2023). Therefore, it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Maria volunteered at a homeless shelter on 2 August 2023 and received a medal.",
+        "Maria volunteers at homeless shelter",
+        "Maria volunteered_at: homeless shelter",
+        "Maria volunteers at a homeless shelter.",
+        "Maria volunteers at the shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 56,
+      "question": "When did John participate in a 5K charity run?",
+      "gold_answer": "first weekend of August 2023",
+      "generated_answer": "No exact date is provided for John's participation in a 5K charity run. The memory states John organized a 5K charity run on 5 August 2023, but there is no record of him participating in one. Therefore, the most likely answer is that John did not participate in a 5K charity run based on available information.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states John participated in a 5K charity run on the first weekend of August 2023, but the generated answer claims there is no record of participation and that he only organized it. This contradicts the gold answer and provides no correct content.",
+      "category": 2,
+      "top_memories": [
+        "John organized 5K charity run",
+        "John organized_event: 5K charity run",
+        "John organized a 5K charity run in his neighborhood on 5 August 2023 to raise funds for veterans and their families.",
+        "5K charity run location: John's neighborhood",
+        "Maria participated_in 5K charity run"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 57,
+      "question": "What causes has John done events for?",
+      "gold_answer": "Toy drive, Community food drive, veterans, domestic violence",
+      "generated_answer": "John has organized events for veterans and attended community events/meetings to improve the community.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'veterans', which is one of the correct causes from the gold answer. Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "John found his passion and it has made a big impact on his life.",
+        "John believes it is important to stand up for what we believe in.",
+        "John's family motivates him to keep striving for change.",
+        "John involved_in politics",
+        "John attended community event"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 58,
+      "question": "When did Maria get Coco?",
+      "gold_answer": "Two weeks before 11 August 2023",
+      "generated_answer": "28 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states 'Two weeks before 11 August 2023', which is 28 July 2023. The generated answer '28 July 2023' exactly matches this date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Maria owns Coco",
+        "Coco: Coco is Maria's white puppy, acquired two weeks before the conversation date.",
+        "Maria got a puppy named Coco on 28 July 2023.",
+        "Maria's puppy owner: Maria",
+        "Coco acquired: 28 July 2023"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 59,
+      "question": "When did John go on a camping trip with Max?",
+      "gold_answer": "The summer of 2022",
+      "generated_answer": "Summer 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Summer 2022' is semantically equivalent to the gold answer 'The summer of 2022', both indicating the same time period.",
+      "category": 2,
+      "top_memories": [
+        "John and Max went on a camping trip in summer 2022.",
+        "camping trip: A camping trip John and Max took last summer, involving hiking and swimming.",
+        "During the camping trip, John and Max hiked and swam.",
+        "John owned Max",
+        "John participated_in camping trip"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 60,
+      "question": "What are Maria's dogs' names?",
+      "gold_answer": "Coco, Shadow",
+      "generated_answer": "Coco",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Coco', which is one of the correct dog names from the gold answer, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Maria's puppy owner: Maria",
+        "Maria friends John",
+        "John friend Maria",
+        "Maria friend John",
+        "dinner participants: Maria, Maria's mom"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 61,
+      "question": "When did Maria adopt Shadow?",
+      "gold_answer": "The week before 13 August 2023",
+      "generated_answer": "6 August 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The week before 13 August 2023', which means the adoption date is between 7 and 13 August 2023 (assuming a week is 7 days). The generated answer '6 August 2023' is exactly 1 day before the earliest possible date in that week, which is within the 14-day tolerance. Therefore, it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Maria adopted Shadow",
+        "Shadow gets along with Maria's other dog.",
+        "Maria adopted a puppy named Shadow from a shelter on 6 August 2023.",
+        "Maria created castle shadow box",
+        "Maria made a shadow box with a picture of a castle."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 62,
+      "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+      "gold_answer": "two",
+      "generated_answer": "1",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'two' dogs, but the generated answer is '1', which is a different number and does not contain the correct fact.",
+      "category": 1,
+      "top_memories": [
+        "Maria volunteers at local dog shelter",
+        "local dog shelter: A local dog shelter where Maria volunteers.",
+        "On 3 June 2023, Maria mentioned that she just started volunteering at a local dog shelter once a month.",
+        "Maria volunteered at shelter",
+        "Maria volunteered_at the shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 63,
+      "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+      "gold_answer": "two weeks",
+      "generated_answer": "1 week",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'two weeks', but the generated answer is '1 week'. The duration differs by 50% (1 week vs 2 weeks), which exceeds the 50% tolerance, and there is no partial correctness or synonym. Therefore, the answer is wrong.",
+      "category": 2,
+      "top_memories": [
+        "Maria adopted Shadow",
+        "Maria adopted a puppy named Shadow from a shelter on 6 August 2023.",
+        "Maria got a puppy named Coco on 28 July 2023.",
+        "Coco: Coco is Maria's white puppy, acquired two weeks before the conversation date.",
+        "Maria owns Coco"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 64,
+      "question": "What job might Maria pursue in the future?",
+      "gold_answer": "Shelter coordinator, Counselor",
+      "generated_answer": "Maria might pursue a job in charity work or community service, possibly at a shelter, helping underserved communities.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions working at a shelter, which aligns with the gold answer's 'Shelter coordinator'. It also includes community service/charity work, which is semantically related to 'Counselor' in the context of helping underserved communities. Thus, it contains at least one correct option.",
+      "category": 3,
+      "top_memories": [
+        "Maria learned the importance of self-care the hard way in 2022.",
+        "Maria offered to help with networking and future events on 5 February 2023.",
+        "On 1 January 2023, John and Maria discussed future projects to help underserved communities access education, mentorship, job training, and resume building.",
+        "Maria participated in the event",
+        "On 25 February 2023, Maria told John about a woman who went through a divorce, lost her job, and became homeless, yet remained positive and valued kindness."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 65,
+      "question": "What is John's main focus in local politics?",
+      "gold_answer": "Improving education and infrastructure",
+      "generated_answer": "John's main focus in local politics is improving education in the area.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'improving education', which is one of the two correct options from the gold answer. Partial correctness counts as correct.",
+      "category": 4,
+      "top_memories": [
+        "John topics: politics and government",
+        "John interested_in local politics",
+        "John involved_in politics",
+        "John interest: local politics, education, infrastructure",
+        "local leaders: Local leaders that John plans to meet with for support and ideas."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 66,
+      "question": "What sparked John's interest in improving education and infrastructure in the community?",
+      "gold_answer": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+      "generated_answer": "John's childhood experiences in his neighborhood, where lack of education and crumbling infrastructure were prevalent, sparked his interest.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core fact as the gold answer: John's interest was sparked by his childhood experiences of lacking education and poor infrastructure in his neighborhood. It uses synonymous phrasing and adds no conflicting details.",
+      "category": 4,
+      "top_memories": [
+        "John believes that education and infrastructure are key to community growth.",
+        "John's interest in education and infrastructure stems from his childhood experiences in his neighborhood, where lack of education and crumbling infrastructure were prevalent.",
+        "John's community involvement has shown him the impact of education and infrastructure issues on neighbors, highlighting the need for solutions.",
+        "John interest: local politics, education, infrastructure",
+        "infrastructure: An area of interest for John, which he believes needs improvement."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 67,
+      "question": "How did the extra funding help the school shown in the photo shared by John?",
+      "gold_answer": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+      "generated_answer": "The extra funding enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer is essentially identical to the gold answer, conveying the same core facts about repairs, renovations, and improved safety/modernity.",
+      "category": 4,
+      "top_memories": [
+        "John used funding for school",
+        "A school in John's community received funding last year (in 2021) and a photo was taken of men working on the building.",
+        "On 17 December 2022, John confirmed that extra funding enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+        "John's community involvement has shown him the impact of education and infrastructure issues on neighbors, highlighting the need for solutions.",
+        "school: A school that received extra funding for repairs and renovations."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 68,
+      "question": "What type of workout class did Maria start doing in December 2023?",
+      "gold_answer": "aerial yoga",
+      "generated_answer": "Aerial yoga.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Aerial yoga' matches the gold answer 'aerial yoga' exactly, ignoring case.",
+      "category": 4,
+      "top_memories": [
+        "As of 17 December 2022, Maria has started doing aerial yoga.",
+        "aerial yoga: A workout class that Maria recently started.",
+        "Maria is taking a poetry class as of 2 April 2023.",
+        "John is trying different workout regimes as of 16 June 2023.",
+        "On 4 August 2023, Maria did community work with her church friends."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 69,
+      "question": "What did Maria donate to a homeless shelter in December 2023?",
+      "gold_answer": "old car",
+      "generated_answer": "Her old car.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Her old car' matches the gold answer 'old car' semantically, with only a possessive pronoun added.",
+      "category": 4,
+      "top_memories": [
+        "As of 17 December 2022, Maria volunteers at a homeless shelter.",
+        "Maria volunteered at a homeless shelter on 2 August 2023 and received a medal.",
+        "Maria volunteers at a homeless shelter as of 6 March 2023.",
+        "Maria volunteers at homeless shelter",
+        "As of 18 April 2023, Maria is volunteering at a homeless shelter."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 70,
+      "question": "What kind of meal did John and his family make together in the photo shared by John?",
+      "gold_answer": "pizza",
+      "generated_answer": "pizza",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'pizza'.",
+      "category": 4,
+      "top_memories": [
+        "John shared the photo",
+        "pizza: A dish made by John and his family, with various toppings.",
+        "John shared a photo of a group of people standing around a kitchen table during a dinner.",
+        "the photo: A photo shared by John that reminded him of his childhood doll.",
+        "On 22 December 2022, John and his family made pizza together and enjoyed a meal."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 71,
+      "question": "What kind of online group did John join?",
+      "gold_answer": "service-focused online group",
+      "generated_answer": "service-focused online group",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John member of service-focused online group",
+        "John joined a service-focused online group on 25 December 2022.",
+        "service-focused online group: An online group focused on service that John joined and finds supportive.",
+        "virtual support group: A virtual support group that John is a part of and invited others to join.",
+        "John participated_in tech for change group"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 72,
+      "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+      "gold_answer": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+      "generated_answer": "Based on the memory content, John and his mates from the online group participated in a camping trip, a road trip, and a hiking trip (with workmates) as part of their service efforts.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions camping, road trip, and hiking, which are not related to the gold answer's service activities (giving out food and supplies at a homeless shelter, organizing a toy drive). It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John member of service-focused online group",
+        "service-focused online group: An online group focused on service that John joined and finds supportive.",
+        "John joined a service-focused online group on 25 December 2022.",
+        "John decided to try similar activities with his family and friends after attending the community event.",
+        "the team: A group that John is part of and considers successful."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 73,
+      "question": "Who inspired Maria to start volunteering?",
+      "gold_answer": "Her aunt",
+      "generated_answer": "Maria's aunt inspired her to start volunteering.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Maria's aunt as the inspiration, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria started volunteering to help make a difference, inspired by her aunt who believed in volunteering and helped her family when they were struggling.",
+        "Maria enjoys volunteering and feels it makes a difference.",
+        "Maria is inspired by chatting to people, volunteering, and listening to music.",
+        "Maria's aunt belief: volunteering",
+        "Maria started volunteering at the homeless shelter about a year before 3 August 2023, after witnessing a family struggling on the streets."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 74,
+      "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+      "gold_answer": "The girl seemed sad and had no other family",
+      "generated_answer": "Maria sat with the little girl because she noticed the girl was sitting alone and had no other family, and they talked and laughed together.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that the girl had no other family, which matches the gold answer. The additional detail about sitting alone and talking/laughing does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria volunteered at a shelter during an event for kids on 21 January 2023.",
+        "Maria involved with the shelter",
+        "Maria volunteered at a shelter at the front desk on 11 August 2023.",
+        "Maria volunteers at the shelter",
+        "Maria volunteered at shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 75,
+      "question": "What did Jean go through before meeting Maria?",
+      "gold_answer": "divorce, job loss, homelessness",
+      "generated_answer": "The memory does not specify what Jean went through before meeting Maria.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify what Jean went through, which contradicts the gold answer that lists divorce, job loss, and homelessness. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria met Jean",
+        "Jean: Jean is a woman Maria met while volunteering, known for her optimism and resilience.",
+        "Maria met Jean while volunteering at a homeless shelter on 24 February 2023.",
+        "Jean met_by: Maria",
+        "Maria agreed to join meeting John"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 76,
+      "question": "Why did John decide to run for office again?",
+      "gold_answer": "saw the impact he could make in the community through politics",
+      "generated_answer": "John decided to run for office again after seeing the impact he could make in the community through politics.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer's core reason: John saw the impact he could make in the community through politics.",
+      "category": 4,
+      "top_memories": [
+        "John decided to run for office again after seeing the impact he could make in the community through politics.",
+        "John is running for office again.",
+        "John decided to run for office again on 29 April 2023.",
+        "John political involvement: running for office",
+        "John previous_run: had a previous run for office"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 77,
+      "question": "What activity did John's colleague, Rob, invite him to?",
+      "gold_answer": "beginner's yoga class",
+      "generated_answer": "beginner's yoga class",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Rob invited_to John",
+        "Rob: John's colleague who invited him to a beginner's yoga class.",
+        "John's colleague relationship: colleague",
+        "On 25 February 2023, John mentioned that Rob invited him to a beginner's yoga class.",
+        "beginner's yoga class: An event that John was invited to by Rob."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 78,
+      "question": "What is the name of John's one-year-old child?",
+      "gold_answer": "Kyle",
+      "generated_answer": "Kyle",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Kyle'.",
+      "category": 4,
+      "top_memories": [
+        "John's children gender: one girl and one boy",
+        "John's son Kyle is one year old as of 6 March 2023.",
+        "John admires Maria's child",
+        "Kyle: Kyle is John's one-year-old son.",
+        "Sara: John's daughter, whose birthday was celebrated on a family trip last year."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 79,
+      "question": "How often does John take his kids to the park?",
+      "gold_answer": "A few times a week",
+      "generated_answer": "A few times a week.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, with only a period added.",
+      "category": 4,
+      "top_memories": [
+        "John takes his children to the park a few times a week as of 6 March 2023.",
+        "John's family activity: picnic in the park",
+        "John and his family had a great time at the park last weekend (around 4-5 March 2023).",
+        "John's children all got a chance to swing at the park.",
+        "the park: A location where John takes his children to play and bond."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 80,
+      "question": "What did Maria make for her home to remind her of a trip to England?",
+      "gold_answer": "painting of a castle on a hill",
+      "generated_answer": "The memory content does not specify what Maria made for her home to remind her of a trip to England.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify what Maria made, which contradicts the gold answer that she made a painting of a castle on a hill. It provides no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Maria visited England",
+        "Maria went on a trip and it helped her grow and made her appreciate life more.",
+        "Maria was reminded of the importance of letting go and trusting life during her trip.",
+        "Maria's solo trip to Spain was transformative and reminded her of hope and beauty.",
+        "Spain: The location where Maria took a photo during her solo trip."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 81,
+      "question": "Where did Maria get the idea for the castle shadow box in her home?",
+      "gold_answer": "England",
+      "generated_answer": "The memory content does not specify where Maria got the idea for the castle shadow box.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the origin, which contradicts the gold answer 'England'. It provides no correct information and is essentially a non-answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria created castle shadow box",
+        "Maria made a shadow box with a picture of a castle.",
+        "castle shadow box: A shadow box containing a picture of a castle, made by Maria.",
+        "Maria adopted Shadow",
+        "Maria created castle painting"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 82,
+      "question": "What did John receive a certificate for?",
+      "gold_answer": "completion of a university degree",
+      "generated_answer": "Based on the memory content, there is no mention of John receiving a certificate. The closest related item is a trophy commemorating his journey and obstacles overcome.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that there is no mention of John receiving a certificate, which directly contradicts the gold answer that he received a certificate for completion of a university degree. The generated answer is entirely off-topic and contains no correct content.",
+      "category": 4,
+      "top_memories": [
+        "John used funding for school",
+        "John believes it is important to stand up for what we believe in.",
+        "John raised awareness and funds for domestic abuse",
+        "John has great respect for the military.",
+        "John attended a convention"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 83,
+      "question": "What areas is John particularly interested in for policymaking?",
+      "gold_answer": "education and infrastructure",
+      "generated_answer": "John is particularly interested in improving education and infrastructure.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions both education and infrastructure, which are the same areas as the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "As of 2 April 2023, John is considering going into policymaking because of his degree and passion for making a positive impact.",
+        "John interested_in local politics",
+        "John is running a campaign to improve education in the area.",
+        "John campaigning_for_improvement education in the area",
+        "As of 2 April 2023, John is particularly interested in improving education and infrastructure."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 84,
+      "question": "What did Maria participate in last weekend before April 10, 2023?",
+      "gold_answer": "a 5K charity run",
+      "generated_answer": "On 6 April 2023, Maria participated in an event where she ran with a group for a cause.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Maria participated in an event where she ran with a group for a cause, which matches the gold answer 'a 5K charity run' in meaning (running for a cause). The date is within tolerance and extra details are acceptable.",
+      "category": 4,
+      "top_memories": [
+        "On 6 April 2023, Maria participated in an event where she ran with a group for a cause.",
+        "On 10 April 2023, Maria helped organize a meal for shelter residents and assisted in preparing everything.",
+        "Maria went camping with friends from church on the weekend of 10-11 June 2023.",
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "Maria participated in a charity event on 3 February 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 85,
+      "question": "What event did John volunteer at last weekend?",
+      "gold_answer": "career fair at a local school",
+      "generated_answer": "John volunteered at a career fair at a local school last weekend.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that John volunteered at a career fair at a local school, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John attended community event",
+        "On 25 May 2023, John agreed to ask around to see if anyone he knows wants to help volunteer for the event.",
+        "John feels drawn to serving his country and wants to volunteer.",
+        "John and his family had a great time at the park last weekend (around 4-5 March 2023).",
+        "John organized event for veterans"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 86,
+      "question": "What did John do that put a strain on his wallet?",
+      "gold_answer": "His car broke down",
+      "generated_answer": "John used funding for school.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says John used funding for school, which is unrelated to the gold answer that his car broke down. There is no overlap in meaning or content.",
+      "category": 4,
+      "top_memories": [
+        "John had an unexpected incident on his way home during the week of 2 January 2023, which resulted in a broken windshield on his car.",
+        "John found his passion and it has made a big impact on his life.",
+        "John had a little doll in his childhood that made him feel better.",
+        "the photo: A photo shared by John that reminded him of his childhood doll.",
+        "John experienced the power cut"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 87,
+      "question": "Where did John explore on a road trip last year?",
+      "gold_answer": "Pacific Northwest",
+      "generated_answer": "Pacific Northwest",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John participated_in Road trip",
+        "John recent_trip: family road trip",
+        "Hiking trip: A hiking trip John went on with his workmates.",
+        "On 16 December 2022, John returned from a family road trip.",
+        "camping trip: A camping trip John and Max took last summer, involving hiking and swimming."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 88,
+      "question": "What topic has John been blogging about recently?",
+      "gold_answer": "politics and the government",
+      "generated_answer": "politics and government",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'politics and government' is semantically equivalent to the gold answer 'politics and the government', differing only by the article 'the'.",
+      "category": 4,
+      "top_memories": [
+        "John has been blogging about politics and government since before 18 April 2023.",
+        "John recently had an amazing experience with stunning views that made him think.",
+        "John has been networking with people to get input for his campaign.",
+        "community leaders: Leaders within the community that John has been talking to.",
+        "On 9 January 2023, John has been looking into local politics, talking to community leaders, and getting to know the needs and hopes of the neighborhood."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 89,
+      "question": "Why did John start blogging about politics and policies?",
+      "gold_answer": "raise awareness and start conversations to create positive change",
+      "generated_answer": "John started blogging about politics and policies to research policies, write about his thoughts and ideas, and raise awareness to create positive change.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'raise awareness to create positive change', which matches the core of the gold answer. Extra details about researching and writing are not penalized.",
+      "category": 4,
+      "top_memories": [
+        "John has been blogging about politics and government since before 18 April 2023.",
+        "John topics: politics and government",
+        "John is researching policies and writing about his thoughts and ideas as of 18 April 2023.",
+        "John involved_in politics",
+        "John decided to run for office again after seeing the impact he could make in the community through politics."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 90,
+      "question": "What was the focus of John's recent research and writing on his blog?",
+      "gold_answer": "education reform and infrastructure development",
+      "generated_answer": "John's recent research and writing on his blog focused on policies, politics, and government, with the goal of raising awareness and starting conversations to create positive change.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer focuses on policies, politics, and government, which does not match the gold answer's focus on education reform and infrastructure development. There is no overlap in the core topics.",
+      "category": 4,
+      "top_memories": [
+        "John received good feedback on his blog posts as of 18 April 2023.",
+        "John is researching policies and writing about his thoughts and ideas as of 18 April 2023.",
+        "On 11 August 2023, Maria encouraged John to research and explore organizations he would be interested in.",
+        "John believes it is important to stand up for what we believe in.",
+        "John occupation: blogger"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 91,
+      "question": "What did John attend with his colleagues in March 2023?",
+      "gold_answer": "a tech-for-good convention",
+      "generated_answer": "John attended a convention with his colleagues in March 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that John attended a convention with his colleagues in March 2023, which matches the gold answer's core fact (attending a tech-for-good convention). The omission of the specific type of convention does not make it incorrect, as it contains the correct event and time.",
+      "category": 2,
+      "top_memories": [
+        "John and his colleagues attended a convention together in March 2023.",
+        "John graduated from university on 26 March 2023.",
+        "a convention: A convention attended by John and his colleagues in March 2023.",
+        "John had a picnic with his wife and kids on 6 March 2023.",
+        "John experienced a power cut in his area on 29 April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 92,
+      "question": "How often does John work out with his family?",
+      "gold_answer": "Three times a week",
+      "generated_answer": "Three times a week.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating 'Three times a week'.",
+      "category": 4,
+      "top_memories": [
+        "As of 4 May 2023, John and his family work out together three times a week.",
+        "John finds inspiration in his family, exercise, and spending time with friends.",
+        "John usually works during regular work hours, but sometimes brings work home.",
+        "John enjoys coming up with activities for his family to enjoy.",
+        "John: John does kickboxing and recently returned from a family road trip."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 93,
+      "question": "How has John's fitness improved since starting boot camps with his family?",
+      "gold_answer": "More energy, gains in strength and endurance",
+      "generated_answer": "John and his family have experienced increased energy, strength, and endurance since starting boot camps.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all key improvements from the gold answer: increased energy, strength, and endurance.",
+      "category": 4,
+      "top_memories": [
+        "John and his family have experienced increased energy, strength, and endurance since starting boot camps.",
+        "John attends boot camps",
+        "John's family participating_in boot camp",
+        "boot camps: Boot camps that John and his family started attending in April 2023.",
+        "John started attending boot camps with his family in April 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 94,
+      "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+      "gold_answer": "Salads, sandwiches, homemade desserts",
+      "generated_answer": "The memory content does not specify what food was on the dinner spread with her mother.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the food, which contradicts the gold answer that specifies salads, sandwiches, and homemade desserts. It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "dinner participants: Maria, Maria's mom",
+        "Maria and her mom made dinner together on 3 May 2023.",
+        "Maria went on a trip and it helped her grow and made her appreciate life more.",
+        "dinner: A dinner prepared and shared by Maria and her mom on May 3, 2023.",
+        "Maria helped organize meal for shelter residents"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 95,
+      "question": "What activity did Maria and her mom do together in May 2023?",
+      "gold_answer": "Made dinner together",
+      "generated_answer": "Maria and her mom made dinner together on 3 May 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Maria and her mom made dinner together, which matches the gold answer's core activity. The added date is extra detail and does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria and her mom made dinner together on 3 May 2023.",
+        "dinner participants: Maria, Maria's mom",
+        "dinner: A dinner prepared and shared by Maria and her mom on May 3, 2023.",
+        "John and Maria volunteered together in 2022.",
+        "On 4 August 2023, Maria did community work with her church friends."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 96,
+      "question": "What did Maria do to feel closer to a community and her faith?",
+      "gold_answer": "joined a nearby church",
+      "generated_answer": "Maria joined a nearby church on 5 May 2023 to feel closer to a community and her faith.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Maria joined a nearby church, which matches the gold answer. The extra date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Maria joined a nearby church on 5 May 2023 to feel closer to a community and her faith.",
+        "Maria works to improve community",
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "Maria bought a cross necklace to feel closer to her faith, which made her happy.",
+        "the community: The group of people living in the neighborhood that John and Maria want to help."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 97,
+      "question": "Why did Maria join a nearby church recently?",
+      "gold_answer": "to feel closer to a community and her faith",
+      "generated_answer": "Maria joined a nearby church on 5 May 2023 to feel closer to a community and her faith.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core reason from the gold answer ('to feel closer to a community and her faith') and adds an extra date detail, which is allowed.",
+      "category": 4,
+      "top_memories": [
+        "Maria joined a church recently.",
+        "Maria joined the church",
+        "Maria joined nearby church",
+        "the church: The church that Maria recently joined.",
+        "nearby church: A nearby church that Maria joined on 5 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 98,
+      "question": "What did John host for the veterans in May 2023 as part of the project?",
+      "gold_answer": "a small party to share their stories",
+      "generated_answer": "John hosted a small party for veterans in May 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that John hosted a small party for veterans in May 2023, which matches the core fact of the gold answer. The omission of 'to share their stories' is not penalized because the main event and purpose are consistent.",
+      "category": 4,
+      "top_memories": [
+        "John has a project to help veterans as of 20 May 2023.",
+        "John is working on a project to support military veterans as of 20 May 2023.",
+        "John started the project to support military veterans on approximately 13 May 2023.",
+        "John organized event for veterans",
+        "John realized the importance of helping veterans after the event on 19 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 99,
+      "question": "What did John and the veterans do during the small party?",
+      "gold_answer": "share stories and make connections",
+      "generated_answer": "During the small party, veterans shared their stories, made connections, and found camaraderie.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'shared their stories' and 'made connections', which match the gold answer's 'share stories and make connections'. The additional 'found camaraderie' is extra detail and does not contradict the core facts.",
+      "category": 4,
+      "top_memories": [
+        "On 19 May 2023, John threw a small party for veterans and invited them to share their stories.",
+        "John supports veterans",
+        "veterans support John",
+        "military veterans: The group of people that John's project aims to support.",
+        "John respects and appreciates veterans"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 100,
+      "question": "What emotions did John feel during the small party with the veterans?",
+      "gold_answer": "heartwarming",
+      "generated_answer": "The memory content does not specify John's emotions during the small party with veterans on 19 May 2023. It only states he threw the party, invited veterans to share stories, and realized the importance of helping veterans afterward. No emotional details are provided.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify John's emotions, but the gold answer indicates he felt 'heartwarming'. Since the generated answer fails to provide the correct emotion and instead claims it is unknown, it is entirely off-topic and incorrect.",
+      "category": 4,
+      "top_memories": [
+        "John supports veterans",
+        "veterans support John",
+        "On 19 May 2023, John threw a small party for veterans and invited them to share their stories.",
+        "John realized the importance of helping veterans after the event on 19 May 2023.",
+        "John remembered the little things in life and savored peaceful moments during the trip."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 101,
+      "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+      "gold_answer": "fundraiser",
+      "generated_answer": "A fundraiser.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A fundraiser' matches the gold answer 'fundraiser' semantically, with only a minor article difference.",
+      "category": 4,
+      "top_memories": [
+        "Maria volunteered at a shelter during an event for kids on 21 January 2023.",
+        "Maria volunteered at a shelter at the front desk on 11 August 2023.",
+        "As of 18 April 2023, Maria is volunteering at a homeless shelter.",
+        "Maria is busy at the shelter preparing for a fundraiser next week.",
+        "Maria works at The shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 102,
+      "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+      "gold_answer": "chili cook-off",
+      "generated_answer": "Maria needs to spread the word about the fundraiser for the shelter.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention the specific event 'chili cook-off' that Maria needs to spread the word about. It only says 'the fundraiser for the shelter,' which is too vague and does not contain the correct core fact.",
+      "category": 4,
+      "top_memories": [
+        "Maria volunteered_at the shelter",
+        "Fundraiser: A fundraiser organized by Maria to raise money for the shelter.",
+        "Maria volunteer_activity: homeless shelter",
+        "Maria volunteers at the shelter",
+        "Maria volunteer: homeless shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 103,
+      "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+      "gold_answer": "Max",
+      "generated_answer": "Max",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Max'.",
+      "category": 4,
+      "top_memories": [
+        "On 12 June 2023, John and his family had some really nice family time.",
+        "On 3 June 2023, Maria offered help to John regarding the dog adoption.",
+        "On 12 June 2023, John had an awesome day at the park with his family.",
+        "Maria and John discussed the possibility of giving another pet a loving home.",
+        "On 12 June 2023, John's kids had a lot of fun on the playground."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 104,
+      "question": "How long was Max a part of John's family?",
+      "gold_answer": "10 years",
+      "generated_answer": "10 years",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer '10 years'.",
+      "category": 4,
+      "top_memories": [
+        "John owned Max",
+        "Max: Max was John's family dog for 10 years and recently passed away.",
+        "John owns Max",
+        "John had a dog named Max.",
+        "John's dog Max passed away, and he was an important part of the family for 10 years."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 105,
+      "question": "How does John plan to honor the memories of his beloved pet?",
+      "gold_answer": "By considering adopting a rescue dog",
+      "generated_answer": "John plans to honor the memories of his beloved pet by giving another pet a loving home, as he discussed with Maria.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: John plans to honor his pet's memory by adopting a rescue dog (giving another pet a loving home). The phrasing differs but is semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "Maria and John discussed the possibility of giving another pet a loving home.",
+        "John wants to pass on the lessons of unconditional love and loyalty to his kids.",
+        "John discussed his desire to volunteer with his family and friends, who were supportive.",
+        "the photo: A photo shared by John that reminded him of his childhood doll.",
+        "John feels drawn to serving his country and wants to volunteer."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 106,
+      "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+      "gold_answer": "Responsibility and compassion",
+      "generated_answer": "John wants to teach his kids responsibility and compassion through adopting a rescue dog.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies both values from the gold answer: responsibility and compassion.",
+      "category": 4,
+      "top_memories": [
+        "On 3 June 2023, John expressed that his family is considering adopting a rescue dog to teach their kids responsibility and compassion.",
+        "John wants to pass on the lessons of unconditional love and loyalty to his kids.",
+        "John's dog Max passed away, and he was an important part of the family for 10 years.",
+        "John wants_to_teach his kids",
+        "On 3 June 2023, Maria offered help to John regarding the dog adoption."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 107,
+      "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+      "gold_answer": "volunteering at a local dog shelter once a month",
+      "generated_answer": "The memory content does not mention any activity Maria started on 3 June 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention any activity, which contradicts the gold answer that Maria started volunteering at a local dog shelter once a month. The generated answer provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Maria joined a gym on 9 June 2023.",
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "On 3 July 2023, Maria mentioned that her family member had to leave and find a new place in a hurry, which has been stressful but she is making progress.",
+        "Maria participated in a charity event on 3 February 2023.",
+        "On 27 June 2023, John encouraged Maria to continue with her efforts."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 108,
+      "question": "What did Maria say it was like being at the waterfall in Oregon?",
+      "gold_answer": "Like being in a fairy tale",
+      "generated_answer": "Maria described being at the waterfall in Oregon as magical and calming.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer describes the waterfall as 'magical and calming', which conveys a similar positive, enchanting experience as 'like being in a fairy tale'. The core semantic meaning is consistent, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "waterfall: A waterfall that Maria visited and found beautiful and calming.",
+        "Maria visited waterfall",
+        "Maria visited Oregon",
+        "On 12 June 2023, Maria visited a waterfall and bridge and described the experience as magical and calming.",
+        "Maria went on a family road trip to Oregon when she was younger."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 109,
+      "question": "What does Maria say she feels when doing upside-down yoga poses?",
+      "gold_answer": "Free and light",
+      "generated_answer": "The memory content does not specify what Maria feels when doing upside-down yoga poses. It only notes she enjoys them.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the memory content does not specify Maria's feelings, which contradicts the gold answer that she feels 'Free and light'. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 12 June 2023, Maria expressed that she enjoys upside-down poses in yoga.",
+        "Maria favorite_yoga_pose: upside-down poses",
+        "On 12 June 2023, Maria stated that she enjoys aerial yoga as a way to switch off and focus on her body.",
+        "Maria enjoys aerial yoga",
+        "Maria practices aerial yoga"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 110,
+      "question": "What exciting news did Maria share on 16 June, 2023?",
+      "gold_answer": "joined a gym",
+      "generated_answer": "No information available about Maria sharing exciting news on 16 June 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states no information is available, which contradicts the gold answer that Maria shared exciting news about joining a gym. It contains no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 25 February 2023, Maria said that the woman's story is a reminder that we can still find joy and hope no matter what.",
+        "On 27 June 2023, John encouraged Maria to continue with her efforts.",
+        "On 27 June 2023, Maria expressed that making a difference brings her joy.",
+        "On 27 June 2023, Maria stated she will continue spreading kindness and positivity.",
+        "On 4 August 2023, Maria did community work with her church friends."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 111,
+      "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+      "gold_answer": "kundalini yoga",
+      "generated_answer": "kundalini yoga",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "kundalini yoga: A type of yoga that Maria is trying.",
+        "Maria trying kundalini yoga",
+        "Maria trying: kundalini yoga",
+        "Maria fitness_activity: aerial yoga",
+        "Maria is trying kundalini yoga as of 16 June 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 112,
+      "question": "What did John recently get promoted to?",
+      "gold_answer": "assistant manager",
+      "generated_answer": "Assistant manager.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Assistant manager.' matches the gold answer 'assistant manager' semantically, with only a capitalization difference.",
+      "category": 4,
+      "top_memories": [
+        "John got promoted to assistant manager on 16 June 2023.",
+        "John recently got a job that he is well-suited for due to his adaptability.",
+        "John has been networking with people to get input for his campaign.",
+        "John received a promotion as a reward for his hard work and perseverance.",
+        "John achievement: promotion"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 113,
+      "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+      "gold_answer": "self-doubt",
+      "generated_answer": "Technical issues, workplace issues, and self-doubt.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'self-doubt', which is the correct answer from the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "John got promoted to assistant manager on 16 June 2023.",
+        "John faced challenges including technical issues, workplace issues, and self-doubt.",
+        "John had support at home and his own grit to overcome challenges.",
+        "John's first call-out was intense and his team worked together to help those in need.",
+        "John talked to someone who shared stories that fired up his passion to improve education in the area."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 114,
+      "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+      "gold_answer": "having support at home and his own grit",
+      "generated_answer": "John describes the support he received as having support at home and his own grit to overcome challenges, and he believes in himself with support from loved ones.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact from the gold answer: having support at home and his own grit. The additional detail about believing in himself with support from loved ones does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John got promoted to assistant manager on 16 June 2023.",
+        "John received a promotion as a reward for his hard work and perseverance.",
+        "John recently got a job that he is well-suited for due to his adaptability.",
+        "John had support at home and his own grit to overcome challenges.",
+        "John started a petition and is gaining support from his buddies."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 115,
+      "question": "What kind of event did John and his family attend in June 2023?",
+      "gold_answer": "live music event",
+      "generated_answer": "John and his family attended a live music event in June 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the event as a live music event, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 12 June 2023, John and his family had some really nice family time.",
+        "On 12 June 2023, John had an awesome day at the park with his family.",
+        "John attended a community event in June 2023 that had arts and crafts, fun activities, and games for families.",
+        "John attended a live music event with his family on approximately 20 June 2023, and they had a great time dancing and having fun.",
+        "John took a family trip in 2022 for his daughter Sara's birthday."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 116,
+      "question": "Why did Maria need to help her cousin find a new place to live?",
+      "gold_answer": "Her cousin had to leave and find a new place in a hurry.",
+      "generated_answer": "Maria's cousin had a tough time and had to leave and find a new place in a hurry.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Maria's cousin had to leave and find a new place in a hurry, which matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Maria's family member situation: had to leave and find a new place in a hurry",
+        "As of 3 July 2023, Maria is helping her cousin find a new place after her cousin had a tough time.",
+        "When Maria was younger, her family had money problems and had to rely on outside help from their auntie.",
+        "On 3 July 2023, Maria mentioned that her family member had to leave and find a new place in a hurry, which has been stressful but she is making progress.",
+        "John offers to help Maria's family member"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 117,
+      "question": "What event did John participate in to show support for veterans' rights?",
+      "gold_answer": "marching event",
+      "generated_answer": "John participated in a marching event for veterans' rights on 3 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that John participated in a marching event for veterans' rights, which matches the gold answer 'marching event'. The additional date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "John organized event for veterans",
+        "veterans support John",
+        "John organized an event to support veterans, which took place on 9 August 2023.",
+        "John participated_in marching event for veterans' rights",
+        "John realized the importance of helping veterans after the event on 19 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 118,
+      "question": "What inspired John to join the marching event for veterans' rights?",
+      "gold_answer": "Respect for the military and the desire to show support",
+      "generated_answer": "John was inspired by the dedication and teamwork of the fire-fighting brigade members.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions inspiration from fire-fighting brigade members, which is entirely unrelated to the gold answer about respect for the military and showing support for veterans. No correct content is present.",
+      "category": 4,
+      "top_memories": [
+        "John participated_in marching event for veterans' rights",
+        "marching event for veterans' rights: A marching event for veterans' rights that John participated in on 3 July 2023.",
+        "John participated in a marching event for veterans' rights on 3 July 2023.",
+        "John organized event for veterans",
+        "John has always been passionate about veterans and their rights."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 119,
+      "question": "How often does John get to see sunsets like the one he shared with Maria?",
+      "gold_answer": "At least once a week",
+      "generated_answer": "At least once a week during his walks.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact 'at least once a week' from the gold answer, and the additional detail 'during his walks' does not contradict it.",
+      "category": 4,
+      "top_memories": [
+        "John sees ocean sunsets at least once a week during his walks.",
+        "John sees sunsets at the ocean",
+        "On 25 May 2023, John shared a photo of his family at the beach with Maria.",
+        "On 9 January 2023, Maria appreciates the beauty of sunsets.",
+        "Maria shared a photo from a vacation in Florida with a sunset and a bird flying in the distance."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 120,
+      "question": "What natural disaster affected John's old area on 7 July, 2023?",
+      "gold_answer": "Flood",
+      "generated_answer": "Flood",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Flood' exactly matches the gold answer 'Flood'.",
+      "category": 4,
+      "top_memories": [
+        "John's old area was hit by a flood on 30 June 2023.",
+        "flood affected John's old area",
+        "John's old area flooded: true",
+        "flood location: John's old area",
+        "flood: A flood that occurred in John's old area, causing damage to homes."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 121,
+      "question": "How did the flood impact the homes in John's old area?",
+      "gold_answer": "Lots of homes were ruined.",
+      "generated_answer": "The flood ruined many homes in John's old area due to poor infrastructure.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that the flood ruined many homes, which matches the gold answer's 'Lots of homes were ruined.' The additional detail about poor infrastructure does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "flood affected John's old area",
+        "flood: A flood that occurred in John's old area, causing damage to homes.",
+        "The flood in John's old area ruined many homes due to poor infrastructure.",
+        "flood location: John's old area",
+        "John's old area flooded: true"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 122,
+      "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+      "gold_answer": "Flood in John's old area",
+      "generated_answer": "Their commitment to helping others and making a difference in their community.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention the flood in John's old area, which is the specific motivation. It provides a generic reason that is not supported by the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 7 July 2023, Maria and John expressed their commitment to helping others and making a difference in their community.",
+        "On 25 February 2023, John and Maria agreed to work together to make a difference and bring a brighter future for their community.",
+        "On 7 July 2023, Maria and John agreed to continue working together to spread kindness and inspire hope in their community.",
+        "Maria expressed support for John's community involvement on 9 January 2023.",
+        "On 7 April 2023, Maria and John agreed to continue their efforts to help kids and make a difference in the community."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 123,
+      "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+      "gold_answer": "have dinner with friends from the gym",
+      "generated_answer": "Maria planned to have dinner with friends from the gym.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating that Maria planned to have dinner with friends from the gym.",
+      "category": 4,
+      "top_memories": [
+        "On 17 December 2022, John thanked Maria and said he would do something.",
+        "On 7 July 2023, Maria said she was going to have dinner with friends from the gym.",
+        "On 5 July 2023, John said goodbye to Maria and expressed a desire to see her again soon.",
+        "On 31 July 2023, Maria said she agrees and plans to continue her volunteer efforts.",
+        "On 4 August 2023, Maria did community work with her church friends."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 124,
+      "question": "What kind of activities did Maria do at the picnic with her church friends?",
+      "gold_answer": "played games like charades and a scavenger hunt",
+      "generated_answer": "The memory does not specify the activities Maria did at the picnic with her church friends.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the activities, which contradicts the gold answer that specifies playing games like charades and a scavenger hunt. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Church friends: Friends from church who attended the picnic with Maria.",
+        "Maria attended Picnic",
+        "Maria had a picnic with friends from church on 15 July 2023.",
+        "Maria joined the church",
+        "Maria joined nearby church"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 125,
+      "question": "What does John appreciate about the veteran's hospital visit?",
+      "gold_answer": "the resilience of the veterans and their inspiring stories",
+      "generated_answer": "John appreciates the inspiring and heartbreaking stories shared by Samuel, the elderly veteran he met during the visit.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'inspiring stories' which aligns with the gold answer's 'inspiring stories'. Although it adds 'heartbreaking' and specifies Samuel, the core fact about appreciating inspiring stories is present, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "John visited veteran's hospital",
+        "veteran's hospital: A hospital for veterans that John visited last week.",
+        "John visited a veteran's hospital on 10 July 2023.",
+        "John has always been passionate about veterans and their rights.",
+        "John is passionate about supporting and valuing veterans in the community as of 20 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 126,
+      "question": "What did John take away from visiting the veteran's hospital?",
+      "gold_answer": "appreciation for giving back",
+      "generated_answer": "John realized the importance of helping veterans.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: John gained an appreciation for giving back/helping veterans. Although phrased differently, it is semantically consistent.",
+      "category": 4,
+      "top_memories": [
+        "John visited veteran's hospital",
+        "veteran's hospital: A hospital for veterans that John visited last week.",
+        "John visited a veteran's hospital on 10 July 2023.",
+        "John met an elderly veteran named Samuel during his visit to the veteran's hospital on 10 July 2023.",
+        "John respects and appreciates veterans"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 127,
+      "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+      "gold_answer": "seeing the resilience of the veterans",
+      "generated_answer": "John was inspired to join the military after visiting the veteran's hospital because he realized the importance of helping veterans and felt drawn to serving his country, wanting to volunteer and show appreciation for their hard work.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that John was inspired to join the military after visiting the veteran's hospital, which aligns with the gold answer's core fact of being inspired by the veterans. Although it adds extra details about helping veterans and serving the country, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "John is considering joining the military.",
+        "John has a military background and feels a bond with his team similar to his military experience.",
+        "John visited veteran's hospital",
+        "John has great respect for the military.",
+        "John military_background: served in the military"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 128,
+      "question": "In what activity did Maria and her church friends participate in July 2023?",
+      "gold_answer": "hiking",
+      "generated_answer": "Maria went hiking with her church friends on 15 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Maria went hiking with her church friends, which matches the gold answer 'hiking'. The extra date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "Maria went hiking with her church friends on 15 July 2023.",
+        "nearby church: A nearby church that Maria joined on 5 May 2023.",
+        "Maria had a picnic with friends from church on 15 July 2023.",
+        "Maria joined a nearby church on 5 May 2023 to feel closer to a community and her faith."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 129,
+      "question": "What does John think about trying new classes at the yoga studio?",
+      "gold_answer": "Trying new classes is a fun way to switch up the exercise routine.",
+      "generated_answer": "Based on the memory content, there is no direct information about John's thoughts on trying new classes at the yoga studio. The memories only mention his attendance and the classes offered, but not his opinion on trying new ones. Therefore, the most likely answer is that there is no information available about this.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about John's opinion, but the gold answer provides a specific opinion: trying new classes is a fun way to switch up the exercise routine. The generated answer does not contain this correct content and is therefore incorrect.",
+      "category": 4,
+      "top_memories": [
+        "John frequents the yoga studio",
+        "the yoga studio: A yoga studio that John frequents, known for its chill vibe and awesome instructors.",
+        "John has done yoga classes before 22 July 2023.",
+        "John goes to a yoga studio often as of 22 July 2023.",
+        "the yoga studio instructors: awesome"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 130,
+      "question": "Which activity has John done apart from yoga at the studio?",
+      "gold_answer": "weight training",
+      "generated_answer": "weight training and kickboxing.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'weight training', which matches the gold answer. Extra detail 'kickboxing' does not penalize as long as the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "John frequents the yoga studio",
+        "John has done yoga classes before 22 July 2023.",
+        "the yoga studio: A yoga studio that John frequents, known for its chill vibe and awesome instructors.",
+        "John goes to a yoga studio often as of 22 July 2023.",
+        "John current_activity: trying different workout regimes"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 131,
+      "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+      "gold_answer": "volunteered at a homeless shelter",
+      "generated_answer": "Maria stated she feels great to help people and that being kind matters, and she plans to continue her volunteer efforts.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any specific community service activity, such as volunteering at a homeless shelter, and instead talks about her feelings and plans, which is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "On 31 July 2023, Maria stated that she feels great to help people and that being kind matters.",
+        "Maria agreed to join the community meeting on 7 July 2023.",
+        "On 31 July 2023, Maria said she agrees and plans to continue her volunteer efforts.",
+        "On 7 July 2023, Maria and John expressed their commitment to helping others and making a difference in their community."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 132,
+      "question": "How did Maria start volunteering at the homeless shelter?",
+      "gold_answer": "Witnessed a family struggling on the streets and reached out to the shelter",
+      "generated_answer": "Maria started volunteering at the homeless shelter about a year before 3 August 2023, after witnessing a family struggling on the streets.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Maria started volunteering after witnessing a family struggling on the streets, which matches the gold answer. The extra detail about the date does not contradict the gold answer and is not penalized.",
+      "category": 4,
+      "top_memories": [
+        "Maria volunteers at homeless shelter",
+        "Maria volunteered at shelter",
+        "Maria volunteers at a homeless shelter.",
+        "Maria volunteers at the shelter",
+        "Maria occupation: volunteer at a homeless shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 133,
+      "question": "What did John do the week before August 3, 2023 involving his kids?",
+      "gold_answer": "Had a meaningful experience at a military memorial",
+      "generated_answer": "On 27 July 2023, John and his kids visited a military memorial, which made an impact on them.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that John and his kids visited a military memorial, which matches the gold answer's 'Had a meaningful experience at a military memorial'. The date (27 July 2023) is within 14 days of August 3, 2023, so it is acceptable. The core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "John had a picnic with his wife and kids on 6 March 2023.",
+        "John takes his children to the park a few times a week as of 6 March 2023.",
+        "As of 4 May 2023, John and his family work out together three times a week.",
+        "On 7 April 2023, Maria praised John for his inspiring work with kids and encouraged him to continue.",
+        "John had an unexpected incident on his way home during the week of 2 January 2023, which resulted in a broken windshield on his car."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 134,
+      "question": "How did John describe his kids' reaction at the military memorial?",
+      "gold_answer": "awestruck and humbled",
+      "generated_answer": "The memory content does not specify how John described his kids' reaction at the military memorial.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the reaction, which contradicts the gold answer that John described his kids as 'awestruck and humbled'. The generated answer provides no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "military memorial: A military memorial visited by John and his kids last week.",
+        "On 27 July 2023, John and his kids visited a military memorial and it made an impact on them.",
+        "John visited military memorial",
+        "John has great respect for the military.",
+        "On 3 August 2023, John and his group visited a military memorial and were awestruck and humbled."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 135,
+      "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+      "gold_answer": "To remember and appreciate those who served",
+      "generated_answer": "Maria thinks it's important for younger generations to visit military memorials because it makes them feel humble and helps them remember and appreciate those who served.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core reason from the gold answer ('remember and appreciate those who served') and adds an extra detail ('makes them feel humble'), which is acceptable per the rules.",
+      "category": 4,
+      "top_memories": [
+        "On 3 August 2023, Maria expressed that visiting a military memorial makes her feel humble and that it is important for younger generations to remember and appreciate those who served.",
+        "military memorial: A military memorial visited by John and his kids last week.",
+        "On 27 July 2023, John and his kids visited a military memorial and it made an impact on them.",
+        "Maria is passionate about charity work.",
+        "Maria was reminded of the importance of letting go and trusting life during her trip."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 136,
+      "question": "What does John believe is important for children regarding veterans?",
+      "gold_answer": "Teaching them to respect and appreciate those who served",
+      "generated_answer": "John believes it is important to show younger generations how to respect and appreciate those who served the country, and that teaching kids about veterans is super important.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: teaching children to respect and appreciate veterans. The phrasing 'show younger generations how to respect and appreciate those who served' and 'teaching kids about veterans is super important' matches the gold answer's meaning.",
+      "category": 4,
+      "top_memories": [
+        "John supports veterans",
+        "On 3 August 2023, Maria told John that teaching kids about veterans is super important and that he is doing a great thing.",
+        "John wants to show appreciation for military veterans' hard work.",
+        "John is passionate about supporting and valuing veterans in the community as of 20 May 2023.",
+        "John organized event for veterans"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 137,
+      "question": "What happened to John's job in August 2023?",
+      "gold_answer": "John lost his job at the mechanical engineering company.",
+      "generated_answer": "John lost his job at a mechanical engineering company on 5 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that John lost his job at a mechanical engineering company, which matches the gold answer's core fact. The added date (5 August 2023) is within the tolerance and does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John is enjoying his new job as of 22 July 2023.",
+        "John lost his job at a mechanical engineering company on 5 August 2023.",
+        "John has not been able to volunteer much lately as of 5 August 2023.",
+        "Maria expressed sympathy and support for John's job loss on 5 August 2023.",
+        "John organized an event to support veterans, which took place on 9 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 138,
+      "question": "What activity did Maria take up with her friends from church in August 2023?",
+      "gold_answer": "community work",
+      "generated_answer": "Community work.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Community work.' is semantically identical to the gold answer 'community work', differing only in capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "On 4 August 2023, Maria did community work with her church friends.",
+        "Maria went hiking with her church friends on 15 July 2023.",
+        "nearby church: A nearby church that Maria joined on 5 May 2023.",
+        "Maria had a picnic with friends from church on 15 July 2023.",
+        "Maria went camping with friends from church on the weekend of 10-11 June 2023."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 139,
+      "question": "What did John do to help his community last year in his hometown?",
+      "gold_answer": "Helped renovate a rundown community center.",
+      "generated_answer": "John helped renovate a rundown community center in his hometown in 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact of helping renovate a rundown community center, which matches the gold answer. The added year '2022' is consistent with 'last year' and does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John decided to try similar activities with his family and friends after attending the community event.",
+        "John helped renovate a rundown community center in his hometown in 2022.",
+        "John discussed his desire to volunteer with his family and friends, who were supportive.",
+        "community center located in John's hometown",
+        "community center: A rundown community center that John helped renovate last year."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 140,
+      "question": "What cause did the 5K charity run organized by John support?",
+      "gold_answer": "veterans and their families",
+      "generated_answer": "veterans and their families",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John organized 5K charity run",
+        "John organized_event: 5K charity run",
+        "John organized a 5K charity run in his neighborhood on 5 August 2023 to raise funds for veterans and their families.",
+        "5K charity run location: John's neighborhood",
+        "5K charity run benefited homeless shelter"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 141,
+      "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+      "gold_answer": "a local organization",
+      "generated_answer": "John worked with a local organization that helps victims of domestic abuse.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that John worked with a local organization to raise awareness and funds for domestic abuse victims, matching the gold answer's core fact.",
+      "category": 4,
+      "top_memories": [
+        "John raised awareness and funds for domestic abuse",
+        "John worked with a local organization that helps victims of domestic abuse to raise awareness and funds at an event on 9 August 2023.",
+        "On 9 August 2023, John raised awareness and funds for domestic abuse.",
+        "John partnered_with local organization that helps victims of domestic abuse",
+        "local organization that helps victims of domestic abuse: Organization partnered with John for a domestic abuse awareness event."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 142,
+      "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+      "gold_answer": "a medal for volunteering",
+      "generated_answer": "Maria received a medal at the homeless shelter in August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Maria received a medal at the homeless shelter in August 2023, which matches the gold answer's core fact of receiving a medal for volunteering. The omission of 'for volunteering' is not penalized as it is an extra detail in the gold answer, and the core recognition (medal) is correct.",
+      "category": 4,
+      "top_memories": [
+        "Maria volunteered at a homeless shelter on 2 August 2023 and received a medal.",
+        "Maria volunteers at a homeless shelter as of 6 March 2023.",
+        "As of 17 December 2022, Maria volunteers at a homeless shelter.",
+        "On 3 August 2023, Maria told John that she volunteers at a homeless shelter.",
+        "As of 18 April 2023, Maria is volunteering at a homeless shelter."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 143,
+      "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+      "gold_answer": "Coco",
+      "generated_answer": "Coco",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Coco'.",
+      "category": 4,
+      "top_memories": [
+        "Maria got a puppy named Coco on 28 July 2023.",
+        "Maria's puppy owner: Maria",
+        "Maria adopted a puppy named Shadow from a shelter on 6 August 2023.",
+        "On 13 August 2023, Maria said her new puppy is doing great and learning commands and house training.",
+        "Maria has_pet: puppy"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 144,
+      "question": "What activity did John and Max enjoy together last summer?",
+      "gold_answer": "Camping",
+      "generated_answer": "John and Max enjoyed hiking and swimming during their camping trip last summer.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'camping trip', which directly includes the gold answer 'Camping'. Although it adds hiking and swimming, the core activity of camping is present, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "John and Max went on a camping trip in summer 2022.",
+        "John owned Max",
+        "John cherished Max",
+        "John owns Max",
+        "camping trip: A camping trip John and Max took last summer, involving hiking and swimming."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 145,
+      "question": "How does John describe the camping trip with Max?",
+      "gold_answer": "Peaceful and awesome",
+      "generated_answer": "John described the camping trip with Max as peaceful and awesome, like restarting his mind and spirit.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the exact key phrases 'peaceful and awesome' from the gold answer, and adds extra detail without contradicting the core fact.",
+      "category": 4,
+      "top_memories": [
+        "camping trip: A camping trip John and Max took last summer, involving hiking and swimming.",
+        "John and Max went on a camping trip in summer 2022.",
+        "During the camping trip, John and Max hiked and swam.",
+        "Max participated_in camping trip",
+        "John participated_in camping trip"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 146,
+      "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+      "gold_answer": "Not feeling like making much of an impact",
+      "generated_answer": "John feels stuck and questioning his decisions and goals because he has been feeling like he is not making much of an impact, which has made him question his decisions and goals.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly states that John feels stuck because he is not making much of an impact, which matches the gold answer's core reason.",
+      "category": 4,
+      "top_memories": [
+        "On 11 August 2023, John told Maria that he has been feeling like he is not making much of an impact, which has made him question his decisions and goals.",
+        "John expressed that helping out gives him a sense of purpose and passion, and he feels it is his true calling.",
+        "John uses his walks to disconnect, think, and find peace.",
+        "John feels drawn to serving his country and wants to volunteer.",
+        "On 11 August 2023, John expressed a desire to positively affect people and the world but feels stuck."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 147,
+      "question": "What is the name of Maria's second puppy?",
+      "gold_answer": "Shadow",
+      "generated_answer": "Shadow",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Shadow'.",
+      "category": 4,
+      "top_memories": [
+        "Maria's puppy owner: Maria",
+        "Maria has_pet: puppy",
+        "Maria got a puppy named Coco on 28 July 2023.",
+        "Maria's puppy status: learning commands and house training",
+        "On 13 August 2023, Maria said her new puppy is doing great and learning commands and house training."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 148,
+      "question": "How is Maria's new puppy adjusting to its new home?",
+      "gold_answer": "doing great - learning commands and house training",
+      "generated_answer": "Maria's new puppy is doing great and learning commands and house training.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer's core facts: the puppy is doing great and is learning commands and house training.",
+      "category": 4,
+      "top_memories": [
+        "Maria's puppy owner: Maria",
+        "Maria's puppy status: learning commands and house training",
+        "On 13 August 2023, Maria said her new puppy is doing great and learning commands and house training.",
+        "Maria and John discussed the possibility of giving another pet a loving home.",
+        "Maria has_pet: puppy"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 149,
+      "question": "What is John currently doing as a volunteer in August 2023?",
+      "gold_answer": "mentoring students at a local school",
+      "generated_answer": "John is volunteering as a mentor for a local school as of 13 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John is volunteering as a mentor for a local school, which matches the gold answer 'mentoring students at a local school'. The date '13 August 2023' is within the tolerance of August 2023. Thus, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "John has not been able to volunteer much lately as of 5 August 2023.",
+        "John is volunteering as a mentor for a local school as of 13 August 2023.",
+        "John is enjoying his new job as of 22 July 2023.",
+        "John is working on a project to support military veterans as of 20 May 2023.",
+        "As of 2 April 2023, John is particularly interested in improving education and infrastructure."
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 150,
+      "question": "What activities does John's family enjoy doing together?",
+      "gold_answer": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+      "generated_answer": "John's family enjoys outdoor activities such as hiking, going to the park, having picnics, climbing, sliding, playing games, and visiting the playground and beach.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes several activities from the gold answer: hiking, going to the park, having picnics, and playing games (which can be interpreted as board games). Extra activities like climbing, sliding, and visiting the beach do not penalize. Therefore, it is partially correct and semantically consistent.",
+      "category": 4,
+      "top_memories": [
+        "John enjoys coming up with activities for his family to enjoy.",
+        "John's family members: family members",
+        "John decided to try similar activities with his family and friends after attending the community event.",
+        "John family: has family",
+        "John's family relation_to_John: family"
+      ]
+    },
+    {
+      "conversation_idx": 2,
+      "qa_idx": 151,
+      "question": "What did the donations help John's community acquire on 16 August, 2023?",
+      "gold_answer": "a brand new fire truck",
+      "generated_answer": "Canned food, toiletries, and clothes.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions canned food, toiletries, and clothes, which are not related to the gold answer 'a brand new fire truck'. The core fact is entirely different and off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 16 August 2023, John and the community raised donations including canned food, toiletries, and clothes to support the local fire station.",
+        "On 25 May 2023, John agreed to ask around to see if anyone he knows wants to help volunteer for the event.",
+        "John attended a community meeting on 28 January 2023.",
+        "John participated_in donation drive",
+        "On 11 August 2023, John mentioned an idea to join local organizations or volunteering programs."
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 442.24827814102173,
+    "answer_time_seconds": 324.87712478637695,
+    "total_time_seconds": 767.1276202201843,
+    "write_tokens": {
+      "prompt_tokens": 87616,
+      "completion_tokens": 56282,
+      "total_tokens": 143898,
+      "call_count": 149
+    },
+    "answer_tokens": {
+      "prompt_tokens": 109711,
+      "completion_tokens": 18137,
+      "total_tokens": 127848,
+      "call_count": 305
+    },
+    "db_size_bytes": 2465792,
+    "memory_entries": 1139,
+    "avg_answer_time_ms": 2137.248225902256
+  }
+}

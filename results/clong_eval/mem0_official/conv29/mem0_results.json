@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 29,
+  "conversation_hash": "cd933873",
+  "details": [
+    {
+      "conversation_idx": 29,
+      "conversation_hash": "cd933873",
+      "user_name": "用户",
+      "question": "2023年4月27日，我去了孤儿院跟孩子们画画，我画了什么呢？",
+      "gold_answer": "卡通动物",
+      "generated_answer": "根据记忆内容，2023年4月27日，你（郑晓燕）在孤儿院与孩子们一起画了**卡通动物**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的核心内容“卡通动物”，且日期和活动描述一致，符合部分正确即算正确的规则。",
+      "top_memories": [
+        "On April 27, 2023, User volunteered at an orphanage where she drew cartoon animals with the children and found the experience heartwarming.",
+        "User has a strong desire to visit Japan, particularly Kyoto, which attracts her due to its traditional culture and natural scenery.",
+        "User has traveled to Thailand and was deeply impressed by its scenery, culture, and especially its local cuisine.",
+        "User is particularly interested in communication skills in interpersonal relationships, believing they are important for building good social connections.",
+        "User is currently reading an inspirational book titled '前行之路' (The Road Ahead) and recommends it; she finds its ideas on staying positive in adversity align with psychological theories."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 11,
+  "write_time_seconds": 12.14641284942627,
+  "answer_time_seconds": 2.204724073410034
+}

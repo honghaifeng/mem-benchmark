@@ -1,0 +1,99 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 4,
+  "correct": 4,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "我在4月27日这天写日记了吗？",
+      "gold_answer": "写了",
+      "generated_answer": "是的，你在2023年4月27日写了日记，内容涉及工作上的烦恼。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确表示在2023年4月27日写了日记，与标准答案'写了'一致，且日期在容差范围内，核心事实正确。",
+      "top_memories": [
+        "用户于2023年04月27日写了日记，内容涉及工作上的烦恼",
+        "对话日期为2023年04月27日",
+        "用户于2023年4月27日读了一本关于园艺的书，学习了植物修剪知识",
+        "用户喜欢安静地看书、写日记、听音乐、画画和研究植物",
+        "用户有写日记的习惯"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "2023年4月28日,我晚上有什么计划吗？",
+      "gold_answer": "继续读借的那些书，然后休息",
+      "generated_answer": "根据记忆内容，2023年4月28日晚上，你计划继续阅读借来的书，并早点休息。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容，即继续阅读借来的书并休息，语义一致。",
+      "top_memories": [
+        "用户于2023年04月28日在图书馆有收获",
+        "用户计划在2023年4月28日晚上继续阅读借来的书，并早点休息",
+        "郭静怡在2023年4月28日尝试了用水彩勾勒植物，并观察不同光线下的色彩变化",
+        "郭静怡在2023年4月28日去图书馆借了几本关于植物学的书籍",
+        "用户于2023年4月28日表示当天心情不错，虽然有小挑战但总体充实"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "4月30日,我今天在植物园发现了什么新奇的植物？",
+      "gold_answer": "“猫爪兰”",
+      "generated_answer": "根据记忆内容，你在2023年4月30日于植物园发现了一种名为“猫爪兰”的植物，其叶子边缘有毛，摸起来像猫爪。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了标准答案中的核心内容“猫爪兰”，并提供了额外的细节描述，符合部分正确和额外细节不扣分的规则。",
+      "top_memories": [
+        "用户于2023年4月30日在植物园画植物，特别关注叶子边缘的质感",
+        "郭静怡在2023年4月30日去了植物园，观察兰花并画了素描",
+        "用户于2023年4月30日去了植物园，并画了素描，对捕捉花朵细节感到满意。",
+        "郭静怡在2023年4月30日给多肉植物换盆",
+        "用户在植物园发现了一种名为“猫爪兰”的植物，其叶子边缘有毛，摸起来像猫爪。"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "ad911244",
+      "user_name": "用户",
+      "question": "2023年5月1日,今天我尝试了一些新的烹饪方法，做了什么食物？",
+      "gold_answer": "蒸南瓜",
+      "generated_answer": "根据记忆内容，2023年5月1日，郭静怡尝试了蒸南瓜，只加了一点盐和橄榄油以保持自然味道，并发现味道出乎意料地好。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了蒸南瓜，与标准答案一致，且额外细节不影响正确性。",
+      "top_memories": [
+        "用户2023年05月01日写了日记，记录了烹饪尝试和园艺想法",
+        "郭静怡在2023年5月1日尝试蒸南瓜，并发现味道出乎意料地好",
+        "用户在2023年5月1日给植物浇水并修剪枯叶",
+        "用户计划在2023年5月1日早点休息",
+        "郭静怡喜欢尝试低温慢煮的烹饪技巧"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 35.02583384513855,
+    "answer_time_seconds": 7.731555223464966,
+    "total_time_seconds": 42.75793504714966,
+    "write_tokens": {
+      "prompt_tokens": 9809,
+      "completion_tokens": 1918,
+      "total_tokens": 11727,
+      "call_count": 33
+    },
+    "answer_tokens": {
+      "prompt_tokens": 3958,
+      "completion_tokens": 279,
+      "total_tokens": 4237,
+      "call_count": 8
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 113,
+    "avg_answer_time_ms": 1932.8724145889282
+  }
+}

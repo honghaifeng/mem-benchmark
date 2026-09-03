@@ -1,0 +1,82 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 2,
+  "accuracy": 66.66666666666666,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "2023年4月27日，我在烹饪方面尝试过什么新的食谱？",
+      "gold_answer": "糖醋鱼",
+      "generated_answer": "根据记忆内容，2023年4月27日当天没有直接记录烹饪尝试。但结合上下文，4月28日用户尝试了泰式绿咖喱鸡和越南春卷，4月30日尝试了墨西哥卷饼，且用户喜欢烹饪并尝试新食谱。由于4月27日无具体记录，最合理的推断是：当天用户可能未尝试新食谱，或尝试了未记录的内容。基于现有信息，无法确定具体食谱，但可推测用户当时可能处于日常烹饪或准备尝试新菜式的阶段。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案未包含标准答案中的任何正确内容（糖醋鱼），且明确表示无法确定具体食谱，与标准答案完全不符。",
+      "top_memories": [
+        "用户计划在2023年4月27日之后的周末有安排",
+        "林瑶于2023年4月30日首次尝试攀岩运动",
+        "用户于2023年4月30日尝试了一家新开的墨西哥餐厅，喜欢那里的墨西哥卷饼",
+        "用户计划在2023年4月30日之后的周末购买材料，尝试自制墨西哥卷饼",
+        "用户于2023年4月28日下班后去了一家新开的餐厅，尝试了泰式绿咖喱鸡和越南春卷"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "4月28日，今天公司里举办了一个小型的歌唱比赛，我唱的是什么歌？",
+      "gold_answer": "《Can't Stop The Feeling》",
+      "generated_answer": "根据记忆内容，您在2023年4月28日公司举办的歌唱比赛中演唱的歌曲是《Can't Stop The Feeling》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了歌曲《Can't Stop The Feeling》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "用户于2023年4月28日参加了公司举办的小型歌唱比赛",
+        "对话日期为2023年04月28日",
+        "用户于2023年4月28日下班后去了一家新开的餐厅，尝试了泰式绿咖喱鸡和越南春卷",
+        "用户计划在2023年4月28日之后的周末去市场购买材料，在家尝试制作泰式绿咖喱鸡和越南春卷",
+        "用户在歌唱比赛中演唱了歌曲《Can't Stop The Feeling》"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "cef94a5c",
+      "user_name": "用户",
+      "question": "2023年4月30日，我跟你分享了一部关于时间旅行的电视剧，名字是什么？",
+      "gold_answer": "《旅行者》",
+      "generated_answer": "根据记忆内容，你于2023年4月30日分享的关于时间旅行的电视剧是《旅行者》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了电视剧名称是《旅行者》，与标准答案完全一致，且日期和主题描述相符。",
+      "top_memories": [
+        "林瑶于2023年4月30日首次尝试攀岩运动",
+        "用户于2023年4月30日尝试了一家新开的墨西哥餐厅，喜欢那里的墨西哥卷饼",
+        "用户计划在2023年4月30日之后的周末购买材料，尝试自制墨西哥卷饼",
+        "用户最近在追电视剧《旅行者》，主题是时间旅行",
+        "用户于2023年4月29日参加了舞蹈工作坊，学习了拉丁舞的基本步伐"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 31.579611778259277,
+    "answer_time_seconds": 6.359105110168457,
+    "total_time_seconds": 37.939273834228516,
+    "write_tokens": {
+      "prompt_tokens": 8932,
+      "completion_tokens": 1655,
+      "total_tokens": 10587,
+      "call_count": 26
+    },
+    "answer_tokens": {
+      "prompt_tokens": 3111,
+      "completion_tokens": 288,
+      "total_tokens": 3399,
+      "call_count": 6
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 91,
+    "avg_answer_time_ms": 2119.6860472361245
+  }
+}

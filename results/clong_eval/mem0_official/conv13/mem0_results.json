@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 13,
+  "conversation_hash": "f261ad12",
+  "details": [
+    {
+      "conversation_idx": 13,
+      "conversation_hash": "f261ad12",
+      "user_name": "焦彦",
+      "question": "4月27日这天，我做了一道什么菜？",
+      "gold_answer": "糖醋鱼",
+      "generated_answer": "根据记忆内容，4月27日（2023年）您做了一道**糖醋鱼**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到4月27日做了一道糖醋鱼，与标准答案完全一致，核心事实正确。",
+      "top_memories": [
+        "User tried making sweet and sour fish for the first time on April 27, 2023, and found the process complex but felt a sense of accomplishment that helped them forget their worries.",
+        "User enjoys listening to light music, especially piano pieces, which help them feel relaxed and calm.",
+        "User does not play the piano but sometimes writes poetry to express their emotions.",
+        "User finds some parts of 'The Kite Runner' very sad and thought-provoking, and reflects that life, like the kite in the novel, is elusive and hard to grasp.",
+        "User wrote a few lines of poetry but is hesitant to continue, feeling their writing isn't good enough yet."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 9,
+  "write_time_seconds": 10.728212118148804,
+  "answer_time_seconds": 1.7385051250457764
+}

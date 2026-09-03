@@ -1,0 +1,65 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "c055bd01",
+      "user_name": "用户",
+      "question": "4月27日，我们聊到了用旅行来放松心情，后面为什么我没有去旅行呢？",
+      "gold_answer": "因为疫情",
+      "generated_answer": "根据记忆内容，4月27日我们聊到旅行话题，但用户因疫情近期没有出远门旅行。虽然用户计划去国内历史名城（如西安）和黄山，但疫情是主要原因，所以没有去旅行。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出疫情是主要原因，与标准答案一致，因此正确。",
+      "top_memories": [
+        "对话日期为2023年04月27日",
+        "用户于2023年4月27日完成了一个二战时期的战斗机模型",
+        "用户于2023年4月27日开始制作一艘18世纪著名帆船的模型",
+        "用户喜欢旅行",
+        "用户因疫情近期没有出远门旅行"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "c055bd01",
+      "user_name": "用户",
+      "question": "2023年4月28日，我们聊到了摄影，我通常用什么设备来摄影呢？",
+      "gold_answer": "单反相机",
+      "generated_answer": "根据记忆内容，用户拥有一台单反相机和不同焦距的镜头（记忆16），因此通常使用单反相机进行摄影。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出用户使用单反相机进行摄影，与标准答案一致，且提供了额外细节，核心事实正确。",
+      "top_memories": [
+        "用户于2023年4月27日开始制作一艘18世纪著名帆船的模型",
+        "用户计划在2023年5月的某个周末出发旅行",
+        "用户最近在规划去黄山旅行，对那里的自然风光感兴趣，适合徒步和摄影",
+        "用户对摄影有一定研究",
+        "用户于2023年4月27日完成了一个二战时期的战斗机模型"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 17.56655788421631,
+    "answer_time_seconds": 3.3224589824676514,
+    "total_time_seconds": 20.889600038528442,
+    "write_tokens": {
+      "prompt_tokens": 5108,
+      "completion_tokens": 1028,
+      "total_tokens": 6136,
+      "call_count": 16
+    },
+    "answer_tokens": {
+      "prompt_tokens": 1683,
+      "completion_tokens": 143,
+      "total_tokens": 1826,
+      "call_count": 4
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 63,
+    "avg_answer_time_ms": 1661.2194776535034
+  }
+}

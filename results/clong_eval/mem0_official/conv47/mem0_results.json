@@ -1,0 +1,49 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "conversation_idx": 47,
+  "conversation_hash": "432465e6",
+  "details": [
+    {
+      "conversation_idx": 47,
+      "conversation_hash": "432465e6",
+      "user_name": "用户",
+      "question": "4月27日，今天我在花园里种了什么新的花？",
+      "gold_answer": "三色堇",
+      "generated_answer": "根据记忆内容，4月27日用户在花园里种植了新的三色堇（pansies）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到4月27日种植了新的三色堇，与标准答案‘三色堇’完全一致，核心事实正确。",
+      "top_memories": [
+        "On April 27, 2023, User spent a full day in her garden, pruning dead branches, fertilizing flowers, and planting new pansies (三色堇), feeling very satisfied.",
+        "On April 28, 2023, User planned to take her child to the park to see the cherry blossoms (樱花), bringing drawing supplies to sketch them and having a picnic.",
+        "On April 29, 2023, User tried a new garden layout with high-low design, placing tall plants in back and short ones in front for depth, using violets and zinnias as foreground and roses and hydrangeas in back, keeping colors harmonious.",
+        "User believes the key to gardening is patience and regularly fertilizing plants to ensure they get enough nutrients.",
+        "On April 28, 2023, User planned to take her child to the park in the afternoon to enjoy the spring scenery."
+      ]
+    },
+    {
+      "conversation_idx": 47,
+      "conversation_hash": "432465e6",
+      "user_name": "用户",
+      "question": "2023年4月28日，我分享了一部新的家庭剧，剧名叫什么？",
+      "gold_answer": "《幸福一家人》",
+      "generated_answer": "根据记忆内容，2023年4月28日用户分享的新家庭剧是《幸福一家人》（记忆3中提到“正在看”这部剧，且参考日期为4月29日，因此4月28日时正在观看）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了剧名为《幸福一家人》，与标准答案完全一致，且提供了合理的日期推理，符合评判规则。",
+      "top_memories": [
+        "On the evening of April 29, 2023, User planned to watch a new movie called '家的温馨' (The Warmth of Home) with her family.",
+        "User watched the Chinese family sitcom '家有儿女' (Home with Kids) with her family on April 27, 2023, and found it very interesting as it depicts everyday family life stories.",
+        "User is currently watching a new family drama called '幸福一家人' (Happy Family) and finds it heartwarming.",
+        "User watched a new family drama with her family in the evening of April 27, 2023, and found it heartwarming.",
+        "User plans to continue knitting, try new recipes, and watch a movie with her family the next day (April 28, 2023)."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 37,
+  "write_time_seconds": 31.123850107192993,
+  "answer_time_seconds": 4.2215070724487305
+}

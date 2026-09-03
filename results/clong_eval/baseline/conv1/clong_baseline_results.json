@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "a07775f9",
+      "user_name": "用户",
+      "question": "我曾经在4月27号这天，和你聊了打篮球的事情，我通常打哪个位置？",
+      "gold_answer": "前锋",
+      "generated_answer": "根据记忆内容，你通常打**小前锋**位置。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案提到“小前锋”，而标准答案是“前锋”，小前锋是前锋的一种，属于部分正确，且语义一致，因此判断为正确。",
+      "top_memories": [
+        "用户计划在2023年4月27日晚上与朋友打篮球赛",
+        "用户王峰在2023年4月27日晚上有篮球赛",
+        "2023年4月27日，王峰跑了一个半程马拉松",
+        "用户喜欢打篮球来放松身心",
+        "用户打算在当晚的篮球赛中尝试新的突破技巧"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 8.923095703125,
+    "answer_time_seconds": 1.7896959781646729,
+    "total_time_seconds": 10.713261127471924,
+    "write_tokens": {
+      "prompt_tokens": 2904,
+      "completion_tokens": 562,
+      "total_tokens": 3466,
+      "call_count": 9
+    },
+    "answer_tokens": {
+      "prompt_tokens": 803,
+      "completion_tokens": 62,
+      "total_tokens": 865,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 36,
+    "avg_answer_time_ms": 1789.6902561187744
+  }
+}

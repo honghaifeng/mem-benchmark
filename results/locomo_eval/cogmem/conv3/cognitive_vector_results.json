@@ -1,0 +1,3430 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 199,
+  "correct": 148,
+  "accuracy": 74.37185929648241,
+  "category_stats": {
+    "3": {
+      "total": 11,
+      "correct": 5
+    },
+    "1": {
+      "total": 37,
+      "correct": 22
+    },
+    "2": {
+      "total": 40,
+      "correct": 34
+    },
+    "4": {
+      "total": 111,
+      "correct": 87
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 3,
+      "qa_idx": 0,
+      "question": "Is it likely that Nate has friends besides Joanna?",
+      "gold_answer": "Yesteammates on hisvideo game team.",
+      "generated_answer": "Yes",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Yes' directly matches the gold answer's positive response, indicating that Nate has friends besides Joanna. The gold answer provides additional context (teammates on his video game team), but the core fact is the same.",
+      "category": 3,
+      "top_memories": [
+        "Nate friends Joanna",
+        "Nate has memories with Joanna",
+        "Joanna friend Nate",
+        "Nate friend Joanna",
+        "Nate has similar interests with Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 1,
+      "question": "What kind of interests do Joanna and Nate share?",
+      "gold_answer": "Watching movies, making desserts",
+      "generated_answer": "The memory content does not specify the exact interests Joanna and Nate share, only that they have similar interests.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the exact interests are not specified, which contradicts the gold answer that provides specific shared interests (watching movies, making desserts). It contains no correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Nate has similar interests with Joanna",
+        "Joanna offers to share recipes Nate",
+        "Joanna plans to share desserts with Nate",
+        "Nate expressed interest in going with her Joanna",
+        "Nate provided ideas to Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 2,
+      "question": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind?",
+      "gold_answer": "2019",
+      "generated_answer": "Around 2019.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Around 2019' is semantically equivalent to the gold answer '2019', with only a slight approximation that does not change the core fact.",
+      "category": 2,
+      "top_memories": [
+        "Joanna first watched the romantic drama about memory and relationships around 2019.",
+        "Joanna's first full screenplay status: completed",
+        "Joanna's first full screenplay is a mix of drama and romance.",
+        "Joanna's first full screenplay genre: drama and romance",
+        "Joanna likes the idea and acting of the romantic drama about memory and relationships."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 3,
+      "question": "When did Nate win his first video game tournament?",
+      "gold_answer": "the week before 21Janury, 2022",
+      "generated_answer": "14 January 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states 'the week before 21 January, 2022', which implies a date around 14 January 2022. The generated answer '14 January 2022' falls within the 14-day tolerance and is semantically consistent.",
+      "category": 2,
+      "top_memories": [
+        "Nate won his first video game tournament on approximately 14 January 2022.",
+        "Nate won regional video game tournament",
+        "Nate participated in video game tournament",
+        "Nate won his fourth video game tournament on 8 July 2022.",
+        "Nate won a regional video game tournament on 27 May 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 4,
+      "question": "What pets wouldn't cause any discomfort to Joanna?",
+      "gold_answer": "Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",
+      "generated_answer": "Based on the memories, Joanna is allergic to most reptiles and animals with fur, and specifically to turtles, dogs, and cockroaches. There is no mention of any pet that wouldn't cause discomfort. Therefore, the most likely answer is: **No pets are mentioned as safe for Joanna.**",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no pets are mentioned as safe for Joanna, but the gold answer specifies hairless cats or pigs as safe. The generated answer does not include any correct option and is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "Joanna is allergic to pets.",
+        "Joanna is considering getting pets but is allergic to some animals.",
+        "Joanna considering_pets: yes",
+        "Joanna allergy: allergic to pets",
+        "Joanna allergies: allergic to some pets"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 5,
+      "question": "What are Joanna's hobbies?",
+      "gold_answer": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+      "generated_answer": "Joanna's hobbies include writing, hanging out with friends, cooking and baking, DIY, and enjoying nature.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'writing' and 'enjoying nature' which match the gold answer's 'writing' and 'exploring nature', and 'hanging out with friends' matches 'hanging withfriends'. Extra hobbies (cooking, baking, DIY) are allowed.",
+      "category": 1,
+      "top_memories": [
+        "Joanna occupation: writer",
+        "Joanna profession: writer",
+        "Joanna passion: writing",
+        "Joanna loves DIY",
+        "Joanna's new novel features a main character who deals with loss and tries to figure out who they are, and takes a road trip to heal and grow."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 6,
+      "question": "How long has Nate had his first two turtles?",
+      "gold_answer": "three years",
+      "generated_answer": "At least 3 years, as of 23 January 2022, Nate had owned turtles for 3 years, and his first two turtles are among those.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states 'At least 3 years' which matches the gold answer 'three years'. The extra details about the date and ownership do not contradict the core fact, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "As of 23 January 2022, Nate has owned turtles for 3 years.",
+        "Nate's turtles kind: turtles",
+        "On 25 October 2022, Nate took his two turtles for a walk because he was bored.",
+        "On 10 November 2022, Nate took his turtles to the beach in Tampa.",
+        "On 25 October 2022, Nate said he also likes holding his turtles."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 7,
+      "question": "When did Joanna finish her first screenplay?",
+      "gold_answer": "The Friday before 23January, 2022",
+      "generated_answer": "21 January 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The Friday before 23 January, 2022', which is 21 January 2022. The generated answer '21 January 2022' exactly matches that date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Joanna's first full screenplay status: completed",
+        "Joanna finished her first full screenplay on 21 January 2022.",
+        "Joanna's recent screenplay submissionDate: 24 June 2022",
+        "Joanna printed her first full screenplay on 21 January 2022.",
+        "Joanna is working on a screenplay."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 8,
+      "question": "When did Nate get his first two turtles?",
+      "gold_answer": "2019",
+      "generated_answer": "As of 23 January 2022, Nate has owned turtles for 3 years, so he got his first two turtles around 23 January 2019.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Nate got his first two turtles around 23 January 2019, which matches the gold answer of 2019. The date is within the 14-day tolerance and the core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate's turtles kind: turtles",
+        "On 25 October 2022, Nate took his two turtles for a walk because he was bored.",
+        "On 10 November 2022, Nate took his turtles to the beach in Tampa.",
+        "On 25 October 2022, Nate said he also likes holding his turtles.",
+        "On 9 November 2022, Nate confirmed he is happy with his decision to get a third turtle."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 9,
+      "question": "What major achievement did Joanna accomplish in January 2022?",
+      "gold_answer": "finished her screenplay and printed it",
+      "generated_answer": "Joanna finished her first full screenplay on 21 January 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Joanna finished her first full screenplay on 21 January 2022, which matches the gold answer's core fact of finishing her screenplay. The date is within the 14-day tolerance, and the phrasing is semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "Joanna has been working on a project as of 21 January 2022.",
+        "On 23 January 2022, Joanna finished a project and felt a mix of relief, excitement, and anxiety.",
+        "On 23 January 2022, Nate congratulated Joanna on finishing her project.",
+        "Joanna finished her first full screenplay on 21 January 2022.",
+        "On 23 January 2022, Joanna affirmed she will keep pursuing her passion for writing."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 10,
+      "question": "What emotions is Joanna feeling about  the screenplay she submitted?",
+      "gold_answer": "Relief, excitement,worry, hope,anxiety.",
+      "generated_answer": "Joanna felt relief, excitement, and worry about the screenplay she submitted.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'relief', 'excitement', and 'worry', which are all correct emotions from the gold answer. Although it omits 'hope' and 'anxiety', partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "On 7 February 2022, Joanna had submitted a screenplay to a film festival and was feeling relief, excitement, and worry about it.",
+        "The movie producers were interested and excited about Joanna's script.",
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna felt mixed emotions about the audition, being excited but also anxious.",
+        "Joanna is working on a screenplay."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 11,
+      "question": "What is Joanna allergic to?",
+      "gold_answer": "Most reptiles,animals with fur,cockroaches, dairy",
+      "generated_answer": "Joanna is allergic to pets, including turtles, cockroaches, most reptiles, animals with fur, and Nate.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes most reptiles, animals with fur, and cockroaches, which are all correct items from the gold answer. The extra details (pets, Nate) do not penalize, and the core facts are correct.",
+      "category": 1,
+      "top_memories": [
+        "Joanna is allergic to pets.",
+        "Joanna allergy: allergic to pets",
+        "Joanna allergies: allergic to some pets",
+        "Joanna allergic: to turtles",
+        "Joanna is allergic to cockroaches (as of 18 March 2022)."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 12,
+      "question": "What underlying condition might Joanna have based on her allergies?",
+      "gold_answer": "asthma",
+      "generated_answer": "Joanna might have an underlying condition of allergies to certain animals, including pets, reptiles, and insects, which causes symptoms like facial puffiness and itching.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention asthma, which is the gold answer. It instead describes allergies to animals, which is not the underlying condition asked about.",
+      "category": 3,
+      "top_memories": [
+        "Joanna allergies: allergic to some pets",
+        "On 20 May 2022, Joanna stated that she has allergies and therefore does not want to get a pet.",
+        "On 20 May 2022, Joanna stated that she is too lazy to research alternative pets for her allergies.",
+        "On 25 February 2022, Joanna stated that she cannot have dairy.",
+        "Joanna dietary_restriction: cannot have dairy"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 13,
+      "question": "When did Joanna have an audition for a writing gig?",
+      "gold_answer": "23 March, 2022.",
+      "generated_answer": "23 March 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '23 March 2022' matches the gold answer '23 March, 2022' exactly, aside from minor punctuation, and is within the date tolerance.",
+      "category": 2,
+      "top_memories": [
+        "Joanna had an audition for a writing gig on 23 March 2022.",
+        "Joanna participated_in writing gig audition",
+        "writing gig audition: An audition Joanna had for a writing gig.",
+        "Joanna was an actress before becoming a writer.",
+        "Joanna passion: writing"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 14,
+      "question": "What nickname does Nate use for Joanna?",
+      "gold_answer": "Jo",
+      "generated_answer": "No information about a nickname is present in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no information about a nickname is present, but the gold answer is 'Jo'. The generated answer does not contain the correct nickname and is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "Joanna friend Nate",
+        "Nate friend Joanna",
+        "Nate friends Joanna",
+        "Nate friend_of Joanna",
+        "Joanna friend_of Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 15,
+      "question": "When did Nate get purple hair?",
+      "gold_answer": "The week before 15April, 2022.",
+      "generated_answer": "8 April 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states 'The week before 15 April, 2022', which is the week of April 8-14, 2022. The generated answer '8 April 2022' falls within that week and is within the 14-day tolerance, so it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate dyed his hair purple on approximately 8 April 2022.",
+        "Nate hair_color: purple",
+        "Nate hair_dyed_date: 8 April 2022",
+        "Nate shared a selfie with purple hair and glasses with Joanna on 15 April 2022.",
+        "Joanna complimented Nate's new hair color on 15 April 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 16,
+      "question": "What physical transformation did Nate undergo in April 2022?",
+      "gold_answer": "dyed his hair purple",
+      "generated_answer": "Nate dyed his hair purple in April 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Nate dyed his hair purple in April 2022, matching the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Nate dyed his hair purple on approximately 8 April 2022.",
+        "Nate participated_in the tournament",
+        "On 5 September 2022, Nate had a letdown in a video game tournament and did not do well.",
+        "Nate participated in international tournament",
+        "On 17 April 2022, Joanna invited Nate to go with her to nature, and Nate expressed interest."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 17,
+      "question": "What movie did Joanna watch on 1 May, 2022?",
+      "gold_answer": "Lord of the Rings",
+      "generated_answer": "The memory content does not mention any movie Joanna watched on 1 May, 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention any movie, which contradicts the gold answer that Joanna watched 'Lord of the Rings' on that date. It provides no correct content and is off-topic.",
+      "category": 2,
+      "top_memories": [
+        "Joanna contributed to a movie that premiered on 23 October 2022.",
+        "the movie: A movie that Joanna contributed to as a screenwriter, which premiered on 23 October 2022.",
+        "Joanna recent_work: movie",
+        "Joanna set up meetings with movie producers on 4 November 2022.",
+        "Joanna's meetings with movie producers went well on 4 November 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 18,
+      "question": "Which outdoor spot did Joanna visit in May?",
+      "gold_answer": "Whispering Falls waterfall",
+      "generated_answer": "Whispering Falls",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Whispering Falls' is a partial match to the gold answer 'Whispering Falls waterfall', and the core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "On 12 May 2022, Joanna went hiking and found some amazing trails in her town.",
+        "the hiking trip: A hiking trip Joanna took recently, during which she saw a sunset.",
+        "Joanna participates_in Hiking",
+        "Joanna took a photo at Whispering Falls on 12 May 2022.",
+        "Fort Wayne: Fort Wayne is a location near which Joanna went on a hike."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 19,
+      "question": "How many times has Joanna found new hiking trails?",
+      "gold_answer": "twice",
+      "generated_answer": "2",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2' is a numerical representation of 'twice', which is semantically equivalent.",
+      "category": 1,
+      "top_memories": [
+        "Joanna visited Trails",
+        "On 12 May 2022, Joanna went hiking and found some amazing trails in her town.",
+        "Joanna found a gorgeous hiking trail in her hometown on 16 April 2022.",
+        "Joanna participating in hiking trip",
+        "Joanna's hiking trail discovered_date: 16 April 2022"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 20,
+      "question": "When did Nate adopt Max?",
+      "gold_answer": "May 2022",
+      "generated_answer": "20 May 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '20 May 2022' is within 14 days of the gold answer 'May 2022', so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate owns Max",
+        "Nate adopted a dog named Max on 20 May 2022.",
+        "Max: Max is an adopted dog that Nate recently got, full of energy and bringing joy.",
+        "Max keeps Nate's other pets active.",
+        "Max owner: Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 21,
+      "question": "Who was the new addition to Nate's family in May 2022?",
+      "gold_answer": "Max",
+      "generated_answer": "No exact answer found in memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'No exact answer found in memory content,' which does not provide the correct answer 'Max' and is entirely off-topic.",
+      "category": 2,
+      "top_memories": [
+        "Nate met new people at the regional video game tournament on 27 May 2022.",
+        "On 25 May 2022, Nate expressed support to Joanna.",
+        "Nate participated_in the tournament",
+        "Nate has a gaming tournament in May 2022, which will be his fourth.",
+        "Nate participated in a conversation on 14 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 22,
+      "question": "When did Joanna start writing her third screenplay?",
+      "gold_answer": "May 2022",
+      "generated_answer": "Joanna started writing her third screenplay on 25 February 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is May 2022, but the generated answer says 25 February 2022, which is more than 14 days earlier and not semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "Joanna's first full screenplay status: completed",
+        "Joanna started writing a new screenplay on 25 February 2022 while waiting to hear back about her first screenplay.",
+        "Joanna is working on a screenplay.",
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna finished her first full screenplay on 21 January 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 23,
+      "question": "Which of Joanna's screenplay were rejected from production companies?",
+      "gold_answer": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+      "generated_answer": "Joanna's first full screenplay (a drama and romance) was rejected by a major company on 3 June 2022, and she also received a rejection from a production company on 21 October 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Joanna's first screenplay (drama and romance) as rejected, which matches the gold answer's first item. Although it adds specific dates and mentions a second rejection, the core fact is correct, and extra details are allowed.",
+      "category": 1,
+      "top_memories": [
+        "Joanna's screenplay submittedTo: a film festival",
+        "Joanna's first full screenplay status: completed",
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna is working on a screenplay.",
+        "Joanna working_on screenplay"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 24,
+      "question": "When is Nate hosting a gaming party?",
+      "gold_answer": "The weekend after 3June, 2022.",
+      "generated_answer": "17 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The weekend after 3June, 2022.' The weekend after June 3, 2022 is June 4-5, 2022. The generated answer '17 June 2022' is within 14 days of that weekend (June 4-5), so it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "Nate hosted the gaming party",
+        "Nate organizing gaming party",
+        "Nate is organizing a gaming party on 17 June 2022.",
+        "gaming party: A gaming party organized by Nate, two weekends after the conversation date.",
+        "gaming tournament participant: Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 25,
+      "question": "When did Joanna hike with her buddies?",
+      "gold_answer": "The weekend after 3June, 2022.",
+      "generated_answer": "4 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The weekend after 3 June, 2022', which is 4-5 June 2022. The generated answer '4 June 2022' is within that weekend and within 14 days of the gold date, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Joanna is hiking with buddies on 4 June 2022.",
+        "Fort Wayne: Fort Wayne is a location near which Joanna went on a hike.",
+        "waterfall: A waterfall that Joanna photographed during her hike.",
+        "Joanna invited to go with her Nate",
+        "Joanna took a sunset photo during a hike near Fort Wayne in the summer of 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 26,
+      "question": "When did Nate win his third tourney?",
+      "gold_answer": "The week before 3June, 2022",
+      "generated_answer": "The memory does not specify when Nate won his third tournament. Based on available info, the most likely answer is between 2 May 2022 and 27 May 2022, but no exact date is given.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer provides a date range (2 May 2022 to 27 May 2022) that is within 14 days of the gold answer (the week before 3 June 2022, i.e., around 27 May 2022). Thus, it is semantically consistent and partially correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate won his fourth video game tournament on 8 July 2022.",
+        "Nate: Nate is a person who won his first video game tournament.",
+        "Nate won his first video game tournament on approximately 14 January 2022.",
+        "Nate's game tournament was pushed back, but he participated in it on 9 November 2022 and did not make it to the finals.",
+        "On 5 September 2022, Nate had a letdown in a video game tournament and did not do well."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 27,
+      "question": "What places has Joanna submitted her work to?",
+      "gold_answer": "film contest, film festival.",
+      "generated_answer": "Production companies and film contests.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'film contests', which matches the gold answer's 'film contest'. Although it also mentions 'production companies' which is not in the gold answer, the presence of at least one correct option makes it correct.",
+      "category": 1,
+      "top_memories": [
+        "Joanna had submitted her work to a film contest.",
+        "Joanna submitted work to film contest",
+        "film contest: A film contest that Joanna submitted her work to.",
+        "Joanna activity: submitting work to production companies and film contests",
+        "On 10 July 2022, Joanna mentioned that she has never tried publishing a book before, but this might be her first."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 28,
+      "question": "When did Nate make vegan icecream and share it with a vegan diet group?",
+      "gold_answer": "The Friday before 24June, 2022.",
+      "generated_answer": "17 June 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '17 June 2022' is within 14 days of the gold answer 'The Friday before 24 June, 2022' (which is 17 June 2022). Thus, it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate made vegan ice cream",
+        "Nate made vegan ice cream on 17 June 2022 and shared it with people in his vegan diet group.",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022.",
+        "vegan ice cream made_by: Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 29,
+      "question": "When is Joanna going to make Nate's ice cream for her family?",
+      "gold_answer": "The weekend of 24June, 2022.",
+      "generated_answer": "The weekend of 25-26 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer specifies the weekend of 25-26 June 2022, which is within 14 days of the gold answer's weekend of 24 June 2022. The dates are semantically consistent, so the answer is correct.",
+      "category": 2,
+      "top_memories": [
+        "On 24 June 2022, Joanna told Nate that she plans to make ice cream for her family this weekend (25-26 June 2022).",
+        "On 24 June 2022, Nate expressed hope that Joanna and her family will like the ice cream and asked Joanna to let him know how it went.",
+        "On 11 November 2022, Joanna complimented Nate's ice cream for its colors and mix-ins.",
+        "On 17 April 2022, Joanna expressed love for Nate's ice cream and wished she could make it the same way.",
+        "On 24 June 2022, Nate said he has no doubt that Joanna's family will love the ice cream."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 30,
+      "question": "What kind of writings does Joanna do?",
+      "gold_answer": "Screenplays,books, online blog posts, journal",
+      "generated_answer": "Joanna is a writer who writes stories, including books. Her third book is about loss, identity, and connection, and it is personal. She also writes blog posts, as a reader was comforted by one of her blog posts.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that Joanna writes books and blog posts, which are part of the gold answer (books and online blog posts). Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "old notebooks content: early writings by Joanna",
+        "Joanna has been reading a lot of books in the past week (as of 17 April 2022).",
+        "Joanna author_of Finding Home",
+        "Joanna profession: writer",
+        "Joanna occupation: writer"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 31,
+      "question": "When did Nate win his fourth video game tournament?",
+      "gold_answer": "The Friday before 10July, 2022.",
+      "generated_answer": "8 July 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '8 July 2022' is within 14 days of the gold answer 'The Friday before 10 July, 2022' (which is 8 July 2022). Thus, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate won his fourth video game tournament on 8 July 2022.",
+        "Nate won regional video game tournament",
+        "Nate participated in video game tournament",
+        "video game tournament winner: Nate",
+        "Nate won his first video game tournament on approximately 14 January 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 32,
+      "question": "Where did Joanna travel to in July 2022?",
+      "gold_answer": "Woodhaven",
+      "generated_answer": "Woodhaven",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Woodhaven'.",
+      "category": 2,
+      "top_memories": [
+        "Joanna took a road trip to Woodhaven for research for her next movie in July 2022.",
+        "Joanna's book date_started: 10 July 2022",
+        "Joanna has been working on a project as of 21 January 2022.",
+        "Joanna is hiking with buddies on 4 June 2022.",
+        "Joanna achieved something through dedication and late nights, as of 6 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 33,
+      "question": "When did someone write Joanna a touching letter?",
+      "gold_answer": "The week before 14August, 2022.",
+      "generated_answer": "7 August 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The week before 14 August, 2022', which corresponds to a date range from 8 to 14 August 2022. The generated answer '7 August 2022' is within 14 days of that range (specifically, it is 1 day before the start of the week), so it is considered correct under the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "The letter received_by Joanna",
+        "The letter: A letter written to Joanna by a reader who was comforted by her blog post.",
+        "The letter was written after the reader read Joanna's online blog post about a hard moment in her life.",
+        "Joanna received a letter from a reader on 7 August 2022.",
+        "The letter inspired_by Joanna's blog"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 34,
+      "question": "What book recommendations has Joanna given to Nate?",
+      "gold_answer": "\"Little Women\",'A Court of Thorns andRoses'.",
+      "generated_answer": "Based on the memory content, Joanna recommended a book to Nate on 22 August 2022, but the specific title is not mentioned. The only other recommendation from Joanna to Nate is a movie recommendation, not a book. Therefore, the exact book title is unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer fails to mention either of the correct book titles ('Little Women' and 'A Court of Thorns and Roses') and instead states the specific title is unknown, which contradicts the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Nate appreciates recommendations from Joanna",
+        "On 22 August 2022, Joanna recommended a book to Nate.",
+        "On 22 August 2022, Nate mentioned he is always looking for something new to read and asked Joanna for book recommendations.",
+        "Joanna gives movie recommendations to Nate",
+        "On 21 April 2022, Nate recommended a book series to Joanna, describing it as having adventures, magic, and great characters."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 35,
+      "question": "When did Nate take time off to chill with his pets?",
+      "gold_answer": "The weekend of 22August, 2022.",
+      "generated_answer": "Nate planned to take time off on the weekend of 27-28 August 2022 to spend time with his pets.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies the weekend of 22 August 2022, while the generated answer says the weekend of 27-28 August 2022. The difference is 5-6 days, which is within the 14-day tolerance, so it should be considered correct. However, the generated answer says 'planned to take time off' which is semantically consistent with the question 'When did Nate take time off'. The core fact is the same weekend, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate has pets",
+        "Nate planned to take time off on the weekend of 27-28 August 2022 to spend time with his pets.",
+        "Nate took his pets to the park on 7 November 2022 and had a memorable day.",
+        "the park: A park where Nate took his pets for a memorable day.",
+        "Nate and the couple decided to have doggy playdates for their pets."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 36,
+      "question": "When did Joanna share her book with her writers group?",
+      "gold_answer": "The week before 22August, 2022.",
+      "generated_answer": "15 August 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '15 August 2022' is within 14 days of the gold answer 'the week before 22 August 2022' (which would be around 15-21 August 2022). Therefore, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "writers group members: Joanna",
+        "Joanna shared her book with her writers group on 15 August 2022 and received great feedback.",
+        "Joanna joined a writers group on 21 April 2022.",
+        "Joanna member_of: writers group",
+        "Joanna member_of writers group"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 37,
+      "question": "When did Nate win an international tournament?",
+      "gold_answer": "21 August, 2022",
+      "generated_answer": "21 August 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '21 August 2022' matches the gold answer '21 August, 2022' exactly in date, with only a minor punctuation difference.",
+      "category": 2,
+      "top_memories": [
+        "Nate participated in international tournament",
+        "Nate participated_in the tournament",
+        "Nate won an international gaming tournament on 21 August 2022.",
+        "Nate participates in the tournament",
+        "Nate upcoming_tournament: May 2022"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 38,
+      "question": "When did Joanna make a desert with almond milk?",
+      "gold_answer": "The Friday before 14September, 2022",
+      "generated_answer": "9 September 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '9 September 2022' is within 14 days of the gold answer 'The Friday before 14 September, 2022' (which is 9 September 2022). Thus, it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Joanna made Almond milk dessert",
+        "Almond milk dessert madeBy: Joanna",
+        "Joanna made a dessert with almond milk on 9 September 2022.",
+        "Almond milk dessert: Joanna made a delicious dessert with almond milk on 9 September 2022.",
+        "Joanna is lactose intolerant and therefore tries dairy-free options like coconut or almond milk in her desserts."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 39,
+      "question": "When did Nate attend a cooking show?",
+      "gold_answer": "The Monday before 14September, 2022",
+      "generated_answer": "5 September 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'The Monday before 14 September, 2022', which is 12 September 2022. The generated answer is '5 September 2022', which is exactly one week earlier. According to the date tolerance rule (within 14 days difference), this is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022.",
+        "Joanna complimented Nate's cooking on 25 February 2022.",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "On 5 September 2022, Nate expressed interest in joining Joanna in baking and cooking.",
+        "Nate has pets"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 40,
+      "question": "When did Joanna's laptop crash?",
+      "gold_answer": "The week before 14September, 2022",
+      "generated_answer": "7 September 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '7 September 2022' is within 14 days of the gold answer 'the week before 14 September 2022' (which would be around 7-13 September 2022). Therefore, it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Joanna's laptop event: crashed",
+        "Joanna's laptop crashed on 7 September 2022, causing her to lose all her work.",
+        "Joanna's laptop date: 7 September 2022",
+        "external drive: Joanna acquired an external drive for backups after her laptop crash.",
+        "Joanna appreciated seeing how far she has come when she found the old notebooks."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 41,
+      "question": "When did Joanna make a chocolate tart with raspberries?",
+      "gold_answer": "5 October, 2022",
+      "generated_answer": "14 September 2022",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer (14 September 2022) is more than 14 days away from the gold answer (5 October 2022), so it does not meet the date tolerance and is not semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "Joanna favorite treat chocolate raspberry tart",
+        "Joanna makes dairy-free chocolate cake with raspberries",
+        "Joanna made cake with strawberries and chocolate",
+        "On 14 September 2022, Joanna told Nate that her favorite dairy-free treat is a chocolate raspberry tart with an almond flour crust, chocolate ganache, and fresh raspberries.",
+        "On 14 September 2022, Joanna said that the dairy-free chocolate cake with raspberries is her favorite for birthdays and special days."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 42,
+      "question": "What movies have both Joanna and Nate seen?",
+      "gold_answer": "\"Little Women\", \"Lord of the Rings\"",
+      "generated_answer": "Based on the memory content, there is no information about movies that both Joanna and Nate have seen together. The memories mention Joanna's published movies, recommendations, and plans, but not specific movies they both watched. Therefore, the answer is: Unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'Unknown' and claims there is no information, but the gold answer provides specific movies ('Little Women', 'Lord of the Rings'). The generated answer contains no correct content from the gold answer and is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Joanna has published two movies.",
+        "Joanna has contributed to three movies that have been shown on the big screen.",
+        "Nate enjoys fantasy and sci-fi movies.",
+        "Joanna published_movies: 2",
+        "Joanna gives movie recommendations to Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 43,
+      "question": "How long did it take for Joanna to finish writing her book?",
+      "gold_answer": "four months",
+      "generated_answer": "It took Joanna about 3 months and 20 days to finish writing her book, from 10 July 2022 to around 29 September 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states a duration of about 3 months and 20 days, which is within 50% of the gold answer 'four months' (4 months vs ~3.67 months, difference ~8.3%). The dates provided also align with the duration. Thus, the core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "Joanna finished writing her book last week, which was around 29 September 2022.",
+        "On 10 July 2022, Joanna started writing a new book after her movie performed well.",
+        "Joanna's third book is a personal story that she had wanted to write for a long time.",
+        "On 20 May 2022, Joanna had completed her third book.",
+        "Joanna had an audition for a writing gig on 23 March 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 44,
+      "question": "When did Nate win a lot of money in a video game tournament?",
+      "gold_answer": "September 2022",
+      "generated_answer": "29 September 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '29 September 2022' is within 14 days of the gold answer 'September 2022', so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate won a video game tournament on 29 September 2022 and earned a significant amount of money.",
+        "Nate participated in video game tournament",
+        "Nate won regional video game tournament",
+        "video game tournament winner: Nate",
+        "Nate won a regional video game tournament on 27 May 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 45,
+      "question": "When did Joanna finish up the writing for her book?",
+      "gold_answer": "The week before 6October, 2022",
+      "generated_answer": "Around 29 September 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states the writing was finished the week before 6 October 2022, which is approximately 29 September 2022. The generated answer 'Around 29 September 2022' falls within the 14-day tolerance and semantically matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Joanna finished writing her book last week, which was around 29 September 2022.",
+        "On 10 July 2022, Joanna started writing a new book after her movie performed well.",
+        "On 20 May 2022, Joanna had completed her third book.",
+        "Joanna's third book is a personal story that she had wanted to write for a long time.",
+        "Joanna found old book"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 46,
+      "question": "What board games has Nate played?",
+      "gold_answer": "Chess, Catan.",
+      "generated_answer": "Catan",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Catan', which is one of the correct board games from the gold answer. Partial correctness is allowed.",
+      "category": 1,
+      "top_memories": [
+        "Nate loves board game",
+        "board game: A board game that Nate loves and played with people he met at the convention.",
+        "Nate played a board game he loves with people he met at the convention on 7 October 2022.",
+        "On 9 October 2022, Nate played the board game Catan.",
+        "Nate interest: video games"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 47,
+      "question": "What places has Nate met new people?",
+      "gold_answer": "A tournament and agaming convention.",
+      "generated_answer": "Nate met new people at the regional video game tournament, the game convention, and near his home (while walking his dog, he met a couple who live close by).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the regional video game tournament and the game convention, which are semantically equivalent to 'a tournament and a gaming convention' from the gold answer. The extra detail about meeting a couple near his home does not invalidate the correct parts.",
+      "category": 1,
+      "top_memories": [
+        "Nate met new people at the regional video game tournament on 27 May 2022.",
+        "Nate met new people at the game convention on 7 October 2022.",
+        "Nate met the couple",
+        "game convention: A game convention Nate attended on 7 October 2022 where he met new people.",
+        "Nate played a board game he loves with people he met at the convention on 7 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 48,
+      "question": "When did Nate go to a convention and meet new people?",
+      "gold_answer": "The Friday before 9October, 2022.",
+      "generated_answer": "7 October 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '7 October 2022' is within 14 days of the gold answer 'The Friday before 9 October, 2022' (which is 7 October 2022). Thus, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate attended the convention",
+        "Nate attended game convention",
+        "Nate met new people at the game convention on 7 October 2022.",
+        "game convention: A game convention Nate attended on 7 October 2022 where he met new people.",
+        "Nate attended a game convention on 7 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 49,
+      "question": "How many times has Joanna's scripts been rejected?",
+      "gold_answer": "Twice",
+      "generated_answer": "2",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2' is a numerical representation of 'Twice', which is semantically equivalent.",
+      "category": 1,
+      "top_memories": [
+        "Joanna's scripts submission_date: 31 October 2022",
+        "Joanna submitted a few more scripts on 31 October 2022.",
+        "major company rejected Joanna",
+        "production company: A production company that rejected Joanna's submission.",
+        "Joanna has published two movies."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 50,
+      "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+      "gold_answer": "stuffed toy pup",
+      "generated_answer": "A picture.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'A picture' does not match the gold answer 'stuffed toy pup' and is not semantically equivalent. It is entirely off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Nate gave Joanna",
+        "On 5 June 2022, Nate told Joanna that he got an item because it reminded him of something he loves, and its presence in his room reminds him to keep working on his goals.",
+        "Nate gave picture to Joanna",
+        "On 10 July 2022, Nate encouraged Joanna, telling her that her hard work will pay off and that she is incredible.",
+        "On 5 June 2022, Joanna expressed gratitude to Nate for a picture that reminds her of family love and encouragement."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 51,
+      "question": "When did Nate get Tilly for Joanna?",
+      "gold_answer": "25 May, 2022",
+      "generated_answer": "The memory does not specify when Nate got Tilly for Joanna.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the date, which contradicts the gold answer that provides a specific date (25 May, 2022). It does not contain any correct information from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Joanna still has a stuffed animal dog that Nate gave her, and she named it Tilly.",
+        "Tilly: Tilly is a stuffed animal dog given to Joanna by Nate, and she is always with Joanna while she writes.",
+        "Nate gave Joanna",
+        "Nate gave picture to Joanna",
+        "Nate receives support from Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 52,
+      "question": "How many of Joanna's writing have made it to the big screen?",
+      "gold_answer": "two",
+      "generated_answer": "3",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'two', but the generated answer is '3'. The generated answer does not contain the correct number and is not semantically equivalent.",
+      "category": 1,
+      "top_memories": [
+        "Joanna has contributed to three movies that have been shown on the big screen.",
+        "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022.",
+        "Joanna hopes her screenplay gets noticed and makes it to the screen.",
+        "Joanna considers writing a huge part of her life as of 14 August 2022.",
+        "Joanna has been busy with writing projects as of 14 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 53,
+      "question": "How many times has Nate taken his turtles on a walk?",
+      "gold_answer": "Twice.",
+      "generated_answer": "1",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Twice' (2 times), but the generated answer is '1', which is a different count. There is no partial correctness because the number is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "On 25 October 2022, Nate took his two turtles for a walk because he was bored.",
+        "As of 23 January 2022, Nate has owned turtles for 3 years.",
+        "Nate's turtles kind: turtles",
+        "On 10 November 2022, Nate took his turtles to the beach in Tampa.",
+        "Nate has_pets: turtles"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 54,
+      "question": "When was Joanna's second movie script shown on the big screens?",
+      "gold_answer": "The Sunday before 25October, 2022.",
+      "generated_answer": "4 June 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies a date around 25 October 2022 (the Sunday before), while the generated answer gives 4 June 2022, which is more than 14 days apart and not semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "movie producers interested in Joanna's script",
+        "The movie producers were interested and excited about Joanna's script.",
+        "Joanna completed her second script on 18 March 2022.",
+        "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022.",
+        "Joanna has contributed to three movies that have been shown on the big screen."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 55,
+      "question": "What is Joanna inspired by?",
+      "gold_answer": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+      "generated_answer": "Joanna is inspired by nature, themes of courage and taking risks, Woodhaven's history, personal experiences and her own journey of self-discovery, Nate, people she knows, things she sees, and her imagination.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes several correct inspirations from the gold answer: nature, themes of courage and taking risks, personal experiences and her own journey of self-discovery, Nate, people she knows, things she sees, and her imagination. It also adds Woodhaven's history, which is an extra detail but does not invalidate the correct content.",
+      "category": 1,
+      "top_memories": [
+        "Joanna inspired_by Nature",
+        "Joanna's writing is inspired by themes of courage and taking risks.",
+        "The letter inspired_by Joanna's blog",
+        "Joanna is inspired by Woodhaven's history for her next script.",
+        "Joanna's screenplay was inspired by personal experiences and her own journey of self-discovery."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 56,
+      "question": "What animal do both Nate and Joanna like?",
+      "gold_answer": "Turtles.",
+      "generated_answer": "Turtles",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Turtles' matches the gold answer 'Turtles' exactly, differing only in punctuation.",
+      "category": 1,
+      "top_memories": [
+        "stuffed animal pup: A stuffed animal pup that Nate got for Joanna.",
+        "Joanna likes Nate's turtles",
+        "Nate has similar interests with Joanna",
+        "Joanna admires Nate's turtles",
+        "Joanna friend Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 57,
+      "question": "When did Joanna plan to go over to Nate's and share recipes?",
+      "gold_answer": "5 November, 2022.",
+      "generated_answer": "5 November 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '5 November 2022' is semantically identical to the gold answer '5 November, 2022', differing only in punctuation.",
+      "category": 2,
+      "top_memories": [
+        "Joanna offers to share recipes Nate",
+        "On 4 November 2022, Joanna said she would bring some of her recipes to share desserts with Nate.",
+        "Joanna plans to share desserts with Nate",
+        "Nate plans to share his dessert recipe with Joanna on 25 February 2022.",
+        "Joanna accepted Nate's invitation and planned to come over on 5 November 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 58,
+      "question": "What things has Nate reccomended to Joanna?",
+      "gold_answer": "A pet,\"The Lord of the Rings\" movies,a dragon book series,coconut flavoring,\"Project Hail Mary\" book,Xenoblade Chronicles, dairy-free margarine, coconut oil",
+      "generated_answer": "Nate provided ideas to Joanna.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Nate provided ideas to Joanna' is too vague and does not mention any specific item from the gold answer, such as a pet, movies, books, or other recommendations. It lacks any correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Nate has similar interests with Joanna",
+        "Nate has memories with Joanna",
+        "Nate conversing with Joanna",
+        "Joanna talked to Nate",
+        "Nate provided ideas to Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 59,
+      "question": "What does Joanna do to remember happy memories?",
+      "gold_answer": "Hangs them on a corkboard, writes themin a notebook.",
+      "generated_answer": "Joanna writes down her favorite memories, starting on 7 November 2022, and encourages Nate to do the same.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions writing down memories, but the gold answer specifies hanging them on a corkboard and writing them in a notebook. The generated answer does not include the corkboard part and adds unrelated details about starting on a specific date and encouraging Nate. Since it misses the core action of hanging on a corkboard, it is not correct.",
+      "category": 1,
+      "top_memories": [
+        "Joanna started writing down her favorite memories on 7 November 2022.",
+        "Joanna believes it is important to stay happy and de-stress.",
+        "Nate has memories with Joanna",
+        "On 7 November 2022, Joanna encouraged Nate to look back on fond memories and to keep making great memories and supporting each other.",
+        "On 7 November 2022, Nate decided to start writing down favorite memories with Joanna from that time onward."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 60,
+      "question": "What Console does Nate own?",
+      "gold_answer": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+      "generated_answer": "The memory content does not specify which console Nate owns.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify which console Nate owns, which directly contradicts the gold answer that Nate owns a Nintendo Switch. It contains no correct information from the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Nate owns Max",
+        "Nate's turtles owner: Nate",
+        "Max owner: Nate",
+        "Nate has pets",
+        "Nate owns turtles"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 61,
+      "question": "What mediums does Nate use to play games?",
+      "gold_answer": "Gamecube, PC,Playstation.",
+      "generated_answer": "Nate uses his gaming setup to play games.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any of the specific mediums (Gamecube, PC, Playstation) from the gold answer, and it is too vague to be considered correct.",
+      "category": 1,
+      "top_memories": [
+        "Nate sometimes uses his gaming setup when playing games with friends.",
+        "Nate plays video games as a way to express his creativity and passion.",
+        "Nate interest: video games",
+        "Nate hobbies: playing video games, watching movies",
+        "Nate uses his gaming setup for practice and competition."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 62,
+      "question": "How many letters has Joanna recieved?",
+      "gold_answer": "Two",
+      "generated_answer": "1",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Two', but the generated answer is '1', which is a different number and does not contain the correct answer.",
+      "category": 1,
+      "top_memories": [
+        "Joanna: Joanna is a person who has been working on a project.",
+        "Joanna has_pet: no",
+        "Joanna has been reading a lot of books in the past week (as of 17 April 2022).",
+        "Joanna has been busy with writing projects as of 14 August 2022.",
+        "The letter received_by Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 63,
+      "question": "What video games does Nate play?",
+      "gold_answer": "Valorant, Counter Strike:Global Offensive,Xenoblade Chronicles, StreetFighter, Cyberpunk 2077",
+      "generated_answer": "CS:GO",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'CS:GO' is a synonym for 'Counter Strike:Global Offensive', which is one of the games in the gold answer. Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "Nate interest: video games",
+        "Nate plays video games as a way to express his creativity and passion.",
+        "Nate hobbies: playing video games, watching movies",
+        "Nate sometimes uses his gaming setup when playing games with friends.",
+        "Nate participated in video game tournament"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 64,
+      "question": "When did Nate win a big Valorant tourney?",
+      "gold_answer": "The Saturday before 7November, 2022",
+      "generated_answer": "5 November 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '5 November 2022' is within 14 days of the gold answer 'The Saturday before 7 November, 2022' (which is 5 November 2022). Thus, it is semantically correct.",
+      "category": 2,
+      "top_memories": [
+        "Nate won Valorant tournament",
+        "Nate won a Valorant tournament on 5 November 2022.",
+        "Valorant tournament outcome: Nate won",
+        "Valorant tournament: A Valorant tournament that Nate won on 5 November 2022.",
+        "Nate's game tournament was pushed back, but he participated in it on 9 November 2022 and did not make it to the finals."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 65,
+      "question": "Which torunament did Nate win in the beginning of November 2022?",
+      "gold_answer": "Valorant",
+      "generated_answer": "Valorant tournament.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Valorant tournament' correctly identifies the tournament as Valorant, matching the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Nate participated_in the tournament",
+        "On 5 September 2022, Nate had a letdown in a video game tournament and did not do well.",
+        "Nate participates in the tournament",
+        "Nate has a gaming tournament in May 2022, which will be his fourth.",
+        "Nate's game tournament was pushed back, but he participated in it on 9 November 2022 and did not make it to the finals."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 66,
+      "question": "What alternative career might Nate consider after gaming?",
+      "gold_answer": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+      "generated_answer": "No information available about an alternative career Nate might consider after gaming.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no information is available, which directly contradicts the gold answer that provides a specific alternative career (animal keeper at a local zoo working with turtles). The generated answer contains no correct content from the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Nate is passionate about gaming.",
+        "Nate considering_joining new gaming team",
+        "Nate uses his gaming setup for practice and competition.",
+        "On 7 November 2022, Nate stated that having a gaming setup is important for his career to beat competition.",
+        "Nate is considering joining a new gaming team after the next tournament, having received several offers."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 67,
+      "question": "What pets does Nate have?",
+      "gold_answer": "A dog and threeturtles.",
+      "generated_answer": "Nate has turtles (two tortoises) and a dog named Max.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions turtles and a dog, which matches the gold answer's pets (a dog and turtles). The number of turtles differs (two vs. three) but the core fact is correct, and extra detail about the dog's name is acceptable.",
+      "category": 1,
+      "top_memories": [
+        "Nate has pets",
+        "Nate has_pets: turtles",
+        "Nate's tortoises are pets and he walks them.",
+        "Nate pets: two tortoises",
+        "the park: A park where Nate took his pets for a memorable day."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 68,
+      "question": "How many hikes has Joanna been on?",
+      "gold_answer": "Four",
+      "generated_answer": "Based on the available information, Joanna has been on at least 2 hikes: one on 12 May 2022 and another on 4 June 2022. There is also mention of a hiking trip around 15-16 April 2022, which could be a third hike, but it's not explicitly stated as a separate event. The most likely answer is **at least 2 hikes**, possibly 3.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Four', but the generated answer states 'at least 2 hikes' and possibly 3, which does not include the correct number of four hikes. The generated answer is not semantically consistent with the gold answer and lacks the correct core fact.",
+      "category": 3,
+      "top_memories": [
+        "Joanna: Joanna is a person who has been working on a project.",
+        "Joanna has been reading a lot of books in the past week (as of 17 April 2022).",
+        "Joanna has been working on a project as of 21 January 2022.",
+        "Joanna participated_in the hiking trip",
+        "Joanna participating in hiking trip"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 69,
+      "question": "How many turtles does Nate have?",
+      "gold_answer": "Three",
+      "generated_answer": "Nate has three turtles.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same fact as the gold answer: Nate has three turtles.",
+      "category": 1,
+      "top_memories": [
+        "Nate's turtles count: 2",
+        "Nate's turtles size: small",
+        "Nate's turtles kind: turtles",
+        "Nate owns: three turtles",
+        "Nate's turtles owner: Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 70,
+      "question": "What activities does Nate do with his turtles?",
+      "gold_answer": "takes them onwalks, holds them,feeds themstrawberries, givesthem baths.",
+      "generated_answer": "Nate watches his turtles, brings them into the kitchen to watch him make food, takes them for walks, holds them, and took them to the beach in Tampa.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes several activities from the gold answer: takes them for walks, holds them, and feeds them strawberries (implied by 'brings them into the kitchen to watch him make food'? Actually, it explicitly mentions walks and holds, which are correct. The extra details about watching and beach trip are not penalized. Thus, it contains at least one correct activity.",
+      "category": 1,
+      "top_memories": [
+        "Nate's turtles kind: turtles",
+        "Nate loves having his turtles around because they make him feel calm and require little looking after.",
+        "Nate owns turtles",
+        "Nate's turtles owner: Nate",
+        "Nate's turtles bring joy to his life and he finds watching them calming and fascinating."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 71,
+      "question": "What do both Joanna and Nate appreciate the beauty of?",
+      "gold_answer": "Nature",
+      "generated_answer": "Turtles",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Turtles' does not match the gold answer 'Nature'. Turtles are a specific animal, not a general concept of nature, and there is no indication that both Joanna and Nate appreciate the beauty of turtles specifically. The answer is off-topic and lacks the correct content.",
+      "category": 1,
+      "top_memories": [
+        "Nate has similar interests with Joanna",
+        "Nate compliments Joanna",
+        "Joanna values opinion of Nate",
+        "Joanna admires Nate's turtles",
+        "Nate appreciates recommendations from Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 72,
+      "question": "When did Joanna plan on going to Nate's to watch him play with his turtles?",
+      "gold_answer": "10 November, 2022",
+      "generated_answer": "November 10, 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'November 10, 2022' is semantically identical to the gold answer '10 November, 2022', just with a different date format.",
+      "category": 2,
+      "top_memories": [
+        "On 9 November 2022, Joanna expressed interest in visiting Nate to watch him play with his turtles from a distance due to her allergy.",
+        "On 25 October 2022, Joanna asked Nate to keep her posted on his turtles.",
+        "On 9 November 2022, Nate invited Joanna to his place to watch a movie or go to the park.",
+        "On 9 November 2022, Joanna agreed to either watching a movie or going to the park with Nate.",
+        "Nate expressed interest in going with her Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 73,
+      "question": "What state did Joanna visit in summer 2021?",
+      "gold_answer": "Indiana",
+      "generated_answer": "Indiana",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Indiana'.",
+      "category": 3,
+      "top_memories": [
+        "Joanna lived_in Michigan",
+        "Joanna participated_in the hiking trip",
+        "Joanna used to have a dog in Michigan.",
+        "Joanna took a sunset photo during a hike near Fort Wayne in the summer of 2022.",
+        "Joanna plans to visit Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 74,
+      "question": "What recommendations has Nate received from Joanna?",
+      "gold_answer": "\"Eternal Sunshine of the Spotless Mind\" movie, \"A Court of Thorns and Roses\" book, pointers for making living room comfy, starting a cork board for memories, \"Little Women\" movie",
+      "generated_answer": "Nate received movie recommendations from Joanna.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions movie recommendations, which is a subset of the gold answer's recommendations (including 'Eternal Sunshine of the Spotless Mind' and 'Little Women'). Thus, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "Nate appreciates recommendations from Joanna",
+        "Joanna gives movie recommendations to Nate",
+        "Nate has similar interests with Joanna",
+        "Nate receives support from Joanna",
+        "Nate has memories with Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 75,
+      "question": "What are Nate's favorite desserts?",
+      "gold_answer": "coconut milk icecream, dairy-free chocolate cake with berries, chocolate and mixed-berry icecream, dairy-free chocolate mousse",
+      "generated_answer": "Nate's favorite desserts are coconut milk ice cream and dairy-free chocolate mousse.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes two of the four correct desserts from the gold answer (coconut milk ice cream and dairy-free chocolate mousse), so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "chocolate: A flavor that Nate likes in dairy-free desserts.",
+        "mixed berry: A flavor that Nate likes in dairy-free desserts.",
+        "Nate favorite Coconut milk ice cream",
+        "Joanna enjoys desserts from Nate",
+        "Nate teaches dairy-free desserts"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 76,
+      "question": "How has Nate tried to disburse his vegan ice-cream recipes?",
+      "gold_answer": "teaching others, cooking show",
+      "generated_answer": "Nate disbursed his vegan ice-cream recipes by sharing them with people in his vegan diet group on 17 June 2022, teaching them on his cooking show on 5 September 2022, and agreeing to give the recipe to Joanna on 25 June 2022 after she requested it on 24 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'teaching them on his cooking show', which matches the gold answer's 'teaching others, cooking show'. Extra details about dates and Joanna do not penalize.",
+      "category": 1,
+      "top_memories": [
+        "Nate made vegan ice cream",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Nate made vegan ice cream on 17 June 2022 and shared it with people in his vegan diet group.",
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022.",
+        "Nate made coconut milk ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 77,
+      "question": "When did Nate win his second tournament?",
+      "gold_answer": "The week before 2 May, 2022.",
+      "generated_answer": "Nate won his second gaming tournament in the week before 2 May 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer ('the week before 2 May 2022'), which is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "Nate won his second gaming tournament in the week before 2 May 2022.",
+        "Nate participated_in the tournament",
+        "Nate participated_in game tournament",
+        "Nate participated in international tournament",
+        "Nate participates in the tournament"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 78,
+      "question": "How many video game tournaments has Nate participated in?",
+      "gold_answer": "nine",
+      "generated_answer": "Based on the memories, Nate participated in at least 4 video game tournaments (first on 14 Jan 2022, one on 24 Mar 2022, one on 27 May 2022, and one on 8 Jul 2022). There is also a tournament on 29 Sep 2022, making at least 5. The exact total is not specified, but the most likely answer is **5**.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'nine', but the generated answer states 'at least 5' and explicitly says the exact total is not specified. This does not match the correct count of nine, and the generated answer does not contain the correct number. Therefore, it is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "Nate participated in video game tournament",
+        "video game tournament participant: Nate",
+        "Nate activity: participating in video game tournament",
+        "Nate participated_in game tournament",
+        "Nate participates in video game tournament"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 79,
+      "question": "How many screenplays has Joanna written?",
+      "gold_answer": "three",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states '2' but the gold answer is 'three'. The numbers are different and there is no partial correctness or synonym that makes '2' equivalent to 'three'.",
+      "category": 1,
+      "top_memories": [
+        "Joanna has published two movies.",
+        "Joanna's first full screenplay status: completed",
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna is working on a screenplay.",
+        "Joanna working_on screenplay"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 80,
+      "question": "How many tournaments has Nate won?",
+      "gold_answer": "seven",
+      "generated_answer": "8",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'seven', but the generated answer is '8'. The number is different and not a synonym or close variant, so it is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "Nate won regional video game tournament",
+        "Nate won his second gaming tournament in the week before 2 May 2022.",
+        "Nate won his fourth video game tournament on 8 July 2022.",
+        "Nate won a regional video game tournament on 27 May 2022.",
+        "Nate won an international gaming tournament on 21 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 81,
+      "question": "What recipes has Joanna made?",
+      "gold_answer": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+      "generated_answer": "Joanna has made a cake with strawberries and chocolate, a cake with white frosting, and an Almond milk dessert.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'a cake with strawberries and chocolate' which matches the gold answer's 'strawberry chocolate cake' and 'chocolate cake with raspberries' (though raspberries vs strawberries, but it's a correct item). Also 'a cake with white frosting' could correspond to 'dairy free vanilla cake with strawberry filling and coconut cream frosting' (white frosting). And 'an Almond milk dessert' could be the 'parfait' or other dairy-free items. Since it contains at least one correct item, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Joanna made cake",
+        "Joanna made cake with strawberries and chocolate",
+        "Joanna offers to share recipes Nate",
+        "Joanna is testing dairy-free dessert recipes for friends and family.",
+        "Joanna testing dairy-free dessert recipes"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 82,
+      "question": "What recipes has Nate made?",
+      "gold_answer": "coconut milk icecream, chocolate and vanilla swirl",
+      "generated_answer": "Nate has made vegan ice cream, coconut ice cream, coconut milk ice cream, lactose-free ice cream, and dairy-free chocolate cake with berries.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'coconut milk ice cream', which is one of the correct options from the gold answer. Although it also mentions other items not in the gold answer, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "Nate interests: thinking about life, recipes",
+        "Nate made vegan ice cream",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Joanna offers to share recipes Nate",
+        "Nate made dairy-free chocolate cake with berries"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 83,
+      "question": "What are the skills that Nate has helped others learn?",
+      "gold_answer": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+      "generated_answer": "Nate has helped others learn how to reset high scores in video games.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'reset high scores', which is one of the correct skills from the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "On 6 October 2022, Nate mentioned that encouragement helped him in his gaming career.",
+        "international tournament: An international tournament where Nate helped friends reset high scores.",
+        "Nate uses his gaming setup for practice and competition.",
+        "Nate is helping strangers improve their game as of 3 June 2022.",
+        "Nate is passionate about gaming."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 84,
+      "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+      "gold_answer": "No; because both of them faced setbacks in their career",
+      "generated_answer": "No",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No' matches the gold answer 'No', which is the correct response to the yes/no question.",
+      "category": 3,
+      "top_memories": [
+        "On 5 September 2022, Nate said goodbye to Joanna and wished her good luck.",
+        "On 21 April 2022, Nate said goodbye and mentioned that it was good chatting with Joanna, and wished her a great day.",
+        "On 23 January 2022, Nate congratulated Joanna on finishing her project.",
+        "On 21 October 2022, Nate and Joanna had a conversation.",
+        "On 5 September 2022, Joanna said she would see Nate soon."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 85,
+      "question": "What kind of job is Joanna beginning to preform the duties of because of her movie scripts?",
+      "gold_answer": "filmmaker.",
+      "generated_answer": "filmmaker",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'filmmaker' exactly matches the gold answer 'filmmaker'.",
+      "category": 3,
+      "top_memories": [
+        "Joanna is doing research and networking for her script (as of 18 March 2022).",
+        "Joanna contributed_to the movie",
+        "road-trip script: A script written by Joanna that is the basis for her movie.",
+        "Joanna's first full screenplay is a mix of drama and romance.",
+        "Joanna is working on a screenplay."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 86,
+      "question": "When did Nate take his turtles to the beach?",
+      "gold_answer": "10 November, 2022",
+      "generated_answer": "10 November 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '10 November 2022' matches the gold answer '10 November, 2022' exactly, aside from a comma, which is a minor formatting difference. The date is the same, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "On 10 November 2022, Nate took his turtles to the beach in Tampa.",
+        "Nate's turtles kind: turtles",
+        "Nate owns turtles",
+        "On 25 October 2022, Nate took his two turtles for a walk because he was bored.",
+        "Tampa: Tampa is a location where Nate took his turtles to the beach."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 87,
+      "question": "What state did Nate visit?",
+      "gold_answer": "Florida",
+      "generated_answer": "Tampa is in Florida, so Nate visited Florida.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Florida as the state Nate visited, matching the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Nate's nearby trail location: north of Nate's residence",
+        "Nate visited Tampa",
+        "Nate has pets",
+        "Nate watched Inception",
+        "Nate since: childhood"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 88,
+      "question": "What is one of Joanna's favorite movies?",
+      "gold_answer": "\"Eternal Sunshineof the Spotless Mind\"",
+      "generated_answer": "Little Women",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Little Women' is not one of Joanna's favorite movies according to the gold answer, which is 'Eternal Sunshine of the Spotless Mind'. There is no overlap or synonym, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Joanna favorite movie genres: dramas, romcoms",
+        "Joanna has published two movies.",
+        "Joanna published_movies: 2",
+        "Joanna considers the romantic drama about memory and relationships one of her favorites.",
+        "Joanna is a huge fan of nature and goes there often."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 89,
+      "question": "What color did Nate choose for his hair?",
+      "gold_answer": "purple",
+      "generated_answer": "purple",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'purple'.",
+      "category": 4,
+      "top_memories": [
+        "Nate hair_color: purple",
+        "Nate dyed his hair purple on approximately 8 April 2022.",
+        "Joanna complimented Nate's new hair color on 15 April 2022.",
+        "Nate hair_dyed_date: 8 April 2022",
+        "Nate shared a selfie with purple hair and glasses with Joanna on 15 April 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 90,
+      "question": "What is Nate's favorite movie trilogy?",
+      "gold_answer": "Lord of the Rings",
+      "generated_answer": "The Lord of the Rings Trilogy",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'The Lord of the Rings Trilogy' is semantically equivalent to the gold answer 'Lord of the Rings', as it refers to the same trilogy with additional detail.",
+      "category": 4,
+      "top_memories": [
+        "Nate favorite a fantasy or sci-fi movie trilogy",
+        "a fantasy or sci-fi movie trilogy: A movie trilogy that Nate considers one of his favorites, known for world building, battles, and storytelling.",
+        "Nate favorite movie genres: action, sci-fi",
+        "On 21 April 2022, Nate expressed that a particular fantasy or sci-fi movie trilogy is one of his favorites, praising its world building, battles, and storytelling.",
+        "Nate recommended The Lord of the Rings Trilogy"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 91,
+      "question": "What is Nate's favorite book series about?",
+      "gold_answer": "dragons",
+      "generated_answer": "Nate's favorite book series is about adventures, magic, and great characters.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies 'dragons' as the subject of Nate's favorite book series. The generated answer mentions 'adventures, magic, and great characters' but does not include 'dragons' or any synonym for it. Therefore, it lacks the core correct content.",
+      "category": 4,
+      "top_memories": [
+        "Nate recommends a book series",
+        "a book series: A book series that Nate loves and recommends, featuring adventures, magic, and great characters.",
+        "Nate favorite a fantasy or sci-fi movie trilogy",
+        "On 21 April 2022, Nate recommended a book series to Joanna, describing it as having adventures, magic, and great characters.",
+        "Nate favorite movie genres: action, sci-fi"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 92,
+      "question": "What kind of lighting does Nate's gaming room have?",
+      "gold_answer": "red and purple lighting",
+      "generated_answer": "The memory content does not specify the lighting in Nate's gaming room.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the lighting, which contradicts the gold answer that specifies red and purple lighting. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate organizing gaming party",
+        "Nate hosted the gaming party",
+        "Nate started making gaming videos because he is a fan of them and wanted to share his love of gaming and connect with others.",
+        "Nate has_gaming_setup: true",
+        "Nate is passionate about gaming."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 93,
+      "question": "What game was the second tournament that Nate won based on?",
+      "gold_answer": "Street Fighter",
+      "generated_answer": "Valorant tournament",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Valorant tournament' does not match the gold answer 'Street Fighter' and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Nate won his second gaming tournament in the week before 2 May 2022.",
+        "Nate participated_in game tournament",
+        "Nate won regional video game tournament",
+        "video game tournament winner: Nate",
+        "Nate won a regional video game tournament on 27 May 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 94,
+      "question": "What is Joanna's third screenplay about?",
+      "gold_answer": "loss, identity, and connection",
+      "generated_answer": "Joanna's third screenplay is not mentioned in the memory content. The available information only covers her first full screenplay (drama and romance) and a new screenplay inspired by a dream, but no details about a third screenplay.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the third screenplay is not mentioned, but the gold answer specifies it is about 'loss, identity, and connection'. The generated answer does not contain any correct content from the gold answer and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna's first full screenplay status: completed",
+        "Joanna's screenplay submittedTo: a film festival",
+        "Joanna is working on a screenplay.",
+        "Joanna's recent screenplay submissionDate: 24 June 2022"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 95,
+      "question": "What is Nate's favorite video game?",
+      "gold_answer": "Xenoblade Chronicles",
+      "generated_answer": "The memory content does not specify Nate's favorite video game.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify Nate's favorite video game, which contradicts the gold answer 'Xenoblade Chronicles'. It provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Nate interest: video games",
+        "Nate: Nate is a person who won his first video game tournament.",
+        "video game tournament winner: Nate",
+        "Nate participated in video game tournament",
+        "Nate's first video game tournament game_type: team shooter game"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 96,
+      "question": "What type of movies does Nate enjoy watching the most?",
+      "gold_answer": "action and sci-fi",
+      "generated_answer": "Nate enjoys watching action and sci-fi movies the most.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly states that Nate enjoys action and sci-fi movies, which matches the gold answer exactly.",
+      "category": 4,
+      "top_memories": [
+        "Nate enjoys fantasy and sci-fi movies.",
+        "Nate hobbies: playing video games, watching movies",
+        "As of 21 January 2022, Nate likes action and sci-fi movies.",
+        "Nate uses playing video games and watching movies as a way to escape from life struggles.",
+        "As of 21 January 2022, Nate's main hobbies are playing video games and watching movies."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 97,
+      "question": "What did Joanna just finish last Friday on 23 January, 2022?",
+      "gold_answer": "screenplay",
+      "generated_answer": "Joanna finished her first full screenplay on 21 January 2022, and on 23 January 2022, Nate congratulated her on finishing her project. So, she just finished her first full screenplay.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Joanna finished her first full screenplay, which matches the gold answer 'screenplay'. The extra details about the date and Nate's congratulations do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna finished writing her book last week, which was around 29 September 2022.",
+        "On 23 January 2022, Joanna finished a project and felt a mix of relief, excitement, and anxiety.",
+        "Joanna has been working on a project as of 21 January 2022.",
+        "Joanna finished her first full screenplay on 21 January 2022.",
+        "On 23 January 2022, Nate congratulated Joanna on finishing her project."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 98,
+      "question": "What genre is Joanna's first screenplay?",
+      "gold_answer": "drama and romance",
+      "generated_answer": "drama and romance",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Joanna's first full screenplay genre: drama and romance",
+        "Joanna's first full screenplay is a mix of drama and romance.",
+        "Joanna's first full screenplay status: completed",
+        "screenplay: A screenplay that Joanna is working on.",
+        "Joanna's screenplay submittedTo: a film festival"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 99,
+      "question": "What are Joanna's plans for her finished screenplay in January 2022?",
+      "gold_answer": "submit it to film festivals and get producers and directors to check it out",
+      "generated_answer": "Joanna planned to submit her finished screenplay to film festivals to get producers and directors to see it.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Joanna planned to submit her screenplay to film festivals to get producers and directors to see it, which matches the gold answer's core content.",
+      "category": 4,
+      "top_memories": [
+        "Joanna finished her first full screenplay on 21 January 2022.",
+        "Joanna submitted her recent screenplay to a film contest on 24 June 2022.",
+        "Joanna started writing a new screenplay on 25 February 2022 while waiting to hear back about her first screenplay.",
+        "Joanna printed her first full screenplay on 21 January 2022.",
+        "screenplay: A screenplay that Joanna is working on."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 100,
+      "question": "For how long has Nate had his turtles?",
+      "gold_answer": "3 years",
+      "generated_answer": "3 years (as of 23 January 2022, so by November 2022, it has been about 3 years and 9 months).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the gold answer '3 years' and provides additional context, which does not change the core fact. Extra details are allowed.",
+      "category": 4,
+      "top_memories": [
+        "As of 23 January 2022, Nate has owned turtles for 3 years.",
+        "Nate's turtles kind: turtles",
+        "Nate got a third turtle from a pet store, and his tank is now big enough for three turtles.",
+        "On 25 October 2022, Nate said he also likes holding his turtles.",
+        "Nate has_pets: turtles"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 101,
+      "question": "What did Nate think of the coconut milk ice cream he made?",
+      "gold_answer": "Super good, rich and creamy",
+      "generated_answer": "Nate found the coconut milk ice cream he made to be pretty good.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Nate thought the ice cream was 'pretty good', which is semantically consistent with the gold answer 'super good, rich and creamy'. Both express a positive evaluation, so the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Nate made coconut milk ice cream",
+        "Nate made coconut ice cream",
+        "Nate made coconut milk ice cream in colorful bowls.",
+        "Nate knows coconut milk ice cream recipe",
+        "Nate favorite Coconut milk ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 102,
+      "question": "Which dairy-free dessert flavors does Nate enjoy?",
+      "gold_answer": "chocolate and mixed berry",
+      "generated_answer": "Nate enjoys coconut milk, chocolate, and mixed berry flavors in dairy-free desserts.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct flavors from the gold answer (chocolate and mixed berry) and adds an extra flavor (coconut milk), which is allowed as extra detail. The core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 7 February 2022, Nate said he loves coconut milk, chocolate, and mixed berry flavors in dairy-free desserts.",
+        "Nate teaches dairy-free desserts",
+        "On 14 August 2022, Nate was really into making a new dairy-free dessert recipe that is creamy, rich, and dairy-free.",
+        "On 7 February 2022, Nate said he is looking forward to trying different flavors and toppings for dairy-free desserts.",
+        "dairy-free desserts: Dairy-free desserts are a category of desserts without dairy, which Nate teaches and shares."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 103,
+      "question": "What did Joanna recently watch and recommend to Nate on February 7, 2022?",
+      "gold_answer": "\"Little Women\"",
+      "generated_answer": "Little Women",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Little Women' exactly matches the gold answer 'Little Women'.",
+      "category": 4,
+      "top_memories": [
+        "On 9 November 2022, Nate invited Joanna to his place to watch a movie or go to the park.",
+        "Joanna complimented Nate's cooking on 25 February 2022.",
+        "On 7 February 2022, Joanna recommended the movie 'Little Women' to Nate, describing it as amazing and a must-see.",
+        "Joanna plans to check out a series recommended by Nate",
+        "On 22 August 2022, Joanna said she would add the series recommended by Nate to her list."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 104,
+      "question": "What is \"Little Women\" about according to Joanna?",
+      "gold_answer": "Sisterhood, love, and reaching for your dreams",
+      "generated_answer": "According to Joanna, \"Little Women\" is an amazing and a must-see movie.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention sisterhood, love, or reaching for dreams; it only says it's an amazing and must-see movie, which is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Joanna recommended Little Women",
+        "Little Women: A movie recommended by Joanna, described as amazing and a must-see.",
+        "Joanna recommended the movie 'Little Women' to Nate.",
+        "Joanna's third book is about loss, identity, and connection.",
+        "On 7 February 2022, Joanna recommended the movie 'Little Women' to Nate, describing it as amazing and a must-see."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 105,
+      "question": "What flavor of ice cream did Nate make for his friend on 25 February, 2022?",
+      "gold_answer": "chocolate and vanilla swirl",
+      "generated_answer": "chocolate and vanilla swirl",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 25 February 2022, Nate made chocolate and vanilla swirl ice cream for a friend.",
+        "Nate made vegan ice cream on 17 June 2022 and shared it with people in his vegan diet group.",
+        "Nate made coconut milk ice cream and shared a photo of it on 14 September 2022.",
+        "vegan ice cream: Vegan ice cream made by Nate on 17 June 2022.",
+        "Nate made vegan ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 106,
+      "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+      "gold_answer": "personal experiences and her own journey of self-discovery",
+      "generated_answer": "Joanna's new screenplay on 25 February 2022 was inspired by a thirty-year-old woman on a journey of self-discovery after a loss.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'a journey of self-discovery' which matches the gold answer's 'personal experiences and her own journey of self-discovery'. Although it adds a specific detail about a thirty-year-old woman and a loss, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Joanna's recent screenplay submissionDate: 24 June 2022",
+        "Joanna started writing a new screenplay on 25 February 2022 while waiting to hear back about her first screenplay.",
+        "Joanna submitted her recent screenplay to a film contest on 24 June 2022.",
+        "Joanna finished her first full screenplay on 21 January 2022.",
+        "Joanna printed her first full screenplay on 21 January 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 107,
+      "question": "Why does Nate like turtles as pets?",
+      "gold_answer": "Their slow pace and calming nature",
+      "generated_answer": "Nate likes turtles as pets because they are unique, slow-paced, low-maintenance, and calming, and they make him feel calm and require little looking after.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'slow-paced' and 'calming', which match the gold answer's 'slow pace and calming nature'.",
+      "category": 4,
+      "top_memories": [
+        "Nate has_pets: turtles",
+        "Nate's turtles kind: turtles",
+        "Nate is drawn to turtles",
+        "Nate owns turtles",
+        "On 18 March 2022, Nate expressed his fondness for turtles, describing them as unique, slow-paced, low-maintenance, and calming."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 108,
+      "question": "How does Nate describe the process of taking care of turtles?",
+      "gold_answer": "Not tough; keep their area clean, feed them properly, give them enough light.",
+      "generated_answer": "Nate describes taking care of turtles as not tough, requiring only keeping their area clean, feeding them properly, and ensuring they get enough light.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, including all key points: not tough, clean area, proper feeding, and enough light.",
+      "category": 4,
+      "top_memories": [
+        "Nate recommends having pets like turtles for times of stress.",
+        "Nate sent photo of turtles",
+        "As of 23 January 2022, Nate has owned turtles for 3 years.",
+        "Nate owns turtles and plans to send pictures of them to Joanna (as of 18 March 2022).",
+        "On 18 March 2022, Nate shared a photograph of three turtles sitting on rocks in a pond."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 109,
+      "question": "What was Joanna's audition for?",
+      "gold_answer": "writing gig",
+      "generated_answer": "Joanna's audition was for a writing gig.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly states that Joanna's audition was for a writing gig, which matches the gold answer exactly.",
+      "category": 4,
+      "top_memories": [
+        "Joanna participated_in writing gig audition",
+        "Joanna had an audition for a writing gig on 23 March 2022.",
+        "writing gig audition: An audition Joanna had for a writing gig.",
+        "Joanna felt mixed emotions about the audition, being excited but also anxious.",
+        "Joanna finished presentation for producers"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 110,
+      "question": "Why did Nate choose the hair color he did?",
+      "gold_answer": "Bright and bold - like him",
+      "generated_answer": "The memory does not state why Nate chose purple hair.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not provide a reason, which contradicts the gold answer that Nate chose the hair color because it is bright and bold like him. The generated answer provides no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Nate hair_color: purple",
+        "Nate dyed his hair purple on approximately 8 April 2022.",
+        "Joanna complimented Nate's new hair color on 15 April 2022.",
+        "Nate hair_dyed_date: 8 April 2022",
+        "On 5 June 2022, Nate told Joanna that he got an item because it reminded him of something he loves, and its presence in his room reminds him to keep working on his goals."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 111,
+      "question": "What are the main ingredients of the ice cream recipe shared by Nate?",
+      "gold_answer": "Coconut milk, vanilla extract, sugar, salt",
+      "generated_answer": "The main ingredients are coconut milk, vanilla extract, sugar, and a pinch of salt.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all main ingredients from the gold answer (coconut milk, vanilla extract, sugar, salt) and adds 'a pinch of' which is a minor detail and does not change the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Nate knows coconut milk ice cream recipe",
+        "Nate made vegan ice cream",
+        "Nate made coconut ice cream",
+        "coconut milk ice cream: A dessert made by Nate using coconut milk.",
+        "On 17 April 2022, Nate shared his dairy-free ice cream recipe with Joanna, which uses coconut milk, vanilla extract, sugar, and a pinch of salt."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 112,
+      "question": "What is Joanna's project called in the writers group?",
+      "gold_answer": "\"Finding Home\"",
+      "generated_answer": "Finding Home",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Finding Home' exactly matches the gold answer 'Finding Home'.",
+      "category": 4,
+      "top_memories": [
+        "writers group members: Joanna",
+        "writers group: A writers group that Joanna recently joined, providing support and inspiration.",
+        "Joanna member_of: writers group",
+        "Joanna: Joanna is a person who has been working on a project.",
+        "Joanna member_of writers group"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 113,
+      "question": "What is Nate's favorite genre of movies?",
+      "gold_answer": "Fantasy and sci-fi",
+      "generated_answer": "Nate's favorite movie genres are action, sci-fi, and fantasy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both 'sci-fi' and 'fantasy', which are the correct genres from the gold answer. Extra detail ('action') does not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Nate favorite movie genres: action, sci-fi",
+        "Nate enjoys fantasy and sci-fi movies.",
+        "Nate favorite a fantasy or sci-fi movie trilogy",
+        "As of 21 January 2022, Nate likes action and sci-fi movies.",
+        "Nate hobbies: playing video games, watching movies"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 114,
+      "question": "What kind of books does Nate enjoy?",
+      "gold_answer": "Adventures and magic",
+      "generated_answer": "Nate enjoys fantasy and sci-fi books, as well as book series with adventures, magic, and great characters.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'adventures and magic', which matches the gold answer's core content, and extra details about fantasy/sci-fi and great characters do not invalidate it.",
+      "category": 4,
+      "top_memories": [
+        "Nate recommended The Lord of the Rings Trilogy",
+        "Nate is a fan of Nintendo",
+        "Nate recommends a book series",
+        "a book series: A book series that Nate loves and recommends, featuring adventures, magic, and great characters.",
+        "Nate favorite a fantasy or sci-fi movie trilogy"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 115,
+      "question": "What kind of films does Joanna enjoy?",
+      "gold_answer": "Dramas and emotionally-driven films",
+      "generated_answer": "Joanna enjoys dramas and romcoms.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'dramas', which is one of the correct options from the gold answer. Extra detail ('romcoms') does not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Joanna enjoys dramas and emotionally-driven films.",
+        "Joanna preferred_genres: dramas, emotionally-driven films",
+        "As of 21 January 2022, Joanna likes dramas and romcoms.",
+        "Joanna watched The Lord of the Rings Trilogy",
+        "Joanna favorite movie genres: dramas, romcoms"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 116,
+      "question": "Which activity helps Nate escape and stimulates his imagination?",
+      "gold_answer": "watching fantasy and sci-fi movies",
+      "generated_answer": "Playing video games and watching movies.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'watching movies', which is semantically equivalent to 'watching fantasy and sci-fi movies' from the gold answer. Although it adds 'playing video games', the core correct activity is present, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Nate uses playing video games and watching movies as a way to escape from life struggles.",
+        "Nate recently watched a movie called Inception, which he found mind-blowing due to its twists and dream-related plot.",
+        "Nate plays video games as a way to express his creativity and passion.",
+        "Nate uses his gaming setup for practice and competition.",
+        "Nate's turtles bring joy to his life and he finds watching them calming and fascinating."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 117,
+      "question": "What filling did Joanna use in the cake she made recently in May 2022?",
+      "gold_answer": "strawberry",
+      "generated_answer": "Strawberry filling.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Strawberry filling' matches the gold answer 'strawberry' semantically, with only a minor capitalization difference.",
+      "category": 4,
+      "top_memories": [
+        "Joanna made cake",
+        "Joanna recently made a cake with white frosting.",
+        "Joanna made cake with strawberries and chocolate",
+        "cake: A cake with white frosting that Joanna made recently and shared a photo of.",
+        "On 2 May 2022, Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 118,
+      "question": "What kind of frosting did Joanna use on the cake she made recently in May 2022?",
+      "gold_answer": "coconut cream",
+      "generated_answer": "coconut cream",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'coconut cream'.",
+      "category": 4,
+      "top_memories": [
+        "Joanna recently made a cake with white frosting.",
+        "cake: A cake with white frosting that Joanna made recently and shared a photo of.",
+        "Joanna made cake",
+        "Joanna made cake with strawberries and chocolate",
+        "On 2 May 2022, Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 119,
+      "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+      "gold_answer": "write a whole movie",
+      "generated_answer": "Nate feels he could go hiking with someone else when out in cool places like Whispering Falls.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Nate feels he could go hiking with someone else, but the gold answer says he feels he could write a whole movie. These are completely different activities, so the generated answer is entirely off-topic and incorrect.",
+      "category": 4,
+      "top_memories": [
+        "some of the guys at the tournament want_to_hang_out_with Nate",
+        "Nate loves having his turtles around because they make him feel calm and require little looking after.",
+        "Nate likes nature and thinks it might be fun going with someone else.",
+        "Nate plans to go to the park",
+        "On 9 October 2022, Nate expressed that movies take him to new worlds, fill him with emotions, and are great for chilling out after a day."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 120,
+      "question": "What creative activity does Nate joke about pursuing after being inspired by their hikes with Jo?",
+      "gold_answer": "Start thinking about a drama and publish a screenplay",
+      "generated_answer": "Nate jokes about pursuing creative video game design inspired by their hikes.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies that Nate jokes about starting to think about a drama and publishing a screenplay, while the generated answer mentions creative video game design, which is a different activity and not semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "Nate inspired_by Nature",
+        "Nate is passionate about gaming.",
+        "Joanna inspired_by Nate",
+        "Nate likes nature and thinks it might be fun going with someone else.",
+        "Nate interests: thinking about life, recipes"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 121,
+      "question": "Who invited Nate to join her on the trails sometime?",
+      "gold_answer": "Joanna",
+      "generated_answer": "Joanna",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 12 May 2022, Joanna invited Nate to come down and join her on the trails sometime.",
+        "On 17 April 2022, Joanna invited Nate to go with her to nature, and Nate expressed interest.",
+        "Nate invited by Joanna",
+        "Nate plans to go to the park",
+        "Nate invited Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 122,
+      "question": "What did Nate do for Joanna on 25 May, 2022?",
+      "gold_answer": "get her a stuffed animal",
+      "generated_answer": "On 25 May 2022, Nate expressed support to Joanna and encouraged her to cherish little moments and enjoy the ride, especially during tough times.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Nate expressed support and encouraged Joanna, but the gold answer says he got her a stuffed animal. These are completely different actions, so the generated answer is off-topic and contains no correct content.",
+      "category": 4,
+      "top_memories": [
+        "On 25 May 2022, Nate expressed support to Joanna.",
+        "On 12 May 2022, Joanna invited Nate to come down and join her on the trails sometime.",
+        "On 20 May 2022, Nate praised Joanna for her courage and encouraged her to pursue her dreams.",
+        "On 25 October 2022, Nate said goodbye to Joanna.",
+        "On 5 September 2022, Joanna said she would see Nate soon."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 123,
+      "question": "How does Nate describe the stuffed animal he got for Joanna?",
+      "gold_answer": "A stuffed animal to remind you of the good vibes",
+      "generated_answer": "Nate described the stuffed animal as \"like having joy in your pocket\" and said it always makes him grin when he looks at it.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer describes the stuffed animal as 'like having joy in your pocket' and mentions it makes him grin, but the gold answer is 'A stuffed animal to remind you of the good vibes'. The generated answer does not mention 'good vibes' or 'remind you' at all, so it lacks the core concept of the gold answer. Therefore, it is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "stuffed animal pup: A stuffed animal pup that Nate got for Joanna.",
+        "On 25 May 2022, Nate showed Joanna a photo of a stuffed animal pup on a bed and said he got it for her.",
+        "On 25 May 2022, Nate gave Joanna a stuffed animal as a reminder of good vibes.",
+        "On 5 June 2022, Nate told Joanna that he got an item because it reminded him of something he loves, and its presence in his room reminds him to keep working on his goals.",
+        "On 25 May 2022, Joanna expressed appreciation for the stuffed animal pup and the thought from Nate."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 124,
+      "question": "What event is Nate organizing in June 2022?",
+      "gold_answer": "A gaming party",
+      "generated_answer": "Nate is organizing a gaming party on 17 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the event as a gaming party, which matches the gold answer. The extra date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "On 24 June 2022, Nate reported that 7 people attended an event and 6 of them said they would do it again next month.",
+        "Nate is planning a party on 3 June 2022.",
+        "On 3 June 2022, Nate participated in a tournament and spoke with some of the guys there afterwards.",
+        "On 24 March 2022, Nate is participating in a video game tournament.",
+        "Nate is organizing a gaming party on 17 June 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 125,
+      "question": "Who did Nate plan to invite to his gaming party in June 2022?",
+      "gold_answer": "Tournament friends, old friends, teammates",
+      "generated_answer": "The memory content does not specify who Nate planned to invite to his gaming party in June 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the invitees, which is not only off-topic but also contradicts the gold answer that provides specific invitees (tournament friends, old friends, teammates). It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate is organizing a gaming party on 17 June 2022.",
+        "Nate hosted the gaming party",
+        "Nate's gaming party was a success on 24 June 2022.",
+        "Nate is planning a party on 3 June 2022.",
+        "Nate organizing gaming party"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 126,
+      "question": "What special items did Nate get for everyone at his gaming party?",
+      "gold_answer": "Custom controller decorations",
+      "generated_answer": "Custom controller decorations.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate hosted the gaming party",
+        "Nate organizing gaming party",
+        "Nate gave controller accessories to his friends at the gaming party on 24 June 2022.",
+        "controller accessories: Controller accessories given by Nate to friends at the gaming party.",
+        "Nate is getting custom controller decorations for everyone who comes to his party."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 127,
+      "question": "What did Joanna write yesterday that appeared on the big screen?",
+      "gold_answer": "screenplay bits",
+      "generated_answer": "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Joanna wrote parts of a screenplay, which matches the gold answer 'screenplay bits'. The extra detail about the date does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022.",
+        "Joanna hopes her screenplay gets noticed and makes it to the screen.",
+        "Joanna has contributed to three movies that have been shown on the big screen.",
+        "Joanna wrote characters and dialogue for the movie that premiered on 23 October 2022.",
+        "producers liked Joanna's script"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 128,
+      "question": "What superhero is Joanna a fan of?",
+      "gold_answer": "Spider-Man",
+      "generated_answer": "Spider-Man",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Spider-Man'.",
+      "category": 4,
+      "top_memories": [
+        "Joanna favorite_superhero: Spider-Man",
+        "Joanna favorite_superhero Spider-Man",
+        "Joanna is a huge fan of nature and goes there often.",
+        "Joanna is allergic to pets.",
+        "Nature: Nature is a source of inspiration and calm for Joanna."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 129,
+      "question": "Which superhero toy figure does Nate share a photo of?",
+      "gold_answer": "Iron Man",
+      "generated_answer": "Iron Man",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Iron Man'.",
+      "category": 4,
+      "top_memories": [
+        "Nate shared Turtle photo",
+        "Nate has an Iron Man figure.",
+        "Nate shared Xbox controller photo",
+        "Nate owns Iron Man figure",
+        "Nate sent photo of turtles"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 130,
+      "question": "What is displayed on Joanna's cork board for motivation and creativity?",
+      "gold_answer": "inspiring quotes, photos, and little keepsakes",
+      "generated_answer": "Quotes, photos, and little keepsakes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all key elements from the gold answer: quotes, photos, and little keepsakes, which are semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "the picture is displayed on Joanna's cork board",
+        "the picture: A picture given by Nate to Joanna, displayed on her cork board.",
+        "On 5 June 2022, Joanna told Nate that her cork board is full of inspiring quotes and pictures for motivation and creativity.",
+        "On 5 June 2022, Joanna shared a picture of her cork board with Nate, which included quotes, photos, and little keepsakes.",
+        "On 5 June 2022, Nate commented that the picture showed Joanna's family and asked what made her hang it on the cork board."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 131,
+      "question": "What does the photo on Joanna's cork board remind her of?",
+      "gold_answer": "love and encouragement from her family",
+      "generated_answer": "The photo on Joanna's cork board reminds her of her family.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the photo reminds her of her family, which is semantically consistent with the gold answer 'love and encouragement from her family' (family is the core concept).",
+      "category": 4,
+      "top_memories": [
+        "the picture is displayed on Joanna's cork board",
+        "the picture: A picture given by Nate to Joanna, displayed on her cork board.",
+        "On 5 June 2022, Joanna shared a picture of her cork board with Nate, which included quotes, photos, and little keepsakes.",
+        "On 5 June 2022, Nate commented that the picture showed Joanna's family and asked what made her hang it on the cork board.",
+        "Joanna's photo description: a photo of Joanna on stage"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 132,
+      "question": "What did Nate make and share with his vegan diet group?",
+      "gold_answer": "vegan ice cream",
+      "generated_answer": "Nate made vegan ice cream and shared it with people in his vegan diet group on 17 June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Nate made vegan ice cream, which matches the gold answer. The additional date and audience details do not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "Nate made vegan ice cream",
+        "Nate made vegan ice cream on 17 June 2022 and shared it with people in his vegan diet group.",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "vegan ice cream made_by: Nate",
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 133,
+      "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+      "gold_answer": "7",
+      "generated_answer": "7 people attended the gaming party hosted by Nate in June 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same number (7) as the gold answer, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Nate's gaming party was a success on 24 June 2022.",
+        "Nate is organizing a gaming party on 17 June 2022.",
+        "Nate hosted the gaming party",
+        "Nate attended a game convention on 7 October 2022.",
+        "Nate met new people at the game convention on 7 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 134,
+      "question": "What recipe Nate offer to share with Joanna?",
+      "gold_answer": "vegan ice cream recipe",
+      "generated_answer": "coconut milk ice cream recipe",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'coconut milk ice cream recipe' is a specific type of vegan ice cream recipe, which is semantically consistent with the gold answer 'vegan ice cream recipe'. It contains the core fact of an ice cream recipe that is vegan (coconut milk is plant-based).",
+      "category": 4,
+      "top_memories": [
+        "recipe: A recipe shared by Nate with Joanna.",
+        "Joanna offers to share recipes Nate",
+        "Joanna shared recipe with Nate",
+        "Nate shares recipe with Joanna",
+        "Nate shared_recipe_with Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 135,
+      "question": "What did Joanna plan to do with the recipe Nate promised to share?",
+      "gold_answer": "make it for her family",
+      "generated_answer": "Joanna planned to try the recipe Nate promised to share and let him know how it turns out.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Joanna planned to try the recipe, which aligns with the gold answer of making it for her family. The core intent of using the recipe is present, and extra details about letting Nate know how it turns out do not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Joanna shared recipe with Nate",
+        "Nate shares recipe with Joanna",
+        "Nate promised_to_give_recipe Joanna",
+        "recipe: A recipe shared by Nate with Joanna.",
+        "Nate shared_recipe_with Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 136,
+      "question": "How many video game tournaments has Nate won by July 10, 2022?",
+      "gold_answer": "Four",
+      "generated_answer": "2",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Four', but the generated answer is '2'. These are numerically different and represent different counts, so the generated answer does not contain the correct fact.",
+      "category": 4,
+      "top_memories": [
+        "Nate won a regional video game tournament on 27 May 2022.",
+        "Nate won his fourth video game tournament on 8 July 2022.",
+        "Nate's first video game tournament date: 14 January 2022",
+        "Nate won his first video game tournament on approximately 14 January 2022.",
+        "video game tournament: A video game tournament that Nate is participating in as of 24 March 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 137,
+      "question": "Where did Joanna go for a road trip for research?",
+      "gold_answer": "Woodhaven",
+      "generated_answer": "Woodhaven",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Woodhaven'.",
+      "category": 4,
+      "top_memories": [
+        "Joanna participated_in the hiking trip",
+        "Joanna took a road trip to Woodhaven for research for her next movie in July 2022.",
+        "road-trip script author: Joanna",
+        "Joanna is doing research and networking for her script (as of 18 March 2022).",
+        "Joanna participating in hiking trip"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 138,
+      "question": "What did Joanna discover at the library in Woodhaven?",
+      "gold_answer": "cool old book collection",
+      "generated_answer": "Joanna discovered an old book collection at the Woodhaven Library, including a book from the 1900s with stories and sketches about Woodhaven and its people.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions discovering an old book collection at the library, which matches the gold answer's 'cool old book collection'. The extra details about the specific book do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna visited the Woodhaven Library and saw an old book collection.",
+        "Joanna visited Woodhaven",
+        "Joanna is inspired by Woodhaven's history for her next script.",
+        "Joanna interested in Woodhaven",
+        "Joanna found a book from the 1900s with stories and sketches about Woodhaven and its people."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 139,
+      "question": "What specific themes are explored in Joanna's new book?",
+      "gold_answer": "loss, redemption, and forgiveness",
+      "generated_answer": "Loss, identity, and connection.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'loss' which is one of the correct themes from the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Joanna's book theme: deep and emotional story",
+        "Joanna's third book subject: loss, identity, and connection",
+        "Joanna's new novel features a main character who deals with loss and tries to figure out who they are, and takes a road trip to heal and grow.",
+        "Joanna's third book personal: true",
+        "Joanna's third book is about loss, identity, and connection."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 140,
+      "question": "What inspired Joanna's new script in July 2022?",
+      "gold_answer": "Woodhaven's interesting past and people",
+      "generated_answer": "Woodhaven's history.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Woodhaven's history' is semantically consistent with the gold answer 'Woodhaven's interesting past and people', as 'history' is synonymous with 'past' and captures the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna got the idea for her new script from a dream.",
+        "new script creator: Joanna",
+        "Joanna's new movie script inspiration: a dream",
+        "producers liked Joanna's script",
+        "Joanna's new script is different from her previous work."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 141,
+      "question": "What did Nate do while Joanna was on her road trip?",
+      "gold_answer": "Won a video game tournament",
+      "generated_answer": "Nate gave Joanna a picture, provided ideas, chatted with her, and expressed interest in going with her on her road trip.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention winning a video game tournament, which is the core fact of the gold answer. It describes different actions (giving a picture, providing ideas, chatting, expressing interest) that are not related to the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate gave Joanna",
+        "Joanna talked to Nate",
+        "Nate says goodbye to Joanna",
+        "Nate conversing with Joanna",
+        "Joanna invited to go with her Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 142,
+      "question": "What does Nate do that he loves and can make money from?",
+      "gold_answer": "Competing in video game tournaments",
+      "generated_answer": "Nate loves gaming and can make money from it, as he is able to make a living from gaming and won a video game tournament.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Nate loves gaming and can make money from it, which aligns with the gold answer of competing in video game tournaments. The core fact is correct, and extra details about winning a tournament do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Nate saved some of his tournament winnings but has no specific plans for the money.",
+        "Nate is able to make a living from gaming as of 22 August 2022.",
+        "Nate loves board game",
+        "board game: A board game that Nate loves and played with people he met at the convention.",
+        "On 5 June 2022, Nate told Joanna that he got an item because it reminded him of something he loves, and its presence in his room reminds him to keep working on his goals."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 143,
+      "question": "How did Joanna feel when someone wrote her a letter after reading her blog post?",
+      "gold_answer": "Touched",
+      "generated_answer": "Joanna felt comforted and realized her words had the power to comfort others.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer expresses a positive emotional response (comforted) which is semantically similar to 'touched', and includes the correct core fact that Joanna's words had an impact on others. Thus, it is partially correct and not entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "The letter: A letter written to Joanna by a reader who was comforted by her blog post.",
+        "The letter was written after the reader read Joanna's online blog post about a hard moment in her life.",
+        "The letter inspired_by Joanna's blog",
+        "The letter received_by Joanna",
+        "On 12 May 2022, Joanna mentioned that she also thinks about her life sometimes when out and about, but the trails made her feel like writing a drama."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 144,
+      "question": "What kind of impact does Joanna hope to have with her writing?",
+      "gold_answer": "share her stories and hopefully have an impact",
+      "generated_answer": "The memory content does not specify the exact impact Joanna hopes to have with her writing. Based on available info, she likely hopes to express feelings, create wild worlds with awesome characters, and explore themes like loss, redemption, and forgiveness, possibly to connect with readers and help through tough times.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that Joanna hopes to connect with readers and help them through tough times, which aligns with the gold answer's 'share her stories and hopefully have an impact.' The core idea of having an impact through writing is present, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Joanna is currently working on a writing project that is consuming her time as of 15 April 2022.",
+        "As of 9 November 2022, Joanna is feeling motivated to continue writing.",
+        "Joanna's writing is inspired by themes of courage and taking risks.",
+        "Joanna interests: writing, hanging with friends",
+        "Joanna considers writing a huge part of her life as of 14 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 145,
+      "question": "What kind of content did Joanna share that someone wrote her a letter about?",
+      "gold_answer": "A blog post about a hard moment in her life",
+      "generated_answer": "Joanna shared a blog post about a hard moment in her life.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, stating that Joanna shared a blog post about a hard moment in her life.",
+      "category": 4,
+      "top_memories": [
+        "The letter: A letter written to Joanna by a reader who was comforted by her blog post.",
+        "The letter was written after the reader read Joanna's online blog post about a hard moment in her life.",
+        "The letter inspired_by Joanna's blog",
+        "The letter received_by Joanna",
+        "old notebooks content: early writings by Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 146,
+      "question": "What motivates Joanna to keep writing even on tough days?",
+      "gold_answer": "Knowing that her writing can make a difference",
+      "generated_answer": "Joanna is motivated to keep writing even on tough days because writing and creative projects help her through tough times, and she finds joy in writing, which makes the journey worth it.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that writing helps Joanna through tough times and brings her joy, which aligns with the gold answer's core idea that writing makes a difference for her. Although the phrasing differs, the semantic content is consistent with the motivation of writing having a positive impact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna passion: writing",
+        "On 20 May 2022, Joanna stated that writing and creative projects help her through tough times.",
+        "As of 9 November 2022, Joanna is feeling motivated to continue writing.",
+        "Joanna interests: writing, hanging with friends",
+        "On 25 May 2022, Joanna reflected on the tough times finishing her screenplay and realized that moments of joy make the journey worth it."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 147,
+      "question": "What type of ice cream does Joanna mention that Nate makes and is delicious?",
+      "gold_answer": "Coconut milk ice cream",
+      "generated_answer": "Coconut milk ice cream.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Nate made vegan ice cream",
+        "Nate made lactose-free ice cream",
+        "Nate knows coconut milk ice cream recipe",
+        "Joanna liked ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 148,
+      "question": "How did Nate feel about sharing his love for dairy-free desserts with Joanna?",
+      "gold_answer": "Happy to share",
+      "generated_answer": "Nate felt enthusiastic and happy about sharing his love for dairy-free desserts with Joanna, as he frequently shared recipes, tips, and invited her to try his creations.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Nate felt enthusiastic and happy, which matches the gold answer 'Happy to share'. The extra details about sharing recipes and inviting Joanna do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna expressed interest in trying dairy-free flavors and possibly visiting Nate to try his cake.",
+        "On 14 August 2022, Nate shared a dairy-free dessert recipe with Joanna.",
+        "Joanna plans to share desserts with Nate",
+        "chocolate: A flavor that Nate likes in dairy-free desserts.",
+        "Nate teaches dairy-free desserts"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 149,
+      "question": "What did Joanna share with her writers group in August 2022?",
+      "gold_answer": "her book",
+      "generated_answer": "Joanna shared her book with her writers group on 15 August 2022 and received great feedback.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Joanna shared her book with her writers group, which matches the gold answer 'her book'. The extra detail about the date and feedback does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna joined a writers group on 21 April 2022.",
+        "writers group members: Joanna",
+        "Joanna shared her book with her writers group on 15 August 2022 and received great feedback.",
+        "Joanna member_of: writers group",
+        "Joanna has been busy with writing projects as of 14 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 150,
+      "question": "How did Joanna celebrate after sharing her book with her writers group?",
+      "gold_answer": "making a delicious treat",
+      "generated_answer": "The memory content does not mention how Joanna celebrated after sharing her book with her writers group.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not mention how Joanna celebrated, which contradicts the gold answer that she celebrated by making a delicious treat. The generated answer provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "writers group members: Joanna",
+        "Joanna shared her book with her writers group on 15 August 2022 and received great feedback.",
+        "Joanna joined a writers group on 21 April 2022.",
+        "Joanna member_of: writers group",
+        "writers group: A writers group that Joanna recently joined, providing support and inspiration."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 151,
+      "question": "How did Nate celebrate winning the international tournament?",
+      "gold_answer": "Taking time off to chill with pets",
+      "generated_answer": "The memory does not specify how Nate celebrated winning the international tournament.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify how Nate celebrated, which contradicts the gold answer that he took time off to chill with pets. It provides no correct content from the gold answer and is essentially a refusal to answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate participated in international tournament",
+        "Nate participated_in the tournament",
+        "Nate participates in the tournament",
+        "international tournament: An international tournament where Nate helped friends reset high scores.",
+        "Nate won an international gaming tournament on 21 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 152,
+      "question": "Why is Joanna experimenting with dairy-free options in her dessert recipes?",
+      "gold_answer": "lactose intolerance",
+      "generated_answer": "Joanna is lactose intolerant, so she tries dairy-free options like coconut or almond milk in her desserts.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies lactose intolerance as the reason, which matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Joanna received dairy-free dessert recipe",
+        "Joanna is testing dairy-free dessert recipes for friends and family.",
+        "Joanna is lactose intolerant and therefore tries dairy-free options like coconut or almond milk in her desserts.",
+        "Joanna testing dairy-free dessert recipes",
+        "Joanna dietary_preference: dairy-free"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 153,
+      "question": "What substitution does Nate suggest for butter in dairy-free baking?",
+      "gold_answer": "dairy-free margarine or coconut oil",
+      "generated_answer": "Nate suggests using dairy-free margarine or coconut oil instead of butter in dairy-free baking.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies both substitutions from the gold answer: dairy-free margarine and coconut oil.",
+      "category": 4,
+      "top_memories": [
+        "On 5 September 2022, Nate suggested using dairy-free margarine or coconut oil instead of butter for dairy-free baking, and advised checking labels to ensure they are dairy-free.",
+        "coconut oil: A dairy-free alternative to butter used in baking.",
+        "Nate gives dairy-free baking tips Joanna",
+        "dairy-free margarine: A dairy-free alternative to butter used in baking.",
+        "On 14 August 2022, Nate was really into making a new dairy-free dessert recipe that is creamy, rich, and dairy-free."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 154,
+      "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+      "gold_answer": "a cooking show",
+      "generated_answer": "cooking show",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'cooking show' is semantically equivalent to the gold answer 'a cooking show', differing only by the article 'a'. The core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022.",
+        "Nate made vegan ice cream",
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Nate made vegan ice cream on 17 June 2022 and shared it with people in his vegan diet group.",
+        "Nate made coconut milk ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 155,
+      "question": "What is Nate's favorite dish from the cooking show he hosted?",
+      "gold_answer": "Coconut milk ice cream",
+      "generated_answer": "Coconut milk ice cream",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate's cooking show content: vegan ice cream recipes",
+        "Nate favorite Coconut milk ice cream",
+        "Joanna enjoys desserts from Nate",
+        "On 7 February 2022, Nate said that a snack he tried was rich and creamy and might be his new favorite snack.",
+        "Nate taught vegan ice cream recipes on his cooking show on 5 September 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 156,
+      "question": "What is one of Nate's favorite dairy-free treats besides coconut milk ice cream?",
+      "gold_answer": "dairy-free chocolate mousse",
+      "generated_answer": "Dairy-free chocolate mousse",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Dairy-free chocolate mousse' exactly matches the gold answer 'dairy-free chocolate mousse', so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Nate favorite Coconut milk ice cream",
+        "coconut milk ice cream: A dessert made by Nate using coconut milk.",
+        "Nate made coconut milk ice cream",
+        "Nate made coconut milk ice cream in colorful bowls.",
+        "Nate knows coconut milk ice cream recipe"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 157,
+      "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+      "gold_answer": "chocolate raspberry tart",
+      "generated_answer": "chocolate raspberry tart",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Joanna shared photo of cookie with chocolate drizzle and almonds",
+        "Almond milk dessert madeBy: Joanna",
+        "Joanna makes dairy-free chocolate cake with raspberries",
+        "Joanna made Almond milk dessert",
+        "On 14 September 2022, Joanna shared a dessert recipe with Nate that includes blueberries, coconut milk, and a gluten-free crust, and is topped with walnuts."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 158,
+      "question": "What kind of cake did Joanna share a photo of that she likes making for birthdays and special days?",
+      "gold_answer": "chocolate cake with raspberries",
+      "generated_answer": "dairy-free chocolate cake with raspberries",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact 'chocolate cake with raspberries' from the gold answer, with the extra detail 'dairy-free' which does not contradict the gold answer. Therefore, it is correct.",
+      "category": 4,
+      "top_memories": [
+        "cake: A cake with white frosting that Joanna made recently and shared a photo of.",
+        "On 5 September 2022, Joanna revised one of her old recipes and made a cake with strawberries and chocolate.",
+        "Joanna shared photo of cookie with chocolate drizzle and almonds",
+        "On 14 September 2022, Joanna said that the dairy-free chocolate cake with raspberries is her favorite for birthdays and special days.",
+        "Joanna's photo description: a photo of Joanna on stage"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 159,
+      "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+      "gold_answer": "blueberries and coconut milk",
+      "generated_answer": "blueberries and coconut milk",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, listing both main ingredients correctly.",
+      "category": 4,
+      "top_memories": [
+        "blueberry coconut dessert ingredients: blueberries, coconut milk, gluten-free crust",
+        "blueberry coconut dessert: A dessert recipe shared by Joanna, made with blueberries, coconut milk, and a gluten-free crust, topped with walnuts.",
+        "On 14 September 2022, Joanna shared a dessert recipe with Nate that includes blueberries, coconut milk, and a gluten-free crust, and is topped with walnuts.",
+        "blueberry coconut dessert description: a creamy dessert with walnuts on top",
+        "dairy-free ice cream ingredients: coconut milk, vanilla extract, sugar, pinch of salt"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 160,
+      "question": "What movie did Nate recently watch and enjoy on October 6, 2022?",
+      "gold_answer": "Little Women",
+      "generated_answer": "Little Women",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Little Women'.",
+      "category": 4,
+      "top_memories": [
+        "On 9 October 2022, Nate was at home chilling, playing video games, and watching movies.",
+        "On 9 November 2022, Nate invited Joanna to his place to watch a movie or go to the park.",
+        "On 7 February 2022, Nate said he would add 'Little Women' to his list of movies to watch.",
+        "On 11 November 2022, Nate congratulated Joanna on her movie.",
+        "Nate recently participated in a tournament, as of 6 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 161,
+      "question": "What did Joanna make for one of the ladies at her writing club?",
+      "gold_answer": "a bookmark",
+      "generated_answer": "A bookmark.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A bookmark.' exactly matches the gold answer 'a bookmark'.",
+      "category": 4,
+      "top_memories": [
+        "bookmark: A bookmark Joanna made for a lady at her writing club.",
+        "writing gig audition: An audition Joanna had for a writing gig.",
+        "On 24 March 2022, Joanna stated that her go-to place for writing inspiration is a bookshelf filled with books and magazines.",
+        "On 6 October 2022, Joanna finished making a bookmark for a lady at her writing club.",
+        "Joanna got the idea for her new script from a dream."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 162,
+      "question": "What game did Nate play at the game convention he attended on 9 October, 2022?",
+      "gold_answer": "Catan",
+      "generated_answer": "Catan",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Catan'.",
+      "category": 4,
+      "top_memories": [
+        "Nate attended a game convention on 7 October 2022.",
+        "game convention: A game convention Nate attended on 7 October 2022 where he met new people.",
+        "Nate attended game convention",
+        "Nate played a board game he loves with people he met at the convention on 7 October 2022.",
+        "Nate met new people at the game convention on 7 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 163,
+      "question": "What movie has Nate recently seen that blew his mind?",
+      "gold_answer": "\"Inception\"",
+      "generated_answer": "Inception",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Inception' exactly matches the gold answer 'Inception'.",
+      "category": 4,
+      "top_memories": [
+        "Inception: A movie that Nate recently watched and found mind-blowing due to its twists and dream-related plot.",
+        "Nate recently watched a movie called Inception, which he found mind-blowing due to its twists and dream-related plot.",
+        "Nate watched the movie 'Little Women' recently and enjoyed it.",
+        "Nate has pets",
+        "On 21 April 2022, Nate expressed that a particular fantasy or sci-fi movie trilogy is one of his favorites, praising its world building, battles, and storytelling."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 164,
+      "question": "What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+      "gold_answer": "Cyberpunk 2077",
+      "generated_answer": "Cyberpunk 2077",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate has been playing a game called Cyberpunk 2077 nonstop, which has a futuristic setting and gameplay.",
+        "Cyberpunk 2077: A game that Nate has been playing nonstop, featuring a futuristic setting and engaging gameplay.",
+        "On 9 October 2022, Nate was at home chilling, playing video games, and watching movies.",
+        "On 7 November 2022, Nate was playing the fantasy RPG Xeonoblade Chronicles and recommended it.",
+        "On 21 October 2022, Nate was practicing for an upcoming video game tournament."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 165,
+      "question": "What did Nate share a photo of when mentioning unwinding at home?",
+      "gold_answer": "a bookcase filled with dvds and movies",
+      "generated_answer": "Nate shared a photo of turtles.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions turtles, which is completely different from the gold answer about a bookcase filled with DVDs and movies. There is no overlap in content.",
+      "category": 4,
+      "top_memories": [
+        "Nate shared Turtle photo",
+        "Nate sent photo of turtles",
+        "Nate shared Xbox controller photo",
+        "Nate talked_to some of the guys at the tournament",
+        "Nate started making gaming videos because he is a fan of them and wanted to share his love of gaming and connect with others."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 166,
+      "question": "How did Joanna describe the classic movie he watched?",
+      "gold_answer": "gripping with great actors",
+      "generated_answer": "Joanna described the classic movie she watched as awesome, with a gripping story and great actors.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'gripping story' and 'great actors', which match the gold answer's 'gripping with great actors'. The extra detail 'awesome' does not contradict the core facts.",
+      "category": 4,
+      "top_memories": [
+        "Joanna recent_work: movie",
+        "Joanna recently watched a classic movie that she found awesome, with a gripping story and great actors.",
+        "Joanna contributed_to the movie",
+        "Joanna has watched the romantic drama about memory and relationships a few times.",
+        "Joanna rated the classic movie she watched as 9 or 10 out of 10."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 167,
+      "question": "What does Joanna recommend to make a living room comfy like hers?",
+      "gold_answer": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+      "generated_answer": "Joanna advised Nate to get a couch that can sit multiple people, is fluffy, and allows lying down.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes a couch for multiple people, which matches the gold answer's 'couch for multiple people'. Although it mentions 'fluffy' and 'allows lying down' instead of 'fluffy blanket' and 'lights that can be dimmed', the presence of at least one correct option makes it correct.",
+      "category": 4,
+      "top_memories": [
+        "On 9 October 2022, Nate commented that Joanna's living room looks comfy and expressed interest in getting a similar setup.",
+        "On 9 October 2022, Nate asked Joanna for pointers on making his living room comfortable like hers.",
+        "On 9 October 2022, Joanna shared a photo of her living room with a TV and candles, describing it as a great escape for watching movies.",
+        "Joanna: Joanna is a person who has been working on a project.",
+        "Joanna expresses herself through stories and enjoys spending time with people."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 168,
+      "question": "What helps Joanna stay focused and brings her joy?",
+      "gold_answer": "stuffed animal dog named Tilly",
+      "generated_answer": "Joanna's stuffed animal Tilly helps her stay focused and brings her joy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Joanna's stuffed animal Tilly as the thing that helps her stay focused and brings her joy, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Joanna believes it is important to stay happy and de-stress.",
+        "Joanna feels a mix of excitement and anxiety about her work getting noticed.",
+        "Joanna finds nature calming and inspiring, and it helps her reset and find peace.",
+        "Joanna finds joy in writing and hanging out with friends.",
+        "Joanna's stuffed animal Tilly helps her stay focused and brings her joy."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 169,
+      "question": "What does Joanna do while she writes?",
+      "gold_answer": "have a stuffed animal dog named Tilly with her",
+      "generated_answer": "Tilly is always with Joanna while she writes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Tilly is with Joanna while she writes, which matches the gold answer that Joanna has a stuffed animal dog named Tilly with her. The core fact is the same, just expressed differently.",
+      "category": 4,
+      "top_memories": [
+        "Joanna gets ideas for her characters from people she knows, things she sees, and her imagination.",
+        "Tilly is always with Joanna while she writes.",
+        "Joanna profession: writer",
+        "Joanna occupation: writer",
+        "Joanna: Joanna is a person who has been working on a project."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 170,
+      "question": "Why did Joanna name the stuffed animal dog Tilly?",
+      "gold_answer": "after a dog she had in Michigan",
+      "generated_answer": "The memory content does not specify why Joanna named the stuffed animal dog Tilly.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the reason, which is incorrect because the gold answer provides a specific reason (after a dog she had in Michigan). The generated answer contains no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Joanna still has a stuffed animal dog that Nate gave her, and she named it Tilly.",
+        "Tilly: Tilly is a stuffed animal dog given to Joanna by Nate, and she is always with Joanna while she writes.",
+        "Joanna's stuffed animal Tilly helps her stay focused and brings her joy.",
+        "Tilly type: stuffed animal dog",
+        "Tilly owner: Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 171,
+      "question": "What does Joanna do after receiving a rejection from a production company?",
+      "gold_answer": "keep grinding and moving ahead",
+      "generated_answer": "Joanna expressed determination to continue despite the rejection.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core meaning as the gold answer: Joanna continues despite the rejection. 'Keep grinding and moving ahead' is semantically equivalent to 'expressed determination to continue.'",
+      "category": 4,
+      "top_memories": [
+        "Joanna received rejection from production company",
+        "On 21 October 2022, Joanna received a rejection from a production company.",
+        "major company rejected Joanna",
+        "production company: A production company that rejected Joanna's submission.",
+        "Joanna expressed determination to continue despite the rejection."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 172,
+      "question": "How does Nate feel about Joanna's ability to bounce back from setbacks?",
+      "gold_answer": "respect Joanna for being able to bounce back",
+      "generated_answer": "Nate feels that Joanna is resilient and capable of overcoming setbacks, as he encouraged her on 10 July 2022, telling her that her hard work will pay off and that she is incredible.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Nate feels Joanna is resilient and capable of overcoming setbacks, which matches the gold answer's 'respect Joanna for being able to bounce back'. The additional details about encouragement do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Nate receives support from Joanna",
+        "Nate excited about Joanna's screenplay",
+        "Joanna values opinion of Nate",
+        "Joanna gives advice to Nate",
+        "Nate provided ideas to Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 173,
+      "question": "What encouragement does Nate give to Joanna after her setback?",
+      "gold_answer": "rejections don't define her, keep grinding and she'll find the perfect opportunity",
+      "generated_answer": "Nate encouraged Joanna to pursue her dreams and praised her courage, as noted on 20 May 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions Nate encouraging Joanna to pursue her dreams and praising her courage, but the gold answer specifies that Nate encouraged her by saying rejections don't define her and to keep grinding for the perfect opportunity. The generated answer does not include the core message about rejections and perseverance, so it is not semantically consistent with the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 6 October 2022, Joanna expressed that she would cherish Nate's encouragement.",
+        "Joanna invited to go with her Nate",
+        "On 20 May 2022, Nate praised Joanna for her courage and encouraged her to pursue her dreams.",
+        "Joanna gives advice to Nate",
+        "Joanna encourages Nate"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 174,
+      "question": "What does Nate rely on for cheer and joy?",
+      "gold_answer": "his turtles",
+      "generated_answer": "Nate relies on his turtles and his pet Max for cheer and joy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'his turtles', which matches the gold answer, so it is partially correct. Extra detail about 'pet Max' does not penalize.",
+      "category": 4,
+      "top_memories": [
+        "Nate's turtles cheer him up.",
+        "Nate uses his gaming setup for practice and competition.",
+        "Nate's turtles bring joy to his life and he finds watching them calming and fascinating.",
+        "Max is full of energy and brings joy to Nate.",
+        "On 20 May 2022, Nate stated that his pet Max brings him joy."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 175,
+      "question": "What does Joanna use to remember her dog from Michigan?",
+      "gold_answer": "naming a stuffed animal dog Tilly",
+      "generated_answer": "Joanna uses a stuffed animal dog that Nate gave her, named Tilly, to remember her dog from Michigan.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Joanna uses a stuffed animal dog named Tilly to remember her dog, which matches the gold answer's core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna used to have a dog in Michigan.",
+        "Michigan: Michigan is the location where Joanna used to have a dog.",
+        "Joanna's dog kind: dog",
+        "Joanna got allergic to her dog and had to get rid of her.",
+        "Joanna lived_in Michigan"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 176,
+      "question": "What did Joanna contribute to that was shown on the big screen on the Sunday before October 25, 2022?",
+      "gold_answer": "movie script",
+      "generated_answer": "A movie that premiered on 23 October 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a movie that premiered on 23 October 2022, which is within 14 days of the Sunday before October 25, 2022 (October 23, 2022). The gold answer is 'movie script', and the generated answer refers to a movie, which is semantically related to a movie script. Although it doesn't explicitly say 'script', it is not entirely off-topic and contains a correct element (the movie).",
+      "category": 4,
+      "top_memories": [
+        "Joanna contributed to a movie that premiered on 23 October 2022.",
+        "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022.",
+        "Joanna wrote characters and dialogue for the movie that premiered on 23 October 2022.",
+        "On 25 October 2022, Joanna shared that seeing her characters come alive was her favorite part of her creative process.",
+        "Joanna has contributed to three movies that have been shown on the big screen."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 177,
+      "question": "What inspires Joanna to create drawings of her characters?",
+      "gold_answer": "visuals to help bring the characters alive in her head so she can write better",
+      "generated_answer": "Joanna creates drawings of her characters to help bring them alive in her head and write better.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: Joanna draws characters to visualize them and improve her writing. The phrasing differs but is semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "Joanna creates visual drawings of her characters to help bring them alive in her head and write better.",
+        "Joanna gets ideas for her characters from people she knows, things she sees, and her imagination.",
+        "On 25 October 2022, Joanna shared that seeing her characters come alive was her favorite part of her creative process.",
+        "On 23 January 2022, Joanna expressed that writing helps her create wild worlds with awesome characters and is a great way to express her feelings.",
+        "Joanna's screenplay was inspired by personal experiences and her own journey of self-discovery."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 178,
+      "question": "Where does Joanna get her ideas for the characters from?",
+      "gold_answer": "people she knows, things she saw, her imagination",
+      "generated_answer": "Joanna gets her ideas for her characters from people she knows, things she sees, and her imagination.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all three sources from the gold answer: people she knows, things she sees (synonym for 'things she saw'), and her imagination.",
+      "category": 4,
+      "top_memories": [
+        "Joanna gets ideas for her characters from people she knows, things she sees, and her imagination.",
+        "Joanna got the idea for her new script from a dream.",
+        "Joanna creates visual drawings of her characters to help bring them alive in her head and write better.",
+        "Joanna: Joanna is a person who has been working on a project.",
+        "Joanna is inspired by Woodhaven's history for her next script."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 179,
+      "question": "How did Joanna feel on October 25, 2022 about seeing her characters come alive on the big screen?",
+      "gold_answer": "surreal and cool",
+      "generated_answer": "Joanna felt that seeing her characters come alive was her favorite part of her creative process.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that seeing her characters come alive was her favorite part of the creative process, but the gold answer specifies that she felt 'surreal and cool' about it. The generated answer does not mention these emotions and instead introduces a different, unsupported claim, so it lacks the correct content.",
+      "category": 4,
+      "top_memories": [
+        "On 25 October 2022, Joanna shared that seeing her characters come alive was her favorite part of her creative process.",
+        "Joanna felt hopeful and inspired about the future on 4 November 2022.",
+        "Joanna wrote characters and dialogue for the movie that premiered on 23 October 2022.",
+        "On 12 May 2022, Joanna mentioned that she also thinks about her life sometimes when out and about, but the trails made her feel like writing a drama.",
+        "Joanna wrote parts of a screenplay that appeared on the big screen on 4 June 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 180,
+      "question": "What type of diet do Nate's turtles have?",
+      "gold_answer": "combination of vegetables, fruits, and insects",
+      "generated_answer": "The memory content does not specify the diet of Nate's turtles.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the diet is not specified, which contradicts the gold answer that specifies a combination of vegetables, fruits, and insects. It provides no correct content.",
+      "category": 4,
+      "top_memories": [
+        "Nate's turtles kind: turtles",
+        "Nate owns turtles",
+        "As of 23 January 2022, Nate has owned turtles for 3 years.",
+        "On 25 October 2022, Nate said his turtles have different personalities: one is more adventurous and the other is more reserved.",
+        "Nate recommends having pets like turtles for times of stress."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 181,
+      "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+      "gold_answer": "coconut milk",
+      "generated_answer": "coconut milk",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'coconut milk'.",
+      "category": 4,
+      "top_memories": [
+        "Nate made lactose-free ice cream",
+        "lactose-free ice cream: A lactose-free ice cream made with coconut milk by Nate.",
+        "Nate made a lactose-free ice cream with coconut milk on 3 November 2022.",
+        "Nate made coconut milk ice cream",
+        "Nate made vegan ice cream"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 182,
+      "question": "What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?",
+      "gold_answer": "early writings",
+      "generated_answer": "Her early writings.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Her early writings' matches the gold answer 'early writings' semantically and contains the correct core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna found old notebooks",
+        "Joanna appreciated seeing how far she has come when she found the old notebooks.",
+        "old notebooks: Notebooks Joanna found last week containing her early writings.",
+        "old notebooks content: early writings by Joanna",
+        "Joanna found old notebooks with her early writings on 28 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 183,
+      "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+      "gold_answer": "\"Xenoblade Chronicles\"",
+      "generated_answer": "Xeonoblade Chronicles",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Xeonoblade Chronicles' is a minor spelling variation of 'Xenoblade Chronicles', which is semantically the same game. Therefore, it is correct.",
+      "category": 4,
+      "top_memories": [
+        "On 24 March 2022, Nate is participating in a video game tournament.",
+        "video game tournament: A video game tournament that Nate is participating in as of 24 March 2022.",
+        "On 7 November 2022, Nate was playing the fantasy RPG Xeonoblade Chronicles and recommended it.",
+        "On 7 November 2022, Nate said he is a big fan of Nintendo games.",
+        "Nate has been playing a game called Cyberpunk 2077 nonstop, which has a futuristic setting and gameplay."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 184,
+      "question": "What did Joanna receive from her brother that brought back childhood memories?",
+      "gold_answer": "a handwritten letter",
+      "generated_answer": "A handwritten letter.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating that Joanna received a handwritten letter.",
+      "category": 4,
+      "top_memories": [
+        "Joanna gets ideas for her characters from people she knows, things she sees, and her imagination.",
+        "On 7 November 2022, Joanna said that the handwritten letter was written by her brother, who used to make her cute notes when they were kids.",
+        "Joanna started writing down her favorite memories on 7 November 2022.",
+        "The reader said Joanna's story brought them comfort.",
+        "Nate has memories with Joanna"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 185,
+      "question": "What is the type of game \"Xenoblade Chronicles\" that Nate is playing?",
+      "gold_answer": "fantasy RPG",
+      "generated_answer": "Japanese fantasy RPG",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Japanese fantasy RPG' includes 'fantasy RPG' from the gold answer, and 'Japanese' is an extra detail that does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "On 7 November 2022, Nate was playing the fantasy RPG Xeonoblade Chronicles and recommended it.",
+        "Nate currently playing Xeonoblade Chronicles",
+        "Xeonoblade Chronicles: Xeonoblade Chronicles is a Japanese fantasy RPG that Nate is currently playing and recommends.",
+        "Nate has been playing a game called Cyberpunk 2077 nonstop, which has a futuristic setting and gameplay.",
+        "Cyberpunk 2077: A game that Nate has been playing nonstop, featuring a futuristic setting and engaging gameplay."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 186,
+      "question": "What dish did Nate make on 9 November, 2022?",
+      "gold_answer": "Homemade coconut ice cream",
+      "generated_answer": "Gaming content for YouTube.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Gaming content for YouTube' is completely off-topic and does not mention any dish, let alone the correct answer 'Homemade coconut ice cream'.",
+      "category": 4,
+      "top_memories": [
+        "On 9 November 2022, Nate said he was already doing that.",
+        "Nate upgraded some of his home equipment on 7 November 2022.",
+        "On 9 November 2022, Nate was working on creating gaming content for YouTube.",
+        "On 11 November 2022, Nate offered Joanna a taste of his ice cream.",
+        "On 17 April 2022, Nate said he sometimes brings his turtles into the kitchen to watch him make food."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 187,
+      "question": "What project is Joanna working on in her notebook on November 9, 2022?",
+      "gold_answer": "A suspenseful thriller set in a small Midwestern town",
+      "generated_answer": "A suspenseful thriller set in a small Midwestern town.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, including the same core fact about the project being a suspenseful thriller set in a small Midwestern town.",
+      "category": 4,
+      "top_memories": [
+        "Joanna has been working on a project as of 21 January 2022.",
+        "Joanna is currently working on a writing project that is consuming her time as of 15 April 2022.",
+        "Joanna is working on a project that is challenging but fulfilling as of 4 November 2022.",
+        "Joanna: Joanna is a person who has been working on a project.",
+        "On 9 November 2022, Joanna was working on a suspenseful thriller set in a small Midwestern town."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 188,
+      "question": "What is Nate creating for YouTube on 9 November, 2022?",
+      "gold_answer": "gaming content",
+      "generated_answer": "Gaming content.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Gaming content.' matches the gold answer 'gaming content' exactly, differing only in capitalization.",
+      "category": 4,
+      "top_memories": [
+        "On 9 November 2022, Nate was working on creating gaming content for YouTube.",
+        "Nate creates content for YouTube",
+        "Nate's gaming content project platform: YouTube",
+        "YouTube: Platform where Nate creates gaming content.",
+        "Nate is preparing for other tournaments as of 7 November 2022."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 189,
+      "question": "What inspired Nate to start making gaming videos?",
+      "gold_answer": "Love of gaming and connecting with others who enjoy it too",
+      "generated_answer": "Nate started making gaming videos because he is a fan of them and wanted to share his love of gaming and connect with others.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core reasons from the gold answer: love of gaming and connecting with others. It adds 'fan of them' but this is consistent with the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate started making gaming videos because he is a fan of them and wanted to share his love of gaming and connect with others.",
+        "Nate is passionate about gaming.",
+        "Nate hosted the gaming party",
+        "Nate organizing gaming party",
+        "On 9 November 2022, Nate expressed excitement about starting his new video-making venture."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 190,
+      "question": "What new content is Nate creating for YouTube?",
+      "gold_answer": "Gaming videos",
+      "generated_answer": "Gaming content.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Gaming content' is semantically equivalent to the gold answer 'Gaming videos', both referring to the same type of content.",
+      "category": 4,
+      "top_memories": [
+        "Nate creates content for YouTube",
+        "Nate's gaming content project platform: YouTube",
+        "YouTube: Platform where Nate creates gaming content.",
+        "On 9 November 2022, Nate was working on creating gaming content for YouTube.",
+        "Nate's gaming content project type: project"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 191,
+      "question": "What advice does Joanna give to Nate about making YouTube videos?",
+      "gold_answer": "Watch other people's videos to understand what the audience likes",
+      "generated_answer": "Joanna advised Nate to watch other people's videos first to understand what the audience likes, to avoid his videos flopping.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly captures the core advice from the gold answer: watching other people's videos to understand audience preferences. The added detail about avoiding flops does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 9 November 2022, Joanna advised Nate to watch other people's videos first to understand what the audience likes, to avoid his videos flopping.",
+        "Joanna gives advice to Nate",
+        "Nate creates content for YouTube",
+        "Joanna gives writing advice to Nate",
+        "On 9 November 2022, Joanna congratulated Nate on making videos and connecting with people about gaming."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 192,
+      "question": "What did Joanna take a picture of near Fort Wayne last summer?",
+      "gold_answer": "Sunset",
+      "generated_answer": "A sunset.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A sunset.' matches the gold answer 'Sunset' semantically, just with an article.",
+      "category": 4,
+      "top_memories": [
+        "Joanna hiked near Fort Wayne",
+        "Fort Wayne: Fort Wayne is a location near which Joanna went on a hike.",
+        "Joanna took a sunset photo during a hike near Fort Wayne in the summer of 2022.",
+        "Nate gave picture to Joanna",
+        "the picture: A picture given by Nate to Joanna, displayed on her cork board."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 193,
+      "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+      "gold_answer": "The incredible sunset and surrounding beauty",
+      "generated_answer": "The sunset itself inspired Joanna to take the picture, as she saw a gorgeous sunset while hiking near Fort Wayne.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that the sunset inspired Joanna, which matches the gold answer's 'The incredible sunset and surrounding beauty'. The extra detail about hiking is not contradictory and does not change the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Joanna took a sunset photo during a hike near Fort Wayne in the summer of 2022.",
+        "the sunset: A gorgeous sunset that Joanna saw while hiking recently.",
+        "Joanna saw the sunset",
+        "Fort Wayne: Fort Wayne is a location near which Joanna went on a hike.",
+        "the hiking trip: A hiking trip Joanna took recently, during which she saw a sunset."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 194,
+      "question": "Why did Nate get a third turtle?",
+      "gold_answer": "He saw another one at a pet store and wanted to get it",
+      "generated_answer": "Nate got a third turtle because his tank is now big enough for three turtles, and he loves turtles and is drawn to them.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Nate got a third turtle because he loves turtles and is drawn to them, which aligns with the gold answer's reason of wanting to get it. The extra detail about the tank size does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "Nate got a third turtle from a pet store, and his tank is now big enough for three turtles.",
+        "Nate's turtles owner: Nate",
+        "Nate loves turtle",
+        "Nate bought turtle from pet store",
+        "On 9 November 2022, Nate confirmed he is happy with his decision to get a third turtle."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 195,
+      "question": "What does Nate want to do when he goes over to Joanna's place?",
+      "gold_answer": "Watch one of Joanna's movies together or go to the park",
+      "generated_answer": "Nate wants to watch a movie or go to the park with Joanna.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly includes both options from the gold answer: watching a movie and going to the park.",
+      "category": 4,
+      "top_memories": [
+        "On 9 November 2022, Nate invited Joanna to his place to watch a movie or go to the park.",
+        "On 5 September 2022, Nate told Joanna he loves to help and she could ask him a question anytime.",
+        "On 6 October 2022, Nate asked Joanna to let him know how the DIY goes.",
+        "Joanna plans to show screenplay to Nate",
+        "On 5 June 2022, Nate told Joanna that he got an item because it reminded him of something he loves, and its presence in his room reminds him to keep working on his goals."
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 196,
+      "question": "What did Nate take to the beach in Tampa?",
+      "gold_answer": "turtles",
+      "generated_answer": "Nate took his turtles to the beach in Tampa.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Nate took his turtles to the beach, which matches the gold answer 'turtles'.",
+      "category": 4,
+      "top_memories": [
+        "Nate visited Tampa",
+        "Tampa: Tampa is a location where Nate took his turtles to the beach.",
+        "On 10 November 2022, Nate took his turtles to the beach in Tampa.",
+        "Nate plans to go to the park",
+        "Nate talked_to some of the guys at the tournament"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 197,
+      "question": "What does Nate love most about having turtles?",
+      "gold_answer": "They make him feel calm and don't require much looking after",
+      "generated_answer": "Nate loves that having turtles around makes him feel calm, brings him joy, and requires little looking after.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core facts from the gold answer: feeling calm and requiring little looking after. The additional detail 'brings him joy' does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Nate loves having his turtles around because they make him feel calm and require little looking after.",
+        "Nate's turtles kind: turtles",
+        "Nate's turtles cheer him up.",
+        "Nate's turtles owner: Nate",
+        "Nate owns turtles"
+      ]
+    },
+    {
+      "conversation_idx": 3,
+      "qa_idx": 198,
+      "question": "What did Nate share a photo of as a part of his experimentation in November 2022?",
+      "gold_answer": "colorful bowls of coconut milk ice cream",
+      "generated_answer": "No relevant memory found about Nate sharing a photo as part of experimentation in November 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states no relevant memory found, which does not provide the correct content (colorful bowls of coconut milk ice cream) and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 17 April 2022, Nate shared a photo of a bowl of ice cream and a bowl of sprinkles.",
+        "Nate sent photo of turtles",
+        "On 17 April 2022, Nate shared a photo of a turtle and a strawberry in a bowl.",
+        "Nate upgraded some of his home equipment on 7 November 2022.",
+        "On 7 November 2022, Joanna showed Nate a photo of a Captain America costume on display in a museum."
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 395.96530199050903,
+    "answer_time_seconds": 370.60041904449463,
+    "total_time_seconds": 766.570876121521,
+    "write_tokens": {
+      "prompt_tokens": 79374,
+      "completion_tokens": 52126,
+      "total_tokens": 131500,
+      "call_count": 137
+    },
+    "answer_tokens": {
+      "prompt_tokens": 145159,
+      "completion_tokens": 13689,
+      "total_tokens": 158848,
+      "call_count": 398
+    },
+    "db_size_bytes": 2408448,
+    "memory_entries": 986,
+    "avg_answer_time_ms": 1862.2259794168137
+  }
+}

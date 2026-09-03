@@ -1,0 +1,32 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "conversation_idx": 60,
+  "conversation_hash": "e4873051",
+  "details": [
+    {
+      "conversation_idx": 60,
+      "conversation_hash": "e4873051",
+      "user_name": "用户",
+      "question": "2023年4月27日的早上，我在院中弹奏了什么曲子？",
+      "gold_answer": "《平沙落雁》",
+      "generated_answer": "根据记忆内容，2023年4月27日早上，你弹奏的曲子是《平沙落雁》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成的答案明确指出了弹奏的曲子是《平沙落雁》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User plays the guqin (古琴) and on the morning of April 27, 2023, played the piece '平沙落雁' (Wild Geese Descending on the Sandbank), finding it refreshing and joyful.",
+        "User struggles with rhythm control when playing the guqin, particularly in transitions between melodies, feeling the flow is not smooth enough.",
+        "User's name is 高山河 (Gao Shanhe), who enjoys classical Chinese culture and has interest in 琴棋书画 (music, chess, calligraphy, and painting), though not highly skilled.",
+        "User mentioned having unfinished poems to work on and ended the conversation on the evening of April 27, 2023, indicating they write poetry.",
+        "User struggles with brushwork and ink application when painting bamboo, feeling their strokes lack naturalness and ink lacks variation, which troubles them."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 11,
+  "write_time_seconds": 10.153438091278076,
+  "answer_time_seconds": 1.54677414894104
+}

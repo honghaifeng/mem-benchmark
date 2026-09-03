@@ -1,0 +1,2699 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 156,
+  "correct": 109,
+  "accuracy": 69.87179487179486,
+  "category_stats": {
+    "1": {
+      "total": 37,
+      "correct": 27
+    },
+    "2": {
+      "total": 33,
+      "correct": 26
+    },
+    "3": {
+      "total": 13,
+      "correct": 11
+    },
+    "4": {
+      "total": 73,
+      "correct": 45
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 8,
+      "qa_idx": 0,
+      "question": "What kind of car does Evan drive?",
+      "gold_answer": "Prius",
+      "generated_answer": "Evan drives a Prius.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Evan drives a Prius, which matches the gold answer exactly.",
+      "category": 1,
+      "top_memories": [
+        "Evan's new Prius type: car",
+        "Evan uses to stay fit car",
+        "On 19 August 2023, Evan mentioned that being in places like the one in the photo brings back memories of road tripping in his trusty car.",
+        "Evan is considering exploring other ways to stay active and travel due to the car breakdown.",
+        "Evan was involved in a minor car accident on the way back from the mountains on 24 December 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 1,
+      "question": "What kinds of things did Evan have broken?",
+      "gold_answer": "His old Prius and his new Prius.",
+      "generated_answer": "Evan had a minor car accident and a minor accident, but the memory does not specify what was broken.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention the specific items that were broken (his old Prius and his new Prius). It only vaguely refers to accidents without identifying the broken things, so it lacks the correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Evan feels lucky to have found a partner who understands him.",
+        "Evan struggled with his health a few years ago but stuck with it.",
+        "Evan went on the camping trip",
+        "Evan had a minor accident on 31 December 2023.",
+        "Evan's work friends were supportive after his minor accident."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 2,
+      "question": "Where has Evan been on roadtrips with his family?",
+      "gold_answer": "Rockies, Jasper",
+      "generated_answer": "Jasper and the Rockies.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct locations from the gold answer (Jasper and Rockies), just in a different order.",
+      "category": 1,
+      "top_memories": [
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan visited the Rockies with his family in May 2023.",
+        "Evan recently returned from a family trip to the Rockies in his new Prius.",
+        "Rockies: A mountain range that Evan visited with his family.",
+        "Evan is looking forward to expanding his family and creating more memories."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 3,
+      "question": "How many Prius has Evan owned?",
+      "gold_answer": "two",
+      "generated_answer": "2",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2' is numerically equivalent to the gold answer 'two', so it is correct.",
+      "category": 1,
+      "top_memories": [
+        "Evan owns Prius",
+        "Prius: Evan's new Prius, which he recently bought, broke down.",
+        "Evan's old Prius broke down, and he decided to get it repaired and sell it.",
+        "Evan's new Prius type: car",
+        "Evan's new Prius broke down on 5 December 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 4,
+      "question": "Which hobby did Sam take up in May 2023?",
+      "gold_answer": "painting",
+      "generated_answer": "The memory content does not specify which hobby Sam took up in May 2023. It only mentions that as of 18 May 2023, Sam was excited to try new hobbies and hoped to find a passion. No specific hobby is named.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the hobby, but the gold answer is 'painting'. Since the generated answer does not contain the correct hobby and is essentially a refusal, it is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "On 11 September 2023, Sam expressed interest in trying painting or another calming hobby to de-stress.",
+        "Sam had a tough week before 24 May 2023.",
+        "On 6 June 2023, Evan encouraged Sam to keep up the effort in workouts.",
+        "On 25 October 2023, Evan advised Sam to take it one day at a time and celebrate small victories.",
+        "As of 27 July 2023, Sam is working on their health and getting active."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 5,
+      "question": "Which country was Evan visiting in May 2023?",
+      "gold_answer": "Canada",
+      "generated_answer": "Canada",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Evan visited the Rockies with his family in May 2023.",
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan was involved in a minor car accident on the way back from the mountains on 24 December 2023.",
+        "Evan had a heart palpitation incident on 30 May 2023.",
+        "On 24 May 2023, Sam thanked Evan and said goodbye."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 6,
+      "question": "How many roadtrips did Evan take in May 2023?",
+      "gold_answer": "two",
+      "generated_answer": "1",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states Evan took two roadtrips, but the generated answer says 1, which is a different number and does not contain the correct count.",
+      "category": 1,
+      "top_memories": [
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan drove through the Icefields Parkway during his road trip to Jasper on 20 May 2023.",
+        "Evan and others hiked the trails last week (around 11 May 2023) and the views were amazing.",
+        "Evan visited the Rockies with his family in May 2023.",
+        "Evan took a photo of a glacier during his road trip to Jasper on 20 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 7,
+      "question": "What new hobbies did Sam consider trying?",
+      "gold_answer": "Painting, kayaking, hiking, cooking, running",
+      "generated_answer": "Painting, kayaking, and hiking.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes painting, kayaking, and hiking, which are all correct options from the gold answer. Although it omits cooking and running, partial correctness is sufficient for a correct label.",
+      "category": 1,
+      "top_memories": [
+        "As of 18 May 2023, Sam is excited to try new hobbies and hopes to find a passion.",
+        "Sam is thinking about trying painting as a hobby to stay motivated and de-stress.",
+        "On 11 September 2023, Sam expressed interest in trying painting or another calming hobby to de-stress.",
+        "On 17 December 2023, Evan encouraged Sam to step out of their comfort zone and try new things.",
+        "Sam status: looking for a passion"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 8,
+      "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+      "gold_answer": "Watercolor painting",
+      "generated_answer": "Evan started practicing watercolor painting a few years ago and enjoys it.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the hobby as watercolor painting, matching the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Evan hobby: painting",
+        "snowboarding: A winter sport that Evan enjoys.",
+        "Evan fitness_routine: enjoys a fitness routine",
+        "Evan started walking: two years ago",
+        "ice skating: A winter sport that Evan enjoys."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 9,
+      "question": "When did Evan go to Jasper with his family?",
+      "gold_answer": "weekend before May 24, 2023",
+      "generated_answer": "20 May 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer is 'weekend before May 24, 2023', which refers to the weekend of May 20-21, 2023. The generated answer '20 May 2023' is within that weekend and within 14 days of the gold answer, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan visited Jasper",
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Jasper: Jasper is a location that Evan visited on a road trip.",
+        "Evan drove through the Icefields Parkway during his road trip to Jasper on 20 May 2023.",
+        "Evan stayed in a cozy cabin surrounded by mountains and forests during his road trip to Jasper on 20 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 10,
+      "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+      "gold_answer": "camping trip in the outdoors",
+      "generated_answer": "camping trip in the outdoors",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Evan went on the camping trip",
+        "Rockies: A mountain range that Evan visited with his family.",
+        "Evan and their significant other enjoyed outdoor activities such as hiking and biking during the Canada vacation in August 2023.",
+        "Evan visited the Rockies with his family in May 2023.",
+        "the camping trip: A camping trip Evan took last summer where he took a picture of a sunset."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 11,
+      "question": "What health issue did Sam face that motivated him to change his lifestyle?",
+      "gold_answer": "Weight problem",
+      "generated_answer": "Sam faced a gastritis scare that motivated him to change his lifestyle.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions a gastritis scare, which is not the same as the gold answer's weight problem. There is no overlap in the health issue, so the answer is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "Sam lifestyle: healthier",
+        "Sam emotional_state: mixed emotions, concerned about health, motivated to make positive changes",
+        "Sam health_awareness: trying to eat healthier",
+        "On 13 August 2023, Sam stated that the quote has been helping them stay motivated and move forward to healthier habits.",
+        "On 11 September 2023, Evan and Sam had a conversation about health and lifestyle changes."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 12,
+      "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+      "gold_answer": "A few days before May 24, 2023.",
+      "generated_answer": "A few days before 24 May 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A few days before 24 May 2023' is semantically identical to the gold answer 'A few days before May 24, 2023', differing only in date format. The core fact is the same.",
+      "category": 2,
+      "top_memories": [
+        "Sam had a doctor's check-up a few days before 24 May 2023 and learned that their weight was not good.",
+        "Sam had a check-up on 2 October 2023 and was told his weight is a serious health risk.",
+        "Evan recommends exercising to Sam to help with Sam's weight problem.",
+        "Sam plans to consult doctor",
+        "On 17 December 2023, Sam expressed that he is struggling with his weight and it is affecting his confidence."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 13,
+      "question": "When did Evan have his sudden heart palpitation incident that really shocked him up?",
+      "gold_answer": "first week of June 2023",
+      "generated_answer": "30 May 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer (30 May 2023) is within 14 days of the gold answer (first week of June 2023), so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan had a heart palpitation incident on 30 May 2023.",
+        "Evan experienced heart palpitation incident",
+        "heart palpitation incident: Evan experienced a sudden heart palpitation incident that served as a wake-up call.",
+        "Evan health_issue: heart palpitation incident",
+        "heart palpitation incident affected_person: Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 14,
+      "question": "What is Evan's favorite food?",
+      "gold_answer": "Ginger snaps",
+      "generated_answer": "Homemade lasagna.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Homemade lasagna' does not match the gold answer 'Ginger snaps' and is entirely different.",
+      "category": 1,
+      "top_memories": [
+        "homemade lasagna: Homemade lasagna is the food being enjoyed at Evan's family get-together.",
+        "Evan dietary_changes: eating less processed food and sugary snacks",
+        "Evan is trying to eat less processed food and sugary snacks as of 6 June 2023.",
+        "Sam wants_to_visit Evan's favorite beach spot",
+        "Evan trying healthy snacks"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 15,
+      "question": "What kind of unhealthy snacks does Sam enjoy eating?",
+      "gold_answer": "soda, candy",
+      "generated_answer": "Sam enjoys eating candy and sugary snacks, including soda.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both 'candy' and 'soda', which are the correct unhealthy snacks from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Sam purchased unhealthy snacks",
+        "unhealthy snacks purchaser: Sam",
+        "Sam is on a diet and trying to make healthier choices but still has cravings for sugary drinks and snacks.",
+        "unhealthy snacks: Unhealthy snacks that Sam bought on 14 October 2023.",
+        "Sam recent_action: bought unhealthy snacks"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 16,
+      "question": "What recurring issue frustrates Sam at the grocery store?",
+      "gold_answer": "Malfunctioning self-checkout machines.",
+      "generated_answer": "The self-checkout machines being broken.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that the self-checkout machines are broken, which is semantically equivalent to the gold answer 'Malfunctioning self-checkout machines.'",
+      "category": 1,
+      "top_memories": [
+        "On 6 June 2023, Sam had a frustrating issue at a supermarket because the self-checkout machines were all broken.",
+        "On 31 December 2023, Sam said he went to the store again and had issues with the self-checkout, calling it a regular annoyance.",
+        "On 31 December 2023, Sam said that they attract certain situations and suggested that if someone wants to be in that situation, they should call Sam while at the store.",
+        "On 6 June 2023, Evan expressed sympathy to Sam about the supermarket issue.",
+        "self-checkout machines: The self-checkout machines at the supermarket were broken."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 17,
+      "question": "When did Sam's friends mock him for being overweight?",
+      "gold_answer": "Friday before 27 July 2023",
+      "generated_answer": "21 July 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '21 July 2023' is within 14 days of the gold answer 'Friday before 27 July 2023' (which is 21 July 2023, as 27 July 2023 is a Thursday, so the Friday before is 21 July). Thus, it is correct.",
+      "category": 2,
+      "top_memories": [
+        "On 21 July 2023, Sam's friends mocked Sam's weight, which hurt Sam and motivated them to make changes.",
+        "Sam weight: mocked by friends on 21 July 2023",
+        "Sam coach for Weight Watchers",
+        "Sam health_status: concerned about weight",
+        "Sam had a check-up on 2 October 2023 and was told his weight is a serious health risk."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 18,
+      "question": "What kind of healthy food suggestions has Evan given to Sam?",
+      "gold_answer": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado",
+      "generated_answer": "Evan has advised Sam to focus on healthy swaps, take small steps, and maintain a balanced diet with low-impact exercises.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any of the specific healthy food suggestions from the gold answer (e.g., flavored seltzer water, dark chocolate, air-popped popcorn, fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado). It instead talks about general advice on healthy swaps, small steps, and exercise, which is off-topic regarding food suggestions.",
+      "category": 1,
+      "top_memories": [
+        "Evan trying healthy snacks",
+        "healthy meal photo: A photo of a healthy meal shared by Sam.",
+        "On 10 January 2024, Evan praised Sam for having a plan and being dedicated to staying healthy.",
+        "Sam shared healthy meal photo",
+        "Evan dietary_changes: eating less processed food and sugary snacks"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 19,
+      "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+      "gold_answer": "Evan and Sam would likely advise embracing small, consistent changes​​, finding stress-relieving activities like hiking​​, painting, and road trips​​, and the importance of friendship and support in navigating challenges​​.",
+      "generated_answer": "Based on their conversations, Evan and Sam would likely advise someone facing a major life transition to step out of their comfort zone, try new things, practice self-care, take small steps, and rely on supportive relationships—emphasizing that they don’t have to face challenges alone, as they’ve committed to sticking together and encouraging each other.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes key elements from the gold answer: embracing small steps, self-care/stress-relieving activities, and the importance of friendship and support. These are semantically consistent with the gold answer, so it is correct.",
+      "category": 3,
+      "top_memories": [
+        "On 6 January 2024, Evan and Sam discussed how their families bring them joy, support, and love.",
+        "On 17 December 2023, Evan encouraged Sam to step out of their comfort zone and try new things.",
+        "Evan gave_advice Sam",
+        "Evan and Sam plan to go on a hike together in the future.",
+        "Evan offers to help Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 20,
+      "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+      "gold_answer": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+      "generated_answer": "A healthy snack basket or a cookbook with nutritious recipes, along with a yoga or low-impact exercise class gift card.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes a cookbook with nutritious recipes, which matches the gold answer's 'cookbook with healthy recipes'. Additional suggestions (snack basket, exercise class) do not invalidate the correct core.",
+      "category": 3,
+      "top_memories": [
+        "Sam is hoping for positive changes from a healthier diet and yoga.",
+        "healthy meal photo: A photo of a healthy meal shared by Sam.",
+        "On 10 January 2024, Evan praised Sam for having a plan and being dedicated to staying healthy.",
+        "On 11 September 2023, Evan and Sam had a conversation about health and lifestyle changes.",
+        "Evan shared that finding an enjoyable fitness routine and making smarter dietary choices helped him maintain a healthy lifestyle."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 21,
+      "question": "How does Evan describe the woman and his feelings for her that he met in Canada?",
+      "gold_answer": "He says she's cool, incredible, like something out of a movie, and that he feels alive around her. Every moment with her is fun and energetic, also Evan feels really lucky to have someone who gets him.",
+      "generated_answer": "Evan describes the Canadian woman as someone who makes him feel alive, and he feels lucky to have found a partner who understands him. He also fell in love with her at first sight.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes key correct elements from the gold answer: Evan feels alive around her, feels lucky to have someone who understands him, and describes her positively. The extra detail about falling in love at first sight does not contradict the gold answer and is not penalized.",
+      "category": 1,
+      "top_memories": [
+        "Evan met a Canadian woman during his trip to Canada.",
+        "Evan met Canadian woman",
+        "Canadian woman: A Canadian woman Evan met during his trip to Canada; she makes him feel alive.",
+        "Evan is going to Canada in February 2024 for a honeymoon.",
+        "hiking: Hiking was one of the outdoor activities Evan and their significant other enjoyed during the Canada vacation."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 22,
+      "question": "When Evan did meet his future wife?",
+      "gold_answer": "week before August 7, 2023.",
+      "generated_answer": "Evan met his future wife during his trip to Canada, around 31 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Evan met his future wife around 31 July 2023, which is within 14 days of the gold answer 'week before August 7, 2023' (i.e., around July 31 to August 6). Thus, it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan's wife from Canada",
+        "Evan fell in love with his wife at first sight.",
+        "Evan's wife is from Canada.",
+        "Evan is looking forward to expanding his family and creating more memories.",
+        "Evan visited the Rockies with his family in May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 23,
+      "question": "When did Sam start working out at the gym?",
+      "gold_answer": "July 28, 2023",
+      "generated_answer": "Sam started working out at the gym on 28 July 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer, just in a different format (28 July 2023 vs July 28, 2023).",
+      "category": 2,
+      "top_memories": [
+        "Sam plans to attend the gym",
+        "the gym: A gym that Sam plans to attend starting tomorrow.",
+        "On 27 July 2023, Sam said that starting tomorrow (28 July 2023), he will go to the gym and exercise regularly.",
+        "Evan has a gym membership card, which he showed to Sam as a reminder of his commitment.",
+        "Evan visited the gym"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 24,
+      "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+      "gold_answer": "He fell in love with a Canadian woman",
+      "generated_answer": "Sam decided to go on a day trip to the location recommended by Evan on 27 August 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions a day trip, which is unrelated to the gold answer about falling in love with a Canadian woman. There is no overlap in core facts.",
+      "category": 2,
+      "top_memories": [
+        "On 6 June 2023, Sam decided to try making small changes to live a healthier life.",
+        "As of 27 August 2023, Sam loves being surrounded by nature.",
+        "Sam went on a hiking trip with friends on 29 December 2023.",
+        "As of 27 July 2023, Sam is working on their health and getting active.",
+        "Sam had a tough week before 24 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 25,
+      "question": "Which year did Evan start taking care of his health seriously?",
+      "gold_answer": "2021",
+      "generated_answer": "2021",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Evan struggled with his health a few years ago but stuck with it.",
+        "Evan is dealing with health issues as of 7 August 2023.",
+        "Evan has been prioritizing his health for two years as of 7 August 2023.",
+        "Evan made dietary changes, cutting down on sugary snacks and eating more veggies and fruit, which had a big impact on his health as of 27 July 2023.",
+        "Evan changed his diet and started walking regularly two years ago, which was around October 2021."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 26,
+      "question": "What motivates Evan to take care of his health?",
+      "gold_answer": "family, fitness tracker, thirst for adventure on interesting hikes",
+      "generated_answer": "Evan's family motivates him to stay healthy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions Evan's family as a motivator, which is one of the correct options from the gold answer. Therefore, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Evan's family motivates him to stay healthy.",
+        "Evan struggled with his health a few years ago but stuck with it.",
+        "On 8 October 2023, Evan encouraged Sam to be patient and stay positive regarding his health and progress.",
+        "Evan has been prioritizing his health for two years as of 7 August 2023.",
+        "Evan made dietary changes, cutting down on sugary snacks and eating more veggies and fruit, which had a big impact on his health as of 27 July 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 27,
+      "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+      "gold_answer": "fitness tracker",
+      "generated_answer": "A fitness watch.",
+      "judgment": "CORRECT",
+      "judge_reason": "A fitness watch is a type of fitness tracker, so it conveys the same core concept and is semantically consistent with the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Evan advised Sam to set fitness goals, find an enjoyable exercise, and get a workout buddy for motivation.",
+        "fitness watch: A fitness watch that Evan uses to track his health progress and stay motivated.",
+        "Evan uses fitness watch",
+        "Sam is considering ordering a fitness watch similar to Evan's.",
+        "Evan uses a fitness watch to track his health progress and it serves as a constant reminder to keep going."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 28,
+      "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+      "gold_answer": "journalling, creative writing",
+      "generated_answer": "Sam does journaling and creative writing to express their innermost thoughts and feelings, which they find therapeutic and helps sort out feelings.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies journaling and creative writing as the activities Sam does to relax and cope, matching the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Sam health_issues: yes",
+        "Sam has health issues as of 11 January 2024.",
+        "Sam has been experiencing health challenges as of August 2023.",
+        "On 6 October 2023, Sam mentioned that they enjoy writing in their journal and doing creative writing to express their innermost thoughts and feelings.",
+        "As of 27 July 2023, Sam is working on their health and getting active."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 29,
+      "question": "Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",
+      "gold_answer": "Evan met the woman he fell in love with and returned with her.",
+      "generated_answer": "Evan met a Canadian woman on his trip to Canada, and he came back from Canada with her as his new significant other.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Evan met a woman on his trip to Canada and returned with her, which matches the gold answer's core fact.",
+      "category": 1,
+      "top_memories": [
+        "Evan visited Canada",
+        "Evan met a Canadian woman during his trip to Canada.",
+        "Evan went on a trip to Canada last week (around 31 July 2023).",
+        "Evan traveling_to Canada",
+        "Evan's wife is from Canada."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 30,
+      "question": "When Evan get back from a vacation with his SO?",
+      "gold_answer": "August 13, 2023",
+      "generated_answer": "August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'August 2023' is a less specific version of the gold answer 'August 13, 2023'. It contains the correct month and year, and the date is within the 14-day tolerance (the exact date is not specified, but it is not contradictory). Thus, it is semantically consistent and partially correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan returned from a vacation in Canada with a new significant other in August 2023.",
+        "Evan recently returned from a family trip to the Rockies in his new Prius.",
+        "Evan visited the Rockies with his family in May 2023.",
+        "Evan enjoyed the skiing in Banff and plans to go back next year (2024).",
+        "Evan went on the camping trip"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 31,
+      "question": "How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",
+      "gold_answer": "Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",
+      "generated_answer": "Evan and Sam's experiences with health and lifestyle changes would likely make them approach stress and challenges with a proactive, holistic mindset. Evan, having struggled with health issues and successfully made dietary changes (cutting sugary snacks, eating more veggies/fruit) and considering yoga, would emphasize patience, positivity, and sticking with efforts through tough times. Sam, who practices yoga for flexibility and stress reduction and is motivated by a healthier diet, would use these tools to manage work stress and stay dedicated. Together, they'd likely encourage each other to focus on balanced diet, low-impact exercises, and stepping out of comfort zones, while relying on family support for motivation. Their shared history of overcoming health challenges would foster resilience and a belief that consistent, positive lifestyle changes can help navigate stress and setbacks.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly captures the core idea that Evan and Sam's experiences with health and lifestyle changes lead them to view challenges as opportunities for growth and adopt a proactive approach to stress, which aligns with the gold answer. The additional details about specific practices and mutual support do not contradict the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "On 11 September 2023, Evan and Sam had a conversation about health and lifestyle changes.",
+        "Evan believes that exercise, diet, and lifestyle changes all play a big role in health.",
+        "On 15 August 2023, Sam felt a mix of emotions, including concern about their health and motivation to make positive changes.",
+        "Sam emotional_state: mixed emotions, concerned about health, motivated to make positive changes",
+        "Sam is hoping for positive changes from a healthier diet and yoga."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 32,
+      "question": "What recurring frustration does Evan experience?",
+      "gold_answer": "Evan consistently misplaces his keys every week.",
+      "generated_answer": "Evan finds it frustrating to be unable to stay consistent with his fitness routine due to his knee injury.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions frustration with fitness routine due to knee injury, which is completely different from the gold answer about misplacing keys. No correct content is present.",
+      "category": 1,
+      "top_memories": [
+        "Evan supportive: true",
+        "Evan encourages Sam",
+        "Sam appreciates Evan",
+        "Evan helped another lost tourist recently, making it a recurring theme in his life.",
+        "Evan artistic_style: paints what's on his mind or feelings, expressing himself through art"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 33,
+      "question": "What is the recurring dream that Sam keeps having?",
+      "gold_answer": "he's flying over a cityscape.",
+      "generated_answer": "Sam keeps having a recurring dream of flying over skyscrapers.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer's core fact: Sam's recurring dream is about flying over a cityscape (skyscrapers are part of a cityscape).",
+      "category": 1,
+      "top_memories": [
+        "On 13 August 2023, Sam had a dream the previous night about soaring over skyscrapers.",
+        "dream interpretation book: A book suggested by Evan to Sam for interpreting dreams.",
+        "On 13 August 2023, Evan suggested that Sam check out a dream interpretation book for insights.",
+        "On 10 January 2024, Sam mentioned having a recurring dream of flying over skyscrapers.",
+        "the novel: A novel that Sam intends to read sometime."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 34,
+      "question": "What accidents has Evan's son faced lately?",
+      "gold_answer": "injured at a soccer game, fell off his bike",
+      "generated_answer": "Evan's son had a soccer accident on 12 August 2023 (hurt his ankle) and a bike accident on 12 December 2023 (injured but recovering).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions both a soccer accident and a bike accident, which match the gold answer's 'injured at a soccer game' and 'fell off his bike'. The extra details (dates and specific injury) do not penalize.",
+      "category": 1,
+      "top_memories": [
+        "Evan has been taking his son to the doctor after the accident.",
+        "Evan's son involved_in soccer accident",
+        "Evan's son had a bike accident on 12 December 2023 and was injured but is recovering.",
+        "Evan's son age: young boy",
+        "Evan's son had a soccer accident on 12 August 2023 and hurt his ankle."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 35,
+      "question": "When was Evan's son injured at soccer?",
+      "gold_answer": "Saturday before August 15, 2023.",
+      "generated_answer": "12 August 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '12 August 2023' is within 14 days of the gold answer 'Saturday before August 15, 2023' (which is August 12, 2023), so it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan's son involved_in soccer accident",
+        "Evan's son had a soccer accident on 12 August 2023 and hurt his ankle.",
+        "soccer accident: Evan's son had a soccer accident on 12 August 2023.",
+        "Evan's son injury: ankle injury",
+        "On 15 August 2023, Evan mentioned that his friend's ankle is getting better but still sore after a soccer incident."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 36,
+      "question": "What kind of foods or recipes has Sam recommended to Evan?",
+      "gold_answer": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+      "generated_answer": "Sam recommended roasted vegetable recipes and a grilled chicken and veggie stir-fry to Evan.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'grilled chicken and veggie stir-fry' which matches part of the gold answer, and 'roasted vegetable recipes' is semantically similar to 'grilled vegetables'. Thus, it contains correct content.",
+      "category": 1,
+      "top_memories": [
+        "Evan will send recipes to Sam",
+        "On 15 August 2023, Evan expressed interest in adding more vegetables to his meals and asked Sam for recipes.",
+        "On 15 August 2023, Sam offered to share more recipes from his cooking class with Evan.",
+        "recipe card: A recipe card shared by Sam with Evan.",
+        "On 15 August 2023, Sam said he has a tasty and easy roasted vegetable recipe to share with Evan."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 37,
+      "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+      "gold_answer": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl",
+      "generated_answer": "The memory does not specify the exact types of healthy meals Sam started eating, only that he adopted a more nutritious diet and created a meal plan after his gastritis scare.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the memory does not specify the exact types of healthy meals, which contradicts the gold answer that lists specific meals. It provides no correct content from the gold answer and is off-topic by denying the existence of the information.",
+      "category": 1,
+      "top_memories": [
+        "Sam started eating healthier as of 6 October 2023.",
+        "Sam health_habit: started eating healthier",
+        "Sam decided to adopt a more nutritious diet and get regular exercise after his gastritis scare.",
+        "meal plan: A meal plan created by Sam as part of a health routine.",
+        "Sam health_goal: adopting a more nutritious diet and getting regular exercise"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 38,
+      "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+      "gold_answer": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+      "generated_answer": "Nature and the outdoors play a calming, healing, and peace-bringing role in both Evan and Sam's mental well-being, providing clarity, relaxation, and fresh air away from the city.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that nature and the outdoors positively impact Evan and Sam's mental well-being, aligning with the gold answer's emphasis on stress relief and joy. The specific words like 'calming' and 'peace-bringing' are synonymous with the gold answer's 'stress relievers' and 'sources of joy'.",
+      "category": 3,
+      "top_memories": [
+        "nature: A source of peace, clarity, and healing for Evan and Sam.",
+        "On 11 January 2024, Sam expressed that being in nature is calming and plans to spend more time in nature.",
+        "Sam plans to spend more time in nature",
+        "On 11 January 2024, Sam said that being in nature helps him relax and get fresh air away from the city.",
+        "Evan finds calming nature"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 39,
+      "question": "How many months lapsed between Sam's first and second doctor's appointment?",
+      "gold_answer": "three months",
+      "generated_answer": "8 months.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'three months', but the generated answer is '8 months', which is a completely different duration and not semantically equivalent.",
+      "category": 2,
+      "top_memories": [
+        "Sam recent_doctor_visit: a few days before 24 May 2023",
+        "Sam plans to consult doctor",
+        "Sam's doctor role: doctor",
+        "On 10 January 2024, Sam said he hasn't seen a doctor in a while and plans to make an appointment soon.",
+        "Sam had a tough week and a doctor's appointment, which served as a wake-up call to take better care of himself."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 40,
+      "question": "When did Evan start taking painting classes?",
+      "gold_answer": "Few days before 19 August, 2023.",
+      "generated_answer": "16 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '16 August 2023' is within 14 days of the gold answer 'Few days before 19 August, 2023', so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan attended painting classes",
+        "Evan started taking painting classes on 16 August 2023.",
+        "Evan attends painting classes",
+        "painting classes: Evan started taking painting classes a few days before the conversation.",
+        "Evan joined painting classes to find like-minded people and improve his skills."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 41,
+      "question": "Which classes did Evan join in mid-August 2023?",
+      "gold_answer": "painting classes",
+      "generated_answer": "Painting classes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Painting classes.' matches the gold answer 'painting classes' semantically, with only a capitalization difference.",
+      "category": 2,
+      "top_memories": [
+        "Evan started taking painting classes on 16 August 2023.",
+        "Sam asked Evan if he took any other classes.",
+        "Evan attended painting classes",
+        "Evan attends painting classes",
+        "painting classes: Evan started taking painting classes a few days before the conversation."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 42,
+      "question": "How did Evan get into painting?",
+      "gold_answer": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+      "generated_answer": "Evan began painting years ago after a friend gave him a painting that inspired him.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that Evan got into painting because a friend gave him a painting that inspired him, which matches the gold answer's core fact.",
+      "category": 1,
+      "top_memories": [
+        "Evan plans painting session",
+        "Evan practices watercolor painting",
+        "Evan attended painting classes",
+        "Evan activity: painting",
+        "Evan enjoys painting landscapes"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 43,
+      "question": "How often does Sam get health checkups?",
+      "gold_answer": "every three months",
+      "generated_answer": "The memory does not specify how often Sam gets health checkups. It only mentions a check-up on 2 October 2023. Based on available info, the most likely answer is that Sam gets checkups occasionally, but frequency is unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states the frequency is unknown, which contradicts the gold answer 'every three months'. It does not contain the correct frequency and is therefore incorrect.",
+      "category": 3,
+      "top_memories": [
+        "Sam health routine: new",
+        "Sam health_issues: yes",
+        "Sam has health issues as of 11 January 2024.",
+        "Sam health_incident_date: 14 October 2023",
+        "Sam health_status: concerned about weight"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 44,
+      "question": "What kind of subjects does Evan enjoy painting?",
+      "gold_answer": "nature landscapes, portraits, abstract minimalism",
+      "generated_answer": "Evan enjoys painting landscapes and nature scenes, such as forests.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'landscapes and nature scenes', which is a synonym for 'nature landscapes' in the gold answer. Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "Evan activity: painting",
+        "Evan attended painting classes",
+        "Evan practices watercolor painting",
+        "Evan hobby: painting",
+        "Evan artistic_style: paints what's on his mind or feelings, expressing himself through art"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 45,
+      "question": "Which places in Canada was Evan visiting in July 2023?",
+      "gold_answer": "Banff, Rocky Mountains",
+      "generated_answer": "Banff (in the Rocky Mountains).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Banff' which is one of the correct places from the gold answer, and it also mentions the Rocky Mountains, which is consistent with the gold answer's context. Extra detail (parenthetical) does not penalize.",
+      "category": 2,
+      "top_memories": [
+        "Evan went on a trip to Canada last week (around 31 July 2023).",
+        "Evan visited Canada",
+        "Evan is going to Canada in February 2024 for a honeymoon.",
+        "Canada: Canada is the location Evan visited last week.",
+        "Evan and their significant other enjoyed outdoor activities such as hiking and biking during the Canada vacation in August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 46,
+      "question": "How do Evan and Sam use creative outlets to cope with life's challenges?",
+      "gold_answer": "Evan and Sam use creative activities, like painting and writing, as therapeutic tools to express themselves and cope with stress.",
+      "generated_answer": "Based on the memory content, Evan and Sam use creative outlets like painting and journaling/creative writing to cope with life's challenges. Evan plans to paint with Sam, and Sam enjoys writing in their journal to express innermost thoughts and feelings. These activities serve as emotional expression and support for both.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that Evan and Sam use creative outlets like painting and writing/journaling to cope with life's challenges, which matches the gold answer's core facts. The additional details about specific activities are consistent and do not contradict the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "Evan helped another lost tourist recently, making it a recurring theme in his life.",
+        "On 6 January 2024, Evan and Sam discussed how their families bring them joy, support, and love.",
+        "Evan plans to paint with Sam",
+        "Sam conversing with Evan",
+        "On 6 October 2023, Sam mentioned that they enjoy writing in their journal and doing creative writing to express their innermost thoughts and feelings."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 47,
+      "question": "When did Evan go skiing in Banff?",
+      "gold_answer": "July 2023",
+      "generated_answer": "July 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'July 2023'.",
+      "category": 2,
+      "top_memories": [
+        "Banff: A location where Evan went skiing last month.",
+        "Evan drove to Banff in July 2023 and went skiing there.",
+        "skiing: A winter sport that Evan participated in at Banff and enjoys.",
+        "Evan enjoyed the skiing in Banff and plans to go back next year (2024).",
+        "Evan participated_in skiing"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 48,
+      "question": "What new diet and lifestyle change did Sam adopt over time?",
+      "gold_answer": "Healthy eating, exercise routine, running, hiking",
+      "generated_answer": "Sam adopted a more nutritious diet and regular exercise, starting a new diet and exercise routine on 21 August 2023, after a gastritis scare, and also incorporated yoga into his routine.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'more nutritious diet' (healthy eating) and 'regular exercise' (exercise routine), which are correct options from the gold answer. Extra details like the date and yoga do not penalize.",
+      "category": 1,
+      "top_memories": [
+        "Sam lifestyle: healthier",
+        "On 19 August 2023, Sam announced that he is on a diet and living healthier.",
+        "Sam diet_changes: trying to make changes",
+        "Sam health_goal: adopting a more nutritious diet and getting regular exercise",
+        "Sam started a new diet and exercise routine on 21 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 49,
+      "question": "Who was injured in Evan's family?",
+      "gold_answer": "Evan's son and Evan himself",
+      "generated_answer": "Evan's son was injured in a bike accident on 12 December 2023 and also had a soccer accident on 12 August 2023, hurting his ankle. Evan himself had minor car accidents on 24 December 2023 and 31 December 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies Evan's son and Evan himself as the injured parties, matching the gold answer. Extra details about the accidents do not affect correctness.",
+      "category": 1,
+      "top_memories": [
+        "Evan values family",
+        "Evan planning family reunion",
+        "Evan's son had a bike accident on 12 December 2023 and was injured but is recovering.",
+        "Evan was involved in a minor car accident on the way back from the mountains on 24 December 2023.",
+        "Evan has a first child who was born in the past."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 50,
+      "question": "What kind of hobbies does Evan pursue?",
+      "gold_answer": "painting, hiking, reading books, biking, skiing, snowboarding, ice skating, swimming, camping, kayaking",
+      "generated_answer": "Evan pursues painting (including watercolors and landscapes) and hiking, as well as winter activities like skiing, snowboarding, and ice skating.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes painting and hiking, which are correct hobbies from the gold answer, and also mentions skiing, snowboarding, and ice skating, which are also correct. Therefore, it contains at least one correct option and is semantically consistent.",
+      "category": 1,
+      "top_memories": [
+        "the girl role: close friend of Evan",
+        "Evan artistic_style: paints what's on his mind or feelings, expressing himself through art",
+        "Evan interests: painting, watercolors, landscapes",
+        "Evan interest: hiking",
+        "Evan joined painting classes to find like-minded people and improve his skills."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 51,
+      "question": "What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",
+      "gold_answer": "Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.",
+      "generated_answer": "Sam faces health challenges that limit his movement and cause discomfort, and he has cravings for sugary drinks and snacks. He addresses these by adopting a healthier diet, starting yoga, getting regular exercise, and following Evan's advice to focus on a balanced diet and low-impact exercises.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes correct elements from the gold answer: Sam addresses his health challenges by making dietary changes (adopting a healthier diet) and seeking support/advice from Evan. Although it adds extra details like yoga and exercise, these do not contradict the gold answer and are not penalized.",
+      "category": 3,
+      "top_memories": [
+        "Sam lifestyle: healthier",
+        "Sam goal: becoming healthier",
+        "Sam is hoping for positive changes from a healthier diet and yoga.",
+        "On 19 August 2023, Sam announced that he is on a diet and living healthier.",
+        "Sam has been experiencing health challenges as of August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 52,
+      "question": "Which activity do Evan and Sam plan on doing together during September 2023?",
+      "gold_answer": "painting",
+      "generated_answer": "Painting together on Saturday, 16 September 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the correct activity 'painting' and adds a specific date, which is acceptable as extra detail.",
+      "category": 2,
+      "top_memories": [
+        "Sam and Evan plan to visit a calming place together in December 2023.",
+        "Evan and Sam plan to go on a hike together in the future.",
+        "On 6 June 2023, Evan agreed to help Sam and suggested they get together to show basic exercises.",
+        "On 21 November 2023, Evan expressed commitment to stick together with Sam.",
+        "Evan and Sam plan to paint together on Saturday, 16 September 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 53,
+      "question": "When did Evan and Sam decide to paint together?",
+      "gold_answer": "Saturday after 11 September, 2023.",
+      "generated_answer": "Saturday, 16 September 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer specifies 'Saturday after 11 September, 2023', which is 16 September 2023. The generated answer gives the exact date, so it is semantically consistent and correct.",
+      "category": 2,
+      "top_memories": [
+        "Evan plans to paint with Sam",
+        "Evan and Sam plan to paint together on Saturday, 16 September 2023.",
+        "Sam plans to try painting and will let Evan know how it goes.",
+        "On 21 November 2023, Evan expressed commitment to stick together with Sam.",
+        "Evan and Sam plan to go on a hike together in the future."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 54,
+      "question": "What personal health incidents does Evan face in 2023?",
+      "gold_answer": "heart palpitations, twisted ankle, twisted ankle",
+      "generated_answer": "Evan faced a heart palpitation incident on 30 May 2023, a health scare around 14 November 2023 (hospital visit, resolved as a misunderstanding), and a minor accident on 31 December 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes heart palpitations (correct) and a minor accident on 31 December 2023, which likely corresponds to the twisted ankle (the gold answer lists two twisted ankles). The extra health scare is additional detail and does not invalidate the correct facts.",
+      "category": 1,
+      "top_memories": [
+        "Evan is dealing with health issues as of 7 August 2023.",
+        "Evan health_issue_date: 30 May 2023",
+        "Evan health_status: fine (as of 21 November 2023)",
+        "Evan health_issues: dealing with health issues",
+        "Evan has been prioritizing his health for two years as of 7 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 55,
+      "question": "What recurring adventure does Evan have with strangers?",
+      "gold_answer": "Helping lost tourists and experiencing unexpected adventures in the city.",
+      "generated_answer": "Helping lost tourists.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Helping lost tourists' is a subset of the gold answer 'Helping lost tourists and experiencing unexpected adventures in the city.' It contains the core correct content, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Evan helped another lost tourist recently, making it a recurring theme in his life.",
+        "adventure hikes: Hikes that Evan is motivated by.",
+        "snowshoeing: A snowshoeing activity that Evan and his partner tried as a new adventure.",
+        "Sam plans trip with Evan",
+        "Evan recurring_theme: helping lost tourists"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 56,
+      "question": "What is Sam's persistent problem with his phone?",
+      "gold_answer": "His new phone malfunctioning, particularly with the navigation app.",
+      "generated_answer": "Sam's persistent problem with his phone is that the navigation app keeps malfunctioning.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the navigation app malfunctioning as Sam's persistent problem, which matches the gold answer's core fact.",
+      "category": 1,
+      "top_memories": [
+        "Sam's phone has been giving him trouble, adding to his stress.",
+        "On 6 October 2023, Evan recommended that Sam try updating their phone to fix an issue.",
+        "On 6 October 2023, Sam stated that his new phone's navigation app keeps malfunctioning, making getting around a challenge.",
+        "Sam's new phone issue: navigation app malfunctioning",
+        "Sam possession: new phone with malfunctioning navigation app"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 57,
+      "question": "Which US state was Sam travelling in during October 2023?",
+      "gold_answer": "California",
+      "generated_answer": "No exact answer available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'No exact answer available,' which does not provide the correct state 'California' and is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "Sam checkup_date: 2 October 2023",
+        "Sam went on a hiking trip with friends on 29 December 2023.",
+        "On 27 August 2023, Sam decided to go on a day trip to the location recommended by Evan.",
+        "Sam plans to visit the location",
+        "As of 27 August 2023, Sam has not gone on a road trip in ages."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 58,
+      "question": "When did Evan start lifting weights?",
+      "gold_answer": "October 2022",
+      "generated_answer": "October 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'October 2022'.",
+      "category": 2,
+      "top_memories": [
+        "Evan started lifting weights in October 2022.",
+        "Evan started_lifting_weights: one year ago",
+        "Evan lifting_start_date: October 2022",
+        "weightlifting start_date: October 2022",
+        "weightlifting: Evan started weightlifting one year ago."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 59,
+      "question": "When did Sam and his friend decide to try kayaking?",
+      "gold_answer": "October 14, 2023",
+      "generated_answer": "14 October 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '14 October 2023' is the same date as the gold answer 'October 14, 2023', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "Sam plans to try kayaking",
+        "On 14 October 2023, Sam and his mate decided to try kayaking on a lake.",
+        "kayaking: An outdoor activity that Sam and his mate are about to try on a lake.",
+        "On 14 October 2023, Evan suggested kayaking as an outdoor activity to Sam.",
+        "Evan offered to plan kayaking trip with Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 60,
+      "question": "Which new activity does Sam take up in October 2023?",
+      "gold_answer": "kayaking",
+      "generated_answer": "Sam starts a new health routine in October 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions a health routine, which is not the same as kayaking. It does not contain any correct content from the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "On 25 October 2023, Sam is starting a new health routine and feels pressured by family.",
+        "On 27 July 2023, Evan encouraged Sam to continue a rewarding and tough activity.",
+        "On 25 October 2023, Evan advised Sam to take it one day at a time and celebrate small victories.",
+        "On 6 June 2023, Evan encouraged Sam to keep up the effort in workouts.",
+        "As of 27 July 2023, Sam is working on their health and getting active."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 61,
+      "question": "What kind of stress was Sam dealing with in October 2023?",
+      "gold_answer": "work-related stress",
+      "generated_answer": "Work stress.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Work stress.' is a synonym for 'work-related stress', so it is semantically consistent with the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Sam is dealing with work stress as of 14 October 2023.",
+        "On 11 September 2023, Sam expressed interest in trying painting or another calming hobby to de-stress.",
+        "Sam's phone has been giving him trouble, adding to his stress.",
+        "On 8 October 2023, Evan encouraged Sam to stay motivated and believe in themselves.",
+        "Sam had a check-up on 2 October 2023 and was told his weight is a serious health risk."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 62,
+      "question": "What health scares did Sam and Evan experience?",
+      "gold_answer": "Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.",
+      "generated_answer": "Sam has been experiencing health issues as of August 2023 and still has health issues as of 11 January 2024. Evan had a health scare around 14 November 2023 that led to a hospital visit, but it turned out to be a misunderstanding.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that Sam had health issues and Evan had a health scare that led to a hospital visit but turned out to be a misunderstanding. This aligns with the gold answer's core facts: Sam had a health scare (gastritis) and Evan had a health scare that was a misunderstanding. The dates are not specified in the gold answer, so the generated dates are not penalized. Thus, the answer is partially correct and semantically consistent.",
+      "category": 1,
+      "top_memories": [
+        "On 11 September 2023, Evan and Sam had a conversation about health and lifestyle changes.",
+        "Evan offered support to Sam regarding Sam's health issues on 13 August 2023.",
+        "On 8 October 2023, Evan encouraged Sam to be patient and stay positive regarding his health and progress.",
+        "Sam health_issues: yes",
+        "On 15 August 2023, Sam felt a mix of emotions, including concern about their health and motivation to make positive changes."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 63,
+      "question": "When was Sam in the ER?",
+      "gold_answer": "weekend before 17 October, 2023.",
+      "generated_answer": "14 October 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '14 October 2023' is within 14 days of the gold answer 'weekend before 17 October, 2023' (the weekend before 17 October 2023 is 14-15 October 2023), so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "gastritis: Sam had a severe gastritis episode that led to an ER visit.",
+        "Sam had a severe stomachache and was diagnosed with gastritis on 14 October 2023.",
+        "Sam hiked with his dad when he was ten years old, and it was a special and fun experience.",
+        "Sam had a smoothie bowl that was a hit.",
+        "Sam's doctor role: doctor"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 64,
+      "question": "Which ailment does Sam have to face due to his weight?",
+      "gold_answer": "gastritis",
+      "generated_answer": "Discomfort limiting movement.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Discomfort limiting movement' does not mention gastritis or any synonym for it. It describes a symptom of weight, not the specific ailment gastritis.",
+      "category": 1,
+      "top_memories": [
+        "Sam health_status: concerned about weight",
+        "Sam had a check-up on 2 October 2023 and was told his weight is a serious health risk.",
+        "On 17 December 2023, Sam expressed that he is struggling with his weight and it is affecting his confidence.",
+        "Evan recommends exercising to Sam to help with Sam's weight problem.",
+        "On 21 July 2023, Sam's friends mocked Sam's weight, which hurt Sam and motivated them to make changes."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 65,
+      "question": "Does Evan live close to a beach or mountains?",
+      "gold_answer": "beach",
+      "generated_answer": "Beach.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Beach.' matches the gold answer 'beach' semantically, and the capitalization and period do not affect correctness.",
+      "category": 3,
+      "top_memories": [
+        "Evan visited the mountains",
+        "Evan's favorite beach spot is close to his home and he often goes there to relax and unwind.",
+        "Evan visited beach at sunset",
+        "the mountains: Destination of Evan's long drive.",
+        "Evan visited Rocky Mountains"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 66,
+      "question": "When did Evan lose his job?",
+      "gold_answer": "end of October 2023",
+      "generated_answer": "October 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'October 2023' is semantically consistent with the gold answer 'end of October 2023'. It captures the correct month and year, and the gold answer specifies a sub-period within that month, so the generated answer is a broader but correct reference.",
+      "category": 2,
+      "top_memories": [
+        "Evan lost his job in October 2023.",
+        "Evan lost his job due to company downsizing as of 9 November 2023.",
+        "Evan job_loss_date: October 2023",
+        "Evan is currently searching for a new job as of 9 November 2023.",
+        "Evan twisted his knee on 25 August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 67,
+      "question": "When did Evan and Sam planned a trip to the beach together?",
+      "gold_answer": "December, 2023",
+      "generated_answer": "No exact date is provided for when Evan and Sam planned a trip to the beach together. The closest relevant memory is that on 14 October 2023, Evan offered to plan a kayaking trip with Sam, and on 27 August 2023, Sam decided to go on a day trip to a location recommended by Evan. However, the specific planning of a beach trip together is not dated. Based on available info, the most likely answer is that they planned it sometime before 11 January 2024, but the exact date is unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not provide the correct date (December, 2023) and instead states that the exact date is unknown, offering a different timeframe. It fails to include any correct content from the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "Sam plans trip with Evan",
+        "Sam wants_to_visit Evan's favorite beach spot",
+        "Evan and Sam plan to go on a hike together in the future.",
+        "Evan offered to plan kayaking trip with Sam",
+        "Evan suggests hiking together Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 68,
+      "question": "What was Sam doing on December 4, 2023?",
+      "gold_answer": "Attending a Weight Watchers meeting",
+      "generated_answer": "Sam attended a Weight Watchers meeting on December 4, 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Sam attended a Weight Watchers meeting on December 4, 2023, which matches the gold answer exactly in meaning and date.",
+      "category": 2,
+      "top_memories": [
+        "Sam went on a hiking trip with friends on 29 December 2023.",
+        "Evan and Sam had a conversation on 17 December 2023.",
+        "On 5 December 2023, Evan thanked Sam for their invaluable support.",
+        "Sam attended a Weight Watchers meeting on 4 December 2023.",
+        "On 10 January 2024, Evan told Sam about the incident."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 69,
+      "question": "Which two significant life events occur in Evan's life in December 2023 with his partner?",
+      "gold_answer": "his partner gets pregnant and they get married",
+      "generated_answer": "Getting married on 19 December 2023 and having a minor car accident on 24 December 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states that the two significant life events are his partner getting pregnant and them getting married. The generated answer mentions getting married (which is one correct event) but also mentions a minor car accident, which is not in the gold answer and is not a life event with his partner. However, since the generated answer includes one correct event (getting married), it is partially correct. But the judging rule says partial correctness counts as correct. Therefore, the answer is correct.",
+      "category": 1,
+      "top_memories": [
+        "Evan's partner is pregnant as of 9 December 2023.",
+        "Evan returned from a vacation in Canada with a new significant other in August 2023.",
+        "Sam and Evan plan to visit a calming place together in December 2023.",
+        "Evan and their significant other enjoyed outdoor activities such as hiking and biking during the Canada vacation in August 2023.",
+        "Evan visited the Rockies with his family in May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 70,
+      "question": "How long did Evan and his partner date before getting married?",
+      "gold_answer": "four months",
+      "generated_answer": "The available memories do not specify how long Evan and his partner dated before getting married.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the duration is not specified, which directly contradicts the gold answer of 'four months'. It provides no correct content and is entirely off-topic.",
+      "category": 2,
+      "top_memories": [
+        "Evan got married recently (before 31 December 2023).",
+        "Evan got married on 19 December 2023.",
+        "Evan and his partner told their extended family about their marriage on 5 January 2024.",
+        "Evan marital_status: married",
+        "Evan maritalStatus: married"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 71,
+      "question": "Which major holiday season conincides with Evan's wedding?",
+      "gold_answer": "Christmas",
+      "generated_answer": "Christmas season",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Christmas season' is semantically equivalent to 'Christmas', as it refers to the same holiday period. It contains the correct core fact.",
+      "category": 3,
+      "top_memories": [
+        "last spring: The spring season of 2023, when Evan felt down but was cheered by vibrant colors.",
+        "Sam plans trip with Evan",
+        "Evan honeymoon: upcoming",
+        "Evan planning family reunion",
+        "Evan got married recently (before 31 December 2023)."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 72,
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "gold_answer": "hiking",
+      "generated_answer": "Hiking",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Hiking' matches the gold answer 'hiking' exactly, differing only in capitalization, which is semantically identical.",
+      "category": 1,
+      "top_memories": [
+        "On 27 July 2023, Evan encouraged Sam to continue a rewarding and tough activity.",
+        "On 17 December 2023, Evan encouraged Sam to believe in himself and take it one day at a time.",
+        "Sam plans to spend more time in nature",
+        "Sam went on a hiking trip with friends on 29 December 2023.",
+        "As of 27 July 2023, Sam is working on their health and getting active."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 73,
+      "question": "When is Evan planning a big family reunion?",
+      "gold_answer": "Summer 2024",
+      "generated_answer": "Summer 2024.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Summer 2024' exactly matches the gold answer 'Summer 2024'.",
+      "category": 2,
+      "top_memories": [
+        "Evan is planning a family reunion for summer 2024.",
+        "Evan planning family reunion",
+        "Evan is looking forward to expanding his family and creating more memories.",
+        "Evan shared a collage of family memories with Sam on 9 December 2023.",
+        "Evan visited the Rockies with his family in May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 74,
+      "question": "When did Evan's son fall off his bike?",
+      "gold_answer": "Thursday before December 17, 2023.",
+      "generated_answer": "12 December 2023",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer specifies 'Thursday before December 17, 2023', which is December 14, 2023. The generated answer '12 December 2023' is within 14 days of the gold date, so it is considered correct according to the date tolerance rule.",
+      "category": 2,
+      "top_memories": [
+        "Evan's son had a bike accident on 12 December 2023 and was injured but is recovering.",
+        "Evan's son involved_in soccer accident",
+        "Evan has been taking his son to the doctor after the accident.",
+        "Evan's son had a soccer accident on 12 August 2023 and hurt his ankle.",
+        "Evan's son age: young boy"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 75,
+      "question": "When did Evan announce his marriage to his extended family?",
+      "gold_answer": "January 5, 2024",
+      "generated_answer": "5 January 2024",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '5 January 2024' is the same date as the gold answer 'January 5, 2024', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "Evan and his partner told their extended family about their marriage on 5 January 2024.",
+        "Evan and his partner received love and support from their extended family.",
+        "Evan's family and his partner's family are happy about the marriage.",
+        "Evan is looking forward to expanding his family and creating more memories.",
+        "Partner's family: The family of Evan's partner who are also happy about the marriage."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 76,
+      "question": "When did Evan finish the painting that's hanging in the exhibit?",
+      "gold_answer": "few days before 17 December, 2023.",
+      "generated_answer": "The painting hanging in the exhibit was finished a few days before 17 December 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the painting was finished a few days before 17 December 2023, which matches the gold answer exactly in meaning and date.",
+      "category": 2,
+      "top_memories": [
+        "the exhibition: An exhibition where Evan's painting was published.",
+        "the painting: A painting by Evan that was published in an exhibition with help from a close friend.",
+        "the girl: A close friend of Evan who helped get the painting published in the exhibition.",
+        "Sam showed Evan a painting that inspired him, which he saw at an exhibit a few days before 26 December 2023.",
+        "the painting published in the exhibition"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 77,
+      "question": "How does Evan spend his time with his bride after the wedding?",
+      "gold_answer": "family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing",
+      "generated_answer": "Evan is planning a family reunion and suggested going to the beach together someday, but there is no specific information about how he spends his time with his bride after the wedding.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention any of the gold answer's activities (family get-together, honeymoon in Canada, skiing, tasting local cuisine, snowshoeing). It only mentions a family reunion and a beach suggestion, which are not part of the gold answer and are off-topic.",
+      "category": 1,
+      "top_memories": [
+        "Evan's family and his partner's family are happy about the marriage.",
+        "Evan fell in love with his wife at first sight.",
+        "Evan has been taking his son to the doctor after the accident.",
+        "Evan got married recently (before 31 December 2023).",
+        "Evan maritalStatus: married"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 78,
+      "question": "Who did Evan tell about his marriage?",
+      "gold_answer": "To Sam, to his friends from work, and to his and his wife's families.",
+      "generated_answer": "Evan told his extended family about his marriage.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'extended family', which is a subset of the gold answer's 'his and his wife's families'. Since it includes at least one correct option, it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "Evan and his partner told their extended family about their marriage on 5 January 2024.",
+        "Evan's family and his partner's family are happy about the marriage.",
+        "Partner's family: The family of Evan's partner who are also happy about the marriage.",
+        "Partner's family happy_about Evan",
+        "Evan feels lucky to have found a partner who understands him."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 79,
+      "question": "When will Evan and his partner have their honeymoon in Canada?",
+      "gold_answer": "February 2024",
+      "generated_answer": "February 2024.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'February 2024'.",
+      "category": 2,
+      "top_memories": [
+        "Evan is going to Canada in February 2024 for a honeymoon.",
+        "Evan honeymoon: upcoming",
+        "Evan and their significant other enjoyed outdoor activities such as hiking and biking during the Canada vacation in August 2023.",
+        "Evan returned from a vacation in Canada with a new significant other in August 2023.",
+        "Evan's wife from Canada"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 80,
+      "question": "When did Evan have a drunken night with his friends?",
+      "gold_answer": "January 9, 2023",
+      "generated_answer": "9 January 2024",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states '9 January 2024' while the gold answer is 'January 9, 2023'. The year is different (2024 vs 2023), and the date difference is more than 14 days, so it is not within tolerance. The core fact is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "On 9 January 2024, Evan went out with friends and drank too much.",
+        "Evan apologized to his partner for a drunken night that resulted in damage to rose bushes, as of 11 January 2024.",
+        "Evan friends Sam",
+        "Sam friends with Evan",
+        "Evan's work friends were supportive after his minor accident."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 81,
+      "question": "What is a stress reliever for Evan?",
+      "gold_answer": "Drawing, traveling, places with a beautiful view, yoga, sunsets or something comfortable for Evan",
+      "generated_answer": "Yoga, painting, or going for a drive.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'Yoga' and 'painting' (which is similar to drawing) and 'going for a drive' (which can be considered a stress reliever similar to traveling). These are correct options from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "Evan practices yoga and finds it helpful for stress and flexibility.",
+        "Evan is thinking about trying yoga for stress relief and flexibility.",
+        "Sam practices yoga and it has improved flexibility and reduced stress.",
+        "On 11 January 2024, Evan stated that nature is calming and compared it to a reset button for mind and body.",
+        "Evan finds calming nature"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 82,
+      "question": "What is a stress reliever for Sam?",
+      "gold_answer": "Unhealthy snacks, sweets, yoga, places with beautiful views",
+      "generated_answer": "Yoga is a stress reliever for Sam.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'Yoga', which is one of the stress relievers listed in the gold answer. Therefore, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "Sam practices yoga and it has improved flexibility and reduced stress.",
+        "Sam is dealing with work stress as of 14 October 2023.",
+        "Sam's phone has been giving him trouble, adding to his stress.",
+        "yoga: Yoga is an activity that Sam practices and recommends for flexibility and stress relief.",
+        "Sam is hoping for positive changes from a healthier diet and yoga."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 83,
+      "question": "What type of car did Evan get after his old Prius broke down?",
+      "gold_answer": "new Prius",
+      "generated_answer": "car",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'car' is too generic and does not specify the type of car (new Prius) that Evan got. It lacks the core fact that it was a Prius.",
+      "category": 4,
+      "top_memories": [
+        "Evan's new Prius type: car",
+        "Evan's old Prius broke down, and he decided to get it repaired and sell it.",
+        "Prius: Evan's new Prius, which he recently bought, broke down.",
+        "Evan owns Prius",
+        "Evan's new Prius broke down on 5 December 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 84,
+      "question": "How did Evan get into watercolor painting?",
+      "gold_answer": "friend's advice",
+      "generated_answer": "Evan's friend introduced him to watercolor painting and gave him advice, which hooked him immediately.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Evan got into watercolor painting through a friend's advice, which matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan practices watercolor painting",
+        "Evan is passionate about watercolor painting",
+        "Evan enjoys watercolor painting",
+        "Evan passion: watercolor painting",
+        "Evan's friend introduced him to watercolor painting and gave him advice, which hooked him immediately."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 85,
+      "question": "What did Evan start doing a few years back as a stress-buster?",
+      "gold_answer": "watercolor painting",
+      "generated_answer": "Evan started practicing yoga a few years back as a stress-buster.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says yoga, but the gold answer is watercolor painting. These are completely different activities, so the answer is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Evan struggled with his health a few years ago but stuck with it.",
+        "Evan is thinking about trying yoga for stress relief and flexibility.",
+        "Evan practices yoga and finds it helpful for stress and flexibility.",
+        "Evan health journey: struggled with health a few years ago, but stuck with it",
+        "Evan started walking: two years ago"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 86,
+      "question": "What advice did Evan give Sam about finding a passion?",
+      "gold_answer": "keep trying new things until something sparks excitement",
+      "generated_answer": "Evan encouraged Sam to stay motivated and believe in themselves.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer talks about staying motivated and believing in oneself, which is not the same as the gold answer's advice to keep trying new things until something sparks excitement. It does not contain any correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan encourages Sam",
+        "Sam status: looking for a passion",
+        "Evan gave_advice Sam",
+        "Evan recommends Sam",
+        "Evan supports Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 87,
+      "question": "Where did Evan take his family for a road trip on 24 May, 2023?",
+      "gold_answer": "Jasper",
+      "generated_answer": "Jasper",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Jasper'.",
+      "category": 4,
+      "top_memories": [
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan visited the Rockies with his family in May 2023.",
+        "Evan went on a road trip to the Rocky Mountains in July 2023.",
+        "Evan is planning a family reunion for summer 2024.",
+        "Evan drove through the Icefields Parkway during his road trip to Jasper on 20 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 88,
+      "question": "What did Evan find relaxing about his road trip to Jasper?",
+      "gold_answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+      "generated_answer": "Evan found the cozy cabin surrounded by mountains and forests relaxing during his road trip to Jasper.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'cozy cabin surrounded by mountains and forests', which is one of the correct options from the gold answer. Therefore, it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "Evan visited Jasper",
+        "Jasper: Jasper is a location that Evan visited on a road trip.",
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan drove through the Icefields Parkway during his road trip to Jasper on 20 May 2023.",
+        "Evan stayed in a cozy cabin surrounded by mountains and forests during his road trip to Jasper on 20 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 89,
+      "question": "What habit is Sam trying to change in terms of diet?",
+      "gold_answer": "consuming soda and candy",
+      "generated_answer": "Sam is trying to change his diet by eating healthier, reducing sugary drinks and snacks, and adopting a more nutritious diet.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions reducing sugary drinks and snacks, which aligns with the gold answer of consuming soda and candy. Although it adds extra details about eating healthier and a nutritious diet, the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "Sam health_habit: started eating healthier",
+        "Sam has been experiencing discomfort that limits movement and is trying to make dietary changes.",
+        "Sam is on a diet and trying to make healthier choices but still has cravings for sugary drinks and snacks.",
+        "Sam diet_changes: trying to make changes",
+        "Sam health_awareness: trying to eat healthier"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 90,
+      "question": "What new suggestion did Evan give to Sam regarding his soda and candy consumption?",
+      "gold_answer": "try flavored seltzer water and dark chocolate with high cocoa content",
+      "generated_answer": "Evan suggested Sam try new things and step out of their comfort zone, and he recommended healthy snacks, offering to send recipes to Sam.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention the specific suggestions of flavored seltzer water and dark chocolate with high cocoa content. It only mentions healthy snacks and recipes, which are not the correct alternatives from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam consumes soda",
+        "Sam diet: still enjoys soda and candy",
+        "soda: Soda is a sugary beverage that Sam still consumes.",
+        "Sam is reducing soda and candy intake as of 27 July 2023.",
+        "Sam still enjoys soda and candy as of 6 June 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 91,
+      "question": "What did Sam agree to try instead of soda and candy?",
+      "gold_answer": "flavored seltzer water and dark chocolate with high cocoa content",
+      "generated_answer": "No exact answer found in memory.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'No exact answer found in memory,' which provides no correct content and is entirely off-topic. It does not mention flavored seltzer water or dark chocolate with high cocoa content.",
+      "category": 4,
+      "top_memories": [
+        "Sam diet: still enjoys soda and candy",
+        "soda: Soda is a sugary beverage that Sam still consumes.",
+        "Sam consumes soda",
+        "candy: Candy is a sugary snack that Sam still consumes.",
+        "Sam consumes candy"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 92,
+      "question": "What frustrating issue did Sam face at the supermarket?",
+      "gold_answer": "broken self-checkout machines",
+      "generated_answer": "The self-checkout machines were all broken.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the issue as broken self-checkout machines, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam visited supermarket",
+        "On 6 June 2023, Sam had a frustrating issue at a supermarket because the self-checkout machines were all broken.",
+        "On 6 June 2023, Evan expressed sympathy to Sam about the supermarket issue.",
+        "On 31 December 2023, Sam said that they attract certain situations and suggested that if someone wants to be in that situation, they should call Sam while at the store.",
+        "Sam purchased unhealthy snacks"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 93,
+      "question": "What novel is Evan reading that he finds gripping?",
+      "gold_answer": "The Great Gatsby",
+      "generated_answer": "The Great Gatsby",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "The Great Gatsby: A novel that Evan is reading.",
+        "Evan reading The Great Gatsby",
+        "Evan is reading the novel 'The Great Gatsby' as of 27 July 2023.",
+        "the novel: A novel that Sam intends to read sometime.",
+        "Evan finds peace in nature"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 94,
+      "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+      "gold_answer": "Flavored seltzer water",
+      "generated_answer": "Flavored seltzer water",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam consumes soda",
+        "soda: Soda is a sugary beverage that Sam still consumes.",
+        "Sam diet: still enjoys soda and candy",
+        "Evan suggests flavored seltzer water",
+        "flavored seltzer water: Flavored seltzer water is a healthier alternative to soda suggested by Evan."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 95,
+      "question": "What does the smartwatch help Evan with?",
+      "gold_answer": "tracks progress and serves as a constant reminder to keep going",
+      "generated_answer": "The smartwatch helps Evan track his health progress and serves as a constant reminder to keep going.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both key points from the gold answer: tracking progress and serving as a constant reminder to keep going. The phrasing 'health progress' is a synonym for 'progress', and the rest matches semantically.",
+      "category": 4,
+      "top_memories": [
+        "Evan offers help Sam",
+        "Evan communicates with Sam",
+        "Evan offers to help Sam",
+        "Evan uses fitness watch",
+        "Evan uses a fitness watch to track his health progress and it serves as a constant reminder to keep going."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 96,
+      "question": "What does the bonsai tree symbolize for Evan?",
+      "gold_answer": "strength and resilience",
+      "generated_answer": "The memory content does not specify what the bonsai tree symbolizes for Evan.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the symbolism, which is not the correct answer. The gold answer is 'strength and resilience', and the generated answer provides no correct content.",
+      "category": 4,
+      "top_memories": [
+        "Evan shared_photo_of bonsai tree in a black vase",
+        "On 7 August 2023, Evan shared a photo of a bonsai tree in a black vase on a wooden table.",
+        "bonsai tree in a black vase: A bonsai tree in a black vase on a wooden table, shown in a photo shared by Evan.",
+        "Evan shared photo of a tree with pink flowers in a park",
+        "Evan shared a photo of a tree with pink flowers in a park, which reminded him of last spring (spring 2023) when he was feeling down but the vibrant colors brought a smile to his face."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 97,
+      "question": "Why did Evan decide to get the bonsai tree?",
+      "gold_answer": "motivates him to keep going through tough times",
+      "generated_answer": "The memory content does not specify why Evan decided to get the bonsai tree.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the reason, which contradicts the gold answer that provides a specific reason (motivates him to keep going through tough times). It contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 7 August 2023, Evan shared a photo of a bonsai tree in a black vase on a wooden table.",
+        "Evan shared_photo_of bonsai tree in a black vase",
+        "bonsai tree in a black vase: A bonsai tree in a black vase on a wooden table, shown in a photo shared by Evan.",
+        "Evan's old Prius broke down, and he decided to get it repaired and sell it.",
+        "Evan shared photo of a tree with pink flowers in a park"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 98,
+      "question": "According to Sam, what is more important than perfection?",
+      "gold_answer": "progress",
+      "generated_answer": "Progress.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Progress.' matches the gold answer 'progress' exactly, differing only in capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "On 27 July 2023, Evan reminded Sam to focus on progress, not perfection.",
+        "Sam is working to motivate others to make better choices.",
+        "On 13 August 2023, Evan expressed agreement with the mindset of progress over perfection and thanked Sam for sharing the quote.",
+        "Sam plans to spend more time in nature",
+        "Sam is inspired by Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 99,
+      "question": "What did Evan suggest Sam to check out for insights into his dream?",
+      "gold_answer": "dream interpretation book",
+      "generated_answer": "A dream interpretation book.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'A dream interpretation book' matches the gold answer 'dream interpretation book' exactly in meaning, just with an article added.",
+      "category": 4,
+      "top_memories": [
+        "On 13 August 2023, Evan suggested that Sam check out a dream interpretation book for insights.",
+        "dream interpretation book: A book suggested by Evan to Sam for interpreting dreams.",
+        "On 17 December 2023, Evan encouraged Sam to step out of their comfort zone and try new things.",
+        "Sam talked to Evan",
+        "Evan suggested to Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 100,
+      "question": "What did Evan mention he had been searching for fruitlessly for half an hour?",
+      "gold_answer": "his keys",
+      "generated_answer": "His keys.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'His keys.' matches the gold answer 'his keys' exactly in meaning, just with capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "On 13 August 2023, Evan mentioned he had been searching for his keys for the last half hour and that he loses them every week.",
+        "Evan had an embarrassing incident and apologized the next morning, and the people involved were understanding.",
+        "On 6 October 2023, Evan expressed that he paints what's on his mind or something he's feeling, including good memories or places he wants to go, as a form of self-expression.",
+        "On 7 August 2023, Evan stated that he is motivated by a thirst for adventure on interesting hikes.",
+        "Evan went on the camping trip"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 101,
+      "question": "What class is Sam taking to learn how to make healthier meals?",
+      "gold_answer": "cooking class",
+      "generated_answer": "cooking class",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'cooking class'.",
+      "category": 4,
+      "top_memories": [
+        "Sam is taking a cooking class to learn how to make healthier meals.",
+        "cooking class: Sam is taking a cooking class to learn healthy recipes.",
+        "Sam health_awareness: trying to eat healthier",
+        "Sam goal: becoming healthier",
+        "Sam health_habit: started eating healthier"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 102,
+      "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+      "gold_answer": "grilled dish with salmon and vegetables",
+      "generated_answer": "The memory does not specify any dish made on 18 August 2023. The closest is 15 August 2023, when Sam mentioned a flavorful marinated and grilled vegetable dish, but no exact date of 18 August is recorded. Based on available info, the most likely answer is the grilled dish with vegetables that turned out flavorful.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a grilled dish with vegetables that turned out flavorful, which aligns with the gold answer's 'grilled dish with salmon and vegetables' in terms of the core fact (grilled dish, flavorful). The date discrepancy is within the 14-day tolerance (18 vs 15 August). The omission of salmon is not penalized because partial correctness is allowed.",
+      "category": 4,
+      "top_memories": [
+        "Sam made a grilled dish with salmon and vegetables on 14 August 2023.",
+        "On 15 August 2023, Sam told Evan that he marinated and grilled a dish with vegetables, and it turned out flavorful.",
+        "On 19 August 2023, Sam shared a recipe for a flavorful and healthy grilled chicken and veggie stir-fry with Evan.",
+        "On 19 August 2023, Sam announced that he is on a diet and living healthier.",
+        "Sam is on a diet and trying to make healthier choices but still has cravings for sugary drinks and snacks."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 103,
+      "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+      "gold_answer": "recipes with more vegetables",
+      "generated_answer": "Evan requested the recipe for the grilled chicken and veggie stir-fry from Sam on 19 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer specifies a recipe for grilled chicken and veggie stir-fry, which includes vegetables, matching the gold answer's 'recipes with more vegetables'. The date is also correct. Extra details are acceptable.",
+      "category": 4,
+      "top_memories": [
+        "On 19 August 2023, Evan asked for the recipe and Sam agreed to share it.",
+        "On 15 August 2023, Sam offered to share more recipes from his cooking class with Evan.",
+        "On 15 August 2023, Sam said he has a tasty and easy roasted vegetable recipe to share with Evan.",
+        "recipe card: A recipe card shared by Sam with Evan.",
+        "Sam shared_recipe_with Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 104,
+      "question": "What food did Sam share a photo of on 19 August, 2023?",
+      "gold_answer": "bowl of spinach, avocado, and strawberries",
+      "generated_answer": "Pie with raspberries and limes.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions 'Pie with raspberries and limes', which does not match the gold answer 'bowl of spinach, avocado, and strawberries'. There is no overlap in the food items, and the generated answer is entirely different from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 19 August 2023, Evan asked for the recipe and Sam agreed to share it.",
+        "Sam shared photo of pie with raspberries and limes",
+        "On 15 August 2023, Sam offered to share more recipes from his cooking class with Evan.",
+        "healthy meal photo: A photo of a healthy meal shared by Sam.",
+        "On 15 August 2023, Sam said he has a tasty and easy roasted vegetable recipe to share with Evan."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 105,
+      "question": "What type of painting classes did Evan start taking in 2023?",
+      "gold_answer": "watercolor painting classes",
+      "generated_answer": "Watercolor painting classes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly, stating 'Watercolor painting classes.'",
+      "category": 4,
+      "top_memories": [
+        "Evan started taking painting classes on 16 August 2023.",
+        "Evan attended painting classes",
+        "painting classes: Evan started taking painting classes a few days before the conversation.",
+        "Evan attends painting classes",
+        "Evan joined painting classes to find like-minded people and improve his skills."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 106,
+      "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+      "gold_answer": "forest scene",
+      "generated_answer": "watercolor painting",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'forest scene', but the generated answer is 'watercolor painting'. These are not synonyms and do not share the same core fact. The generated answer is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Evan began painting years ago after a friend gave him a painting that inspired him.",
+        "the painting: A painting by Evan that was published in an exhibition with help from a close friend.",
+        "Evan's friend introduced him to watercolor painting and gave him advice, which hooked him immediately.",
+        "Evan's sunset painting was inspired by a vacation a few years back.",
+        "Evan has been painting for a few years as of 24 May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 107,
+      "question": "What nature concept do watercolor painting classes emphasize according to Evan?",
+      "gold_answer": "observing nature and painting what is seen",
+      "generated_answer": "Observing nature and painting what they see.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core concept as the gold answer: emphasizing observing nature and painting what is seen. The slight wording difference ('they see' vs 'what is seen') is synonymous and does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "watercolors: Watercolors are a painting medium that Evan is learning in his painting classes.",
+        "Evan practices watercolor painting",
+        "On 19 August 2023, Evan told Sam that in his painting classes, they have been learning about watercolors, and the instructor stresses observing nature and painting what they see.",
+        "Evan is passionate about watercolor painting",
+        "watercolor painting: A hobby that Evan practices and Sam is interested in."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 108,
+      "question": "What type of landscapes does Evan love painting the most?",
+      "gold_answer": "sunsets over the ocean",
+      "generated_answer": "Nature landscapes.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies 'sunsets over the ocean', while the generated answer says 'Nature landscapes', which is a broader category and does not specifically mention sunsets or ocean. The generated answer does not contain the correct specific content.",
+      "category": 4,
+      "top_memories": [
+        "Evan enjoys painting landscapes",
+        "landscapes: Landscapes are a type of nature scene that Evan enjoys painting.",
+        "Evan interests: painting, watercolors, landscapes",
+        "On 19 August 2023, Evan told Sam that he loves painting landscapes because nature's beauty captivates him and brings him peace.",
+        "Evan created painting of a forest scene"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 109,
+      "question": "What fun activity did Evan mention doing in July 2023?",
+      "gold_answer": "skiing",
+      "generated_answer": "Road trip to the Rocky Mountains.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'skiing', but the generated answer mentions a 'Road trip to the Rocky Mountains', which is a different activity and does not contain any correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "As of 27 August 2023, Evan finds hiking calming and fun.",
+        "Evan went on a road trip to the Rocky Mountains in July 2023.",
+        "Evan went on a trip to Canada last week (around 31 July 2023).",
+        "On 27 July 2023, Evan encouraged Sam to continue a rewarding and tough activity.",
+        "Evan participated_in skiing"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 110,
+      "question": "What injury did Evan suffer from in August 2023?",
+      "gold_answer": "Twisted knee",
+      "generated_answer": "Evan twisted his knee on 25 August 2023.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states Evan twisted his knee, which matches the gold answer 'Twisted knee'. The extra date detail is acceptable.",
+      "category": 4,
+      "top_memories": [
+        "Evan was involved in a minor car accident on the way back from the mountains on 24 December 2023.",
+        "Evan's knee injury date: 29 September 2023",
+        "Evan's son injury: ankle injury",
+        "Evan's knee injury cause: playing basketball",
+        "Evan returned from a vacation in Canada with a new significant other in August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 111,
+      "question": "What sports activity has Evan been doing to stay active while dealing with the knee injury?",
+      "gold_answer": "Swimming",
+      "generated_answer": "Swimming",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Swimming'.",
+      "category": 4,
+      "top_memories": [
+        "Evan knee injury: has knee issue, considering physical therapy",
+        "Sam suggested that Evan consider low-impact exercises or physical therapy to help with his knee injury.",
+        "Evan's knee injury cause: playing basketball",
+        "Evan is doing easy exercises as part of physical therapy to strengthen his knee as of 6 October 2023.",
+        "Evan's knee injury date: 29 September 2023"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 112,
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "gold_answer": "Consider low-impact exercises or physical therapy",
+      "generated_answer": "Sam suggested that Evan consider low-impact exercises or physical therapy to help with his knee injury.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer, mentioning both low-impact exercises and physical therapy.",
+      "category": 4,
+      "top_memories": [
+        "Sam suggested that Evan consider low-impact exercises or physical therapy to help with his knee injury.",
+        "Evan knee injury: has knee issue, considering physical therapy",
+        "Physical Therapy: Evan is planning to undergo physical therapy for his knee.",
+        "Evan's knee injury cause: playing basketball",
+        "Evan offers to help Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 113,
+      "question": "What did Evan suggest Sam try as a calming hobby?",
+      "gold_answer": "Painting",
+      "generated_answer": "Beach walks.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Beach walks' does not match the gold answer 'Painting' and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Sam wants to visit the calming place",
+        "Evan finds calming nature",
+        "On 17 December 2023, Evan encouraged Sam to step out of their comfort zone and try new things.",
+        "On 10 January 2024, Evan recommended beach walks as a low-impact and calming exercise to Sam.",
+        "Evan wants to visit the calming place"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 114,
+      "question": "What did Evan recommend Sam acquire to get started with painting?",
+      "gold_answer": "Acrylic paints, brushes, canvas/paper, palette",
+      "generated_answer": "Evan offered to help Sam get started with painting and recommend supplies, but the specific supplies are not listed in the memory.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the specific supplies are not listed, which contradicts the gold answer that lists acrylic paints, brushes, canvas/paper, and palette. It provides no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam plans to try painting and will let Evan know how it goes.",
+        "Evan plans to paint with Sam",
+        "Sam considering painting",
+        "On 11 September 2023, Evan offered to help Sam get started with painting and recommend supplies.",
+        "Sam plans to attend painting session"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 115,
+      "question": "What activity does Evan do to keep himself busy while healing his knee?",
+      "gold_answer": "Watercolor painting",
+      "generated_answer": "Evan swims to stay active while waiting for physical therapy.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Evan swims, but the gold answer is watercolor painting. These are completely different activities, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Physical Therapy: Evan is planning to undergo physical therapy for his knee.",
+        "Evan is doing easy exercises as part of physical therapy to strengthen his knee as of 6 October 2023.",
+        "Evan knee injury: has knee issue, considering physical therapy",
+        "Sam suggested that Evan consider low-impact exercises or physical therapy to help with his knee injury.",
+        "Evan's knee injury cause: playing basketball"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 116,
+      "question": "What painting did Evan share with Sam in October?",
+      "gold_answer": "a cactus in the desert",
+      "generated_answer": "Evan shared a sunset painting with Sam in October.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Evan shared a sunset painting, but the gold answer is a cactus in the desert. These are different subjects, so the core fact is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "watercolor painting: A hobby that Evan practices and Sam is interested in.",
+        "On 19 August 2023, Evan told Sam that in his painting classes, they have been learning about watercolors, and the instructor stresses observing nature and painting what they see.",
+        "the painting: A painting by Evan that was published in an exhibition with help from a close friend.",
+        "Sam admires Evan's painting",
+        "Evan plans to paint with Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 117,
+      "question": "What kind of writing does Sam enjoy as a form of expression?",
+      "gold_answer": "creative writing",
+      "generated_answer": "Sam enjoys journal writing and creative writing to express their innermost thoughts and feelings.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'creative writing', which matches the gold answer exactly, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Sam interests: drawing, writing",
+        "On 6 October 2023, Sam mentioned that they enjoy writing in their journal and doing creative writing to express their innermost thoughts and feelings.",
+        "On 6 October 2023, Sam said that writing helps them make sense of things and express feelings, like having a conversation with themselves.",
+        "On 6 October 2023, Sam expressed that he loves expressing himself through writing, which he finds therapeutic and helps him sort out his feelings.",
+        "Sam status: looking for a passion"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 118,
+      "question": "What electronics issue has been frustrating Sam lately?",
+      "gold_answer": "malfunctioning navigation app on the new phone",
+      "generated_answer": "Sam's new phone's navigation app has been malfunctioning, making getting around a challenge.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the core issue: the navigation app on Sam's new phone is malfunctioning, which matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam's phone has been giving him trouble, adding to his stress.",
+        "On 6 October 2023, Evan recommended that Sam try updating their phone to fix an issue.",
+        "On 6 June 2023, Sam had a frustrating issue at a supermarket because the self-checkout machines were all broken.",
+        "Sam's new phone issue: navigation app malfunctioning",
+        "Sam has been experiencing health challenges as of August 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 119,
+      "question": "What activity did Evan start one year ago?",
+      "gold_answer": "lifting weights",
+      "generated_answer": "weightlifting",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'weightlifting' is a synonym for 'lifting weights', so it conveys the same activity.",
+      "category": 4,
+      "top_memories": [
+        "Evan started walking: two years ago",
+        "Evan changed his diet and started walking regularly two years ago, which was around October 2021.",
+        "Evan started_lifting_weights: one year ago",
+        "weightlifting: Evan started weightlifting one year ago.",
+        "Evan changed diet: two years ago"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 120,
+      "question": "What advice did Evan give to Sam to avoid injuries while starting weightlifting?",
+      "gold_answer": "Find a trainer",
+      "generated_answer": "Evan advised Sam to start with good form and technique, find a trainer, start small, and stay consistent.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'find a trainer', which matches the gold answer exactly, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "Evan recommends exercising to Sam to help with Sam's weight problem.",
+        "weightlifting: Evan started weightlifting one year ago.",
+        "Sam recommends yoga to Evan",
+        "Sam interested_in weightlifting",
+        "Evan participant_in weightlifting"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 121,
+      "question": "Where did Sam and his mate plan to try kayaking?",
+      "gold_answer": "Lake Tahoe",
+      "generated_answer": "On a lake.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'On a lake' is semantically consistent with the gold answer 'Lake Tahoe', as Lake Tahoe is a lake. The answer captures the core fact that they planned to kayak on a lake, even though it is less specific.",
+      "category": 4,
+      "top_memories": [
+        "Sam plans to try kayaking",
+        "kayaking: An outdoor activity that Sam and his mate are about to try on a lake.",
+        "On 14 October 2023, Sam and his mate decided to try kayaking on a lake.",
+        "On 14 October 2023, Evan suggested kayaking as an outdoor activity to Sam.",
+        "Evan offered to plan kayaking trip with Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 122,
+      "question": "What digestive issue did Sam experience lately?",
+      "gold_answer": "Gastritis",
+      "generated_answer": "gastritis",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'gastritis' exactly matches the gold answer 'Gastritis', differing only in capitalization, which is semantically identical.",
+      "category": 4,
+      "top_memories": [
+        "Sam experienced gastritis",
+        "Sam consumes soda",
+        "Sam consumes candy",
+        "Sam visited supermarket",
+        "Sam had a severe stomachache and was diagnosed with gastritis on 14 October 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 123,
+      "question": "What adventurous theme is emerging in Evan's life as mentioned by Sam?",
+      "gold_answer": "helping lost tourists",
+      "generated_answer": "Adventure hikes.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Adventure hikes' does not match the gold answer 'helping lost tourists'. The themes are different: one is about hiking, the other about assisting tourists. No semantic overlap or synonymy.",
+      "category": 4,
+      "top_memories": [
+        "Sam is inspired by Evan",
+        "Evan helped another lost tourist recently, making it a recurring theme in his life.",
+        "adventure hikes: Hikes that Evan is motivated by.",
+        "nature: A source of peace, clarity, and healing for Evan and Sam.",
+        "Sam plans trip with Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 124,
+      "question": "What does Evan mention about his progress at the gym to Sam?",
+      "gold_answer": "gaining strength",
+      "generated_answer": "Based on the memory content, there is no specific mention of Evan's progress at the gym to Sam. The memories only note that Evan visited the gym, uses it to stay fit, and encouraged Sam about workouts, but no details about his own progress are recorded.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that there is no mention of Evan's progress at the gym, but the gold answer indicates he mentioned gaining strength. Thus, the generated answer contradicts the correct information and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "Evan has a gym membership card, which he showed to Sam as a reminder of his commitment.",
+        "Evan visited the gym",
+        "Sam plans to attend the gym",
+        "Evan uses to stay fit gym",
+        "the gym: A gym that Sam plans to attend starting tomorrow."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 125,
+      "question": "How did Evan start his transformation journey two years ago?",
+      "gold_answer": "Changed his diet and started walking regularly",
+      "generated_answer": "Evan started his transformation journey two years ago by changing his diet and starting to walk regularly, around October 2021.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core facts from the gold answer: changing diet and starting to walk regularly. The additional date detail does not contradict the gold answer and is not penalized.",
+      "category": 4,
+      "top_memories": [
+        "Evan focused on his well-being rather than quick results, which made a huge difference in his transformation.",
+        "Evan started walking: two years ago",
+        "On 25 October 2023, Sam told Evan that Evan's transformation was inspiring.",
+        "Evan changed his diet and started walking regularly two years ago, which was around October 2021.",
+        "Evan struggled with his health a few years ago but stuck with it."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 126,
+      "question": "What gift did Evan receive from a close friend?",
+      "gold_answer": "1968 Kustom K-200A vintage guitar",
+      "generated_answer": "Evan received a 1968 Kustom K-200A vintage guitar as a gift from a close friend.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the gift as a 1968 Kustom K-200A vintage guitar, matching the gold answer exactly.",
+      "category": 4,
+      "top_memories": [
+        "Evan has close friend the girl",
+        "Evan and his partner received love and support from their extended family.",
+        "the girl role: close friend of Evan",
+        "On 17 December 2023, Evan mentioned that a close friend of his helped him get his painting published in an exhibition.",
+        "the girl: A close friend of Evan who helped get the painting published in the exhibition."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 127,
+      "question": "Why had Evan been going through a tough time lately?",
+      "gold_answer": "Lost their job due to downsizing",
+      "generated_answer": "Evan had been going through a tough time lately because of his knee injury, which made it frustrating for him to stay consistent with his fitness routine.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer attributes Evan's tough time to a knee injury, while the gold answer states he lost his job due to downsizing. These are unrelated reasons, so the generated answer is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 7 August 2023, Evan told Sam that taking care of the item motivates him to keep going through tough times.",
+        "On 21 November 2023, Evan said that tough times are easier with friends we can rely on.",
+        "Evan has been taking his son to the doctor after the accident.",
+        "Evan had a heart palpitation incident on 30 May 2023.",
+        "Evan had a minor accident on 31 December 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 128,
+      "question": "How does Evan describe the island he grew up on?",
+      "gold_answer": "A happy place",
+      "generated_answer": "Evan describes the island he grew up on as a small island, and he considers it his happy place.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the correct core fact that Evan considers the island his happy place, which matches the gold answer. The additional detail about it being a small island does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan grew up on a small island.",
+        "Evan grew up on small island",
+        "Evan considers the small island his happy place.",
+        "small island with a lone boat: A location shown in a photo shared by Evan.",
+        "Evan considers happy place small island"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 129,
+      "question": "What was the main reason for Evan's frustration with his new Prius breaking down?",
+      "gold_answer": "He relied on it for his active lifestyle and road trips",
+      "generated_answer": "Evan's frustration with his new Prius breaking down was mainly because he had recently bought it and relied on it for his active lifestyle and road trips, including a family trip to the Rockies.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core reason from the gold answer: Evan relied on the Prius for his active lifestyle and road trips. The extra detail about buying it recently and the family trip does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Prius: Evan's new Prius, which he recently bought, broke down.",
+        "Evan's old Prius broke down, and he decided to get it repaired and sell it.",
+        "Evan's new Prius broke down on 5 December 2023.",
+        "Evan owns Prius",
+        "Evan relies on his Prius for his active lifestyle and road trips."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 130,
+      "question": "How did Sam suggest Evan view the setback with his broken Prius?",
+      "gold_answer": "As a chance to explore other ways of staying active and traveling",
+      "generated_answer": "The memory content does not include any information about how Sam suggested Evan view the setback with his broken Prius.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not include the information, which is entirely off-topic and does not provide the correct answer that Sam suggested viewing the setback as a chance to explore other ways of staying active and traveling.",
+      "category": 4,
+      "top_memories": [
+        "Prius: Evan's new Prius, which he recently bought, broke down.",
+        "Evan's old Prius broke down, and he decided to get it repaired and sell it.",
+        "Evan owns Prius",
+        "Evan relies on his Prius for his active lifestyle and road trips.",
+        "Evan's new Prius type: car"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 131,
+      "question": "What did Sam suggest Evan try for stress relief and flexibility?",
+      "gold_answer": "Yoga",
+      "generated_answer": "Sam suggested Evan try yoga for stress relief and flexibility.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies yoga as the suggestion for stress relief and flexibility, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan is thinking about trying yoga for stress relief and flexibility.",
+        "Evan practices yoga and finds it helpful for stress and flexibility.",
+        "Sam practices yoga and it has improved flexibility and reduced stress.",
+        "On 17 December 2023, Evan encouraged Sam to step out of their comfort zone and try new things.",
+        "Evan has been focusing on fitness and finds it beneficial for his well-being."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 132,
+      "question": "What did Sam offer Evan regarding yoga?",
+      "gold_answer": "Support and tips",
+      "generated_answer": "Sam offered yoga tips to Evan.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Sam offered yoga tips, which matches the gold answer's 'Support and tips' (tips are included).",
+      "category": 4,
+      "top_memories": [
+        "Sam offered yoga tips to Evan.",
+        "Sam recommends yoga to Evan",
+        "On 5 December 2023, Evan said he would let Sam know how the yoga goes and thanked Sam for everything.",
+        "On 5 December 2023, Sam encouraged Evan to let them know how the yoga goes.",
+        "Evan plans to try yoga"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 133,
+      "question": "What news did Evan share with Sam on 9th December 2023?",
+      "gold_answer": "partner is pregnant",
+      "generated_answer": "Evan shared a collage of family memories with Sam on 9 December 2023.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says Evan shared a collage of family memories, but the gold answer is that Evan shared news that his partner is pregnant. These are completely different pieces of news, so the generated answer is off-topic and contains no correct content.",
+      "category": 4,
+      "top_memories": [
+        "Evan and Sam had a conversation on 17 December 2023.",
+        "Evan shared_news_with Sam",
+        "Evan shared a collage of family memories with Sam on 9 December 2023.",
+        "On 5 December 2023, Evan thanked Sam for their invaluable support.",
+        "On 10 January 2024, Evan told Sam about the incident."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 134,
+      "question": "What family event is Evan planning for next summer?",
+      "gold_answer": "big family reunion",
+      "generated_answer": "Family reunion.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Family reunion' matches the gold answer 'big family reunion' semantically, as it conveys the same core event.",
+      "category": 4,
+      "top_memories": [
+        "Evan is planning a family reunion for summer 2024.",
+        "Evan planning family reunion",
+        "Evan is looking forward to expanding his family and creating more memories.",
+        "Evan is going to Canada in February 2024 for a honeymoon.",
+        "the hike: A planned hiking event between Evan and Sam."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 135,
+      "question": "What is the motto of Evan's family?",
+      "gold_answer": "'Bring it on Home'",
+      "generated_answer": "Bring it on Home",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Bring it on Home' exactly matches the gold answer 'Bring it on Home' (case-insensitive).",
+      "category": 4,
+      "top_memories": [
+        "Evan family: has a family, values togetherness",
+        "Evan values family",
+        "Evan's family has a motto 'Bring it on Home' from a trip to Banff.",
+        "Evan has_motto Bring it on Home",
+        "Partner's family: The family of Evan's partner who are also happy about the marriage."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 136,
+      "question": "According to Evan, what is important for Sam to believe in concerning his weight?",
+      "gold_answer": "Your worth is not defined by your weight",
+      "generated_answer": "According to Evan, Sam should believe that his worth is not defined by his weight.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer directly matches the gold answer's core message that Sam's worth is not defined by his weight.",
+      "category": 4,
+      "top_memories": [
+        "Evan recommends exercising to Sam to help with Sam's weight problem.",
+        "On 17 December 2023, Evan told Sam that his worth is not defined by his weight.",
+        "On 17 December 2023, Sam expressed that he is struggling with his weight and it is affecting his confidence.",
+        "On 27 July 2023, Evan suggested that Sam consider exercising, saying it is as important as eating right.",
+        "Sam health_risk: weight is a serious health risk"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 137,
+      "question": "Who helped Evan get the painting published in the exhibition?",
+      "gold_answer": "a close friend",
+      "generated_answer": "the girl",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'the girl' does not match the gold answer 'a close friend' and provides no correct content or synonym.",
+      "category": 4,
+      "top_memories": [
+        "the exhibition: An exhibition where Evan's painting was published.",
+        "the painting: A painting by Evan that was published in an exhibition with help from a close friend.",
+        "the girl: A close friend of Evan who helped get the painting published in the exhibition.",
+        "On 17 December 2023, Evan mentioned that a close friend of his helped him get his painting published in an exhibition.",
+        "the painting published in the exhibition"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 138,
+      "question": "What did Sam recently start enjoying to clear his head?",
+      "gold_answer": "running in the mornings",
+      "generated_answer": "Sam recently started enjoying running in the mornings to clear his head.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Sam recently started enjoying running in the mornings to clear his head, which matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "morning running: Sam has started running in the mornings as a way to clear his head.",
+        "On 26 December 2023, Sam expressed skepticism about love but mentioned that he has started to enjoy running in the mornings to clear his head.",
+        "Sam status: looking for a passion",
+        "Sam had a smoothie bowl that was a hit.",
+        "Sam finds relaxation in the countryside"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 139,
+      "question": "What did Sam suggest Evan should do with his keys?",
+      "gold_answer": "put a GPS sensor on them",
+      "generated_answer": "No information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states 'No information available,' which does not provide any correct content from the gold answer ('put a GPS sensor on them'). It is entirely off-topic and lacks the required information.",
+      "category": 4,
+      "top_memories": [
+        "On 13 August 2023, Sam encouraged Evan that he will find his keys.",
+        "Evan's keys status: lost",
+        "Evan communicates with Sam",
+        "Evan conversed with Sam",
+        "Sam conversing with Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 140,
+      "question": "How did Evan feel when he painted the piece with the bird flying over it?",
+      "gold_answer": "a sense of joy and freedom",
+      "generated_answer": "The memory content does not mention a painting with a bird flying over it, so there is no exact answer. Based on Evan's general feelings about painting (finding peace and being captivated by nature), he likely felt peaceful and inspired.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer does not mention 'a sense of joy and freedom' or any equivalent concept. It instead suggests 'peaceful and inspired,' which is not semantically consistent with the gold answer. The core fact is missing, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "On 19 August 2023, Evan said he aims to capture the vibe of nature in his paintings, conveying the peacefulness of being outdoors.",
+        "Sam plans to try painting and will let Evan know how it goes.",
+        "Evan created painting of a forest scene",
+        "Sam admires Evan's painting",
+        "Evan created painting of a sunset"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 141,
+      "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+      "gold_answer": "Keep trying new things",
+      "generated_answer": "Based on the memory content, there is no information about Evan suggesting what Sam should keep doing to find his own version of love. The memories focus on encouragement, support, planning hikes, and general advice, but not specifically about love. Therefore, the most likely answer is: **No exact answer available in the memory content.**",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that there is no information about Evan suggesting what Sam should keep doing, but the gold answer is 'Keep trying new things'. The generated answer does not contain this correct content and is off-topic, so it is wrong.",
+      "category": 4,
+      "top_memories": [
+        "Evan suggested to Sam",
+        "Sam is inspired by Evan",
+        "Sam has a strong bond with Evan",
+        "Evan offers support to Sam",
+        "Evan encourages Sam"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 142,
+      "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
+      "gold_answer": "embracing the creative process without restraint",
+      "generated_answer": "The memory content does not include any information about Evan describing the process of creating a painting with a bird flying over it.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that there is no information about Evan describing the process, which directly contradicts the gold answer that he described it as 'embracing the creative process without restraint'. The generated answer provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "the painting: A painting by Evan that was published in an exhibition with help from a close friend.",
+        "the exhibition: An exhibition where Evan's painting was published.",
+        "the girl: A close friend of Evan who helped get the painting published in the exhibition.",
+        "sunset painting: A painting of a sunset over water shared by Evan.",
+        "Sam plans to try painting and will let Evan know how it goes."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 143,
+      "question": "What did Evan want to share with his work friends?",
+      "gold_answer": "getting married",
+      "generated_answer": "The memory content does not specify what Evan wanted to share with his work friends. It only mentions that his work friends were supportive after his minor accident, but no specific news or item is stated. Based on available info, the most likely answer is that he wanted to share news about his minor accident or his recent experiences (e.g., camping trip, helping a lost tourist), but no exact answer is provided.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the memory content does not specify what Evan wanted to share, and it does not mention 'getting married' at all. Therefore, it lacks the correct core fact from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan's work friends were supportive after his minor accident.",
+        "Sam friends with Evan",
+        "Evan friends Sam",
+        "Sam friends Evan",
+        "Evan is looking forward to expanding his family and creating more memories."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 144,
+      "question": "What did Evan share with Sam after their hiking trip?",
+      "gold_answer": "a photo of a man standing on a rock looking out over a valley",
+      "generated_answer": "Evan showed photos to Sam after their hiking trip.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Evan showed photos to Sam, which is semantically consistent with the gold answer of sharing a photo. The specific content of the photo is not mentioned, but the core fact of sharing photos is correct.",
+      "category": 4,
+      "top_memories": [
+        "the hike: A planned hiking event between Evan and Sam.",
+        "Evan suggests hiking together Sam",
+        "Sam plans trip with Evan",
+        "Sam: A person who converses with Evan about his recent trip.",
+        "Evan participated in hiking"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 145,
+      "question": "What did Evan offer to share with Sam after talking about healthy snacks?",
+      "gold_answer": "the recipes for cookies",
+      "generated_answer": "Evan offered to share recipes with Sam.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Evan offered to share recipes, which matches the gold answer 'the recipes for cookies' in essence, as 'recipes' is a synonym for 'recipes for cookies'.",
+      "category": 4,
+      "top_memories": [
+        "Sam purchased unhealthy snacks",
+        "Evan trying healthy snacks",
+        "On 31 December 2023, Sam said he is always on the lookout for healthy snacks and thanked Evan for the tip.",
+        "Sam recent_action: bought unhealthy snacks",
+        "On 19 August 2023, Evan asked for the recipe and Sam agreed to share it."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 146,
+      "question": "What did Evan and his partner share with their extended family on January 5, 2024?",
+      "gold_answer": "their marriage",
+      "generated_answer": "Evan and his partner told their extended family about their marriage.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Evan and his partner shared their marriage with their extended family, which matches the gold answer 'their marriage'.",
+      "category": 4,
+      "top_memories": [
+        "Evan and his partner told their extended family about their marriage on 5 January 2024.",
+        "Evan and his partner received love and support from their extended family.",
+        "On 6 January 2024, Evan and Sam discussed how their families bring them joy, support, and love.",
+        "Evan took his family on a road trip to Jasper on 20 May 2023.",
+        "Evan visited the Rockies with his family in May 2023."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 147,
+      "question": "What was Evan limiting himself to on his new diet?",
+      "gold_answer": "just two ginger snaps a day",
+      "generated_answer": "Two ginger snaps a day.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer in meaning, stating the same limit of two ginger snaps per day.",
+      "category": 4,
+      "top_memories": [
+        "Evan changed diet: two years ago",
+        "Evan diet: makes smarter choices",
+        "On 6 January 2024, Evan started a new diet limiting himself to two ginger snaps a day.",
+        "Evan changed his diet and started walking regularly two years ago, which was around October 2021.",
+        "Evan diet_plan: following a diet plan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 148,
+      "question": "What sports activity did Evan and his partner try in a recent weekend?",
+      "gold_answer": "Snowshoeing",
+      "generated_answer": "Snowshoeing",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Snowshoeing'.",
+      "category": 4,
+      "top_memories": [
+        "Evan and his partner tried snowshoeing on the weekend of 6-7 January 2024.",
+        "snowshoeing: A snowshoeing activity that Evan and his partner tried as a new adventure.",
+        "Evan plans to try yoga",
+        "Evan participated_in skiing",
+        "Evan visited the gym"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 149,
+      "question": "What advice did Evan suggest Sam seek from a doctor?",
+      "gold_answer": "diet plan and low-impact exercises",
+      "generated_answer": "The memory content does not specify what advice Evan suggested Sam seek from a doctor.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the advice, which is a failure to provide the correct information. It does not contain any part of the gold answer ('diet plan and low-impact exercises'), so it is entirely off-topic and incorrect.",
+      "category": 4,
+      "top_memories": [
+        "Sam plans to consult doctor",
+        "Sam had a tough week and a doctor's appointment, which served as a wake-up call to take better care of himself.",
+        "Evan gave_advice Sam",
+        "Evan encourages Sam",
+        "Sam receives support from Evan"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 150,
+      "question": "What suggestions did Evan give for low-impact exercises?",
+      "gold_answer": "swimming, yoga, walking",
+      "generated_answer": "Evan suggested swimming, yoga, and walking as low-impact exercises.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all three correct low-impact exercises (swimming, yoga, walking) from the gold answer, with no incorrect content.",
+      "category": 4,
+      "top_memories": [
+        "Evan suggested swimming, yoga, and walking as low-impact exercises.",
+        "Sam suggested that Evan consider low-impact exercises or physical therapy to help with his knee injury.",
+        "Sam thinks swimming is a good low-impact exercise for Evan.",
+        "Walking: A low-impact exercise suggested by Evan.",
+        "Swimming: A low-impact exercise suggested by Evan."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 151,
+      "question": "What movie did Sam watch that motivated him to keep up with his routine?",
+      "gold_answer": "The Godfather",
+      "generated_answer": "The Godfather",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Sam helps others stay committed and motivated.",
+        "On 6 June 2023, Evan encouraged Sam to keep up the effort in workouts.",
+        "The Godfather: A movie watched by Sam on 9 January 2024, which motivated him.",
+        "Sam health routine: new",
+        "On 13 August 2023, Sam stated that the quote has been helping them stay motivated and move forward to healthier habits."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 152,
+      "question": "What activity helped Evan with stress and flexibility?",
+      "gold_answer": "Yoga",
+      "generated_answer": "Yoga",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Yoga'.",
+      "category": 4,
+      "top_memories": [
+        "Evan practices yoga and finds it helpful for stress and flexibility.",
+        "Evan is thinking about trying yoga for stress relief and flexibility.",
+        "Sam practices yoga and it has improved flexibility and reduced stress.",
+        "Evan shared that finding an enjoyable fitness routine and making smarter dietary choices helped him maintain a healthy lifestyle.",
+        "yoga: Yoga is an activity that Sam practices and recommends for flexibility and stress relief."
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 153,
+      "question": "What did Evan share a photo of that was taken on a camping trip?",
+      "gold_answer": "a kayak",
+      "generated_answer": "Evan shared a photo of a sunset that was taken on a camping trip.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'a kayak', but the generated answer says 'a sunset'. These are completely different objects, so the generated answer does not contain any correct content.",
+      "category": 4,
+      "top_memories": [
+        "Evan went on the camping trip",
+        "the camping trip: A camping trip Evan took last summer where he took a picture of a sunset.",
+        "Evan shared a photo of the kayak",
+        "Evan took a picture of a sunset during a camping trip in summer 2023.",
+        "Evan shared_photo_of small island with a lone boat"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 154,
+      "question": "Why did Evan apologize to his partner?",
+      "gold_answer": "for a drunken night",
+      "generated_answer": "Evan apologized to his partner for a drunken night that resulted in damage to rose bushes.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core fact that Evan apologized for a drunken night, which matches the gold answer. The additional detail about damage to rose bushes does not contradict the gold answer and is acceptable per the rules.",
+      "category": 4,
+      "top_memories": [
+        "Evan apologized to his partner for a drunken night that resulted in damage to rose bushes, as of 11 January 2024.",
+        "Evan's partner was not thrilled but understood the accident with the rose bushes.",
+        "Evan and his partner received love and support from their extended family.",
+        "Evan feels lucky to have found a partner who understands him.",
+        "Evan's partner pregnant: true"
+      ]
+    },
+    {
+      "conversation_idx": 8,
+      "qa_idx": 155,
+      "question": "How does Evan describe being out on the water while kayaking and watching the sunset?",
+      "gold_answer": "peaceful",
+      "generated_answer": "Evan finds peace by watching the waves and sunset colors at his favorite beach spot.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer conveys the same core idea as the gold answer: Evan feels peaceful while kayaking and watching the sunset. The extra details about waves and beach spot do not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Evan went kayaking on the lake",
+        "Evan went kayaking and watched the sunset on a lake in summer 2023.",
+        "Evan suggested kayaking",
+        "Evan watched the sunset",
+        "sunset painting: A painting of a sunset over water shared by Evan."
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 323.1043269634247,
+    "answer_time_seconds": 278.0317280292511,
+    "total_time_seconds": 601.1401379108429,
+    "write_tokens": {
+      "prompt_tokens": 65139,
+      "completion_tokens": 42369,
+      "total_tokens": 107508,
+      "call_count": 111
+    },
+    "answer_tokens": {
+      "prompt_tokens": 114632,
+      "completion_tokens": 10885,
+      "total_tokens": 125517,
+      "call_count": 312
+    },
+    "db_size_bytes": 1994752,
+    "memory_entries": 900,
+    "avg_answer_time_ms": 1782.2294342212188
+  }
+}

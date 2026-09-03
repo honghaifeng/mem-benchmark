@@ -1,0 +1,11 @@
+{
+  "system": "mem0_official",
+  "dataset": "LoCoMo_10",
+  "total_questions": 0,
+  "correct": 0,
+  "accuracy": 0,
+  "num_conversations": 0,
+  "details": [],
+  "top_k": 15,
+  "total_time_seconds": 587.4566688537598
+}

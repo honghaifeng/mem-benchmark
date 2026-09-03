@@ -1,0 +1,49 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "conversation_idx": 31,
+  "conversation_hash": "c055bd01",
+  "details": [
+    {
+      "conversation_idx": 31,
+      "conversation_hash": "c055bd01",
+      "user_name": "用户",
+      "question": "4月27日，我们聊到了用旅行来放松心情，后面为什么我没有去旅行呢？",
+      "gold_answer": "因为疫情",
+      "generated_answer": "根据记忆内容，您没有去旅行是因为**新冠疫情（pandemic）**的影响。记忆第2条提到：“User has not traveled far recently due to the pandemic”，即由于疫情，您近期没有进行远途旅行。虽然您计划去黄山（记忆第3条），但那是计划在2026年10月，而当前参考日期是2023年4月29日，所以当时您尚未成行。因此，最直接的原因是疫情限制了您的出行。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出没有去旅行的原因是新冠疫情，与标准答案“因为疫情”语义一致，符合部分正确和同义词规则。",
+      "top_memories": [
+        "User enjoys hiking and exploring natural scenery, as well as learning about local history and culture during travels, to experience a place more deeply.",
+        "User has not traveled far recently due to the pandemic, but plans to visit historical cities in China to experience different cultural atmospheres.",
+        "User plans to travel to Huangshan next month (around October 2026) on a weekend, checking weather forecasts to pick a good day.",
+        "User has photos from previous travels and offered to share them with the assistant if interested.",
+        "User is planning a trip to Huangshan (Yellow Mountain) in China, attracted by its spectacular natural scenery, hiking, and photography opportunities."
+      ]
+    },
+    {
+      "conversation_idx": 31,
+      "conversation_hash": "c055bd01",
+      "user_name": "用户",
+      "question": "2023年4月28日，我们聊到了摄影，我通常用什么设备来摄影呢？",
+      "gold_answer": "单反相机",
+      "generated_answer": "根据记忆内容，您通常使用**单反相机（DSLR）**进行摄影，并配备多种不同焦距的镜头。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到使用单反相机（DSLR），与标准答案一致，且额外细节不扣分。",
+      "top_memories": [
+        "User enjoys photographing natural scenery and architecture, believing such photos showcase a place's charm and character.",
+        "User owns a DSLR camera and various lenses with different focal lengths, and has some knowledge of photography.",
+        "User recently took photos of spring flowers in a park, finding spring colors particularly suitable for photography.",
+        "User has photos from previous travels and offered to share them with the assistant if interested.",
+        "User chooses photography subjects based on season and weather, e.g., flowers in spring, fallen leaves in autumn, and dripping scenes on rainy days."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 31,
+  "write_time_seconds": 31.102469205856323,
+  "answer_time_seconds": 5.49799108505249
+}

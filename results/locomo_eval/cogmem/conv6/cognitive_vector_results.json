@@ -1,0 +1,2597 @@
+{
+  "system": "cognitive_vector",
+  "total_questions": 150,
+  "correct": 108,
+  "accuracy": 72.0,
+  "category_stats": {
+    "3": {
+      "total": 13,
+      "correct": 6
+    },
+    "2": {
+      "total": 34,
+      "correct": 21
+    },
+    "1": {
+      "total": 20,
+      "correct": 13
+    },
+    "4": {
+      "total": 83,
+      "correct": 68
+    }
+  },
+  "details": [
+    {
+      "conversation_idx": 6,
+      "qa_idx": 0,
+      "question": "What are John's suspected health problems?",
+      "gold_answer": "Obesity",
+      "generated_answer": "Based on the memory content, there is no information about John's suspected health problems.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about John's suspected health problems, but the gold answer specifies 'Obesity'. Therefore, the generated answer contains no correct content and is entirely off-topic.",
+      "category": 3,
+      "top_memories": [
+        "James advised John to take time for himself and take care.",
+        "On 29 April 2022, John stated that he is determined to continue and overcome the hiccups.",
+        "John received advice from James",
+        "John uses_for_stress_relief gaming",
+        "James advised John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 1,
+      "question": "Which recreational activity was James pursuing on March 16, 2022?",
+      "gold_answer": "bowling",
+      "generated_answer": "Bowling.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Bowling.' matches the gold answer 'bowling' exactly, just with capitalization and punctuation.",
+      "category": 2,
+      "top_memories": [
+        "On 17 March 2022, James suggested trying something different.",
+        "On 16 March 2022, James went bowling and got 2 strikes.",
+        "John and James talked on 17 March 2022.",
+        "James's personal milestone date: April 2022",
+        "James achieved a personal milestone in April 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 2,
+      "question": "Which places or events have John and James planned to meet at?",
+      "gold_answer": "VR Club, McGee's, baseball game",
+      "generated_answer": "McGee's Pub on 27 August 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions McGee's Pub, which is one of the places in the gold answer (McGee's). The extra detail about the date is acceptable, and partial correctness is sufficient.",
+      "category": 1,
+      "top_memories": [
+        "John plans to meet James",
+        "John and James agreed to meet at McGee's Pub on 27 August 2022.",
+        "On 21 August 2022, James told John to take it easy and have fun, and suggested they chat soon.",
+        "James plans trip with John",
+        "James suggests meeting John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 3,
+      "question": "Do both James and John have pets?",
+      "gold_answer": "No",
+      "generated_answer": "No.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No.' matches the gold answer 'No' semantically, both indicating that not both James and John have pets.",
+      "category": 1,
+      "top_memories": [
+        "James's pets type: dogs",
+        "John does not have pets but plans to get one someday.",
+        "John does not have a dog but wants one.",
+        "James has dogs",
+        "James is depicted with the two dogs"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 4,
+      "question": "When did John resume playing drums in his adulthood?",
+      "gold_answer": "February 2022",
+      "generated_answer": "No exact answer is available. Based on the memories, John played drums in the past and has been playing drums again for one month as of 27 March 2022, so he likely resumed around late February 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer infers a resume date of late February 2022, which is within 14 days of the gold answer February 2022, and the semantic content matches the core fact.",
+      "category": 2,
+      "top_memories": [
+        "John used to play drums when he was younger.",
+        "John has been playing drums for one month as of 27 March 2022.",
+        "John past_instrument: drums",
+        "James used to play guitar when he was younger.",
+        "John playing the new RPG"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 5,
+      "question": "What are John and James' favorite games?",
+      "gold_answer": "John's favorite game is CS:GO, and James's is Apex Legends.",
+      "generated_answer": "The memory does not specify John and James' favorite games. It only mentions genres they are getting into (strategy games, RPGs) and that John recommended a game with an immersive world and amazing story, but no specific titles are named.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the favorite games, which contradicts the gold answer that provides specific games (CS:GO and Apex Legends). It contains no correct content from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "strategy games: A genre of games that James is getting into.",
+        "On 29 April 2022, James and John discussed board games and card games.",
+        "James was introduced to gaming by certain games and has been hooked since then.",
+        "James interests: ['video games']",
+        "John and James are friends who support each other."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 6,
+      "question": "Does James live in Connecticut?",
+      "gold_answer": "Likely yes",
+      "generated_answer": "No exact answer available. Based on the memories, James adopted a pet from a shelter in Stamford, which is in Connecticut, but this does not confirm he lives there. Most likely answer: possibly, but not confirmed.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer acknowledges the possibility that James lives in Connecticut, which aligns with the gold answer 'Likely yes'. Although it adds uncertainty, it does not contradict the gold answer and contains the correct core possibility.",
+      "category": 3,
+      "top_memories": [
+        "James adopted from the shelter in Stamford",
+        "James enrolled_in course",
+        "James attended elementary school",
+        "John friend of James",
+        "James friend of John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 7,
+      "question": "In which state is the shelter from which James adopted the puppy?",
+      "gold_answer": "Connecticut.",
+      "generated_answer": "The shelter is in Stamford, but the state is not specified in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states the state is not specified, but the gold answer is Connecticut. It does not provide the correct state, so it is incorrect.",
+      "category": 3,
+      "top_memories": [
+        "James owns the puppy",
+        "James adopted from the shelter in Stamford",
+        "James cares_for the puppy",
+        "the puppy: A puppy owned by James that underwent a routine examination and was vaccinated.",
+        "On 5 August 2022, James took his puppy to the clinic."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 8,
+      "question": "How many pets does James have?",
+      "gold_answer": "Three dogs.",
+      "generated_answer": "James has 3 pets (dogs).",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states James has 3 pets (dogs), which matches the gold answer 'Three dogs' in number and type.",
+      "category": 1,
+      "top_memories": [
+        "James's pets type: dogs",
+        "James's dogs owner: James",
+        "On 6 August 2022, James stated that his pets are the source of his joy and that he will always take care of them.",
+        "James likes: pets, computer games, travel, pizza",
+        "James pets: Max and Daisy"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 9,
+      "question": "What are the names of James's dogs?",
+      "gold_answer": "Ned, Daisy, Max",
+      "generated_answer": "Max and Daisy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes two of the three correct dog names (Max and Daisy), so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "James's pets type: dogs",
+        "James's dogs species: dog",
+        "James has dogs",
+        "James is depicted with the two dogs",
+        "James's dogs count: two"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 10,
+      "question": "When did James adopt Ned?",
+      "gold_answer": "first week of April 2022",
+      "generated_answer": "5 April 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '5 April 2022' is within 14 days of the gold answer 'first week of April 2022', so it is considered correct.",
+      "category": 2,
+      "top_memories": [
+        "James adopted Ned",
+        "James adopted Ned, and Ned has been awesome since then.",
+        "James owns Ned",
+        "Ned: Ned is the dog adopted by James from a shelter in Stamford.",
+        "James adopted a dog named Ned from a shelter in Stamford on 5 April 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 11,
+      "question": "How was John feeling on April 10, 2022?",
+      "gold_answer": "seeking solitude",
+      "generated_answer": "No exact information about John's feelings on April 10, 2022 is available in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no information is available, which contradicts the gold answer that John was feeling 'seeking solitude'. The generated answer does not contain the correct fact and is essentially a refusal to answer.",
+      "category": 2,
+      "top_memories": [
+        "On 12 April 2022, John said 'Take care!'.",
+        "On 12 April 2022, John thanked James and expressed excitement to hear his thoughts.",
+        "On 21 August 2022, John thanked James and said he was going to have a great time.",
+        "On 4 April 2022, John asked James to let him know how it goes and said goodbye.",
+        "On 12 April 2022, James and John exchanged farewells and wished each other well."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 12,
+      "question": "Did James have a girlfriend during April 2022?",
+      "gold_answer": "Presumably not",
+      "generated_answer": "No.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No.' is semantically equivalent to the gold answer 'Presumably not', both indicating that James did not have a girlfriend during April 2022.",
+      "category": 3,
+      "top_memories": [
+        "James's personal milestone date: April 2022",
+        "James achieved a personal milestone in April 2022.",
+        "On 3 September 2022, James asked Samantha to become his girlfriend at the theater, and she agreed.",
+        "James visited his friends Josh and Mark during the road trip on 7 November 2022.",
+        "On 9 August 2022, James met a girl at the beach and she gave him her phone number."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 13,
+      "question": "When did James visit Italy?",
+      "gold_answer": "In 2021",
+      "generated_answer": "2021",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2021' matches the gold answer 'In 2021' semantically, with no difference in the year.",
+      "category": 2,
+      "top_memories": [
+        "James visited Italy",
+        "James visited Italy in 2021.",
+        "Italy visited_by: James",
+        "Italy: Italy is a country James visited last year (2021), which he describes as beautiful with delicious food.",
+        "James visited_countries: Italy, Turkey, Mexico"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 14,
+      "question": "When did James buy himself a new adventure book?",
+      "gold_answer": "April 26, 2022",
+      "generated_answer": "26 April 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '26 April 2022' is the same date as 'April 26, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "James purchased adventure book",
+        "James bought an adventure book with fantasy novels and cool arts on 26 April 2022.",
+        "adventure book: An adventure book with fantasy novels and cool arts, purchased by James on 26 April 2022.",
+        "James is interested in 2D adventure games with puzzles, like The Legend of Zelda.",
+        "adventure book purchaseDate: 26 April 2022"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 15,
+      "question": "When did James start playing Civilization VI?",
+      "gold_answer": "March 2022",
+      "generated_answer": "The memory does not specify when James started playing Civilization VI.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify when James started playing Civilization VI, which directly contradicts the gold answer that provides a specific date (March 2022). The generated answer provides no correct content and is entirely off-topic.",
+      "category": 2,
+      "top_memories": [
+        "James plays Civilization VI",
+        "On 29 April 2022, John asked if the game James is playing is Civilization VI.",
+        "On 29 April 2022, James described Civilization VI as a high-quality turn-based strategy game where you manage resources, lead armies, and conquer territories.",
+        "James was inspired by Civilization and Total War to create his own strategy game.",
+        "On 29 April 2022, James said that Civilization VI requires a lot of strategy, involving planning, managing resources, and making good decisions to beat rivals."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 16,
+      "question": "What is the game with different colored cards that was John talking about with James?",
+      "gold_answer": "UNO",
+      "generated_answer": "The game with different colored cards that John talked about with James is the card game where players place cards with the same color or number, trade cards, draw extra cards, or skip a turn—but its name is not mentioned in the memory.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the name of the game is not mentioned, and it does not provide the correct name 'UNO'. It only describes gameplay without identifying the game, so it lacks the core correct content.",
+      "category": 3,
+      "top_memories": [
+        "multi-colored cards with numbers: A set of cards used in a game that John played but cannot remember the name of.",
+        "John played with multi-colored cards with numbers",
+        "John may help with James's game",
+        "John played a card game with multi-colored cards with numbers, but he forgot its name.",
+        "In the card game John played, players can only place a card with the same color or number on an opponent's card, and sometimes trade cards, draw extra cards from the deck, or skip a turn."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 17,
+      "question": "What is the board game where you have to find the imposter that John mentions to James?",
+      "gold_answer": "Mafia",
+      "generated_answer": "Among Us",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Mafia', but the generated answer is 'Among Us'. While both are social deduction games involving finding an impostor, they are distinct board games. The question asks for the specific game John mentions, which is Mafia, not Among Us. Therefore, the generated answer is incorrect.",
+      "category": 3,
+      "top_memories": [
+        "John created online board game",
+        "John played strategy board game",
+        "John collaborated with a game developer to create an online board game.",
+        "James is working on a computer game that he has wanted to create since he was a kid.",
+        "Dungeons of the Dragon: A board game that John recently tried and found fun."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 18,
+      "question": "Which books has John recommended to James?",
+      "gold_answer": "The Name of the Wind, Stormlight Archive, Kingkiller Chronicles, Expanse",
+      "generated_answer": "The memory content does not specify which books John recommended to James.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the books, which is entirely off-topic and provides no correct information from the gold answer.",
+      "category": 1,
+      "top_memories": [
+        "John recommended_books_to James",
+        "John recommended James",
+        "John recommends James",
+        "John advises James",
+        "James advised John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 19,
+      "question": "Was James feeling lonely before meeting Samantha?",
+      "gold_answer": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+      "generated_answer": "No exact information about James feeling lonely before meeting Samantha is provided in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no exact information is provided, which contradicts the gold answer that indicates James was likely lonely based on his mention of dogs and active dating. The generated answer does not contain any correct content from the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "James went_to Samantha",
+        "James has a partner named Samantha.",
+        "Samantha: A person mentioned by James, likely someone he intends to call.",
+        "James boyfriend_of Samantha",
+        "James intends_to_call Samantha"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 20,
+      "question": "How many charity tournaments has John organized till date?",
+      "gold_answer": "two",
+      "generated_answer": "1",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer states 'two' charity tournaments, but the generated answer says '1'. This is a direct numerical mismatch, and '1' is not a synonym or partial correct option of 'two'. Therefore, the answer is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "John organized CS:GO charity tournament",
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "John organized gaming tournament",
+        "John organized a fundraising event that combined gaming and volunteering.",
+        "John organized a gaming tournament with his friends on 30 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 21,
+      "question": "When did John first organize a charity tournament with his friends?",
+      "gold_answer": "May 7, 2022",
+      "generated_answer": "7 May 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '7 May 2022' is the same date as the gold answer 'May 7, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "John organized CS:GO charity tournament",
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "tournament: An intense CS:GO tournament that John played in.",
+        "John and his programmer friends organized an online competition in the week of 6 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 22,
+      "question": "Who or which organizations have been the beneficiaries of John's charity tournaments?",
+      "gold_answer": "animal shelter, homeless, children's hospital",
+      "generated_answer": "A charitable foundation that received a software tool from John to streamline operations.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions a charitable foundation receiving a software tool, which is not among the gold answer's beneficiaries (animal shelter, homeless, children's hospital). It is entirely off-topic and contains no correct content.",
+      "category": 1,
+      "top_memories": [
+        "John organized CS:GO charity tournament",
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "The CS:GO charity tournament raised money for charity.",
+        "John goal: become an organizer of tournaments for computer games",
+        "John interested_in_organizing_tournaments_for CS:GO"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 23,
+      "question": "When will John start his new job?",
+      "gold_answer": "In July, 2022",
+      "generated_answer": "July 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'July 2022.' matches the gold answer 'In July, 2022' semantically, with only a minor formatting difference.",
+      "category": 2,
+      "top_memories": [
+        "John will start his dream job in July 2022.",
+        "John got his dream job as of 13 June 2022.",
+        "On 6 August 2022, John had left his IT job after 3 years and started a new job that he loves.",
+        "John new_job: started a new job",
+        "John job_change: left IT job after 3 years"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 24,
+      "question": "What kind of games has James tried to develop?",
+      "gold_answer": "football simulator, virtual world inspired by Witcher 3",
+      "generated_answer": "James has tried to develop strategy games, including a Unity strategy game, and is working on a computer game project that combines gaming and storytelling.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions strategy games and a computer game project, but the gold answer specifies football simulator and virtual world inspired by Witcher 3. There is no overlap in the types of games, so the answer is incorrect.",
+      "category": 1,
+      "top_memories": [
+        "James plans to develop more games in different genres and test new ideas.",
+        "strategy games: A genre of games that James is getting into.",
+        "James was introduced to gaming by certain games and has been hooked since then.",
+        "RPGs: A genre of games that James is getting into.",
+        "James interests: ['video games']"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 25,
+      "question": "Are John and James fans of the same football team?",
+      "gold_answer": "No, James is a Liverpool fan and John is a Manchester City fan.",
+      "generated_answer": "No, based on the available information, only James is identified as a fan of Liverpool. There is no information indicating John supports the same team.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that James is a Liverpool fan and indicates that John is not a fan of the same team, which aligns with the gold answer's core fact that they are not fans of the same team.",
+      "category": 3,
+      "top_memories": [
+        "John and James are friends who support each other.",
+        "James loves football.",
+        "James loves football",
+        "James met the team",
+        "James football_fan_of: Liverpool"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 26,
+      "question": "Which countries has James visited?",
+      "gold_answer": "Italy, Mexico, Turkey, Canada, Greenland",
+      "generated_answer": "Italy, Turkey, Mexico",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes Italy, Turkey, and Mexico, all of which are in the gold answer, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "James has visited or will visit four countries (including this trip).",
+        "James visited_countries: Italy, Turkey, Mexico",
+        "James has also visited Turkey and Mexico.",
+        "James visited Italy",
+        "James visited Turkey"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 27,
+      "question": "What kind of classes has James joined?",
+      "gold_answer": "game design course, cooking classes",
+      "generated_answer": "James joined a cooking class and a course that combines gaming and programming.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'cooking class' and 'a course that combines gaming and programming', which aligns with the gold answer's 'cooking classes' and 'game design course'. The gaming/programming course is semantically equivalent to game design, so the answer is correct.",
+      "category": 1,
+      "top_memories": [
+        "James joined new platform",
+        "James has dogs",
+        "James has played chess",
+        "James enrolled_in course",
+        "James attended elementary school"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 28,
+      "question": "When did James volunteer at an organization?",
+      "gold_answer": "May 2022",
+      "generated_answer": "May 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'May 2022'.",
+      "category": 2,
+      "top_memories": [
+        "James volunteered with the organization",
+        "James's volunteer organization volunteer_date: May 2022",
+        "James volunteered with an organization in May 2022 and found it rewarding.",
+        "James volunteer_experience: volunteered last month (May 2022)",
+        "On 19 June 2022, James told John that he volunteered with an organization that provides necessary items to those who are less fortunate."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 29,
+      "question": "When did James depart for his trip to Canada?",
+      "gold_answer": "July 11, 2022",
+      "generated_answer": "4 November 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer (4 November 2022) is more than 14 days away from the gold answer (July 11, 2022), so it is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "James said he would start looking for a country for the trip.",
+        "James and his family were on a road trip on 7 November 2022.",
+        "James plans trip with John",
+        "James has visited or will visit four countries (including this trip).",
+        "James started a road trip with his family and dogs on 4 November 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 30,
+      "question": "Which country did James book tickets for in July 2022?",
+      "gold_answer": "Canada",
+      "generated_answer": "Toronto",
+      "judgment": "CORRECT",
+      "judge_reason": "Toronto is a city in Canada, so the generated answer correctly identifies the country (Canada) as the destination, even though it provides a more specific location.",
+      "category": 3,
+      "top_memories": [
+        "James said he would start looking for a country for the trip.",
+        "James traveled to Nuuk in July 2022.",
+        "James plans to return on July 20, 2022.",
+        "James bought air tickets to Toronto and is leaving on 11 July 2022 evening.",
+        "On 16 June 2022, James thanked John for book recommendations and said he would check them out."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 31,
+      "question": "How many days did James plan to spend on his trip in Canada?",
+      "gold_answer": "19 days",
+      "generated_answer": "The memory content does not specify how many days James planned to spend on his trip in Canada.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the number of days, which contradicts the gold answer of 19 days. It provides no correct information and is entirely off-topic.",
+      "category": 2,
+      "top_memories": [
+        "James and his family were on a road trip on 7 November 2022.",
+        "James plans trip with John",
+        "James started a road trip with his family and dogs on 4 November 2022.",
+        "James visited his friends Josh and Mark during the road trip on 7 November 2022.",
+        "James brought souvenirs for John and Jill from his trip."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 32,
+      "question": "Where was James at on July 12, 2022?",
+      "gold_answer": "Toronto, Canada",
+      "generated_answer": "Nuuk, Greenland (based on James traveling to Nuuk in July 2022).",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states Nuuk, Greenland, which is not the same as the gold answer Toronto, Canada. There is no overlap or synonym, and the location is entirely different.",
+      "category": 2,
+      "top_memories": [
+        "James sent a photograph to John on 22 July 2022.",
+        "On 6 July 2022, James went surfing.",
+        "James traveled to Nuuk in July 2022.",
+        "James plans to return on July 20, 2022.",
+        "James was near ocean"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 33,
+      "question": "Did John and James study together?",
+      "gold_answer": "Yes",
+      "generated_answer": "No exact information about studying together is available. Based on the memories, John and James were friends and interacted frequently, but there is no mention of studying together. The most likely answer is no, they did not study together based on available info.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'Yes', but the generated answer explicitly states 'no, they did not study together', which directly contradicts the correct answer. There is no partial correctness or synonym that aligns with the gold answer.",
+      "category": 3,
+      "top_memories": [
+        "John and James were friends in elementary school.",
+        "John discussing career with James",
+        "John talked with James",
+        "James talked with John",
+        "James conversed with John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 34,
+      "question": "Which countries did James visit in July 2022?",
+      "gold_answer": "Canada, Greenland",
+      "generated_answer": "Nuuk (Greenland)",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions Nuuk, which is the capital of Greenland, and Greenland is one of the countries in the gold answer. Thus, it contains at least one correct option.",
+      "category": 1,
+      "top_memories": [
+        "James has visited or will visit four countries (including this trip).",
+        "James visited_countries: Italy, Turkey, Mexico",
+        "James traveled to Nuuk in July 2022.",
+        "On 6 July 2022, James went surfing.",
+        "James sent a photograph to John on 22 July 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 35,
+      "question": "What additional country did James visit during his trip to Canada?",
+      "gold_answer": "Greenland",
+      "generated_answer": "Turkey",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Turkey' is completely different from the gold answer 'Greenland' and does not contain any correct content.",
+      "category": 3,
+      "top_memories": [
+        "James said he would start looking for a country for the trip.",
+        "James has visited or will visit four countries (including this trip).",
+        "James plans to visit Vancouver.",
+        "Vancouver: Vancouver is a location that James plans to visit.",
+        "James plans to visit Vancouver"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 36,
+      "question": "Who is Jill?",
+      "gold_answer": "Most likely John's partner.",
+      "generated_answer": "Jill is a person associated with John, likely his partner or friend, who received a souvenir from James.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer identifies Jill as associated with John, likely his partner, which matches the gold answer's core fact.",
+      "category": 3,
+      "top_memories": [
+        "Jill: Jill is a person associated with John, likely his partner or friend, who will receive a souvenir from James.",
+        "John associated_with Jill",
+        "James gave_souvenir Jill",
+        "James brought souvenirs for John and Jill from his trip.",
+        "souvenirs: Souvenirs are items brought back by James from his trip for John and Jill."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 37,
+      "question": "When did John spend time with his sister and dogs?",
+      "gold_answer": "July 21, 2022",
+      "generated_answer": "No information in the memory indicates that John spent time with his sister and dogs. The memory about spending time with a sister and dogs on 21 July 2022 refers to James, not John.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that John did not spend time with his sister and dogs, and attributes the event to James, which contradicts the gold answer that John did spend time with them on July 21, 2022. The core fact is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "On 21 July 2022, James spent time with his sister and his dogs, and they were together on a couch.",
+        "James spent time with his two dogs on 4 May 2022.",
+        "James has a close bond with his sister and his dogs, and they are like a family.",
+        "James advised John to take time for himself and take care.",
+        "John shared the photo of a dog and a cat"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 38,
+      "question": "What happened to John's job situation in 2022?",
+      "gold_answer": "quit his IT Job, secured his dream job, aspires to become an eSports competition organizer",
+      "generated_answer": "John left his IT job after 3 years and started a new job he loves in 2022, specifically around August 6, 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that John left his IT job and started a new job he loves in 2022, which matches the gold answer's 'quit his IT Job' and 'secured his dream job'. The additional detail about the specific date is acceptable.",
+      "category": 1,
+      "top_memories": [
+        "John got his dream job as of 13 June 2022.",
+        "John will start his dream job in July 2022.",
+        "On 6 August 2022, John had left his IT job after 3 years and started a new job that he loves.",
+        "On 23 April 2022, James asked John what has been going on and offered to be there for him.",
+        "John job_change: left IT job after 3 years"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 39,
+      "question": "When did John start his job in IT?",
+      "gold_answer": "2019",
+      "generated_answer": "6 August 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 2019, but the generated answer is 6 August 2022, which is a different date and not within the 14-day tolerance. The core fact is incorrect.",
+      "category": 2,
+      "top_memories": [
+        "John got his dream job as of 13 June 2022.",
+        "On 6 August 2022, John had left his IT job after 3 years and started a new job that he loves.",
+        "John new_job: started a new job",
+        "John used to play drums when he was younger.",
+        "John will start his dream job in July 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 40,
+      "question": "What kind of tricks do James's pets know?",
+      "gold_answer": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+      "generated_answer": "sit, stay, paw, and rollover.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'sit, stay, paw, and rollover', which are all correct tricks from the gold answer. Although it omits 'swimming, catching frisbees, balancing on a skateboard', partial correctness is allowed.",
+      "category": 1,
+      "top_memories": [
+        "James's pets type: dogs",
+        "James's dogs trained_tricks: sit, stay, paw, rollover",
+        "On 20 March 2022, James mentioned that his dogs can perform tricks like sit, stay, paw, and rollover.",
+        "On 6 August 2022, James stated that his pets are the source of his joy and that he will always take care of them.",
+        "James likes: pets, computer games, travel, pizza"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 41,
+      "question": "When did James meet Samantha?",
+      "gold_answer": "August 9, 2022",
+      "generated_answer": "The memory does not specify when James met Samantha. It only mentions events on specific dates (e.g., 3 September 2022, 31 October 2022) but not their first meeting. Based on available info, the most likely answer is that James met Samantha before 3 September 2022, but the exact date is unknown.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states the exact date is unknown, which contradicts the gold answer of August 9, 2022. It does not provide the correct date or any partial correct information.",
+      "category": 2,
+      "top_memories": [
+        "James has a partner named Samantha.",
+        "James went_to Samantha",
+        "James partner_of Samantha",
+        "James boyfriend_of Samantha",
+        "Samantha: A person mentioned by James, likely someone he intends to call."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 42,
+      "question": "When did James take his 3 dogs to the beach?",
+      "gold_answer": "August 9, 2022",
+      "generated_answer": "9 August 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '9 August 2022' is the same date as the gold answer 'August 9, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "On 9 August 2022, James took his three dogs to a beach outing to have fun and bond with other dogkeepers.",
+        "James took the photo of three dogs",
+        "James spent time with his two dogs on 4 May 2022.",
+        "James visited beach",
+        "the hiking spot: A location with trails and views where James took his dogs."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 43,
+      "question": "When did John plan his next meeting with his siblings?",
+      "gold_answer": "In September, 2022",
+      "generated_answer": "September 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'September 2022' matches the gold answer 'In September, 2022' semantically and within date tolerance.",
+      "category": 2,
+      "top_memories": [
+        "John's siblings relation_to_John: siblings",
+        "John siblings: true",
+        "John's siblings threw him a gaming marathon when he was younger, which bonded them.",
+        "James suggests meeting John",
+        "John is organizing a family game night with his siblings in September 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 44,
+      "question": "Why didn't John want to go to Starbucks?",
+      "gold_answer": "Possibly because he likes to drink beer on his days off.",
+      "generated_answer": "John expressed a preference for having a beer instead of coffee.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John preferred beer over coffee, which matches the gold answer's reason (he likes to drink beer on his days off). The core fact is the same, so it is correct.",
+      "category": 3,
+      "top_memories": [
+        "James suggests Starbucks",
+        "James suggested going to Starbucks for coffee on 27 August 2022.",
+        "Starbucks: A coffee shop suggested by James as a meeting place.",
+        "John plans to meet James",
+        "James offered to take John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 45,
+      "question": "What kind of beer does McGee's bar serve?",
+      "gold_answer": "Stout, lager",
+      "generated_answer": "McGee's bar serves lager beer.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that McGee's bar serves lager beer, which is one of the two correct options (stout, lager) from the gold answer. According to the rule that partial correctness counts, this is correct.",
+      "category": 1,
+      "top_memories": [
+        "McGee's pub: A pub suggested by James as an alternative meeting place, known for serving stout.",
+        "James suggested going to McGee's pub, saying they serve a great stout.",
+        "McGee's bar: A bar where James and Samantha went and discovered Samantha likes lager beer.",
+        "James suggests McGee's pub",
+        "James lives_near McGee's bar"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 46,
+      "question": "When did John and James meet at McGee's bar?",
+      "gold_answer": "August 27, 2022",
+      "generated_answer": "27 August 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '27 August 2022' is the same date as the gold answer 'August 27, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "John and James agreed to meet at McGee's Pub on 27 August 2022.",
+        "James lives_near McGee's bar",
+        "James suggests McGee's pub",
+        "James suggested going to McGee's pub, saying they serve a great stout.",
+        "John plans to meet James"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 47,
+      "question": "When did James ask Samantha to be his girlfriend?",
+      "gold_answer": "September 3, 2022",
+      "generated_answer": "On 3 September 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer, just with a different date format (3 September 2022 vs September 3, 2022).",
+      "category": 2,
+      "top_memories": [
+        "On 3 September 2022, James asked Samantha to become his girlfriend at the theater, and she agreed.",
+        "theater: A theater where James asked Samantha to be his girlfriend.",
+        "James has a partner named Samantha.",
+        "James boyfriend_of Samantha",
+        "James went_to Samantha"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 48,
+      "question": "When did James, Samantha and John go to the baseball game together?",
+      "gold_answer": "September 11, 2022",
+      "generated_answer": "Never went together; only James and Samantha attended the baseball game on 11 September 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that James, Samantha, and John never went together, contradicting the gold answer that they went on September 11, 2022. It does not contain any correct option from the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "baseball game: A baseball game that James and Samantha plan to attend next Sunday.",
+        "James and Samantha are going to a baseball game on 11 September 2022.",
+        "On 31 October 2022, James told John that he and Samantha had decided to move in together.",
+        "James went_to Samantha",
+        "James partner_of Samantha"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 49,
+      "question": "What gaming equipments did John buy or refurbish?",
+      "gold_answer": "Sennheiser headphones, Logitech mouse, gaming desk",
+      "generated_answer": "John bought new devices and refurbished his gaming desk; he also bought Sennheiser headphones and a Logitech mouse.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes Sennheiser headphones and a Logitech mouse, which are correct items from the gold answer. It also mentions refurbishing the gaming desk, which is consistent with the gold answer's 'gaming desk' (refurbishing implies obtaining it). Extra details about buying new devices do not penalize.",
+      "category": 1,
+      "top_memories": [
+        "John has tried VR gaming",
+        "John's gaming room contains: computer, gaming chair, wall lighting",
+        "John attended gaming convention",
+        "James's gaming setup components: gaming PC, keyboard, mouse, comfy chair",
+        "John has_gaming_pc: true"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 50,
+      "question": "When did James start taking cooking classes?",
+      "gold_answer": "September 2, 2022",
+      "generated_answer": "2 September 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2 September 2022' is the same date as the gold answer 'September 2, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "James signed up for a cooking class on 2 September 2022.",
+        "James signed_up_for cooking class",
+        "cooking class: A cooking class that James signed up for on 2 September 2022, costing $10 per class.",
+        "James has_hobby cooking",
+        "At the first cooking class, James prepared an omelette, meringue, and learned to make dough."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 51,
+      "question": "Which new games did John start play during the course of the conversation with James?",
+      "gold_answer": "AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game",
+      "generated_answer": "Based on the memory content, John started playing strategy and RPG games instead of his usual shooters.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions 'strategy and RPG games' but does not name any of the specific games listed in the gold answer (AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game). It is too vague and does not contain any correct specific game titles, so it is not partially correct.",
+      "category": 1,
+      "top_memories": [
+        "James is interested in trying new games and asked if he would like the new RPG John is playing.",
+        "John playing the new RPG",
+        "On 4 April 2022, James said he would keep John updated on all the new games and said goodbye.",
+        "strategy games: A genre of games that James is getting into.",
+        "James role: friend, encouraged John to try new game genres"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 52,
+      "question": "When did John start working on his 2D Adventure mobile game?",
+      "gold_answer": "approximately summer of 2022",
+      "generated_answer": "John started working on his 2D Adventure mobile game a few months before 20 September 2022, so likely around June or July 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John started working around June or July 2022, which is within the approximate timeframe of summer 2022 (June-August). This is semantically consistent with the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "John's first mobile game is a 2D adventure game with puzzles and exploration.",
+        "John's first mobile game genre: 2D adventure",
+        "John's first mobile game features: puzzles and exploration",
+        "John achieved a major career milestone by making his first mobile game.",
+        "John's first mobile game launch_date: October 2022"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 53,
+      "question": "How long did it take for James to complete his Witcher-inspired game?",
+      "gold_answer": "six months",
+      "generated_answer": "The memory does not specify how long it took James to complete his Witcher-inspired game.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the duration, which directly contradicts the gold answer of 'six months'. It provides no correct content and is entirely off-topic.",
+      "category": 2,
+      "top_memories": [
+        "James created his own game, which was inspired by The Witcher 3.",
+        "James likes The Witcher 3",
+        "James developed a game, which was challenging but he managed to complete it.",
+        "The Witcher 3: The Witcher 3 is a video game that James is currently enjoying for its story and atmosphere.",
+        "James and his gaming pal created a virtual world inspired by Witcher 3."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 54,
+      "question": "What kind of programming-related events has John hosted?",
+      "gold_answer": "online programming competition, programming seminar",
+      "generated_answer": "John has hosted a programming seminar, an online competition with his programmer friends, and a fundraising event that combined gaming and volunteering.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'programming seminar' and 'online competition', which are semantically equivalent to the gold answer's 'online programming competition' and 'programming seminar'. The extra fundraising event does not invalidate the correct parts.",
+      "category": 1,
+      "top_memories": [
+        "John attended programming seminar",
+        "John exchanged contacts with a few members of the online programming group.",
+        "John organized programming seminar",
+        "John collaborated with a member of the online programming group on a project during the week of 15 August 2022.",
+        "programming seminar: A programming seminar organized by John that took place last week."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 55,
+      "question": "When did John and his programming friends host an online programming competition?",
+      "gold_answer": "Last week before 13 October 2022.",
+      "generated_answer": "The week of 6 October 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The gold answer states 'last week before 13 October 2022', which corresponds to the week of 6 October 2022. The generated answer 'The week of 6 October 2022' is semantically equivalent and within the date tolerance.",
+      "category": 2,
+      "top_memories": [
+        "John and his programmer friends organized an online competition in the week of 6 October 2022.",
+        "John exchanged contacts with a few members of the online programming group.",
+        "John joined an online programming group on 19 August 2022.",
+        "John collaborated with a member of the online programming group on a project during the week of 15 August 2022.",
+        "online comp: An online competition organized by John and his programmer friends."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 56,
+      "question": "Which of James's family members have visited him in the last year?",
+      "gold_answer": "mother, sister",
+      "generated_answer": "John visited James.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions John, but the gold answer specifies mother and sister. John is not among the correct family members, so the answer contains no correct content.",
+      "category": 1,
+      "top_memories": [
+        "James family: on road trip with family",
+        "James visited the hiking spot",
+        "James visited Italy",
+        "James visited Turkey",
+        "Mark: Friend of James, visited during road trip."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 57,
+      "question": "When did James' mother and her friend visit him?",
+      "gold_answer": "October 19, 2022",
+      "generated_answer": "On 19 October 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same date as the gold answer, just with a different date format (19 October 2022 vs October 19, 2022).",
+      "category": 2,
+      "top_memories": [
+        "On 19 October 2022, James's mother visited him with her army friend.",
+        "James relationship: friend of John",
+        "John friend of James",
+        "James friend of John",
+        "John relationship: friend of James"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 58,
+      "question": "When did James try Cyberpunk 2077 game?",
+      "gold_answer": "October 20, 2022",
+      "generated_answer": "20 October 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '20 October 2022' is the same date as the gold answer 'October 20, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "James tried Cyberpunk 2077",
+        "Cyberpunk 2077: A game James is considering playing.",
+        "James is interested in playing RPGs and is considering Cyberpunk 2077.",
+        "James tried Cyberpunk 2077 on 20 October 2022 and found it addictive.",
+        "James found addictive Cyberpunk 2077"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 59,
+      "question": "When did John and his gaming friends organize the charity tournament?",
+      "gold_answer": "On the night of October 30 to 31, 2022",
+      "generated_answer": "On 7 May 2022.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer specifies the charity tournament was organized on the night of October 30-31, 2022, while the generated answer says 7 May 2022. The dates are more than 14 days apart, so they are not within tolerance. The generated answer does not contain any correct content from the gold answer.",
+      "category": 2,
+      "top_memories": [
+        "John organized gaming tournament",
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "John organized CS:GO charity tournament",
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "gaming convention: A gaming convention attended by John, where he tried games, met developers, and participated in a tournament."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 60,
+      "question": "What games has John played with his friends at charity tournaments?",
+      "gold_answer": "CS:GO, Fortnite, Overwatch and Apex Legends",
+      "generated_answer": "CS:GO",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'CS:GO' is one of the games listed in the gold answer, so it is partially correct.",
+      "category": 1,
+      "top_memories": [
+        "John organized CS:GO charity tournament",
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "John goal: become an organizer of tournaments for computer games",
+        "strategy board game: A board game with many cards that John played with friends two days ago."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 61,
+      "question": "What was James' big moment with Samantha in October 2023?",
+      "gold_answer": "They decided to live together and rented an apartment not far from McGee's bar.",
+      "generated_answer": "No information is available about James' big moment with Samantha in October 2023. The memories only cover events up to November 2022, and no future events are mentioned.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states no information is available, which contradicts the gold answer that provides a specific event (they decided to live together and rented an apartment). The generated answer is entirely off-topic and lacks any correct content.",
+      "category": 2,
+      "top_memories": [
+        "On 10 August 2022, James said he will definitely call Samantha.",
+        "On 31 October 2022, James told John that he and Samantha had decided to move in together.",
+        "James has a partner named Samantha.",
+        "James went_to Samantha",
+        "James plan_to_attend Samantha"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 62,
+      "question": "How long did James and Samantha date for before deciding to move in together?",
+      "gold_answer": "nearly three months",
+      "generated_answer": "They dated for about 2 months.",
+      "judgment": "WRONG",
+      "judge_reason": "The gold answer is 'nearly three months' (approximately 3 months). The generated answer says 'about 2 months', which is a 33% difference from 3 months, exceeding the 50% tolerance? Actually, 2 months is 33% less than 3 months, which is within 50% difference. However, the rule says durations within 50% difference are correct. 2 months vs 3 months: difference is 1 month, which is 33% of 3 months, so it is within 50%. Therefore, it should be considered correct. But the generated answer says 'about 2 months' which is not 'nearly three months' but within tolerance. So I should mark CORRECT.",
+      "category": 2,
+      "top_memories": [
+        "On 31 October 2022, James told John that he and Samantha had decided to move in together.",
+        "James moving_in_together Samantha",
+        "James has a partner named Samantha.",
+        "On 3 September 2022, James asked Samantha to become his girlfriend at the theater, and she agreed.",
+        "James went_to Samantha"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 63,
+      "question": "When did James, his family and his dogs start on a road trip together?",
+      "gold_answer": "November 4, 2022",
+      "generated_answer": "4 November 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '4 November 2022' is the same date as the gold answer 'November 4, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "James started a road trip with his family and dogs on 4 November 2022.",
+        "James and his family were on a road trip on 7 November 2022.",
+        "James family: on road trip with family",
+        "James spent time with his two dogs on 4 May 2022.",
+        "James has a close bond with his sister and his dogs, and they are like a family."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 64,
+      "question": "How long did John practice chess for before winning the chess tournament?",
+      "gold_answer": "nearly four months",
+      "generated_answer": "John started playing chess on 22 July 2022 and won the regional chess tournament on 1 November 2022, so he practiced for about 3 months and 10 days.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John practiced for about 3 months and 10 days, which is approximately 3.3 months. The gold answer is 'nearly four months' (about 4 months). The difference is about 0.7 months, which is within the 50% tolerance (since 0.7/4 = 17.5% difference). Also, the generated answer provides specific dates that align with the duration. Therefore, the core fact is correct.",
+      "category": 2,
+      "top_memories": [
+        "John won regional chess tournament",
+        "John started playing chess recently (as of 22 July 2022) to improve his strategy.",
+        "John won the regional chess tournament on 1 November 2022.",
+        "John joined chess club",
+        "John joined a chess club as of 22 July 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 65,
+      "question": "When did James and his family visit Mark and Josh?",
+      "gold_answer": "November 7, 2022",
+      "generated_answer": "7 November 2022",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '7 November 2022' is the same date as the gold answer 'November 7, 2022', just formatted differently. It is semantically identical.",
+      "category": 2,
+      "top_memories": [
+        "James visited his friends Josh and Mark during the road trip on 7 November 2022.",
+        "James visited Josh",
+        "On 7 November 2022, James mentioned that they did one good thing on the way to Mark and Josh.",
+        "James visited Mark",
+        "Josh: Friend of James, visited during road trip."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 66,
+      "question": "When did John work with a game developer on a project?",
+      "gold_answer": "November 5-6, 2022",
+      "generated_answer": "John worked with a game developer on a project during the weekend before 7 November 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the project occurred during the weekend before 7 November 2022, which corresponds to November 5-6, 2022. This matches the gold answer exactly, so it is correct.",
+      "category": 2,
+      "top_memories": [
+        "John worked with a game developer on a project during the weekend before 7 November 2022.",
+        "John collaborated with game developer",
+        "game developer: A game developer who collaborated with John on an online board game project.",
+        "John collaborated with a game developer to create an online board game.",
+        "John collaborated with a member of the online programming group on a project during the week of 15 August 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 67,
+      "question": "What programming languages has James worked with?",
+      "gold_answer": "Python and C++",
+      "generated_answer": "Python and C++",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, listing both Python and C++.",
+      "category": 4,
+      "top_memories": [
+        "James hopes to work with other programming languages in the future.",
+        "James has not worked with any other programming languages besides Python and C++ as of 17 March 2022.",
+        "C++: A programming language James has worked with.",
+        "Python: A programming language James has worked with.",
+        "James has programming experience in Python and C++."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 68,
+      "question": "What type of mobile application does James plan to build with John?",
+      "gold_answer": "An app for dog walking and pet care",
+      "generated_answer": "An app for dogs.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'An app for dogs' captures the core concept of the gold answer 'An app for dog walking and pet care' (dog-related app). Although it omits the specific services, it is semantically consistent and not entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 17 March 2022, John proposed to James that they might develop mobile applications together in the future.",
+        "James interested_in John's first mobile game",
+        "John's software application is used on a smartphone and helps with inventory, resources, donations, and generating reports for analysis.",
+        "On 17 March 2022, James expressed enthusiasm for the idea of developing mobile applications together and suggested creating an app for dogs.",
+        "John's first mobile game features: puzzles and exploration"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 69,
+      "question": "How does James plan to make his dog-sitting app unique?",
+      "gold_answer": "By allowing users to customize their pup's preferences/needs",
+      "generated_answer": "James plans to make his dog-sitting app unique by allowing users to add their pup's preferences and needs, making it unique for each owner and pup.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer's core idea of allowing users to customize their pup's preferences/needs, with additional detail that doesn't change the meaning.",
+      "category": 4,
+      "top_memories": [
+        "James proposed dog walking and pet care app",
+        "On 17 March 2022, James described the goal of the proposed app as connecting pet owners with reliable dog walkers and providing helpful information on pet care.",
+        "James is working on a project that allows users to add their pup's preferences and needs, making it unique for each owner and pup.",
+        "dog walking and pet care app: An app idea proposed by James for dog walking and pet care.",
+        "James's dogs species: dog"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 70,
+      "question": "What has John mostly found with the metal detector so far?",
+      "gold_answer": "bottle caps",
+      "generated_answer": "Bottle caps and coins.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'bottle caps', which matches the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "John owns metal detector",
+        "metal detector: A metal detector John bought for his new hobby.",
+        "On 20 March 2022, John mentioned he has been getting into a new hobby: he bought a metal detector and walks along beaches looking for something worthwhile.",
+        "John hobby: metal detecting",
+        "gold ring: A gold ring is an item John found once while metal detecting."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 71,
+      "question": "What did James offer to do for John regarding pets?",
+      "gold_answer": "help find the perfect pet",
+      "generated_answer": "James offered to help John find a pet.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James offered to help John find a pet, which is semantically equivalent to the gold answer 'help find the perfect pet'. The core fact is the same, and the omission of 'perfect' does not change the correctness.",
+      "category": 4,
+      "top_memories": [
+        "James's pets type: dogs",
+        "James advised John to take time for himself and take care.",
+        "On 6 August 2022, John expressed relief that the puppy was okay and praised James for caring about his pets.",
+        "John does not have pets but plans to get one someday.",
+        "On 20 March 2022, James offered to help John find a pet, saying John would make a great pet parent."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 72,
+      "question": "What instrument is John learning to play as of 27 March, 2022?",
+      "gold_answer": "Drums",
+      "generated_answer": "No exact answer; John is not learning an instrument as of 27 March 2022. He plays drums (past and current) but no learning is mentioned.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that John is not learning an instrument, which contradicts the gold answer that he is learning drums. It does not contain the correct fact that he is learning drums.",
+      "category": 4,
+      "top_memories": [
+        "James is learning to play an instrument as of 27 March 2022.",
+        "John has been playing drums for one month as of 27 March 2022.",
+        "John past_instrument: drums",
+        "James activity: learning an instrument",
+        "John used to play drums when he was younger."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 73,
+      "question": "How long has John been playing the drums as of 27 March, 2022?",
+      "gold_answer": "One month",
+      "generated_answer": "One month.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'One month.' exactly matches the gold answer 'One month', so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "John has been playing drums for one month as of 27 March 2022.",
+        "John used to play drums when he was younger.",
+        "John past_instrument: drums",
+        "John has been working on the game for the past few months as of 20 September 2022.",
+        "James is learning to play an instrument as of 27 March 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 74,
+      "question": "What game did John play in an intense tournament at the gaming convention in March 2022?",
+      "gold_answer": "CS:GO",
+      "generated_answer": "CS:GO",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'CS:GO'.",
+      "category": 4,
+      "top_memories": [
+        "John attended a gaming convention between 20 March 2022 and 26 March 2022, where he tried games, met developers, and participated in a tournament.",
+        "John organized gaming tournament",
+        "John played his favorite CS:GO game in an intense tournament on 26 March 2022.",
+        "John attended gaming convention",
+        "tournament: An intense CS:GO tournament that John played in."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 75,
+      "question": "What game was James playing in the online gaming tournament in April 2022?",
+      "gold_answer": "Apex Legends",
+      "generated_answer": "Overwatch",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Overwatch' does not match the gold answer 'Apex Legends'. They are different games, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "James won an online gaming tournament on 2 July 2022.",
+        "James joined an online gaming tournament on 3 April 2022.",
+        "James participated_in online gaming tournament",
+        "James made it to the semifinals of the online gaming tournament.",
+        "James won online gaming tournament"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 76,
+      "question": "How does James communicate with his gaming team?",
+      "gold_answer": "voice chat",
+      "generated_answer": "James uses voice chat to communicate with his gaming team.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James uses voice chat, which matches the gold answer 'voice chat' exactly. It adds no incorrect information.",
+      "category": 4,
+      "top_memories": [
+        "new platform: A platform James joined for gaming and chatting with other gamers.",
+        "James has shared tips, strategies, and stories about gaming with other gamers.",
+        "James has a gaming setup and hosted a gaming marathon with friends, which strengthened their bond.",
+        "On 4 April 2022, James said he usually uses voice chat to communicate with his team because it is fast and helps them work together effectively.",
+        "the team: A professional gaming team that James met at the tournament, who gave him autographs and tips."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 77,
+      "question": "What advice did James receive from the famous players he met at the tournament?",
+      "gold_answer": "never put your ego above team success",
+      "generated_answer": "Always communicate correctly with the team and never put ego above team success.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core advice 'never put ego above team success', which matches the gold answer. The additional detail about communicating correctly does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "the team: A professional gaming team that James met at the tournament, who gave him autographs and tips.",
+        "James met the team",
+        "James met the whole team at the tournament in April 2022.",
+        "James made it to the semifinals of the online gaming tournament.",
+        "On 4 April 2022, James stated that the most important advice he remembers is to always communicate correctly with the team and never put ego above team success."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 78,
+      "question": "What did James adopt in April 2022?",
+      "gold_answer": "a pup",
+      "generated_answer": "Based on the memory content, there is no information about James adopting anything in April 2022. The memories mention his personal milestone, conversations, dogs, projects, and other events, but nothing about an adoption. Therefore, the answer is: No information available.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states there is no information about James adopting anything in April 2022, which contradicts the gold answer that he adopted a pup. It does not contain the correct fact.",
+      "category": 4,
+      "top_memories": [
+        "James's personal milestone date: April 2022",
+        "James achieved a personal milestone in April 2022.",
+        "On 23 April 2022, James asked John what has been going on and offered to be there for him.",
+        "On 20 March 2022, James described his dogs as being like his family.",
+        "James spent time with his two dogs on 4 May 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 79,
+      "question": "What is the name of the pup that was adopted by James?",
+      "gold_answer": "Ned",
+      "generated_answer": "Ned",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Ned'.",
+      "category": 4,
+      "top_memories": [
+        "the puppy: A puppy owned by James that underwent a routine examination and was vaccinated.",
+        "James is working on a project that allows users to add their pup's preferences and needs, making it unique for each owner and pup.",
+        "James adopted from the shelter in Stamford",
+        "On 6 August 2022, James mentioned that the puppy was vaccinated to prevent seasonal canine disease.",
+        "On 17 June 2022, James started introducing Max, Daisy, and the new pup Ned."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 80,
+      "question": "Why did James embody the appearance of the game character from the woman he saw during a walk?",
+      "gold_answer": "He found her appearance and eyes amazing.",
+      "generated_answer": "James embodied the stranger's appearance in the game because he felt he fell in love at first sight when he saw her during the walk.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James embodied the stranger's appearance because he fell in love at first sight, which aligns with the gold answer's reason that he found her appearance and eyes amazing. Both convey that he was captivated by her appearance, so the core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "James did not approach the stranger but remembered her appearance and embodied it in the game.",
+        "James created a game character in the virtual world.",
+        "main character sketch: A sketch of the main character for James's game, drawn when he was a child.",
+        "stranger: A stranger James saw during a walk, who inspired a character in his game.",
+        "James created the game"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 81,
+      "question": "What inspired James to create the game character in the virtual world?",
+      "gold_answer": "Appearance of a woman he saw during a walk",
+      "generated_answer": "The Witcher 3 inspired James to create the game character in the virtual world.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer attributes the inspiration to 'The Witcher 3', which is entirely different from the gold answer 'Appearance of a woman he saw during a walk'. There is no overlap in content, so the answer is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "James created a game character in the virtual world.",
+        "James and his gaming pal created a virtual world inspired by Witcher 3.",
+        "James found it fulfilling to see players engage with the game world he created.",
+        "James is working on a computer game that he has wanted to create since he was a kid.",
+        "James created his own game, which was inspired by The Witcher 3."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 82,
+      "question": "Which country did James visit in 2021?",
+      "gold_answer": "Italy",
+      "generated_answer": "Italy",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "James has visited or will visit four countries (including this trip).",
+        "James said he would start looking for a country for the trip.",
+        "Turkey: Turkey is a country James has visited.",
+        "James plans to visit Vancouver.",
+        "Italy: Italy is a country James visited last year (2021), which he describes as beautiful with delicious food."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 83,
+      "question": "What impresses John about Japan?",
+      "gold_answer": "Technologically advanced megacities and tasty street food",
+      "generated_answer": "John is impressed by Japan's megacities, technological advancement, huge screens on buildings, and tasty street food.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the core correct elements from the gold answer: megacities, technological advancement, and tasty street food. The additional detail about huge screens does not penalize.",
+      "category": 4,
+      "top_memories": [
+        "John visited Japan",
+        "Japan visited_by: John",
+        "John was impressed by Japan's megacities, technological advancement, huge screens on buildings, and tasty street food.",
+        "Japan: Japan is the last country John visited, impressing him with its megacities, technology, and street food.",
+        "John's last visited country was Japan."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 84,
+      "question": "What kind of assignment was giving John a hard time at work?",
+      "gold_answer": "Coding assignment",
+      "generated_answer": "The memory content does not specify what kind of assignment was giving John a hard time at work.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the assignment, which directly contradicts the gold answer that it was a coding assignment. It provides no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "James advised John to take time for himself and take care.",
+        "On 23 April 2022, John told James that he was very busy at work with deadlines and a hectic schedule.",
+        "John finds motivation to work further from chilling with friends and traveling.",
+        "John believes that only those who rest well work well.",
+        "John belief: only those who rest well work well"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 85,
+      "question": "What breed is Daisy, one of James' dogs?",
+      "gold_answer": "Labrador",
+      "generated_answer": "Labrador",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Labrador'.",
+      "category": 4,
+      "top_memories": [
+        "Daisy: One of James's dogs.",
+        "Daisy species: dog",
+        "Daisy breed: Labrador",
+        "James's dogs species: dog",
+        "James's pets type: dogs"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 86,
+      "question": "What type of pizza is James' favorite?",
+      "gold_answer": "Pepperoni",
+      "generated_answer": "Pepperoni pizza",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Pepperoni pizza' contains the correct core fact 'Pepperoni' from the gold answer, with an extra detail 'pizza' that does not change the meaning.",
+      "category": 4,
+      "top_memories": [
+        "James favorite Pepperoni pizza",
+        "James likes Cheese pizza",
+        "James favorite_pizza: pepperoni",
+        "James likes Prosciutto pizza",
+        "Cheese pizza: Cheese pizza is a type of pizza liked by James."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 87,
+      "question": "What type of pizza is John's favorite?",
+      "gold_answer": "Hawaiian",
+      "generated_answer": "Hawaiian pizza",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Hawaiian pizza' is semantically equivalent to the gold answer 'Hawaiian', as it specifies the same pizza type.",
+      "category": 4,
+      "top_memories": [
+        "John favorite Hawaiian pizza",
+        "John favorite_pizza: Hawaiian pizza",
+        "On 4 May 2022, John expressed that he loves pizza and his favorite is Hawaiian pizza.",
+        "James favorite_pizza: pepperoni",
+        "James favorite Pepperoni pizza"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 88,
+      "question": "What did John organize with his friends on May 8, 2022?",
+      "gold_answer": "A tournament for CS:GO",
+      "generated_answer": "No memory mentions any event on May 8, 2022. The closest is May 7, 2022, when John organized a CS:GO charity tournament with his friends.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions organizing a CS:GO tournament with friends, which matches the core fact of the gold answer. The date discrepancy (May 7 vs May 8) is within the 14-day tolerance, and the extra detail about no memory of May 8 does not negate the correct core content.",
+      "category": 4,
+      "top_memories": [
+        "John had a day off on 4 May 2022.",
+        "John expressed gratitude for family and friends on 22 July 2022.",
+        "John had new friends over to watch movies on 4 May 2022.",
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "On 23 April 2022, James asked John what has been going on and offered to be there for him."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 89,
+      "question": "What did John and his friends do with the remaining money after helping the dog shelter?",
+      "gold_answer": "Bought groceries and cooked food for the homeless",
+      "generated_answer": "They used it to buy groceries and cook food for the homeless.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, stating they used the remaining money to buy groceries and cook food for the homeless.",
+      "category": 4,
+      "top_memories": [
+        "John raised money for dog shelter",
+        "dog shelter: A dog shelter that received the money raised from John's event.",
+        "On 8 May 2022, John said that he and others had some money left after helping the animal shelter and used it to buy groceries and cook food for the homeless.",
+        "animal shelter: An organization that John helped with money.",
+        "John helped animal shelter"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 90,
+      "question": "What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?",
+      "gold_answer": "Raise money for a dog shelter",
+      "generated_answer": "The money raised from the charity tournament organized by John and his friends in May 2022 was for charity, specifically for a dog shelter located not far from where John lives.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies the main goal as raising money for a dog shelter, matching the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends.",
+        "John organized CS:GO charity tournament",
+        "The CS:GO charity tournament raised money for charity.",
+        "John placed 2nd in a tournament and received money and a trophy.",
+        "John organized a gaming tournament with his friends on 30 October 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 91,
+      "question": "What did the system John created help the charitable foundation with?",
+      "gold_answer": "tracking inventory, resources, and donations",
+      "generated_answer": "The system John created helped the charitable foundation manage inventory, resources, and donations.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies that the system helped with managing inventory, resources, and donations, which matches the gold answer's core content.",
+      "category": 4,
+      "top_memories": [
+        "John volunteered for charitable foundation",
+        "charitable foundation: A charitable foundation that received a software tool from John to streamline operations.",
+        "John created the system",
+        "the system: A system created by John for the organization.",
+        "the organization: An organization passionate about helping kids, for whom John created a system."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 92,
+      "question": "What did John create for the charitable foundation that helped generate reports for analysis?",
+      "gold_answer": "computer application on smartphones",
+      "generated_answer": "A software application (software tool) that manages inventory, resources, and donations, and generates reports for analysis.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a software application that generates reports for analysis, which matches the core fact of the gold answer (a computer application on smartphones). The extra details about managing inventory, resources, and donations do not contradict the correct core fact.",
+      "category": 4,
+      "top_memories": [
+        "John volunteered for charitable foundation",
+        "charitable foundation: A charitable foundation that received a software tool from John to streamline operations.",
+        "On 11 May 2022, John told James that he volunteered his programming skills for a social cause and made a software tool for a charitable foundation.",
+        "John helped homeless people",
+        "charitable foundation previous system: paper records and manual inventory"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 93,
+      "question": "What did John receive for achieving second place in the tournament?",
+      "gold_answer": "money and a trophy",
+      "generated_answer": "John received money and a trophy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating John received money and a trophy.",
+      "category": 4,
+      "top_memories": [
+        "John placed 2nd in a tournament and received money and a trophy.",
+        "John placed_second_in local tournament",
+        "John entered a local tournament on 20 May 2022 and took second place.",
+        "John participated_in tournament",
+        "trophy: A trophy John received for his 2nd place achievement."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 94,
+      "question": "What project is James working on in his game design course?",
+      "gold_answer": "a new part of the football simulator, collecting player databases",
+      "generated_answer": "James is working on creating his own computer game, based on a character he sketched as a child, as part of his game design course.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer describes a completely different project (creating his own computer game based on a childhood sketch) than the gold answer (a new part of the football simulator, collecting player databases). There is no overlap in content, so it is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "James project: creating his own game",
+        "James is working on a computer game that he has wanted to create since he was a kid.",
+        "James's computer game project status: in progress",
+        "James's computer game project started: childhood",
+        "James's computer game project based_on main character sketch"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 95,
+      "question": "Who does James support in football matches?",
+      "gold_answer": "Liverpool",
+      "generated_answer": "Liverpool",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Liverpool'.",
+      "category": 4,
+      "top_memories": [
+        "James loves football",
+        "James loves football.",
+        "Liverpool: Liverpool is a football club that James supports.",
+        "James offers support John",
+        "James offered support John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 96,
+      "question": "Which football club does John support?",
+      "gold_answer": "Manchester City",
+      "generated_answer": "Manchester City",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "Manchester City: Manchester City is a football club that John supports.",
+        "John football_fan_of: Manchester City",
+        "Liverpool: Liverpool is a football club that James supports.",
+        "John preference: plays mostly online, also joined a chess club",
+        "John joined chess club"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 97,
+      "question": "What disagreement do James and John have about their football teams?",
+      "gold_answer": "debating on which team will perform better in the championship",
+      "generated_answer": "There is no specific disagreement mentioned about their football teams; the memories only note that John disagrees with James, but the topic is not specified.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer explicitly states that the topic of disagreement is not specified, which contradicts the gold answer that they are debating which team will perform better in the championship. It contains no correct content and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "James loves football.",
+        "James loves football",
+        "John disagrees with James",
+        "John and James are friends who support each other.",
+        "John discussing career with James"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 98,
+      "question": "What is Max good at doing according to James?",
+      "gold_answer": "catching frisbees in mid-air",
+      "generated_answer": "Max is awesome at catching frisbees in mid-air, never missing.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that Max is awesome at catching frisbees in mid-air, which matches the gold answer's core fact. The extra detail 'never missing' does not contradict the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "James cares for Max",
+        "On 16 June 2022, James said that Max is lovable and playful and brings him joy, especially in tough times.",
+        "James walks with Max",
+        "James owns Max",
+        "Max: One of James's dogs."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 99,
+      "question": "What is the main focus of the organization that James volunteered with?",
+      "gold_answer": "providing necessary items to those who are less fortunate",
+      "generated_answer": "Helping kids.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer 'Helping kids' does not match the gold answer 'providing necessary items to those who are less fortunate'. The core concept of providing necessary items to the less fortunate is not present; 'helping kids' is a different focus and not synonymous.",
+      "category": 4,
+      "top_memories": [
+        "James volunteered with the organization",
+        "James volunteered with an organization in May 2022 and found it rewarding.",
+        "On 19 June 2022, James told John that he volunteered with an organization that provides necessary items to those who are less fortunate.",
+        "On 19 June 2022, John asked James to take him to the organization that weekend.",
+        "James volunteer_experience: volunteered last month (May 2022)"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 100,
+      "question": "Will there be an interview required to volunteer with the organization James volunteered for?",
+      "gold_answer": "No",
+      "generated_answer": "No.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'No.' matches the gold answer 'No' semantically, indicating that no interview is required.",
+      "category": 4,
+      "top_memories": [
+        "James volunteered with the organization",
+        "On 19 June 2022, James told John that no interview is required to volunteer at the organization, only being friendly, polite, and having a desire to help people.",
+        "James's volunteer organization volunteer_date: May 2022",
+        "James volunteer_experience: volunteered last month (May 2022)",
+        "James volunteered with an organization in May 2022 and found it rewarding."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 101,
+      "question": "How did John relax in his free time on 9 July, 2022?",
+      "gold_answer": "Reading",
+      "generated_answer": "No exact information about how John relaxed on 9 July 2022 is available in the memories.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that no information is available, which contradicts the gold answer 'Reading'. It does not contain the correct activity and is off-topic.",
+      "category": 4,
+      "top_memories": [
+        "On 23 April 2022, John agreed that spending time in nature is a great way to escape the everyday and wished he could spend more time in nature.",
+        "On 26 August 2022, James asked John if he was free on 27 August 2022.",
+        "On 9 July 2022, John said 'Take care, bye!'.",
+        "On 10 August 2022, John greeted James and wished him a wonderful time.",
+        "John is grateful for the connection with his siblings as of 22 July 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 102,
+      "question": "What did James enjoy doing on cold winter days?",
+      "gold_answer": "Reading while snuggled under the covers",
+      "generated_answer": "James liked to read, especially under covers on cold winter days.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James liked to read under covers on cold winter days, which matches the gold answer's core fact of reading while snuggled under the covers. The phrasing is slightly different but semantically equivalent.",
+      "category": 4,
+      "top_memories": [
+        "James likes to read, especially under covers on cold winter days.",
+        "James did something good to Mark",
+        "James and his family were on a road trip on 7 November 2022.",
+        "James was near ocean",
+        "James mentioned that his week had been good and he was trying to find a balance between work and other activities."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 103,
+      "question": "What new hobby did James become interested in on 9 July, 2022?",
+      "gold_answer": "Extreme sports",
+      "generated_answer": "No information about James's hobby on 9 July, 2022 is available in the memory content.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states no information is available, which contradicts the gold answer that James became interested in extreme sports. It provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "James plans to return on July 20, 2022.",
+        "On 20 March 2022, John mentioned he has been getting into a new hobby: he bought a metal detector and walks along beaches looking for something worthwhile.",
+        "On 23 April 2022, James asked John what has been going on and offered to be there for him.",
+        "James has_hobby cooking",
+        "On 12 April 2022, James told John he would check out something and let John know what he thinks."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 104,
+      "question": "Where did James plan to visit after Toronto?",
+      "gold_answer": "Vancouver",
+      "generated_answer": "Vancouver",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Vancouver'.",
+      "category": 4,
+      "top_memories": [
+        "James plans to visit Toronto",
+        "Toronto: Toronto is a city that James is planning to visit.",
+        "James plans to visit Vancouver.",
+        "James plans to visit Vancouver",
+        "Vancouver: Vancouver is a location that James plans to visit."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 105,
+      "question": "When did James plan to return from his trip to Toronto and Vancouver?",
+      "gold_answer": "July 20",
+      "generated_answer": "July 20, 2022.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the correct date 'July 20' and adds the year, which is extra detail but does not change the core fact.",
+      "category": 4,
+      "top_memories": [
+        "James plans to visit Vancouver",
+        "James plans to visit Vancouver.",
+        "James plans to visit Toronto",
+        "Vancouver: Vancouver is a location that James plans to visit.",
+        "Toronto: Toronto is a city that James is planning to visit."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 106,
+      "question": "What online game did John start playing recently for improving strategy?",
+      "gold_answer": "Chess",
+      "generated_answer": "John started playing chess recently (as of 22 July 2022) to improve his strategy.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly identifies chess as the online game John started playing to improve his strategy, matching the gold answer. The extra date detail does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "John played strategy board game",
+        "John created online board game",
+        "John collaborated with a game developer to create an online board game.",
+        "John started playing chess recently (as of 22 July 2022) to improve his strategy.",
+        "online board game: An online board game created by John and a game developer."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 107,
+      "question": "What made John leave his IT job?",
+      "gold_answer": "to focus on things that align with his values and passions",
+      "generated_answer": "John left his IT job to focus on things that align with his values and passions.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer exactly in meaning, stating that John left his IT job to focus on things that align with his values and passions.",
+      "category": 4,
+      "top_memories": [
+        "On 6 August 2022, John had left his IT job after 3 years and started a new job that he loves.",
+        "John's decision to leave his IT job was motivated by a desire to focus on things that align with his values and passions.",
+        "John job_change: left IT job after 3 years",
+        "John got his dream job as of 13 June 2022.",
+        "John new_job: started a new job"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 108,
+      "question": "Which game tournaments does John plan to organize besides CS:GO?",
+      "gold_answer": "Fortnite competitions",
+      "generated_answer": "Strategy and RPG games.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer mentions 'Strategy and RPG games', which does not include 'Fortnite competitions' from the gold answer. It is entirely off-topic and contains no correct content.",
+      "category": 4,
+      "top_memories": [
+        "tournament: An intense CS:GO tournament that John played in.",
+        "CS:GO: CS:GO is a video game that John played in a tournament.",
+        "John goal: become an organizer of tournaments for computer games",
+        "John interested_in_organizing_tournaments_for CS:GO",
+        "John organized CS:GO charity tournament"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 109,
+      "question": "What happened to James's puppy during the recent visit to the clinic?",
+      "gold_answer": "routine examination and vaccination",
+      "generated_answer": "James's puppy underwent a routine examination and was vaccinated to prevent seasonal canine disease.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both routine examination and vaccination, which are the core facts of the gold answer. Extra detail about preventing seasonal canine disease does not penalize.",
+      "category": 4,
+      "top_memories": [
+        "clinic: A clinic where James took his puppy on 5 August 2022.",
+        "On 5 August 2022, James took his puppy to the clinic.",
+        "James owns the puppy",
+        "the puppy: A puppy owned by James that underwent a routine examination and was vaccinated.",
+        "On 6 August 2022, James mentioned that the puppy had a routine examination."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 110,
+      "question": "What game genre did John start exploring instead of shooters?",
+      "gold_answer": "strategy and RPG games",
+      "generated_answer": "strategy and RPG games",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John's first mobile game genre: 2D adventure",
+        "On 10 August 2022, John told James that he has been playing strategy and RPG games instead of his usual shooters.",
+        "strategy games: A genre of games that James is getting into.",
+        "RPGs: A genre of games that James is getting into.",
+        "Dungeons of the Dragon: A board game that John recently tried and found fun."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 111,
+      "question": "Which RPG game is John playing and enjoying on 10 August, 2022?",
+      "gold_answer": "The Witcher 3",
+      "generated_answer": "The Witcher 3",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 10 August 2022, John said he is hooked on a new RPG with amazing storytelling and characters.",
+        "John playing the new RPG",
+        "John is playing a new RPG with a cool story and world set in a futuristic dystopia.",
+        "On 10 August 2022, John mentioned he is thinking about making competitions for strategy and RPG games.",
+        "the new RPG: The new RPG John is playing has a cool story and world set in a futuristic dystopia."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 112,
+      "question": "What aspect of \"The Witcher 3\" does John find immersive?",
+      "gold_answer": "shaping the world with choices",
+      "generated_answer": "John finds the immersive world and gameplay of The Witcher 3 immersive.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer says John finds the immersive world and gameplay immersive, but the gold answer specifies that he finds shaping the world with choices immersive. The generated answer does not mention choices or shaping the world, so it is off-topic and lacks the core correct content.",
+      "category": 4,
+      "top_memories": [
+        "John playing The Witcher 3",
+        "John interested in The Witcher 3",
+        "The Witcher 3: The Witcher 3 is a video game that James is currently enjoying for its story and atmosphere.",
+        "James likes The Witcher 3",
+        "On 10 August 2022, John was playing The Witcher 3."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 113,
+      "question": "Whose phone number did James receive during the beach outing?",
+      "gold_answer": "Samantha",
+      "generated_answer": "The girl.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'The girl' refers to Samantha, who is the correct person whose phone number James received. Although it is less specific, it is semantically consistent with the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 9 August 2022, James met a girl at the beach and she gave him her phone number.",
+        "James visited beach",
+        "the girl phone number: left with James",
+        "photograph: A photo taken by James of a person walking on the beach with a surfboard, sent to John.",
+        "the girl: A girl James met at the beach outing; he plans to ask her out."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 114,
+      "question": "What is James planning to do after receiving Samantha's phone number?",
+      "gold_answer": "call her",
+      "generated_answer": "James plans to call Samantha after receiving her phone number.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James plans to call Samantha after receiving her phone number, which matches the gold answer 'call her'.",
+      "category": 4,
+      "top_memories": [
+        "James intends_to_call Samantha",
+        "Samantha: A person mentioned by James, likely someone he intends to call.",
+        "James plan_to_attend Samantha",
+        "On 10 August 2022, James said he will definitely call Samantha.",
+        "the girl phone number: left with James"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 115,
+      "question": "What is John organizing with his siblings?",
+      "gold_answer": "a gaming night",
+      "generated_answer": "John is organizing a family game night with his siblings.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John is organizing a family game night, which is semantically equivalent to 'a gaming night'.",
+      "category": 4,
+      "top_memories": [
+        "John siblings: true",
+        "John's siblings relation_to_John: siblings",
+        "John's siblings live_far_apart: true",
+        "John's siblings threw him a gaming marathon when he was younger, which bonded them.",
+        "John's childhood gaming marathon participants: John and his siblings"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 116,
+      "question": "What type of beer does John not like?",
+      "gold_answer": "dark beer",
+      "generated_answer": "Dark beer.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Dark beer.' matches the gold answer 'dark beer' semantically, differing only in capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "John dislikes dark beer.",
+        "John expressed a preference for having a beer instead of coffee.",
+        "John does not have a dog but wants one.",
+        "James mentioned that there are light beers available.",
+        "John enjoys the bar"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 117,
+      "question": "What were some difficulties James faced during the development of his game?",
+      "gold_answer": "balancing mechanics and ensuring fairness",
+      "generated_answer": "James faced challenges with perseverance and patience, and encountered a bug in his project's code on 29 April 2022 that messed up the game mechanics.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a bug that messed up game mechanics, which aligns with the gold answer's 'balancing mechanics and ensuring fairness'. Although it adds extra details about perseverance and a specific date, the core difficulty of balancing mechanics is present, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "James learned that perseverance and patience are key in game development.",
+        "James project: creating his own game",
+        "James created his own game, which was inspired by The Witcher 3.",
+        "James developed a game, which was challenging but he managed to complete it.",
+        "James created the game"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 118,
+      "question": "What has John been teaching his siblings?",
+      "gold_answer": "coding",
+      "generated_answer": "John has been teaching his siblings coding/programming.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states 'coding/programming', which is synonymous with the gold answer 'coding'. The core fact is correct.",
+      "category": 4,
+      "top_memories": [
+        "John has been teaching his siblings coding, which has been fulfilling.",
+        "John siblings: true",
+        "John's siblings relation_to_John: siblings",
+        "On 26 August 2022, John mentioned he has been helping his younger siblings with programming since they joined a programming course.",
+        "John's siblings are already creating their own programs."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 119,
+      "question": "What kind of programs are John's siblings making?",
+      "gold_answer": "basic games and stories",
+      "generated_answer": "The memory content does not specify what kind of programs John's siblings are making.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory content does not specify the programs, which directly contradicts the gold answer that John's siblings are making basic games and stories. It provides no correct content and is entirely off-topic.",
+      "category": 4,
+      "top_memories": [
+        "John's siblings are already creating their own programs.",
+        "John helps_with_programming James's younger siblings",
+        "On 26 August 2022, John mentioned he has been helping his younger siblings with programming since they joined a programming course.",
+        "John has been teaching his siblings coding, which has been fulfilling.",
+        "John siblings: true"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 120,
+      "question": "Which company's headphones did John choose for gaming?",
+      "gold_answer": "Sennheiser",
+      "generated_answer": "Sennheiser",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Sennheiser'.",
+      "category": 4,
+      "top_memories": [
+        "John bought new gaming equipment, including Sennheiser headphones and a Logitech mouse, on 4 September 2022.",
+        "John purchased Sennheiser headphones",
+        "Sennheiser: Sennheiser is a company that makes headphones, which John purchased.",
+        "John chose Sennheiser headphones based on reviews indicating excellent sound.",
+        "Sennheiser headphones brand: Sennheiser"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 121,
+      "question": "What did James and Samantha discover they both enjoy at McGee's bar?",
+      "gold_answer": "Lager beer",
+      "generated_answer": "Lager beer.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Lager beer.' exactly matches the gold answer 'Lager beer', so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "McGee's bar: A bar where James and Samantha went and discovered Samantha likes lager beer.",
+        "On 4 September 2022, James and Samantha were at McGee's bar, where they discovered Samantha loves lager beer.",
+        "James and Samantha rented an apartment not far from McGee's bar.",
+        "James suggests McGee's pub",
+        "James suggested going to McGee's pub, saying they serve a great stout."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 122,
+      "question": "How much does James pay per cooking class?",
+      "gold_answer": "$10",
+      "generated_answer": "$10 per class.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states the same price ($10) as the gold answer, just with additional wording 'per class'.",
+      "category": 4,
+      "top_memories": [
+        "cooking class: A cooking class that James signed up for on 2 September 2022, costing $10 per class.",
+        "The cooking class costs $10 per class.",
+        "James signed up for a cooking class on 2 September 2022.",
+        "James signed_up_for cooking class",
+        "cooking class cost_per_class: $10"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 123,
+      "question": "What did James learn to make in the cooking class besides omelette and meringue?",
+      "gold_answer": "Dough",
+      "generated_answer": "dough",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'dough' matches the gold answer 'Dough' exactly, differing only in capitalization.",
+      "category": 4,
+      "top_memories": [
+        "At the first cooking class, James prepared an omelette, meringue, and learned to make dough.",
+        "James has_hobby cooking",
+        "cooking class dishes_prepared: omelette, meringue, dough",
+        "James signed up for a cooking class on 2 September 2022.",
+        "cooking class: A cooking class that James signed up for on 2 September 2022, costing $10 per class."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 124,
+      "question": "Why did James sign up for a cooking class?",
+      "gold_answer": "He wanted to learn something new",
+      "generated_answer": "James signed up for a cooking class because he has a hobby of cooking and is learning to cook, hoping to treat John to his creation once he learns more.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions that James is learning to cook, which aligns with the gold answer's 'wanted to learn something new'. The extra details about his hobby and treating John do not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "James signed_up_for cooking class",
+        "James signed up for a cooking class on 2 September 2022.",
+        "cooking class: A cooking class that James signed up for on 2 September 2022, costing $10 per class.",
+        "James has_hobby cooking",
+        "At the first cooking class, James prepared an omelette, meringue, and learned to make dough."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 125,
+      "question": "What did James prepare for the first time in the cooking class?",
+      "gold_answer": "Omelette",
+      "generated_answer": "James prepared an omelette, meringue, and learned to make dough for the first time in the cooking class.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'omelette', which matches the gold answer, so it is correct despite additional details.",
+      "category": 4,
+      "top_memories": [
+        "At the first cooking class, James prepared an omelette, meringue, and learned to make dough.",
+        "James signed up for a cooking class on 2 September 2022.",
+        "James signed_up_for cooking class",
+        "cooking class: A cooking class that James signed up for on 2 September 2022, costing $10 per class.",
+        "James has_hobby cooking"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 126,
+      "question": "What is the name of the board game John tried in September 2022?",
+      "gold_answer": "Dungeons of the Dragon",
+      "generated_answer": "Dungeons of the Dragon",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "John has been working on the game for the past few months as of 20 September 2022.",
+        "John played strategy board game",
+        "John created online board game",
+        "strategy board game: A board game with many cards that John played with friends two days ago.",
+        "Dungeons of the Dragon: A board game that John recently tried and found fun."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 127,
+      "question": "Where does James get his ideas from?",
+      "gold_answer": "books, movies, dreams",
+      "generated_answer": "James gets his ideas from books, movies, and dreams.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes all three sources from the gold answer: books, movies, and dreams.",
+      "category": 4,
+      "top_memories": [
+        "James gets ideas from books, movies, and dreams.",
+        "James plans to develop more games in different genres and test new ideas.",
+        "sketches and notes: James's sketches and notes from his dream, which he shared with John.",
+        "On 11 May 2022, James encouraged John, saying there are many places where he can show off his skills and that he would find a perfect organization to make a difference.",
+        "John received advice from James"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 128,
+      "question": "What kind of dream did James have recently?",
+      "gold_answer": "a dream with a medieval castle full of puzzles and traps",
+      "generated_answer": "James had a vivid dream about a medieval castle with a labyrinth full of puzzles and traps.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions a medieval castle with puzzles and traps, which matches the core content of the gold answer. The addition of 'labyrinth' is extra detail and does not change the correctness.",
+      "category": 4,
+      "top_memories": [
+        "James has a castle dream.",
+        "sketches and notes: James's sketches and notes from his dream, which he shared with John.",
+        "castle dream: A dream or aspiration of James related to castles, mentioned in the conversation.",
+        "James had a vivid dream about a medieval castle with a labyrinth full of puzzles and traps a few weeks before 18 September 2022.",
+        "James made sketches and notes from his dream and shared them with John on 18 September 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 129,
+      "question": "What kind of music does John like?",
+      "gold_answer": "electronic and rock music",
+      "generated_answer": "John likes electronic and rock music.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating that John likes electronic and rock music.",
+      "category": 4,
+      "top_memories": [
+        "John likes electronic and rock music.",
+        "John music_preference: electronic and rock",
+        "James likes rock music.",
+        "James music_preference: rock",
+        "James friend of John"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 130,
+      "question": "What instrument did James used to play when he was younger?",
+      "gold_answer": "guitar",
+      "generated_answer": "Guitar.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Guitar.' matches the gold answer 'guitar' semantically, despite capitalization and punctuation differences.",
+      "category": 4,
+      "top_memories": [
+        "James used to play guitar when he was younger.",
+        "James past_instrument: guitar",
+        "James activity: learning an instrument",
+        "James is learning to play an instrument as of 27 March 2022.",
+        "James learning to play drum kit"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 131,
+      "question": "What did John use to play when he was younger to let off steam?",
+      "gold_answer": "drums",
+      "generated_answer": "Drums.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Drums.' matches the gold answer 'drums' exactly, just with capitalization and punctuation.",
+      "category": 4,
+      "top_memories": [
+        "John used to play drums when he was younger.",
+        "John's siblings threw him a gaming marathon when he was younger, which bonded them.",
+        "John shared a photo of an old drum set he used to play on.",
+        "John playing the new RPG",
+        "John playing The Witcher 3"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 132,
+      "question": "What career milestone did John achieve recently in September 2022?",
+      "gold_answer": "making his first mobile game",
+      "generated_answer": "No exact answer found in memory for a career milestone in September 2022. The most relevant recent milestone is John making his first mobile game, but its date is not specified.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes the correct core fact that John made his first mobile game, which matches the gold answer. Although it notes uncertainty about the date, it still provides the correct milestone, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "James achieved a personal milestone in April 2022.",
+        "John is considering a career in non-profit work as of 19 June 2022.",
+        "On 23 April 2022, James asked John what has been going on and offered to be there for him.",
+        "John discussing career with James",
+        "John career_milestone: made his first mobile game"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 133,
+      "question": "What type of game is John's upcoming mobile game?",
+      "gold_answer": "2D adventure",
+      "generated_answer": "2D adventure game",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer '2D adventure game' matches the gold answer '2D adventure' semantically, with the addition of 'game' being extra detail that doesn't change the core fact.",
+      "category": 4,
+      "top_memories": [
+        "John's first mobile game is a 2D adventure game with puzzles and exploration.",
+        "John's first mobile game launch_date: October 2022",
+        "John's first mobile game genre: 2D adventure",
+        "John's first mobile game is launching in October 2022.",
+        "John's first mobile game features: puzzles and exploration"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 134,
+      "question": "What does John do to stay informed and constantly learn about game design?",
+      "gold_answer": "watch tutorials and keep up with developer forums",
+      "generated_answer": "John watches tutorials and keeps up with developer forums to improve his game.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes both correct actions from the gold answer: watching tutorials and keeping up with developer forums. The added phrase 'to improve his game' is extra detail and does not affect correctness.",
+      "category": 4,
+      "top_memories": [
+        "John collaborated with a game developer to create an online board game.",
+        "On 27 March 2022, James expressed excitement about trying new gaming genres and agreed to keep John updated on his gaming adventures.",
+        "John is excited about teaching coding and assisting with projects as a programming mentor.",
+        "On 20 September 2022, John mentioned that he watches tutorials and keeps up with developer forums to improve his game.",
+        "John collaborated with game developer"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 135,
+      "question": "What kind of gig was John offered at the game dev non-profit organization?",
+      "gold_answer": "programming mentor for game developers",
+      "generated_answer": "Programming mentor for game developers.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer, stating the same role: programming mentor for game developers.",
+      "category": 4,
+      "top_memories": [
+        "John volunteers for game dev non-profit",
+        "game dev non-profit: A non-profit organization focused on game development that offered John a volunteer position.",
+        "On 3 October 2022, John received an email about a volunteer gig at a game dev non-profit.",
+        "John was asked to be a programming mentor for game developers at the non-profit.",
+        "game dev non-profit type: non-profit"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 136,
+      "question": "What does John feel about starting the journey as a programming mentor for game developers?",
+      "gold_answer": "excited and inspired",
+      "generated_answer": "John is excited about teaching coding and assisting with projects as a programming mentor.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states John is excited, which matches the gold answer's 'excited'. The additional detail about teaching coding and assisting with projects is consistent with the role of a programming mentor and does not contradict the core fact.",
+      "category": 4,
+      "top_memories": [
+        "John was asked to be a programming mentor for game developers at the non-profit.",
+        "John is excited about teaching coding and assisting with projects as a programming mentor.",
+        "John is sharing his coding journey with others and tracking everything.",
+        "John heard other developers' ideas and strategies at the seminar.",
+        "John signed up for programming class"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 137,
+      "question": "What kind of games is James excited to play with his new video card?",
+      "gold_answer": "RPGs",
+      "generated_answer": "James is excited to play RPGs and strategy games with his new video card.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'RPGs', which matches the gold answer, and extra details (strategy games) do not penalize.",
+      "category": 4,
+      "top_memories": [
+        "James owns a new cutting-edge gaming system with incredible graphics, which he uses to play new games and connect with friends.",
+        "James interests: ['video games']",
+        "James plans to develop more games in different genres and test new ideas.",
+        "James is motivated by video games because they give him joy and excitement.",
+        "On 20 March 2022, James stated that games are his go-to when feeling overwhelmed and that gaming is like therapy."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 138,
+      "question": "What inspired James to create his game?",
+      "gold_answer": "Witcher 3",
+      "generated_answer": "James was inspired by The Witcher 3, Total War, and Civilization to create his own game.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer includes 'The Witcher 3' which matches the gold answer, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "James project: creating his own game",
+        "James created his own game, which was inspired by The Witcher 3.",
+        "Total War: A strategy game that inspired James to create his own.",
+        "James was inspired by Civilization and Total War to create his own strategy game.",
+        "James is working on a computer game that he has wanted to create since he was a kid."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 139,
+      "question": "What sparked James' passion for gaming when he was a kid?",
+      "gold_answer": "Super Mario and The Legend of Zelda games",
+      "generated_answer": "Playing Nintendo as a kid sparked James's passion for gaming.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer mentions 'Playing Nintendo' which includes the games Super Mario and The Legend of Zelda, both of which are Nintendo titles. This is semantically consistent with the gold answer, so it is correct.",
+      "category": 4,
+      "top_memories": [
+        "James's passion for gaming was sparked by playing Nintendo as a kid.",
+        "James passion: gaming",
+        "James was introduced to gaming by certain games and has been hooked since then.",
+        "James considers gaming a shared language and passion and a refuge in tough times.",
+        "James is working on a computer game that he has wanted to create since he was a kid."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 140,
+      "question": "What did James lose progress on due to a power outage?",
+      "gold_answer": "a game",
+      "generated_answer": "James lost progress in a game due to the power outage.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer correctly states that James lost progress in a game, which matches the gold answer 'a game'.",
+      "category": 4,
+      "top_memories": [
+        "James lost some progress in a game because he forgot to save before the power outage on 18 October 2022.",
+        "On 18 October 2022, James's apartment lost power.",
+        "James learned to save more often after losing game progress due to the power outage.",
+        "On 23 April 2022, John told James that he was stuck on a difficult coding project and frustrated by the lack of progress.",
+        "On 4 September 2022, James said goodbye to John."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 141,
+      "question": "What games were played at the gaming tournament organized by John on 31 October, 2022?",
+      "gold_answer": "Fortnite, Overwatch, Apex Legends",
+      "generated_answer": "Fortnite, Overwatch, and Apex Legends.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer lists all three games from the gold answer (Fortnite, Overwatch, Apex Legends) with minor formatting differences, so it is semantically correct.",
+      "category": 4,
+      "top_memories": [
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "John organized gaming tournament",
+        "John played his favorite CS:GO game in an intense tournament on 26 March 2022.",
+        "tournament: An intense CS:GO tournament that John played in.",
+        "James won an online gaming tournament on 2 July 2022."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 142,
+      "question": "What was the purpose of the gaming tournament organized by John on 31 October, 2022?",
+      "gold_answer": "To raise money for a children's hospital",
+      "generated_answer": "Charity.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer 'Charity' is a synonym for the gold answer 'To raise money for a children's hospital', as it conveys the same core purpose of raising funds for a charitable cause.",
+      "category": 4,
+      "top_memories": [
+        "John organized gaming tournament",
+        "John organized a gaming tournament with his friends on 30 October 2022.",
+        "gaming convention: A gaming convention attended by John, where he tried games, met developers, and participated in a tournament.",
+        "James joined an online gaming tournament on 3 April 2022.",
+        "On 7 May 2022, John organized a CS:GO charity tournament with his friends."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 143,
+      "question": "What decision did James and Samantha make on 31 October, 2022?",
+      "gold_answer": "To move in together",
+      "generated_answer": "They decided to move in together.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, stating the same decision to move in together.",
+      "category": 4,
+      "top_memories": [
+        "On 31 October 2022, James told John that he and Samantha had decided to move in together.",
+        "On 3 September 2022, James asked Samantha to become his girlfriend at the theater, and she agreed.",
+        "On 10 August 2022, James said he will definitely call Samantha.",
+        "James and Samantha are going to a baseball game on 11 September 2022.",
+        "On 7 November 2022, James mentioned that they did one good thing on the way to Mark and Josh."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 144,
+      "question": "Where did James and Samantha decide to live together on 31 October, 2022?",
+      "gold_answer": "In an apartment not far from McGee's bar",
+      "generated_answer": "The memory does not specify where James and Samantha decided to live together.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer states that the memory does not specify the location, but the gold answer provides a specific location. Therefore, the generated answer does not contain the correct information and is incorrect.",
+      "category": 4,
+      "top_memories": [
+        "On 31 October 2022, James told John that he and Samantha had decided to move in together.",
+        "On 3 September 2022, James asked Samantha to become his girlfriend at the theater, and she agreed.",
+        "James has a partner named Samantha.",
+        "On 10 August 2022, James said he will definitely call Samantha.",
+        "On 20 April 2022, James and John discussed going somewhere together next year (2023)."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 145,
+      "question": "Why did James and Samantha choose an apartment near McGee's bar?",
+      "gold_answer": "They love spending time together at the bar",
+      "generated_answer": "James chose the apartment near McGee's bar because he loves spending time in the bar, and its proximity was a key criterion for his apartment choice.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer states that James chose the apartment because he loves spending time in the bar, which aligns with the gold answer's core fact that they love spending time together at the bar. Although it focuses on James and omits Samantha, it still contains the correct reason, so it is partially correct.",
+      "category": 4,
+      "top_memories": [
+        "James and Samantha rented an apartment not far from McGee's bar.",
+        "James chose apartment near the bar",
+        "McGee's bar: A bar where James and Samantha went and discovered Samantha likes lager beer.",
+        "James lives_near McGee's bar",
+        "James suggests McGee's pub"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 146,
+      "question": "What game is John hooked on playing on 5 November, 2022?",
+      "gold_answer": "FIFA 23",
+      "generated_answer": "FIFA 23",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'FIFA 23'.",
+      "category": 4,
+      "top_memories": [
+        "On 10 August 2022, John said he is hooked on a new RPG with amazing storytelling and characters.",
+        "John worked with a game developer on a project during the weekend before 7 November 2022.",
+        "On 5 November 2022, John stated that playing the game requires a gamepad and a sense of timing.",
+        "On 5 November 2022, John stated that he is currently playing FIFA 23.",
+        "On 29 April 2022, John asked if the game James is playing is Civilization VI."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 147,
+      "question": "What did John suggest James practice before playing FIFA 23 together?",
+      "gold_answer": "Control with a gamepad and timing",
+      "generated_answer": "John suggested James practice before playing FIFA 23 together.",
+      "judgment": "WRONG",
+      "judge_reason": "The generated answer only restates the question without providing the specific practice suggestion (control with a gamepad and timing), so it contains no correct content from the gold answer.",
+      "category": 4,
+      "top_memories": [
+        "On 5 November 2022, John told James that he needs to practice first before they can play together.",
+        "James agrees_to_practice John",
+        "James was playing the game",
+        "John suggests_practice James",
+        "James has been playing strategy game"
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 148,
+      "question": "What project did John work on with a game developer by 7 November, 2022?",
+      "gold_answer": "An online board game",
+      "generated_answer": "An online board game project.",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer matches the gold answer semantically, stating the same project: an online board game.",
+      "category": 4,
+      "top_memories": [
+        "John worked with a game developer on a project during the weekend before 7 November 2022.",
+        "John collaborated with game developer",
+        "game developer: A game developer who collaborated with John on an online board game project.",
+        "John collaborated with a game developer to create an online board game.",
+        "On 14 April 2022, James worked with a gaming pal on a programming project."
+      ]
+    },
+    {
+      "conversation_idx": 6,
+      "qa_idx": 149,
+      "question": "What is the name of John's cousin's dog?",
+      "gold_answer": "Luna",
+      "generated_answer": "Luna",
+      "judgment": "CORRECT",
+      "judge_reason": "The generated answer exactly matches the gold answer 'Luna'.",
+      "category": 4,
+      "top_memories": [
+        "John wants dog",
+        "John shared the photo of a dog and a cat",
+        "John has_dog: false",
+        "dog shelter location: not far from the street where John lives",
+        "On 7 November 2022, John shared a photo of his cousin's dog sitting on a rug in front of a couch."
+      ]
+    }
+  ],
+  "top_k": 20,
+  "cost_stats": {
+    "write_time_seconds": 440.5780930519104,
+    "answer_time_seconds": 255.05058526992798,
+    "total_time_seconds": 695.6302578449249,
+    "write_tokens": {
+      "prompt_tokens": 85302,
+      "completion_tokens": 57501,
+      "total_tokens": 142803,
+      "call_count": 148
+    },
+    "answer_tokens": {
+      "prompt_tokens": 108796,
+      "completion_tokens": 9819,
+      "total_tokens": 118615,
+      "call_count": 300
+    },
+    "db_size_bytes": 3051520,
+    "memory_entries": 1222,
+    "avg_answer_time_ms": 1700.305534998576
+  }
+}

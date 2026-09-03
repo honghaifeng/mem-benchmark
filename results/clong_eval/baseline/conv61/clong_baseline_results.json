@@ -1,0 +1,48 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 1,
+  "correct": 1,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "f1554ac9",
+      "user_name": "用户",
+      "question": "4月27日，我分享了一部新出的什么电视剧？",
+      "gold_answer": "《岁月静好》",
+      "generated_answer": "根据记忆内容，4月27日你分享的电视剧是《岁月静好》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了电视剧《岁月静好》，与标准答案完全一致，核心事实正确。",
+      "top_memories": [
+        "用户于2023年04月27日尝试做了糖醋鱼，味道不错但酸甜平衡有待提高",
+        "用户有一个小花园，于2023年04月27日种了薄荷和迷迭香",
+        "用户于2023年04月27日完成了一个手工小布偶，虽然不完美但很喜欢",
+        "2023年4月27日，赵雨萌因团队协作中的沟通障碍感到烦恼",
+        "用户最近在看电视剧《岁月静好》"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 8.649884223937988,
+    "answer_time_seconds": 1.5013246536254883,
+    "total_time_seconds": 10.15183401107788,
+    "write_tokens": {
+      "prompt_tokens": 2808,
+      "completion_tokens": 449,
+      "total_tokens": 3257,
+      "call_count": 7
+    },
+    "answer_tokens": {
+      "prompt_tokens": 703,
+      "completion_tokens": 51,
+      "total_tokens": 754,
+      "call_count": 2
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 24,
+    "avg_answer_time_ms": 1501.3041496276855
+  }
+}

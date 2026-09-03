@@ -1,0 +1,65 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 2,
+  "correct": 2,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "432465e6",
+      "user_name": "用户",
+      "question": "4月27日，今天我在花园里种了什么新的花？",
+      "gold_answer": "三色堇",
+      "generated_answer": "根据记忆内容，4月27日蔡静在花园里种植了三色堇。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到了4月27日种植了三色堇，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "2023年4月27日下午，用户与孩子一起做了个小风车，放在花园里",
+        "2023年4月27日，蔡静在花园修剪枯枝、施肥，并种植了三色堇",
+        "2023年4月27日，蔡静晚餐做了糖醋鱼，家人很喜欢",
+        "用户喜欢尝试新的菜式",
+        "用户晚上和家人一起看了一部新的家庭剧"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "432465e6",
+      "user_name": "用户",
+      "question": "2023年4月28日，我分享了一部新的家庭剧，剧名叫什么？",
+      "gold_answer": "《幸福一家人》",
+      "generated_answer": "根据记忆内容，第7条提到“用户最近在看家庭剧《幸福一家人》”，第8条提到“用户晚上和家人一起看了一部新的家庭剧”。结合时间线索，2023年4月28日前后用户正在看家庭剧，且第7条明确给出了剧名，因此2023年4月28日分享的新的家庭剧是《幸福一家人》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了剧名为《幸福一家人》，与标准答案完全一致，且提供了合理的推理过程，核心事实正确。",
+      "top_memories": [
+        "用户计划在2023年4月28日尝试做蛋挞",
+        "用户于2023年4月28日之前自制挞皮",
+        "用户于2023年4月28日之前编织毛衣，并拆了一部分，因为颜色搭配不够好",
+        "用户于2023年4月28日下午计划带孩子去公园",
+        "2023年4月28日，公园樱花盛开，用户计划带孩子去公园看樱花、画画和野餐"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 16.820626974105835,
+    "answer_time_seconds": 3.9334089756011963,
+    "total_time_seconds": 20.75455117225647,
+    "write_tokens": {
+      "prompt_tokens": 5147,
+      "completion_tokens": 1036,
+      "total_tokens": 6183,
+      "call_count": 15
+    },
+    "answer_tokens": {
+      "prompt_tokens": 2033,
+      "completion_tokens": 178,
+      "total_tokens": 2211,
+      "call_count": 4
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 57,
+    "avg_answer_time_ms": 1966.6903018951416
+  }
+}

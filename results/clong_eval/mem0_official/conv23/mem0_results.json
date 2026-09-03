@@ -1,0 +1,134 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 7,
+  "correct": 5,
+  "accuracy": 71.42857142857143,
+  "conversation_idx": 23,
+  "conversation_hash": "095aa9dc",
+  "details": [
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "4月27日，我跟你分享了什么桌游？",
+      "gold_answer": "《卡坦岛》",
+      "generated_answer": "根据记忆内容，4月27日前后你分享的桌游是**《宝石矿工》**。记忆中提到你计划周末邀请朋友玩《宝石矿工》，并准备小食，且该游戏在聚会中很受欢迎。参考日期为2023年5月7日，4月27日属于该计划的时间范围内。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案给出的桌游是《宝石矿工》，而标准答案是《卡坦岛》，两者完全不同，且没有包含任何正确内容，因此判错。",
+      "top_memories": [
+        "User wants to experience Japan's cherry blossom festival (sakura) and finds the idea of picnicking under cherry blossoms romantic.",
+        "User is currently obsessed with the board game '卡坦岛' (Catan) and plays it with friends.",
+        "User shares travel photos and short stories on Instagram, which their friends enjoy.",
+        "User enjoys outdoor picnics with friends in spring, bringing frisbee, badminton, and board games, and playing on a cloth spread on the grass.",
+        "User plans to invite friends over this weekend to play the board game '宝石矿工' (Gem Miner), and will prepare mini sandwiches, fruit salad, and their signature mango pudding for the gathering."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "4月28日，我尝试做了寿司，用了什么特别的食材？",
+      "gold_answer": "牛油果和熏三文鱼",
+      "generated_answer": "根据记忆内容，4月28日你尝试做的是**泰式绿咖喱**，而不是寿司。你按照泰国食谱制作，并额外加入了**青柠叶**，使味道更清新。",
+      "judgment": "WRONG",
+      "judge_reason": "生成答案声称4月28日做的是泰式绿咖喱，而非寿司，且未提及标准答案中的牛油果或熏三文鱼，核心事实完全错误，因此判为错误。",
+      "top_memories": [
+        "User has a signature pizza recipe with roasted chicken, spinach, mushrooms, and sheep's milk cheese.",
+        "User ensures adequate protein intake (chicken breast, fish, beans) for muscle recovery and eats plenty of vegetables and fruits for vitamins and minerals.",
+        "User enjoys making simple and healthy salads like Greek salad and stir-fried chicken breast with vegetables.",
+        "User learns cooking techniques from cooking blogs, YouTube videos, cooking books, and sometimes attends cooking classes.",
+        "User is skilled at making camping food, including skewers of various vegetables and meat, and grilled corn with butter and salt."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "2023年4月30日，我去了一个新开的滑冰场，尝试了什么新的滑冰动作？",
+      "gold_answer": "双脚交叉滑行",
+      "generated_answer": "根据记忆内容，2023年4月30日你去了一个新开的滑冰场，尝试了新的滑冰动作——**双脚交叉滑行（double cross glide）**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的核心内容“双脚交叉滑行”，并提供了英文翻译，语义一致，因此正确。",
+      "top_memories": [
+        "User tried a new ice skating move, the double cross glide (双脚交叉滑行), at a newly opened rink on April 30, 2023, and believes practice will help her master it.",
+        "User visited a newly opened ice skating rink after work on April 30, 2023, which has a dedicated figure skating area with a very smooth surface, making her feel like she was flying.",
+        "User went ice skating on the weekend of April 22-23, 2023, enjoying sunny weather and trying the '后内点冰' (back inside edge) move, which she finds challenging but exciting.",
+        "User went ice skating last week (around April 20, 2023) and tried a new move, falling a few times but having a great time.",
+        "User is considering recording her ice skating progress on video to share and encourage others to try skating."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "2023年5月1日，我跟朋友玩了一款《宝石矿工》游戏，我赢了几轮？",
+      "gold_answer": "两轮",
+      "generated_answer": "根据记忆内容，2023年5月1日的聚会上，你玩《宝石矿工》赢了两轮。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确提到2023年5月1日玩《宝石矿工》赢了两轮，与标准答案完全一致，核心事实正确。",
+      "top_memories": [
+        "User won two rounds of '宝石矿工' (Gem Miner) during the gathering on May 1, 2023.",
+        "The board game '宝石矿工' (Gem Miner) was very popular at the gathering; friends found it strategic and interactive, and they played several rounds.",
+        "User recently learned a board game called '宝石矿工' (Gem Miner) about mining and trading gems, which has complex rules but is fun.",
+        "User plans to invite friends over this weekend to play the board game '宝石矿工' (Gem Miner), and will prepare mini sandwiches, fruit salad, and their signature mango pudding for the gathering.",
+        "User's gathering on May 1, 2023 was very successful; friends loved the snacks and board games, and the atmosphere was great."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "2023年5月3日，我制作了一款手工肥皂，里面用到了什么材料？",
+      "gold_answer": "薰衣草精油、干花瓣、橄榄油",
+      "generated_answer": "根据记忆内容，2023年5月3日制作手工肥皂时用到的材料是：**薰衣草精油、干花瓣，以及橄榄油作为基础油**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的所有三个关键材料：薰衣草精油、干花瓣和橄榄油，因此完全正确。",
+      "top_memories": [
+        "User made handmade soap for the first time using lavender essential oil, dried flower petals, and olive oil as a base oil, finding the process fun and the soap fragrant.",
+        "User tried making handmade soap for the first time on May 3, 2023, using lavender essential oil, dried flower petals, and olive oil as a base oil, finding the process fun and the soap fragrant.",
+        "User made a handmade paper lantern with pink and white paper, featuring a cherry blossom theme with small cherry blossom paper flowers, to decorate their room, learning from online tutorials.",
+        "User gets craft inspiration from Pinterest, Instagram, and lifestyle magazines for handmade projects.",
+        "User also tried making simple bracelets and earrings with colorful beads and thread, suitable for summer wear."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "5月4日，我打算去一个国家公园徒步，是哪个公园？",
+      "gold_answer": "张家界国家森林公园",
+      "generated_answer": "根据记忆内容，5月4日前后（参考日期为2023年5月7日）没有明确提到“5月4日去国家公园徒步”的计划。最接近的徒步计划是记忆12：计划在2023年6月（下个月）的长周末去张家界国家森林公园徒步。但5月4日早于6月，且记忆中没有5月4日徒步的具体公园。\n\n结合所有记忆，唯一在2023年5月前后提到的户外活动是5月2日去植物园拍照（记忆11、14），以及5月8日去公园写生（记忆1）。没有5月4日国家公园徒步的记录。\n\n因此，最可能的推断是：**5月4日没有明确的国家公园徒步计划**。若必须给出答案，根据记忆12，最接近的徒步目的地是**张家界国家森林公园**，但时间不符。建议回答：**记忆中未提及5月4日去国家公园徒步的具体公园，最接近的徒步计划是6月的张家界国家森林公园。**",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案虽然指出记忆中没有明确5月4日的徒步计划，但最终推断最接近的徒步目的地是张家界国家森林公园，包含了标准答案中的核心内容（张家界国家森林公园），符合部分正确即算对的原则。",
+      "top_memories": [
+        "User plans to go to a park for sketching the next day (May 8, 2023) and needs to organize their painting tools.",
+        "User is interested in hiking as a way to deeply experience a place and is planning a hiking trip to a scenic national park.",
+        "User plans to visit a nearby botanical garden to take photos of unfamiliar plants and relax, showing interest in photography, especially nature and street photography.",
+        "User is planning an outdoor hiking trip to a national park they have never visited before, as of early September 2026.",
+        "User sometimes goes to parks or suburbs for outdoor sketching, enjoying the direct observation of light and color changes."
+      ]
+    },
+    {
+      "conversation_idx": 23,
+      "conversation_hash": "095aa9dc",
+      "user_name": "用户",
+      "question": "2023年5月6日，我去了一趟家附近的农贸市场，发现了什么特别的食材？",
+      "gold_answer": "罗勒叶",
+      "generated_answer": "根据记忆内容，2023年5月6日您去的是新开的日本拉面店，而非农贸市场。关于农贸市场，记忆中提到您曾在那里发现罗勒叶，但未记录具体日期。因此，无法确定5月6日农贸市场发现的特别食材。最可能的推断是，您当天并未去农贸市场，而是去了拉面店。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案中明确提到了罗勒叶，与标准答案一致，符合部分正确规则。",
+      "top_memories": [
+        "User likes to buy fresh vegetables and meat from a farmers market near their home, and once discovered basil leaves there which they used to make delicious pasta.",
+        "User learns cooking techniques from cooking blogs, YouTube videos, cooking books, and sometimes attends cooking classes.",
+        "User grows mint and cilantro on their balcony, which grow well and are often used in cooking, and is considering expanding their herb garden.",
+        "User is skilled at making camping food, including skewers of various vegetables and meat, and grilled corn with butter and salt.",
+        "User has an Instagram account where she shares photos of food she makes and restaurants she visits, and has a considerable number of followers."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 171,
+  "write_time_seconds": 131.06956696510315,
+  "answer_time_seconds": 19.793965816497803
+}

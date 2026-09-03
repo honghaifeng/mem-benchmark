@@ -1,0 +1,82 @@
+{
+  "system": "baseline",
+  "dataset": "CLongEval_small",
+  "total_questions": 3,
+  "correct": 3,
+  "accuracy": 100.0,
+  "num_conversations": 1,
+  "details": [
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "b9f39d72",
+      "user_name": "用户",
+      "question": "我在4月27日和你聊到曾经旅行去过的城市，这个城市位于哪个国家？",
+      "gold_answer": "泰国",
+      "generated_answer": "根据记忆内容，你在2023年4月27日之前曾去过泰国清迈（记忆第5条），而4月27日当天你与AI聊到旅行经历。因此，这个城市是**清迈**，位于**泰国**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出城市是清迈，位于泰国，与标准答案'泰国'一致，且提供了额外细节，核心事实正确。",
+      "top_memories": [
+        "对话日期是2023年04月27日",
+        "孙悦在2023年4月27日早上进行了高强度间歇训练",
+        "孙悦在2023年4月26日晚上看了一部新出的科幻电影",
+        "用户喜欢旅游，正在规划一次去海边的旅行",
+        "用户曾去过泰国清迈，对当地文化和风景印象深刻"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "b9f39d72",
+      "user_name": "用户",
+      "question": "4月28号，我们聊到想去爬山，是哪座山？",
+      "gold_answer": "黄山",
+      "generated_answer": "根据记忆内容，4月28日前后聊到爬山，且用户计划去黄山爬山（记忆3、15），因此答案是**黄山**。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了黄山，与标准答案一致，且提供了合理的推理依据。",
+      "top_memories": [
+        "孙悦在2023年4月28日计划尝试做新菜酸辣土豆丝",
+        "孙悦计划去爬山旅行",
+        "用户计划去黄山爬山",
+        "用户于2023年4月29日尝试做酸辣土豆丝，味道很好",
+        "用户于2023年4月29日参加了街舞工作坊"
+      ]
+    },
+    {
+      "conversation_idx": 0,
+      "conversation_hash": "b9f39d72",
+      "user_name": "用户",
+      "question": "我曾经在4月30号提到参加了一个户外的活动，这个活动是什么？",
+      "gold_answer": "攀岩",
+      "generated_answer": "根据记忆内容，您在2023年4月30日参加的是**户外攀岩活动**（记忆1明确提到“孙悦在2023年4月30日参加了户外攀岩活动”）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出活动是户外攀岩，与标准答案攀岩一致，核心事实正确。",
+      "top_memories": [
+        "孙悦在2023年4月30日参加了户外攀岩活动",
+        "孙悦在2023年4月30日剪辑短片时使用了溶解和旋转两种转场效果",
+        "用户计划在2023年4月30日后的那个周末邀请好友来家里聚会",
+        "用户喜欢户外攀岩",
+        "用户曾在小型舞蹈比赛和社区活动上展示作品，反响不错"
+      ]
+    }
+  ],
+  "top_k": 30,
+  "cost_stats": {
+    "write_time_seconds": 22.161285161972046,
+    "answer_time_seconds": 6.18992805480957,
+    "total_time_seconds": 28.352694034576416,
+    "write_tokens": {
+      "prompt_tokens": 6914,
+      "completion_tokens": 1285,
+      "total_tokens": 8199,
+      "call_count": 20
+    },
+    "answer_tokens": {
+      "prompt_tokens": 2760,
+      "completion_tokens": 235,
+      "total_tokens": 2995,
+      "call_count": 6
+    },
+    "db_size_bytes": 4096,
+    "memory_entries": 78,
+    "avg_answer_time_ms": 2063.2956822713218
+  }
+}

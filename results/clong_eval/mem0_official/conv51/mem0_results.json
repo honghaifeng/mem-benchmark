@@ -1,0 +1,100 @@
+{
+  "system": "mem0_official",
+  "dataset": "CLongEval_small",
+  "total_questions": 5,
+  "correct": 5,
+  "accuracy": 100.0,
+  "conversation_idx": 51,
+  "conversation_hash": "6867534e",
+  "details": [
+    {
+      "conversation_idx": 51,
+      "conversation_hash": "6867534e",
+      "user_name": "宋阳",
+      "question": "2023年4月27日，我除了看过一部超好笑的喜剧电影《疯狂的石头》外，还看过哪一部喜剧电影？",
+      "gold_answer": "《夏洛特烦恼》",
+      "generated_answer": "根据记忆内容，2023年4月27日前后，用户看过《疯狂的石头》和《夏洛特烦恼》两部喜剧电影。其中《夏洛特烦恼》是助手推荐的，用户已经看过并觉得好笑。因此，除了《疯狂的石头》外，用户还看过《夏洛特烦恼》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出用户还看过《夏洛特烦恼》，与标准答案完全一致，且提供了合理的背景信息，核心事实正确。",
+      "top_memories": [
+        "User recently watched the comedy movie '疯狂的石头' (Crazy Stone) and found it very funny.",
+        "User was recommended the comedy movie '夏洛特烦恼' (Goodbye Mr. Loser) by the assistant, and user has already seen it and found it funny.",
+        "User attended a community movie night on May 1, 2023, watching 'Forrest Gump', which they love, and was inspired by the quote 'Life is like a box of chocolates'.",
+        "User attended a community movie night on May 1, 2023, where 'Forrest Gump' was shown, and was moved again by the protagonist's positive attitude.",
+        "User is currently watching the comedy TV series '老友记' (Friends) and finds it relaxing and funny."
+      ]
+    },
+    {
+      "conversation_idx": 51,
+      "conversation_hash": "6867534e",
+      "user_name": "宋阳",
+      "question": "2023年4月28日，我在用吉他学一首新歌，我学习的是哪首歌？",
+      "gold_answer": "《演员》",
+      "generated_answer": "根据记忆内容，你在2023年4月28日学习吉他时弹奏的歌曲是《演员》。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了歌曲是《演员》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User is learning to play the song '演员' on guitar and finds it challenging, with fingers getting sore from practice.",
+        "User is considering learning a new outdoor sport, such as rock climbing or kayaking, and is undecided which one is more interesting.",
+        "User attended a photography workshop on April 29, 2023, learned new techniques, and made new friends who share an interest in photography.",
+        "User attended a photography workshop on April 29, 2023, learned shooting techniques, and made new friends who share a passion for photography.",
+        "User planned to attend a community movie night on May 1, 2023, where 'Forrest Gump' was screened, and user loves this movie."
+      ]
+    },
+    {
+      "conversation_idx": 51,
+      "conversation_hash": "6867534e",
+      "user_name": "宋阳",
+      "question": "2023年4月30日，今天我想去公园试试新学的技巧练习一下人像摄影，我打算拍摄什么样的人像？",
+      "gold_answer": "拍一些自然亲切的照片，比如人们在公园里散步、小孩子在玩耍的瞬间",
+      "generated_answer": "根据记忆内容，2023年4月30日你计划在公园练习人像摄影，目标是拍摄**自然、真实、不做作的人物瞬间**，具体包括**散步的人**和**玩耍的孩子**，并且会**尊重隐私，先征得对方同意**再拍摄。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案包含了标准答案中的核心内容，即拍摄自然、真实的人物瞬间，包括散步的人和玩耍的孩子，符合部分正确规则。",
+      "top_memories": [
+        "User plans to attend a photography workshop on April 29, 2023 to improve their photography skills, with particular interest in landscape photography and also wanting to learn portrait photography.",
+        "User planned to practice portrait photography at a park on April 30, 2023, aiming to capture natural and candid moments of people walking and children playing.",
+        "User attended a photography session at a park on May 1, 2023, and felt their photography skills improved.",
+        "User is interested in trying photography on amusement park rides, finding it challenging but fun, and will prioritize safety while capturing photos.",
+        "On April 27, 2023, user planned to go hiking at 西山 (West Mountain) and bring their camera to take scenic photos."
+      ]
+    },
+    {
+      "conversation_idx": 51,
+      "conversation_hash": "6867534e",
+      "user_name": "宋阳",
+      "question": "5月1日，今天晚上我打算去参加一个社区的电影之夜活动，今天放映的是什么电影？",
+      "gold_answer": "《阿甘正传》",
+      "generated_answer": "根据记忆内容，5月1日社区电影之夜放映的是《阿甘正传》（Forrest Gump）。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确指出了5月1日社区电影之夜放映的是《阿甘正传》，与标准答案完全一致，因此正确。",
+      "top_memories": [
+        "User planned to attend a community movie night on May 1, 2023, where 'Forrest Gump' was screened, and user loves this movie.",
+        "User attended a community movie night on May 1, 2023, where 'Forrest Gump' was shown, and was moved again by the protagonist's positive attitude.",
+        "User attended a community movie night on May 1, 2023, watching 'Forrest Gump', which they love, and was inspired by the quote 'Life is like a box of chocolates'.",
+        "User typically watches movies on weekends to relax and prepare for the new week.",
+        "User enjoys outdoor activities, watching comedy movies, participating in charity events, traveling, and volunteering."
+      ]
+    },
+    {
+      "conversation_idx": 51,
+      "conversation_hash": "6867534e",
+      "user_name": "宋阳",
+      "question": "5月3日，我打算去一个有山有水的地方露营，你推荐了什么好的地方？",
+      "gold_answer": "张家界和九寨沟",
+      "generated_answer": "根据记忆内容，你计划去一个有山有水的地方露营，我推荐了**张家界**和**九寨沟**作为热门露营地点。",
+      "judgment": "CORRECT",
+      "judge_reason": "生成答案明确包含了标准答案中的两个地点：张家界和九寨沟，完全符合标准答案，因此正确。",
+      "top_memories": [
+        "User is planning a hiking trip to scenic natural areas to relax, and was recommended 黄山 (Huangshan) for mountain scenery and 桂林漓江 (Guilin's Li River) for waterside views.",
+        "User plans to visit a theme park with friends, and is interested in trying thrilling rides, a water park, and a zoo there.",
+        "User is considering a camping trip to a place with mountains and water, and was recommended 张家界 (Zhangjiajie) and 九寨沟 (Jiuzhaigou) as popular camping spots.",
+        "User is planning a small trip to the seaside to walk and enjoy the sea breeze, and was recommended 威海 (Weihai) by the assistant for its beautiful coastline and fewer crowds.",
+        "User planned to visit a theme park with friends, enjoying sharing happy moments and considering taking photos on rides as a fun photography experience."
+      ]
+    }
+  ],
+  "top_k": 30,
+  "memory_count": 82,
+  "write_time_seconds": 68.37785506248474,
+  "answer_time_seconds": 17.99944281578064
+}
